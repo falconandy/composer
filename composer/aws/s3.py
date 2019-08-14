@@ -13,9 +13,23 @@ from botocore.client import Config
 logging.getLogger("botocore.vendored.requests.packages.urllib3").setLevel(logging.WARNING)
 
 class Bucket:
-    def __init__(self, s3, name: str):
-        self.s3 = s3
-        self.name = name
+    def __init__(self, s3: boto3.client, name: str):
+        self.s3: boto3.client = s3
+        self.name: str = name
+
+    @classmethod
+    def build(cls, name: str) -> "Bucket":
+        config: Config = Config(max_pool_connections=cpu_count() * 10)
+        client: boto3.client = boto3.client('s3', config=config)
+        return cls(client, name)
+
+    @classmethod
+    def build_authenticated(cls, handshake: Handshake, name: str) -> "Bucket":
+        aws_id = handshake.get_aws_key()
+        aws_secret = handshake.get_aws_secret()
+        config: Config = Config(max_pool_connections=cpu_count() * 10)
+        client = boto3.client('s3', aws_access_key_id=aws_id, aws_secret_access_key=aws_secret, config=config)
+        return cls(client, name)
 
     def get_obj_body(self, key: str, encoding: Optional[str]= "utf-8"):
         obj = self.s3.get_object(Bucket=self.name, Key=key)
@@ -32,14 +46,6 @@ class Bucket:
             return True
         except ClientError:
             return False
-
-class AuthenticatedBucket(Bucket):
-    def __init__(self, handshake: Handshake, bucket_name: str):
-        aws_id = handshake.get_aws_key()
-        aws_secret = handshake.get_aws_secret()
-        config: Config = Config(max_pool_connections=cpu_count() * 10)
-        client = boto3.client('s3', aws_access_key_id=aws_id, aws_secret_access_key=aws_secret, config=config)
-        super(AuthenticatedBucket, self).__init__(client, bucket_name)
 
 def file_backed_bucket(root_dir: str) -> Bucket:
     """Mock bucket used in tests and fixture creation"""
