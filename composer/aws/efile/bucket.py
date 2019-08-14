@@ -1,7 +1,5 @@
 from composer.aws.handshake import Handshake
-from composer.aws.s3 import AuthenticatedBucket
+from composer.aws.s3 import Bucket
 
-class EfileBucket(AuthenticatedBucket):
-    def __init__(self):
-        handshake: Handshake = Handshake.build()
-        super().__init__(handshake, "irs-form-990")
+def efile_bucket() -> Bucket:
+    return Bucket.build("irs-form-990")

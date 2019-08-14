@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from sqlite3 import Connection, connect
 
-from composer.aws.efile.bucket import EfileBucket
+from composer.aws.efile.bucket import efile_bucket
 from composer.aws.efile.indices import EfileIndices
 from composer.aws.s3 import Bucket
 from composer.efile.structures.mdindex import EfileMetadataIndex
@@ -20,7 +20,7 @@ class UpdateEfileState(Callable):
 
     @classmethod
     def build(cls, basepath: str, temp_path: str, no_cleanup: bool) -> "UpdateEfileState":
-        bucket: Bucket = EfileBucket()
+        bucket: Bucket = efile_bucket()
         indices: EfileIndices = EfileIndices(bucket)
         compose: ComposeEfiles = ComposeEfiles.build(basepath, bucket, temp_path, no_cleanup)
         return cls(basepath, indices, compose)

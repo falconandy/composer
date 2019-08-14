@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import Iterator, Dict, List, Deque
 from concurrent.futures import ThreadPoolExecutor, Future, as_completed
 
-from composer.aws.efile.bucket import EfileBucket
+from composer.aws.efile.bucket import efile_bucket
 from composer.aws.s3 import Bucket
 from composer.efile.structures.metadata import FilingMetadata
 
@@ -22,7 +22,7 @@ class EfileIndices(Iterable):
 
     @classmethod
     def build(cls) -> "EfileIndices":
-        bucket: Bucket = EfileBucket()
+        bucket: Bucket = efile_bucket()
         return cls(bucket)
 
     def _get_for_year(self, year: int) -> List[Dict]:

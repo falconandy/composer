@@ -1,5 +1,3 @@
-from typing import Dict
-
 from composer.aws.efile.indices import EfileIndices
 from composer.aws.s3 import Bucket, List, file_backed_bucket
 import os
