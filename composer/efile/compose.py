@@ -1,17 +1,17 @@
 import logging
 from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Iterator, Tuple, Dict, List, Iterable
+from typing import Iterator, Tuple, Dict, List
 import json
-
-from concurrent.futures import Future, as_completed, ProcessPoolExecutor
 
 from composer.aws.efile.filings import RetrieveEfiles
 from composer.aws.s3 import Bucket
 from composer.efile.structures.metadata import FilingMetadata
 from composer.fileio.paths import EINPathManager
+from composer.futures import run_on_process_pool
 
 TEMPLATE = "%s.json"
+
 
 @dataclass
 class ComposeEfiles(Callable):
@@ -19,21 +19,14 @@ class ComposeEfiles(Callable):
     path_mgr: EINPathManager
 
     @classmethod
-    def build(cls, basepath: str, bucket: Bucket, temp_path: str, no_cleanup: bool) -> "ComposeEfiles":
-        retrieve: RetrieveEfiles = RetrieveEfiles(bucket, temp_path, no_cleanup)
+    def build(cls, basepath: str, temp_path: str, no_cleanup: bool) -> "ComposeEfiles":
+        retrieve: RetrieveEfiles = RetrieveEfiles(temp_path, no_cleanup)
         path_mgr: EINPathManager = EINPathManager(basepath)
         return cls(retrieve, path_mgr)
 
-    def process_all(self, json_changes: Iterable[Tuple[str, Dict[str, str]]]):
+    def process_all(self, json_changes: List[Tuple[str, Dict[str, str]]]):
         updater = ComposeEfilesUpdater(self.path_mgr)
-        exceptions = []
-        with ProcessPoolExecutor() as executor:
-            futures = [executor.submit(updater.create_or_update, change) for change in json_changes]
-            for future in as_completed(futures):
-                if future.exception() is not None:
-                    exceptions.append(future.exception())
-        if len(exceptions) > 0:
-            raise exceptions[0]
+        run_on_process_pool(updater.create_or_update, json_changes)
 
     def __call__(self, changes: Iterator[Tuple[str, Dict[str, FilingMetadata]]]):
         """Iterate over EINs flagged as having one or more new e-files since the last update. For each one, create or
@@ -42,7 +35,7 @@ class ComposeEfiles(Callable):
         :param changes: Iterator of (EIN, dictionary of (filing period -> Filing)).
         """
         change_list: List = list(changes)
-        json_changes: Iterable[Tuple[str, Dict[str, str]]] = list(self.retrieve(change_list))
+        json_changes: List[Tuple[str, Dict[str, str]]] = list(self.retrieve(change_list))
         logging.info("Updating e-file composites.")
 
         self.process_all(json_changes)
@@ -59,12 +52,16 @@ class ComposeEfilesUpdater:
         except FileNotFoundError:
             return {}
 
-    def create_or_update(self, change: Tuple[str, Dict[str, str]]):
-        ein, updates = change
-        composite: Dict = self._get_existing(ein)
-        for period, json_path in updates.items():
-            with open(json_path) as fh:
-                content: Dict = json.load(fh)
-            composite[period] = content
-        with self.path_mgr.open_for_writing(ein, TEMPLATE) as fh:
-            json.dump(composite, fh, indent=2)
+    def create_or_update(self, changes: List[Tuple[str, Dict[str, str]]]):
+        for change in changes:
+            ein, updates = change
+            composite: Dict = self._get_existing(ein)
+            for period, json_path in updates.items():
+                try:
+                    with open(json_path) as fh:
+                        content: Dict = json.load(fh)
+                    composite[period] = content
+                except FileNotFoundError as e:
+                    logging.warning(e)
+            with self.path_mgr.open_for_writing(ein, TEMPLATE) as fh:
+                json.dump(composite, fh, indent=2)
