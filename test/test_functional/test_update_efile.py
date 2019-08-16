@@ -58,6 +58,34 @@ do_update("first", tp1_path)
 shutil.copytree(tp1_path, tp2_path)
 do_update("second", tp2_path)
 
+"""Use these functions to debug these huge data structures"""
+def find_differences_list(a: List, e: List):
+    if len(a) != len(e):
+        print("breakpoint")
+
+    for av, ev in zip(a, e):
+        if isinstance(av, dict) and isinstance(ev, dict):
+            find_differences_dict(av, ev)
+        elif isinstance(av, list) and isinstance(ev, list):
+            find_differences_list(av, ev)
+        elif av != ev:
+            print("breakpoint")
+
+def find_differences_dict(a: Dict, e: Dict):
+    sd = set(a.keys()).symmetric_difference(set(e.keys()))
+    if len(sd) != 0:
+        print("breakpoint")
+
+    for key in a.keys():
+        av = a[key]
+        ev = e[key]
+        if isinstance(av, dict) and isinstance(ev, dict):
+            find_differences_dict(av, ev)
+        elif isinstance(av, list) and isinstance(ev, list):
+            find_differences_list(av, ev)
+        elif av != ev:
+            print("breakpoint")
+
 @pytest.fixture()
 def do_composite_test() -> Callable:
     def _ret(timepoint: str, tp_path: str, ein: str):
@@ -69,6 +97,8 @@ def do_composite_test() -> Callable:
         with open(actual_fp) as a_fh, open(expected_fp) as e_fh:
             actual: Dict = json.load(a_fh)
             expected: Dict = json.load(e_fh)
+            #if actual != expected:
+            #    find_differences_dict(actual, expected)
             assert actual == expected
     return _ret
 

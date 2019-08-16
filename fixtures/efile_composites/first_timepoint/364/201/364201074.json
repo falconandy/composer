@@ -1,7 +1,11 @@
 {
   "201012": {
+    "Return@returnVersion": "2010v3.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2011-05-18T11:48:58-07:00",
+        "TaxPeriodEndDate": "2010-12-31",
         "PreparerFirm": {
           "PreparerFirmBusinessName": {
             "BusinessNameLine1": "Thomas J Davey & Associates Ltd"
@@ -13,20 +17,22 @@
             "ZIPCode": "60527"
           }
         },
+        "ReturnType": "990",
+        "TaxPeriodBeginDate": "2010-01-01",
         "Filer": {
+          "EIN": "364201074",
           "Name": {
             "BusinessNameLine1": "CENTURY WALK CORPORATION",
             "BusinessNameLine2": "CO W BRAND BOBOSKY"
           },
+          "NameControl": "CENT",
+          "Phone": "6303555555",
           "USAddress": {
             "AddressLine1": "50 W CHICAGO AVE",
             "City": "NAPERVILLE",
             "State": "IL",
             "ZIPCode": "60540"
-          },
-          "EIN": "364201074",
-          "NameControl": "CENT",
-          "Phone": "6303555555"
+          }
         },
         "Officer": {
           "Name": "DON WEBER",
@@ -37,31 +43,200 @@
           "Name": "Thomas J Davey CPA",
           "Phone": "6306548350"
         },
-        "Timestamp": "2011-05-18T11:48:58-07:00",
-        "TaxPeriodEndDate": "2010-12-31",
-        "ReturnType": "990",
-        "TaxPeriodBeginDate": "2010-01-01",
         "TaxYear": "2010",
         "BuildTS": "2016-02-24 21:20:13Z"
       },
+      "ReturnData@documentCount": "5",
       "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": " IRS990ScheduleO",
+        "IRS990@softwareId": "10000105",
+        "IRS990@softwareVersion": "2010v3.2",
         "IRS990": {
+          "NameOfPrincipalOfficerPerson": "DON WEBER",
           "AddressPrincipalOfficerUS": {
             "AddressLine1": "2105 CAMELLIA COURT",
             "City": "NAPERVILLE",
             "State": "IL",
             "ZIPCode": "60565"
           },
+          "GrossReceipts": "215380",
+          "GroupReturnForAffiliates": "false",
+          "AllAffiliatesIncluded": "false",
+          "Organization501c3": "X",
+          "WebSite": "www.centurywalk.org",
+          "TypeOfOrganizationCorporation": "X",
+          "YearFormation": "1996",
+          "StateLegalDomicile": "IL",
+          "ActivityOrMissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
+          "NbrVotingMembersGoverningBody": "14",
+          "NbrIndependentVotingMembers": "14",
+          "TotalNbrEmployees": "0",
+          "TotalNbrVolunteers": "40",
+          "TotalGrossUBI": "0",
+          "ContributionsGrantsPriorYear": "232236",
+          "ContributionsGrantsCurrentYear": "192829",
+          "ProgramServiceRevenueCY": "0",
+          "InvestmentIncomePriorYear": "140",
+          "InvestmentIncomeCurrentYear": "13",
+          "OtherRevenueCurrentYear": "10091",
+          "TotalRevenuePriorYear": "232376",
+          "TotalRevenueCurrentYear": "202933",
+          "GrantsAndSimilarAmntsCY": "0",
+          "BenefitsPaidToMembersCY": "0",
+          "SalariesEtcCurrentYear": "0",
+          "TotalProfFundrsngExpCY": "0",
+          "TotalFundrsngExpCurrentYear": "0",
+          "OtherExpensePriorYear": "214951",
+          "OtherExpensesCurrentYear": "32495",
+          "TotalExpensesPriorYear": "214951",
+          "TotalExpensesCurrentYear": "32495",
+          "RevenuesLessExpensesPriorYear": "17425",
+          "RevenuesLessExpensesCY": "170438",
+          "TotalAssetsBOY": "81510",
+          "TotalAssetsEOY": "1251383",
+          "TotalLiabilitiesEOY": "0",
+          "NetAssetsOrFundBalancesBOY": "81510",
+          "NetAssetsOrFundBalancesEOY": "1251383",
+          "MissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
+          "SignificantNewProgramServices": "false",
+          "SignificantChange": "false",
+          "Expense": "11431",
+          "Description": "PAYMENTS TO SERVICE PROVIDERS WHO CREATE AND MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE.",
+          "TotalProgramServiceExpense": "11431",
+          "DescribedIn501C3@referenceDocumentId": " IRS990ScheduleA",
+          "DescribedIn501C3": "true",
+          "ScheduleBRequired@referenceDocumentId": " IRS990ScheduleB",
+          "ScheduleBRequired": "true",
+          "PoliticalActivities": "false",
+          "LobbyingActivities": "false",
+          "SubjectToProxyTax": "false",
+          "DonorAdvisedFunds@referenceDocumentId": " IRS990ScheduleD",
+          "DonorAdvisedFunds": "false",
+          "ConservationEasements@referenceDocumentId": " IRS990ScheduleD",
+          "ConservationEasements": "false",
+          "CollectionsOfArt@referenceDocumentId": " IRS990ScheduleD",
+          "CollectionsOfArt": "true",
+          "CreditCounseling@referenceDocumentId": " IRS990ScheduleD",
+          "CreditCounseling": "false",
+          "TermOrPermanentEndowments@referenceDocumentId": " IRS990ScheduleD",
+          "TermOrPermanentEndowments": "false",
+          "ReportLandBldgEquip@referenceDocumentId": " IRS990ScheduleD",
+          "ReportLandBldgEquip": "false",
+          "ReportInvestOthSecurities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportInvestOthSecurities": "false",
+          "ReportProgRelInvest@referenceDocumentId": " IRS990ScheduleD",
+          "ReportProgRelInvest": "false",
+          "ReportOtherAssets@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherAssets": "true",
+          "ReportOtherLiabilities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherLiabilities": "false",
+          "ReportFin48Footnote@referenceDocumentId": " IRS990ScheduleD",
+          "ReportFin48Footnote": "false",
+          "IndependentAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "IndependentAuditFinancialStmt": "false",
+          "ConsolidatedAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "ConsolidatedAuditFinancialStmt": "false",
+          "School": "false",
+          "ForeignOffice": "false",
+          "ForeignActivities": "false",
+          "MoreThan5000KToOrganizations": "false",
+          "MoreThan5000KToIndividuals": "false",
+          "ProfessionalFundraising": "false",
+          "FundraisingActivities": "false",
+          "Gaming": "false",
+          "Hospital": "false",
+          "GrantsToOrganizations": "false",
+          "GrantsToIndividuals": "false",
+          "ScheduleJRequired": "false",
+          "TaxExemptBonds": "false",
+          "InvestTaxExemptBonds": "false",
+          "EscrowAccount": "false",
+          "OnBehalfOfIssuer": "false",
+          "ExcessBenefitTransaction": "false",
+          "PriorExcessBenefitTransaction": "false",
+          "LoanToOfficerOrDQP": "false",
+          "GrantToRelatedPerson": "false",
+          "BsnssRltnshpWithOrganization": "false",
+          "BsnssRltnshpThruFamilyMember": "false",
+          "OfficerEntityWithBsnssRltnshp": "false",
+          "DeductibleNonCashContributions": "false",
+          "DeductibleContributionsOfArt": "false",
+          "Terminated": "false",
+          "PartialLiquidation": "false",
+          "DisregardedEntity": "false",
+          "RelatedEntity": "false",
+          "RelatedOrgControlledEntity": "false",
+          "TransactionRelatedEntity": "false",
+          "TransfersToExemptNonChrtblOrg": "false",
+          "ActivitiesConductedPartnership": "false",
+          "ScheduleORequired": "true",
+          "NumberFormsTransmittedWith1096": "1",
+          "NumberW2GIncluded": "0",
+          "ComplianceWithBackupWitholding": "true",
+          "NumberOfEmployees": "0",
+          "EmploymentTaxReturnsFiled": "false",
+          "UnrelatedBusinessIncome": "false",
+          "Form990-TFiled": "false",
+          "ForeignFinancialAccount": "false",
+          "ProhibitedTaxShelterTrans": "false",
+          "TaxablePartyNotification": "false",
+          "Form8886TFiled": "false",
+          "NonDeductibleContributions": "false",
+          "NonDeductibleDisclosure": "false",
+          "QuidProQuoContributions": "false",
+          "QuidProQuoDisclosure": "false",
+          "Form8282PropertyDisposedOf": "false",
+          "NumberOf8282Filed": "0",
+          "FundsToPayPremiums": "false",
+          "PremiumsPaid": "false",
+          "Form8899Filed": "false",
+          "Form1098CFiled": "false",
+          "ExcessBusinessHoldings": "false",
+          "TaxableDistributions": "false",
+          "DistributionToDonor": "false",
+          "FiledLieu1041": "false",
+          "LicensedMoreThanOneState": "false",
+          "IndoorTanningServices": "false",
+          "Form720Filed": "false",
+          "InfoInScheduleOPartVI": "X",
+          "NbrVotingGoverningBodyMembers": "14",
+          "NumberIndependentVotingMembers": "14",
+          "FamilyOrBusinessRelationship": "false",
+          "DelegationOfManagementDuties": "false",
+          "ChangesToOrganizingDocs": "false",
+          "MaterialDiversionOrMisuse": "false",
+          "MembersOrStockholders": "true",
+          "ElectionOfBoardMembers": "true",
+          "DecisionsSubjectToApproval": "false",
+          "MinutesOfGoverningBody": "true",
+          "MinutesOfCommittees": "true",
+          "OfficerMailingAddress": "false",
+          "LocalChapters": "false",
+          "PoliciesReferenceChapters": "false",
+          "Form990ProvidedToGoverningBody": "false",
+          "ConflictOfInterestPolicy": "false",
+          "AnnualDisclosureCoveredPersons": "false",
+          "RegularMonitoringEnforcement": "false",
+          "WhistleblowerPolicy": "false",
+          "DocumentRetentionPolicy": "false",
+          "CompensationProcessCEO": "false",
+          "CompensationProcessOther": "false",
+          "InvestmentInJointVenture": "false",
+          "WrittenPolicyOrProcedure": "false",
+          "StatesWhereCopyOfReturnIsFiled": "IL",
+          "UponRequest": "X",
           "TheBooksAreInCareOf": {
+            "NamePerson": "DON WEBER TREASURER",
+            "TelephoneNumber": "6303939494",
             "AddressUS": {
               "AddressLine1": "2105 CAMELLIA CT",
               "City": "NAPERVILLE",
               "State": "IL",
               "ZIPCode": "60540"
-            },
-            "NamePerson": "DON WEBER TREASURER",
-            "TelephoneNumber": "6303939494"
+            }
           },
+          "NoListedPersonsCompensated": "X",
           "Form990PartVIISectionA": [
             {
               "NamePerson": "WILL SMITH",
@@ -192,6 +367,15 @@
               "OtherCompensation": "0"
             }
           ],
+          "NumberIndividualsGT100K": "0",
+          "FormersListed": "false",
+          "TotalCompGT150K": "false",
+          "CompensationFromOtherSources": "false",
+          "NumberOfContractorsGT100K": "0",
+          "GovernmentGrants": "174329",
+          "AllOtherContributions": "18500",
+          "TotalContributions": "192829",
+          "TotalProgramServiceRevenue": "0",
           "InvestmentIncome": {
             "TotalRevenueColumn": "13",
             "ExclusionAmount": "13"
@@ -214,10 +398,13 @@
           "NetIncomeFromGaming": {
             "TotalRevenueColumn": "0"
           },
+          "GrossSalesOfInventory": "22538",
+          "CostOfGoodsSold": "12447",
           "NetIncomeOrLoss": {
             "TotalRevenueColumn": "10091",
             "ExclusionAmount": "10091"
           },
+          "TotalOtherRevenue": "0",
           "TotalRevenue": {
             "TotalRevenueColumn": "202933",
             "ExclusionAmount": "10104"
@@ -404,6 +591,7 @@
             "BOY": "0",
             "EOY": "0"
           },
+          "FollowSFAS117": "X",
           "UnrestrictedNetAssets": {
             "BOY": "81510",
             "EOY": "1251383"
@@ -416,8 +604,192 @@
             "BOY": "81510",
             "EOY": "1251383"
           },
-          "NameOfPrincipalOfficerPerson": "DON WEBER",
-          "GrossReceipts": "215380",
+          "InfoInScheduleOPartXI": "X",
+          "ReconcilationRevenueExpenses": "170438",
+          "ReconcilationOtherChanges": "999435",
+          "MethodOfAccountingCash": "X",
+          "AccountantCompileOrReview": "false",
+          "FSAudited": "false",
+          "AuditCommittee": "false",
+          "FederalGrantAuditRequired": "false",
+          "FederalGrantAuditPerformed": "false"
+        },
+        "IRS990ScheduleA@documentId": "IRS990ScheduleA",
+        "IRS990ScheduleA@softwareId": "10000105",
+        "IRS990ScheduleA@softwareVersion": "2010v3.2",
+        "IRS990ScheduleA": {
+          "PubliclySupportedOrg170b1Avi": "X",
+          "GiftsGrantsContribReceived170": {
+            "CurrentTaxYearMinus4Years": "422520",
+            "CurrentTaxYearMinus3Years": "80000",
+            "CurrentTaxYearMinus2Years": "256975",
+            "CurrentTaxYearMinus1Year": "232146",
+            "CurrentTaxYear": "192829",
+            "Total": "1184470"
+          },
+          "TaxRevLeviedForOrgBenefit170": {
+            "Total": "0"
+          },
+          "ValueSrvcFcltsFurnishedByGovt": {
+            "Total": "0"
+          },
+          "Total170": {
+            "CurrentTaxYearMinus4Years": "422520",
+            "CurrentTaxYearMinus3Years": "80000",
+            "CurrentTaxYearMinus2Years": "256975",
+            "CurrentTaxYearMinus1Year": "232146",
+            "CurrentTaxYear": "192829",
+            "Total": "1184470"
+          },
+          "AmountsSubstContributorsTotal": "0",
+          "PublicSupportTotal170": "1184470",
+          "GrossInvestmentIncome170": {
+            "CurrentTaxYearMinus4Years": "1170",
+            "CurrentTaxYearMinus3Years": "886",
+            "CurrentTaxYearMinus2Years": "154",
+            "CurrentTaxYearMinus1Year": "140",
+            "CurrentTaxYear": "13",
+            "Total": "2363"
+          },
+          "NetUBI": {
+            "Total": "0"
+          },
+          "OtherIncome170": {
+            "Total": "0"
+          },
+          "TotalSupport": "1186833",
+          "PublicSupportPertcentage170": "0.99800",
+          "PublicSupportPertcentPriorYear": "0.99760",
+          "ThirtyThreePercntTestsCY170": "X"
+        },
+        "IRS990ScheduleB@documentId": "IRS990ScheduleB",
+        "IRS990ScheduleB@softwareId": "10000105",
+        "IRS990ScheduleB@softwareVersion": "2010v3.2",
+        "IRS990ScheduleB": {
+          "ContributorInfo": {
+            "ContributorNumber": "RESTRICTED",
+            "ContributorNameBusiness": {
+              "BusinessNameLine1": "RESTRICTED"
+            },
+            "ContributorAddressUS": {
+              "AddressLine1": "RESTRICTED",
+              "AddressLine2": "RESTRICTED",
+              "City": "RESTRICTED",
+              "State": "RESTRICTED",
+              "ZIPCode": "RESTRICTED"
+            },
+            "AggregateContributions": "RESTRICTED"
+          }
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "10000105",
+        "IRS990ScheduleD@softwareVersion": "2010v3.2",
+        "IRS990ScheduleD": {
+          "ArtPublicExhibitionAmts": {
+            "AssetsInPartX": "1176437"
+          },
+          "CollectUsedForPublicExhibition": "X",
+          "CollectUsedForPreservation": "X",
+          "SolicitedAssetsForSale": "false",
+          "OtherAssets": {
+            "Description": "ART COLLECTION",
+            "BookValue": "1176437"
+          },
+          "TotalBookValueOtherAssets": "1176437",
+          "Form990ScheduleDPartXIV": [
+            {
+              "Identifier": "Part XIII, Line 2d",
+              "ReturnReference": "Part XIII, Line 2d: Other expenses and losses per audited F/S",
+              "Explanation": "PREPAID INSURANCE - BOY $575"
+            },
+            {
+              "Identifier": "Part XI, Line 8",
+              "ReturnReference": "Part XI, Line 8: Other Changes in Net Assets or Fund Balances",
+              "Explanation": "ART COLLECTION @ 1/1/10 $999435"
+            },
+            {
+              "Identifier": "Part III, Line 4",
+              "ReturnReference": "Part III, Line 4: Description of organization's collections and how it furthers its purpose.",
+              "Explanation": "The organization is dedicated to bringing public art to Naperville to add beauty to the town, build community and bridge generations by paying tribute to Naperville's 100 years of history through a diverse collection of murals, mosaics, reliefs, sculptures, and other public arts. The collection currently consists of 35 pieces of public art on permanent outdoor display, 30 of which represent the history of Naperville and 5 of which expand the body of artwork throughout Naperville."
+            }
+          ]
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "10000105",
+        "IRS990ScheduleO@softwareVersion": "2010v3.2",
+        "IRS990ScheduleO": {
+          "GeneralExplanation": [
+            {
+              "Identifier": "Form 990, Part VI, Line 19",
+              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "Explanation": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
+            },
+            {
+              "Identifier": "Form 990, Part VI, Line 11",
+              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
+              "Explanation": "THE ORGANIZATION'S TREASURER WILL REVIEW THE FORM 990 PRIOR TO FILING."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201112": {
+    "Return@returnVersion": "2011v1.2",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
+      "ReturnHeader": {
+        "Timestamp": "2012-03-08T11:48:30-08:00",
+        "TaxPeriodEndDate": "2011-12-31",
+        "PreparerFirm": {
+          "PreparerFirmBusinessName": {
+            "BusinessNameLine1": "Thomas J Davey & Associates Ltd"
+          },
+          "PreparerFirmUSAddress": {
+            "AddressLine1": "7600 S County Line Rd St 6",
+            "City": "Burr Ridge",
+            "State": "IL",
+            "ZIPCode": "60527"
+          }
+        },
+        "ReturnType": "990",
+        "TaxPeriodBeginDate": "2011-01-01",
+        "Filer": {
+          "EIN": "364201074",
+          "Name": {
+            "BusinessNameLine1": "CENTURY WALK CORPORATION",
+            "BusinessNameLine2": "CO W BRAND BOBOSKY"
+          },
+          "NameControl": "CENT",
+          "Phone": "6303555553",
+          "USAddress": {
+            "AddressLine1": "34 W CHICAGO AVE",
+            "City": "NAPERVILLE",
+            "State": "IL",
+            "ZIPCode": "60540"
+          }
+        },
+        "Officer": {
+          "Name": "DON WEBER",
+          "Title": "Director",
+          "DateSigned": "2012-03-01",
+          "AuthorizeThirdParty": "true"
+        },
+        "Preparer": {
+          "Name": "Thomas J Davey CPA",
+          "Phone": "6306548350"
+        },
+        "TaxYear": "2011",
+        "BuildTS": "2016-02-24 21:20:13Z"
+      },
+      "ReturnData@documentCount": "6",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "11000144",
+        "IRS990@softwareVersion": "2011v1.2",
+        "IRS990": {
+          "GrossReceipts": "257259",
           "GroupReturnForAffiliates": "false",
           "AllAffiliatesIncluded": "false",
           "Organization501c3": "X",
@@ -426,73 +798,74 @@
           "YearFormation": "1996",
           "StateLegalDomicile": "IL",
           "ActivityOrMissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
-          "NbrVotingMembersGoverningBody": "14",
-          "NbrIndependentVotingMembers": "14",
+          "NbrVotingMembersGoverningBody": "13",
+          "NbrIndependentVotingMembers": "13",
           "TotalNbrEmployees": "0",
           "TotalNbrVolunteers": "40",
           "TotalGrossUBI": "0",
-          "ContributionsGrantsPriorYear": "232236",
-          "ContributionsGrantsCurrentYear": "192829",
+          "ContributionsGrantsPriorYear": "192829",
+          "ContributionsGrantsCurrentYear": "254415",
           "ProgramServiceRevenueCY": "0",
-          "InvestmentIncomePriorYear": "140",
-          "InvestmentIncomeCurrentYear": "13",
-          "OtherRevenueCurrentYear": "10091",
-          "TotalRevenuePriorYear": "232376",
-          "TotalRevenueCurrentYear": "202933",
+          "InvestmentIncomePriorYear": "13",
+          "InvestmentIncomeCurrentYear": "0",
+          "OtherRevenuePriorYear": "10091",
+          "OtherRevenueCurrentYear": "-915",
+          "TotalRevenuePriorYear": "202933",
+          "TotalRevenueCurrentYear": "253500",
           "GrantsAndSimilarAmntsCY": "0",
           "BenefitsPaidToMembersCY": "0",
           "SalariesEtcCurrentYear": "0",
           "TotalProfFundrsngExpCY": "0",
           "TotalFundrsngExpCurrentYear": "0",
-          "OtherExpensePriorYear": "214951",
-          "OtherExpensesCurrentYear": "32495",
-          "TotalExpensesPriorYear": "214951",
-          "TotalExpensesCurrentYear": "32495",
-          "RevenuesLessExpensesPriorYear": "17425",
-          "RevenuesLessExpensesCY": "170438",
-          "TotalAssetsBOY": "81510",
-          "TotalAssetsEOY": "1251383",
+          "OtherExpensePriorYear": "32495",
+          "OtherExpensesCurrentYear": "24422",
+          "TotalExpensesPriorYear": "32495",
+          "TotalExpensesCurrentYear": "24422",
+          "RevenuesLessExpensesPriorYear": "170438",
+          "RevenuesLessExpensesCY": "229078",
+          "TotalAssetsBOY": "1251383",
+          "TotalAssetsEOY": "1480461",
           "TotalLiabilitiesEOY": "0",
-          "NetAssetsOrFundBalancesBOY": "81510",
-          "NetAssetsOrFundBalancesEOY": "1251383",
+          "NetAssetsOrFundBalancesBOY": "1251383",
+          "NetAssetsOrFundBalancesEOY": "1480461",
           "MissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
           "SignificantNewProgramServices": "false",
           "SignificantChange": "false",
-          "Expense": "11431",
+          "Expense": "2770",
           "Description": "PAYMENTS TO SERVICE PROVIDERS WHO CREATE AND MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE.",
-          "TotalProgramServiceExpense": "11431",
-          "DescribedIn501C3@referenceDocumentId": " IRS990ScheduleA",
+          "TotalProgramServiceExpense": "2770",
+          "DescribedIn501C3@referenceDocumentId": "IRS990ScheduleA",
           "DescribedIn501C3": "true",
-          "ScheduleBRequired@referenceDocumentId": " IRS990ScheduleB",
+          "ScheduleBRequired@referenceDocumentId": "IRS990ScheduleB",
           "ScheduleBRequired": "true",
           "PoliticalActivities": "false",
           "LobbyingActivities": "false",
           "SubjectToProxyTax": "false",
-          "DonorAdvisedFunds@referenceDocumentId": " IRS990ScheduleD",
+          "DonorAdvisedFunds@referenceDocumentId": "IRS990ScheduleD",
           "DonorAdvisedFunds": "false",
-          "ConservationEasements@referenceDocumentId": " IRS990ScheduleD",
+          "ConservationEasements@referenceDocumentId": "IRS990ScheduleD",
           "ConservationEasements": "false",
-          "CollectionsOfArt@referenceDocumentId": " IRS990ScheduleD",
+          "CollectionsOfArt@referenceDocumentId": "IRS990ScheduleD",
           "CollectionsOfArt": "true",
-          "CreditCounseling@referenceDocumentId": " IRS990ScheduleD",
+          "CreditCounseling@referenceDocumentId": "IRS990ScheduleD",
           "CreditCounseling": "false",
-          "TermOrPermanentEndowments@referenceDocumentId": " IRS990ScheduleD",
+          "TermOrPermanentEndowments@referenceDocumentId": "IRS990ScheduleD",
           "TermOrPermanentEndowments": "false",
-          "ReportLandBldgEquip@referenceDocumentId": " IRS990ScheduleD",
+          "ReportLandBldgEquip@referenceDocumentId": "IRS990ScheduleD",
           "ReportLandBldgEquip": "false",
-          "ReportInvestOthSecurities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportInvestOthSecurities@referenceDocumentId": "IRS990ScheduleD",
           "ReportInvestOthSecurities": "false",
-          "ReportProgRelInvest@referenceDocumentId": " IRS990ScheduleD",
+          "ReportProgRelInvest@referenceDocumentId": "IRS990ScheduleD",
           "ReportProgRelInvest": "false",
-          "ReportOtherAssets@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherAssets@referenceDocumentId": "IRS990ScheduleD",
           "ReportOtherAssets": "true",
-          "ReportOtherLiabilities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherLiabilities@referenceDocumentId": "IRS990ScheduleD",
           "ReportOtherLiabilities": "false",
-          "ReportFin48Footnote@referenceDocumentId": " IRS990ScheduleD",
+          "ReportFin48Footnote@referenceDocumentId": "IRS990ScheduleD",
           "ReportFin48Footnote": "false",
-          "IndependentAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "IndependentAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
           "IndependentAuditFinancialStmt": "false",
-          "ConsolidatedAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "ConsolidatedAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
           "ConsolidatedAuditFinancialStmt": "false",
           "School": "false",
           "ForeignOffice": "false",
@@ -517,8 +890,10 @@
           "BsnssRltnshpWithOrganization": "false",
           "BsnssRltnshpThruFamilyMember": "false",
           "OfficerEntityWithBsnssRltnshp": "false",
+          "DeductibleNonCashContributions@referenceDocumentId": "IRS990ScheduleM",
           "DeductibleNonCashContributions": "false",
-          "DeductibleContributionsOfArt": "false",
+          "DeductibleContributionsOfArt@referenceDocumentId": "IRS990ScheduleM",
+          "DeductibleContributionsOfArt": "true",
           "Terminated": "false",
           "PartialLiquidation": "false",
           "DisregardedEntity": "false",
@@ -528,7 +903,7 @@
           "TransfersToExemptNonChrtblOrg": "false",
           "ActivitiesConductedPartnership": "false",
           "ScheduleORequired": "true",
-          "NumberFormsTransmittedWith1096": "1",
+          "NumberFormsTransmittedWith1096": "5",
           "NumberW2GIncluded": "0",
           "ComplianceWithBackupWitholding": "true",
           "NumberOfEmployees": "0",
@@ -557,8 +932,8 @@
           "IndoorTanningServices": "false",
           "Form720Filed": "false",
           "InfoInScheduleOPartVI": "X",
-          "NbrVotingGoverningBodyMembers": "14",
-          "NumberIndependentVotingMembers": "14",
+          "NbrVotingGoverningBodyMembers": "13",
+          "NumberIndependentVotingMembers": "13",
           "FamilyOrBusinessRelationship": "false",
           "DelegationOfManagementDuties": "false",
           "ChangesToOrganizingDocs": "false",
@@ -583,215 +958,17 @@
           "WrittenPolicyOrProcedure": "false",
           "StatesWhereCopyOfReturnIsFiled": "IL",
           "UponRequest": "X",
-          "NoListedPersonsCompensated": "X",
-          "NumberIndividualsGT100K": "0",
-          "FormersListed": "false",
-          "TotalCompGT150K": "false",
-          "CompensationFromOtherSources": "false",
-          "NumberOfContractorsGT100K": "0",
-          "GovernmentGrants": "174329",
-          "AllOtherContributions": "18500",
-          "TotalContributions": "192829",
-          "TotalProgramServiceRevenue": "0",
-          "GrossSalesOfInventory": "22538",
-          "CostOfGoodsSold": "12447",
-          "TotalOtherRevenue": "0",
-          "FollowSFAS117": "X",
-          "InfoInScheduleOPartXI": "X",
-          "ReconcilationRevenueExpenses": "170438",
-          "ReconcilationOtherChanges": "999435",
-          "MethodOfAccountingCash": "X",
-          "AccountantCompileOrReview": "false",
-          "FSAudited": "false",
-          "AuditCommittee": "false",
-          "FederalGrantAuditRequired": "false",
-          "FederalGrantAuditPerformed": "false"
-        },
-        "IRS990ScheduleA": {
-          "GiftsGrantsContribReceived170": {
-            "CurrentTaxYearMinus4Years": "422520",
-            "CurrentTaxYearMinus3Years": "80000",
-            "CurrentTaxYearMinus2Years": "256975",
-            "CurrentTaxYearMinus1Year": "232146",
-            "CurrentTaxYear": "192829",
-            "Total": "1184470"
-          },
-          "TaxRevLeviedForOrgBenefit170": {
-            "Total": "0"
-          },
-          "ValueSrvcFcltsFurnishedByGovt": {
-            "Total": "0"
-          },
-          "Total170": {
-            "CurrentTaxYearMinus4Years": "422520",
-            "CurrentTaxYearMinus3Years": "80000",
-            "CurrentTaxYearMinus2Years": "256975",
-            "CurrentTaxYearMinus1Year": "232146",
-            "CurrentTaxYear": "192829",
-            "Total": "1184470"
-          },
-          "GrossInvestmentIncome170": {
-            "CurrentTaxYearMinus4Years": "1170",
-            "CurrentTaxYearMinus3Years": "886",
-            "CurrentTaxYearMinus2Years": "154",
-            "CurrentTaxYearMinus1Year": "140",
-            "CurrentTaxYear": "13",
-            "Total": "2363"
-          },
-          "NetUBI": {
-            "Total": "0"
-          },
-          "OtherIncome170": {
-            "Total": "0"
-          },
-          "PubliclySupportedOrg170b1Avi": "X",
-          "AmountsSubstContributorsTotal": "0",
-          "PublicSupportTotal170": "1184470",
-          "TotalSupport": "1186833",
-          "PublicSupportPertcentage170": "0.99800",
-          "PublicSupportPertcentPriorYear": "0.99760",
-          "ThirtyThreePercntTestsCY170": "X"
-        },
-        "IRS990ScheduleB": {
-          "ContributorInfo": {
-            "ContributorNameBusiness": {
-              "BusinessNameLine1": "RESTRICTED"
-            },
-            "ContributorAddressUS": {
-              "AddressLine1": "RESTRICTED",
-              "AddressLine2": "RESTRICTED",
-              "City": "RESTRICTED",
-              "State": "RESTRICTED",
-              "ZIPCode": "RESTRICTED"
-            },
-            "ContributorNumber": "RESTRICTED",
-            "AggregateContributions": "RESTRICTED"
-          }
-        },
-        "IRS990ScheduleD": {
-          "ArtPublicExhibitionAmts": {
-            "AssetsInPartX": "1176437"
-          },
-          "OtherAssets": {
-            "Description": "ART COLLECTION",
-            "BookValue": "1176437"
-          },
-          "Form990ScheduleDPartXIV": [
-            {
-              "Identifier": "Part XIII, Line 2d",
-              "ReturnReference": "Part XIII, Line 2d: Other expenses and losses per audited F/S",
-              "Explanation": "PREPAID INSURANCE - BOY $575"
-            },
-            {
-              "Identifier": "Part XI, Line 8",
-              "ReturnReference": "Part XI, Line 8: Other Changes in Net Assets or Fund Balances",
-              "Explanation": "ART COLLECTION @ 1/1/10 $999435"
-            },
-            {
-              "Identifier": "Part III, Line 4",
-              "ReturnReference": "Part III, Line 4: Description of organization's collections and how it furthers its purpose.",
-              "Explanation": "The organization is dedicated to bringing public art to Naperville to add beauty to the town, build community and bridge generations by paying tribute to Naperville's 100 years of history through a diverse collection of murals, mosaics, reliefs, sculptures, and other public arts. The collection currently consists of 35 pieces of public art on permanent outdoor display, 30 of which represent the history of Naperville and 5 of which expand the body of artwork throughout Naperville."
-            }
-          ],
-          "CollectUsedForPublicExhibition": "X",
-          "CollectUsedForPreservation": "X",
-          "SolicitedAssetsForSale": "false",
-          "TotalBookValueOtherAssets": "1176437"
-        },
-        "IRS990ScheduleO": {
-          "GeneralExplanation": [
-            {
-              "Identifier": "Form 990, Part VI, Line 19",
-              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "Explanation": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
-            },
-            {
-              "Identifier": "Form 990, Part VI, Line 11",
-              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
-              "Explanation": "THE ORGANIZATION'S TREASURER WILL REVIEW THE FORM 990 PRIOR TO FILING."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": " IRS990ScheduleO",
-        "IRS990@softwareId": "10000105",
-        "IRS990@softwareVersion": "2010v3.2",
-        "IRS990ScheduleA@documentId": "IRS990ScheduleA",
-        "IRS990ScheduleA@softwareId": "10000105",
-        "IRS990ScheduleA@softwareVersion": "2010v3.2",
-        "IRS990ScheduleB@documentId": "IRS990ScheduleB",
-        "IRS990ScheduleB@softwareId": "10000105",
-        "IRS990ScheduleB@softwareVersion": "2010v3.2",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "10000105",
-        "IRS990ScheduleD@softwareVersion": "2010v3.2",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "10000105",
-        "IRS990ScheduleO@softwareVersion": "2010v3.2"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "5"
-    },
-    "Return@returnVersion": "2010v3.2"
-  },
-  "201112": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirm": {
-          "PreparerFirmBusinessName": {
-            "BusinessNameLine1": "Thomas J Davey & Associates Ltd"
-          },
-          "PreparerFirmUSAddress": {
-            "AddressLine1": "7600 S County Line Rd St 6",
-            "City": "Burr Ridge",
-            "State": "IL",
-            "ZIPCode": "60527"
-          }
-        },
-        "Filer": {
-          "Name": {
-            "BusinessNameLine1": "CENTURY WALK CORPORATION",
-            "BusinessNameLine2": "CO W BRAND BOBOSKY"
-          },
-          "USAddress": {
-            "AddressLine1": "34 W CHICAGO AVE",
-            "City": "NAPERVILLE",
-            "State": "IL",
-            "ZIPCode": "60540"
-          },
-          "EIN": "364201074",
-          "NameControl": "CENT",
-          "Phone": "6303555553"
-        },
-        "Officer": {
-          "Name": "DON WEBER",
-          "Title": "Director",
-          "DateSigned": "2012-03-01",
-          "AuthorizeThirdParty": "true"
-        },
-        "Preparer": {
-          "Name": "Thomas J Davey CPA",
-          "Phone": "6306548350"
-        },
-        "Timestamp": "2012-03-08T11:48:30-08:00",
-        "TaxPeriodEndDate": "2011-12-31",
-        "ReturnType": "990",
-        "TaxPeriodBeginDate": "2011-01-01",
-        "TaxYear": "2011",
-        "BuildTS": "2016-02-24 21:20:13Z"
-      },
-      "ReturnData": {
-        "IRS990": {
           "TheBooksAreInCareOf": {
+            "NamePerson": "DON WEBER TREASURER",
+            "TelephoneNumber": "6303939494",
             "AddressUS": {
               "AddressLine1": "2105 CAMELLIA CT",
               "City": "NAPERVILLE",
               "State": "IL",
               "ZIPCode": "60540"
-            },
-            "NamePerson": "DON WEBER TREASURER",
-            "TelephoneNumber": "6303939494"
+            }
           },
+          "NoListedPersonsCompensated": "X",
           "Form990PartVIISectionA": [
             {
               "NamePerson": "WILL SMITH",
@@ -913,6 +1090,15 @@
               "OtherCompensation": "0"
             }
           ],
+          "NumberIndividualsGT100K": "0",
+          "FormersListed": "false",
+          "TotalCompGT150K": "false",
+          "CompensationFromOtherSources": "false",
+          "NumberOfContractorsGT100K": "0",
+          "GovernmentGrants": "125000",
+          "AllOtherContributions": "129415",
+          "TotalContributions": "254415",
+          "TotalProgramServiceRevenue": "0",
           "InvestmentIncome": {
             "TotalRevenueColumn": "0"
           },
@@ -934,14 +1120,18 @@
           "NetIncomeFromGaming": {
             "TotalRevenueColumn": "0"
           },
+          "GrossSalesOfInventory": "2844",
+          "CostOfGoodsSold": "3759",
           "NetIncomeOrLoss": {
             "TotalRevenueColumn": "-915",
             "ExclusionAmount": "-915"
           },
+          "TotalOtherRevenue": "0",
           "TotalRevenue": {
             "TotalRevenueColumn": "253500",
             "ExclusionAmount": "-915"
           },
+          "InfoInScheduleOPartIX": "X",
           "GrantsToDomesticOrgs": {
             "Total": "0"
           },
@@ -1127,6 +1317,7 @@
             "BOY": "0",
             "EOY": "0"
           },
+          "FollowSFAS117": "X",
           "UnrestrictedNetAssets": {
             "BOY": "1251383",
             "EOY": "1480461"
@@ -1139,7 +1330,191 @@
             "BOY": "1251383",
             "EOY": "1480461"
           },
-          "GrossReceipts": "257259",
+          "ReconcilationRevenueExpenses": "229078",
+          "MethodOfAccountingCash": "X",
+          "AccountantCompileOrReview": "false",
+          "FSAudited": "false",
+          "AuditCommittee": "false",
+          "FederalGrantAuditRequired": "false",
+          "FederalGrantAuditPerformed": "false"
+        },
+        "IRS990ScheduleA@documentId": "IRS990ScheduleA",
+        "IRS990ScheduleA@softwareId": "11000144",
+        "IRS990ScheduleA@softwareVersion": "2011v1.2",
+        "IRS990ScheduleA": {
+          "PubliclySupportedOrg170b1Avi": "X",
+          "GiftsGrantsContribReceived170": {
+            "CurrentTaxYearMinus4Years": "80000",
+            "CurrentTaxYearMinus3Years": "256975",
+            "CurrentTaxYearMinus2Years": "232146",
+            "CurrentTaxYearMinus1Year": "192829",
+            "CurrentTaxYear": "230415",
+            "Total": "992365"
+          },
+          "TaxRevLeviedForOrgBenefit170": {
+            "Total": "0"
+          },
+          "ValueSrvcFcltsFurnishedByGovt": {
+            "Total": "0"
+          },
+          "Total170": {
+            "CurrentTaxYearMinus4Years": "80000",
+            "CurrentTaxYearMinus3Years": "256975",
+            "CurrentTaxYearMinus2Years": "232146",
+            "CurrentTaxYearMinus1Year": "192829",
+            "CurrentTaxYear": "230415",
+            "Total": "992365"
+          },
+          "AmountsSubstContributorsTotal": "0",
+          "PublicSupportTotal170": "992365",
+          "GrossInvestmentIncome170": {
+            "CurrentTaxYearMinus4Years": "886",
+            "CurrentTaxYearMinus3Years": "154",
+            "CurrentTaxYearMinus2Years": "140",
+            "CurrentTaxYearMinus1Year": "13",
+            "Total": "1193"
+          },
+          "NetUBI": {
+            "Total": "0"
+          },
+          "OtherIncome170": {
+            "Total": "0"
+          },
+          "TotalSupport": "993558",
+          "PublicSupportPertcentage170": "0.99880",
+          "PublicSupportPertcentPriorYear": "0.99800",
+          "ThirtyThreePercntTestsCY170": "X"
+        },
+        "IRS990ScheduleB@documentId": "IRS990ScheduleB",
+        "IRS990ScheduleB@softwareId": "11000144",
+        "IRS990ScheduleB@softwareVersion": "2011v1.2",
+        "IRS990ScheduleB": {
+          "ContributorInfo": {
+            "ContributorNumber": "RESTRICTED",
+            "ContributorNameBusiness": {
+              "BusinessNameLine1": "RESTRICTED"
+            },
+            "ContributorAddressUS": {
+              "AddressLine1": "RESTRICTED",
+              "AddressLine2": "RESTRICTED",
+              "City": "RESTRICTED",
+              "State": "RESTRICTED",
+              "ZIPCode": "RESTRICTED"
+            },
+            "AggregateContributions": "RESTRICTED"
+          }
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "11000144",
+        "IRS990ScheduleD@softwareVersion": "2011v1.2",
+        "IRS990ScheduleD": {
+          "ArtPublicExhibitionAmts": {
+            "AssetsInPartX": "1366530"
+          },
+          "CollectUsedForPublicExhibition": "X",
+          "CollectUsedForPreservation": "X",
+          "SolicitedAssetsForSale": "false",
+          "OtherAssets": {
+            "Description": "ART COLLECTION",
+            "BookValue": "1390530"
+          },
+          "TotalBookValueOtherAssets": "1390530",
+          "Form990ScheduleDPartXIV": {
+            "Identifier": "Part III, Line 4",
+            "ReturnReference": "Part III, Line 4: Description of organization's collections and how it furthers its purpose.",
+            "Explanation": "The organization is dedicated to bringing public art to Naperville to add beauty to the town, build community and bridge generations by paying tribute to Naperville's 100 years of history through a diverse collection of murals, mosaics, reliefs, sculptures, and other public arts. The collection currently consists of pieces of public art on permanent outdoor display which represent the history of Naperville and expand the body of artwork throughout Naperville."
+          }
+        },
+        "IRS990ScheduleM@documentId": "IRS990ScheduleM",
+        "IRS990ScheduleM@softwareId": "11000144",
+        "IRS990ScheduleM@softwareVersion": "2011v1.2",
+        "IRS990ScheduleM": {
+          "WorksOfArt": {
+            "NonCashCheckbox": "X",
+            "NumberOfContributions": "2",
+            "NoncashContribsRptdF990": "24000"
+          },
+          "AnyPropertyThatMustBeHeld": "false",
+          "ReviewProcessUnusualNCGifts": "false",
+          "ThirdPartiesUsed": "false"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "11000144",
+        "IRS990ScheduleO@softwareVersion": "2011v1.2",
+        "IRS990ScheduleO": {
+          "GeneralExplanation": [
+            {
+              "Identifier": "Form 990, Part VI, Line 19",
+              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "Explanation": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
+            },
+            {
+              "Identifier": "Form 990, Part VI, Line 11",
+              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
+              "Explanation": "THE ORGANIZATION'S TREASURER WILL REVIEW THE FORM 990 PRIOR TO FILING."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201212": {
+    "Return@returnVersion": "2012v2.0",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
+      "ReturnHeader": {
+        "Timestamp": "2013-05-14T09:37:04-07:00",
+        "TaxPeriodEndDate": "2012-12-31",
+        "PreparerFirm": {
+          "PreparerFirmBusinessName": {
+            "BusinessNameLine1": "Thomas J Davey & Associates Ltd"
+          },
+          "PreparerFirmUSAddress": {
+            "AddressLine1": "7600 S County Line Rd St 6",
+            "City": "Burr Ridge",
+            "State": "IL",
+            "ZIPCode": "60527"
+          }
+        },
+        "ReturnType": "990",
+        "TaxPeriodBeginDate": "2012-01-01",
+        "Filer": {
+          "EIN": "364201074",
+          "Name": {
+            "BusinessNameLine1": "CENTURY WALK CORPORATION",
+            "BusinessNameLine2": "CO W BRAND BOBOSKY"
+          },
+          "NameControl": "CENT",
+          "Phone": "6303555553",
+          "USAddress": {
+            "AddressLine1": "34 W CHICAGO AVE",
+            "City": "NAPERVILLE",
+            "State": "IL",
+            "ZIPCode": "60540"
+          }
+        },
+        "Officer": {
+          "Name": "DON WEBER",
+          "Title": "Director",
+          "DateSigned": "2013-05-09",
+          "AuthorizeThirdParty": "true"
+        },
+        "Preparer": {
+          "Name": "Thomas J Davey CPA",
+          "PTIN": "P00152978",
+          "Phone": "6306548350"
+        },
+        "TaxYear": "2012",
+        "BuildTS": "2016-02-24 21:20:13Z"
+      },
+      "ReturnData@documentCount": "5",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "12000229",
+        "IRS990@softwareVersion": "2012v2.0",
+        "IRS990": {
+          "GrossReceipts": "197621",
           "GroupReturnForAffiliates": "false",
           "AllAffiliatesIncluded": "false",
           "Organization501c3": "X",
@@ -1148,46 +1523,48 @@
           "YearFormation": "1996",
           "StateLegalDomicile": "IL",
           "ActivityOrMissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
-          "NbrVotingMembersGoverningBody": "13",
-          "NbrIndependentVotingMembers": "13",
+          "NbrVotingMembersGoverningBody": "12",
+          "NbrIndependentVotingMembers": "12",
           "TotalNbrEmployees": "0",
           "TotalNbrVolunteers": "40",
           "TotalGrossUBI": "0",
-          "ContributionsGrantsPriorYear": "192829",
-          "ContributionsGrantsCurrentYear": "254415",
+          "ContributionsGrantsPriorYear": "254415",
+          "ContributionsGrantsCurrentYear": "196550",
           "ProgramServiceRevenueCY": "0",
-          "InvestmentIncomePriorYear": "13",
           "InvestmentIncomeCurrentYear": "0",
-          "OtherRevenuePriorYear": "10091",
-          "OtherRevenueCurrentYear": "-915",
-          "TotalRevenuePriorYear": "202933",
-          "TotalRevenueCurrentYear": "253500",
+          "OtherRevenuePriorYear": "-915",
+          "OtherRevenueCurrentYear": "-398",
+          "TotalRevenuePriorYear": "253500",
+          "TotalRevenueCurrentYear": "196152",
           "GrantsAndSimilarAmntsCY": "0",
           "BenefitsPaidToMembersCY": "0",
-          "SalariesEtcCurrentYear": "0",
+          "SalariesEtcCurrentYear": "20000",
           "TotalProfFundrsngExpCY": "0",
           "TotalFundrsngExpCurrentYear": "0",
-          "OtherExpensePriorYear": "32495",
-          "OtherExpensesCurrentYear": "24422",
-          "TotalExpensesPriorYear": "32495",
-          "TotalExpensesCurrentYear": "24422",
-          "RevenuesLessExpensesPriorYear": "170438",
-          "RevenuesLessExpensesCY": "229078",
-          "TotalAssetsBOY": "1251383",
-          "TotalAssetsEOY": "1480461",
+          "OtherExpensePriorYear": "24422",
+          "OtherExpensesCurrentYear": "40441",
+          "TotalExpensesPriorYear": "24422",
+          "TotalExpensesCurrentYear": "60441",
+          "RevenuesLessExpensesPriorYear": "229078",
+          "RevenuesLessExpensesCY": "135711",
+          "TotalAssetsBOY": "1480461",
+          "TotalAssetsEOY": "1616172",
           "TotalLiabilitiesEOY": "0",
-          "NetAssetsOrFundBalancesBOY": "1251383",
-          "NetAssetsOrFundBalancesEOY": "1480461",
+          "NetAssetsOrFundBalancesBOY": "1480461",
+          "NetAssetsOrFundBalancesEOY": "1616172",
           "MissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
           "SignificantNewProgramServices": "false",
           "SignificantChange": "false",
-          "Expense": "2770",
-          "Description": "PAYMENTS TO SERVICE PROVIDERS WHO CREATE AND MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE.",
-          "TotalProgramServiceExpense": "2770",
+          "Expense": "11134",
+          "Description": "ADVERTISING COSTS FOR ARTWORK DEDICATIONS",
+          "Activity2": {
+            "Expense": "200",
+            "Description": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE."
+          },
+          "TotalProgramServiceExpense": "11334",
           "DescribedIn501C3@referenceDocumentId": "IRS990ScheduleA",
           "DescribedIn501C3": "true",
-          "ScheduleBRequired@referenceDocumentId": "IRS990ScheduleB",
-          "ScheduleBRequired": "true",
+          "ScheduleBRequired": "false",
           "PoliticalActivities": "false",
           "LobbyingActivities": "false",
           "SubjectToProxyTax": "false",
@@ -1233,17 +1610,22 @@
           "InvestTaxExemptBonds": "false",
           "EscrowAccount": "false",
           "OnBehalfOfIssuer": "false",
+          "ExcessBenefitTransaction@referenceDocumentId": "IRS990ScheduleL",
           "ExcessBenefitTransaction": "false",
+          "PriorExcessBenefitTransaction@referenceDocumentId": "IRS990ScheduleL",
           "PriorExcessBenefitTransaction": "false",
+          "LoanToOfficerOrDQP@referenceDocumentId": "IRS990ScheduleL",
           "LoanToOfficerOrDQP": "false",
+          "GrantToRelatedPerson@referenceDocumentId": "IRS990ScheduleL",
           "GrantToRelatedPerson": "false",
-          "BsnssRltnshpWithOrganization": "false",
+          "BsnssRltnshpWithOrganization@referenceDocumentId": "IRS990ScheduleL",
+          "BsnssRltnshpWithOrganization": "true",
+          "BsnssRltnshpThruFamilyMember@referenceDocumentId": "IRS990ScheduleL",
           "BsnssRltnshpThruFamilyMember": "false",
-          "OfficerEntityWithBsnssRltnshp": "false",
-          "DeductibleNonCashContributions@referenceDocumentId": "IRS990ScheduleM",
+          "OfficerEntityWithBsnssRltnshp@referenceDocumentId": "IRS990ScheduleL",
+          "OfficerEntityWithBsnssRltnshp": "true",
           "DeductibleNonCashContributions": "false",
-          "DeductibleContributionsOfArt@referenceDocumentId": "IRS990ScheduleM",
-          "DeductibleContributionsOfArt": "true",
+          "DeductibleContributionsOfArt": "false",
           "Terminated": "false",
           "PartialLiquidation": "false",
           "DisregardedEntity": "false",
@@ -1263,11 +1645,8 @@
           "ForeignFinancialAccount": "false",
           "ProhibitedTaxShelterTrans": "false",
           "TaxablePartyNotification": "false",
-          "Form8886TFiled": "false",
           "NonDeductibleContributions": "false",
-          "NonDeductibleDisclosure": "false",
           "QuidProQuoContributions": "false",
-          "QuidProQuoDisclosure": "false",
           "Form8282PropertyDisposedOf": "false",
           "NumberOf8282Filed": "0",
           "FundsToPayPremiums": "false",
@@ -1280,10 +1659,9 @@
           "FiledLieu1041": "false",
           "LicensedMoreThanOneState": "false",
           "IndoorTanningServices": "false",
-          "Form720Filed": "false",
           "InfoInScheduleOPartVI": "X",
-          "NbrVotingGoverningBodyMembers": "13",
-          "NumberIndependentVotingMembers": "13",
+          "NbrVotingGoverningBodyMembers": "12",
+          "NumberIndependentVotingMembers": "12",
           "FamilyOrBusinessRelationship": "false",
           "DelegationOfManagementDuties": "false",
           "ChangesToOrganizingDocs": "false",
@@ -1295,7 +1673,6 @@
           "MinutesOfCommittees": "true",
           "OfficerMailingAddress": "false",
           "LocalChapters": "false",
-          "PoliciesReferenceChapters": "false",
           "Form990ProvidedToGoverningBody": "false",
           "ConflictOfInterestPolicy": "false",
           "AnnualDisclosureCoveredPersons": "false",
@@ -1305,221 +1682,17 @@
           "CompensationProcessCEO": "false",
           "CompensationProcessOther": "false",
           "InvestmentInJointVenture": "false",
-          "WrittenPolicyOrProcedure": "false",
           "StatesWhereCopyOfReturnIsFiled": "IL",
           "UponRequest": "X",
-          "NoListedPersonsCompensated": "X",
-          "NumberIndividualsGT100K": "0",
-          "FormersListed": "false",
-          "TotalCompGT150K": "false",
-          "CompensationFromOtherSources": "false",
-          "NumberOfContractorsGT100K": "0",
-          "GovernmentGrants": "125000",
-          "AllOtherContributions": "129415",
-          "TotalContributions": "254415",
-          "TotalProgramServiceRevenue": "0",
-          "GrossSalesOfInventory": "2844",
-          "CostOfGoodsSold": "3759",
-          "TotalOtherRevenue": "0",
-          "InfoInScheduleOPartIX": "X",
-          "FollowSFAS117": "X",
-          "ReconcilationRevenueExpenses": "229078",
-          "MethodOfAccountingCash": "X",
-          "AccountantCompileOrReview": "false",
-          "FSAudited": "false",
-          "AuditCommittee": "false",
-          "FederalGrantAuditRequired": "false",
-          "FederalGrantAuditPerformed": "false"
-        },
-        "IRS990ScheduleA": {
-          "GiftsGrantsContribReceived170": {
-            "CurrentTaxYearMinus4Years": "80000",
-            "CurrentTaxYearMinus3Years": "256975",
-            "CurrentTaxYearMinus2Years": "232146",
-            "CurrentTaxYearMinus1Year": "192829",
-            "CurrentTaxYear": "230415",
-            "Total": "992365"
-          },
-          "TaxRevLeviedForOrgBenefit170": {
-            "Total": "0"
-          },
-          "ValueSrvcFcltsFurnishedByGovt": {
-            "Total": "0"
-          },
-          "Total170": {
-            "CurrentTaxYearMinus4Years": "80000",
-            "CurrentTaxYearMinus3Years": "256975",
-            "CurrentTaxYearMinus2Years": "232146",
-            "CurrentTaxYearMinus1Year": "192829",
-            "CurrentTaxYear": "230415",
-            "Total": "992365"
-          },
-          "GrossInvestmentIncome170": {
-            "CurrentTaxYearMinus4Years": "886",
-            "CurrentTaxYearMinus3Years": "154",
-            "CurrentTaxYearMinus2Years": "140",
-            "CurrentTaxYearMinus1Year": "13",
-            "Total": "1193"
-          },
-          "NetUBI": {
-            "Total": "0"
-          },
-          "OtherIncome170": {
-            "Total": "0"
-          },
-          "PubliclySupportedOrg170b1Avi": "X",
-          "AmountsSubstContributorsTotal": "0",
-          "PublicSupportTotal170": "992365",
-          "TotalSupport": "993558",
-          "PublicSupportPertcentage170": "0.99880",
-          "PublicSupportPertcentPriorYear": "0.99800",
-          "ThirtyThreePercntTestsCY170": "X"
-        },
-        "IRS990ScheduleB": {
-          "ContributorInfo": {
-            "ContributorNameBusiness": {
-              "BusinessNameLine1": "RESTRICTED"
-            },
-            "ContributorAddressUS": {
-              "AddressLine1": "RESTRICTED",
-              "AddressLine2": "RESTRICTED",
-              "City": "RESTRICTED",
-              "State": "RESTRICTED",
-              "ZIPCode": "RESTRICTED"
-            },
-            "ContributorNumber": "RESTRICTED",
-            "AggregateContributions": "RESTRICTED"
-          }
-        },
-        "IRS990ScheduleD": {
-          "ArtPublicExhibitionAmts": {
-            "AssetsInPartX": "1366530"
-          },
-          "OtherAssets": {
-            "Description": "ART COLLECTION",
-            "BookValue": "1390530"
-          },
-          "Form990ScheduleDPartXIV": {
-            "Identifier": "Part III, Line 4",
-            "ReturnReference": "Part III, Line 4: Description of organization's collections and how it furthers its purpose.",
-            "Explanation": "The organization is dedicated to bringing public art to Naperville to add beauty to the town, build community and bridge generations by paying tribute to Naperville's 100 years of history through a diverse collection of murals, mosaics, reliefs, sculptures, and other public arts. The collection currently consists of pieces of public art on permanent outdoor display which represent the history of Naperville and expand the body of artwork throughout Naperville."
-          },
-          "CollectUsedForPublicExhibition": "X",
-          "CollectUsedForPreservation": "X",
-          "SolicitedAssetsForSale": "false",
-          "TotalBookValueOtherAssets": "1390530"
-        },
-        "IRS990ScheduleM": {
-          "WorksOfArt": {
-            "NonCashCheckbox": "X",
-            "NumberOfContributions": "2",
-            "NoncashContribsRptdF990": "24000"
-          },
-          "AnyPropertyThatMustBeHeld": "false",
-          "ReviewProcessUnusualNCGifts": "false",
-          "ThirdPartiesUsed": "false"
-        },
-        "IRS990ScheduleO": {
-          "GeneralExplanation": [
-            {
-              "Identifier": "Form 990, Part VI, Line 19",
-              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "Explanation": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
-            },
-            {
-              "Identifier": "Form 990, Part VI, Line 11",
-              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
-              "Explanation": "THE ORGANIZATION'S TREASURER WILL REVIEW THE FORM 990 PRIOR TO FILING."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "11000144",
-        "IRS990@softwareVersion": "2011v1.2",
-        "IRS990ScheduleA@documentId": "IRS990ScheduleA",
-        "IRS990ScheduleA@softwareId": "11000144",
-        "IRS990ScheduleA@softwareVersion": "2011v1.2",
-        "IRS990ScheduleB@documentId": "IRS990ScheduleB",
-        "IRS990ScheduleB@softwareId": "11000144",
-        "IRS990ScheduleB@softwareVersion": "2011v1.2",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "11000144",
-        "IRS990ScheduleD@softwareVersion": "2011v1.2",
-        "IRS990ScheduleM@documentId": "IRS990ScheduleM",
-        "IRS990ScheduleM@softwareId": "11000144",
-        "IRS990ScheduleM@softwareVersion": "2011v1.2",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "11000144",
-        "IRS990ScheduleO@softwareVersion": "2011v1.2"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "6"
-    },
-    "Return@returnVersion": "2011v1.2"
-  },
-  "201212": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirm": {
-          "PreparerFirmBusinessName": {
-            "BusinessNameLine1": "Thomas J Davey & Associates Ltd"
-          },
-          "PreparerFirmUSAddress": {
-            "AddressLine1": "7600 S County Line Rd St 6",
-            "City": "Burr Ridge",
-            "State": "IL",
-            "ZIPCode": "60527"
-          }
-        },
-        "Filer": {
-          "Name": {
-            "BusinessNameLine1": "CENTURY WALK CORPORATION",
-            "BusinessNameLine2": "CO W BRAND BOBOSKY"
-          },
-          "USAddress": {
-            "AddressLine1": "34 W CHICAGO AVE",
-            "City": "NAPERVILLE",
-            "State": "IL",
-            "ZIPCode": "60540"
-          },
-          "EIN": "364201074",
-          "NameControl": "CENT",
-          "Phone": "6303555553"
-        },
-        "Officer": {
-          "Name": "DON WEBER",
-          "Title": "Director",
-          "DateSigned": "2013-05-09",
-          "AuthorizeThirdParty": "true"
-        },
-        "Preparer": {
-          "Name": "Thomas J Davey CPA",
-          "PTIN": "P00152978",
-          "Phone": "6306548350"
-        },
-        "Timestamp": "2013-05-14T09:37:04-07:00",
-        "TaxPeriodEndDate": "2012-12-31",
-        "ReturnType": "990",
-        "TaxPeriodBeginDate": "2012-01-01",
-        "TaxYear": "2012",
-        "BuildTS": "2016-02-24 21:20:13Z"
-      },
-      "ReturnData": {
-        "IRS990": {
-          "Activity2": {
-            "Expense": "200",
-            "Description": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE."
-          },
           "TheBooksAreInCareOf": {
+            "NamePerson": "DON WEBER TREASURER",
+            "TelephoneNumber": "6303939494",
             "AddressUS": {
               "AddressLine1": "2105 CAMELLIA CT",
               "City": "NAPERVILLE",
               "State": "IL",
               "ZIPCode": "60540"
-            },
-            "NamePerson": "DON WEBER TREASURER",
-            "TelephoneNumber": "6303939494"
+            }
           },
           "Form990PartVIISectionA": [
             {
@@ -1645,6 +1818,16 @@
               "OtherCompensation": "0"
             }
           ],
+          "TotalReportableCompFromOrg": "20000",
+          "NumberIndividualsGT100K": "0",
+          "FormersListed": "false",
+          "TotalCompGT150K": "false",
+          "CompensationFromOtherSources": "false",
+          "NumberOfContractorsGT100K": "0",
+          "GovernmentGrants": "112500",
+          "AllOtherContributions": "84050",
+          "TotalContributions": "196550",
+          "TotalProgramServiceRevenue": "0",
           "InvestmentIncome": {
             "TotalRevenueColumn": "0"
           },
@@ -1666,10 +1849,13 @@
           "NetIncomeFromGaming": {
             "TotalRevenueColumn": "0"
           },
+          "GrossSalesOfInventory": "1071",
+          "CostOfGoodsSold": "1469",
           "NetIncomeOrLoss": {
             "TotalRevenueColumn": "-398",
             "ExclusionAmount": "-398"
           },
+          "TotalOtherRevenue": "0",
           "TotalRevenue": {
             "TotalRevenueColumn": "196152",
             "ExclusionAmount": "-398"
@@ -1857,6 +2043,7 @@
             "BOY": "0",
             "EOY": "0"
           },
+          "FollowSFAS117": "X",
           "UnrestrictedNetAssets": {
             "BOY": "1480461",
             "EOY": "1616172"
@@ -1869,193 +2056,17 @@
             "BOY": "1480461",
             "EOY": "1616172"
           },
-          "GrossReceipts": "197621",
-          "GroupReturnForAffiliates": "false",
-          "AllAffiliatesIncluded": "false",
-          "Organization501c3": "X",
-          "WebSite": "www.centurywalk.org",
-          "TypeOfOrganizationCorporation": "X",
-          "YearFormation": "1996",
-          "StateLegalDomicile": "IL",
-          "ActivityOrMissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
-          "NbrVotingMembersGoverningBody": "12",
-          "NbrIndependentVotingMembers": "12",
-          "TotalNbrEmployees": "0",
-          "TotalNbrVolunteers": "40",
-          "TotalGrossUBI": "0",
-          "ContributionsGrantsPriorYear": "254415",
-          "ContributionsGrantsCurrentYear": "196550",
-          "ProgramServiceRevenueCY": "0",
-          "InvestmentIncomeCurrentYear": "0",
-          "OtherRevenuePriorYear": "-915",
-          "OtherRevenueCurrentYear": "-398",
-          "TotalRevenuePriorYear": "253500",
-          "TotalRevenueCurrentYear": "196152",
-          "GrantsAndSimilarAmntsCY": "0",
-          "BenefitsPaidToMembersCY": "0",
-          "SalariesEtcCurrentYear": "20000",
-          "TotalProfFundrsngExpCY": "0",
-          "TotalFundrsngExpCurrentYear": "0",
-          "OtherExpensePriorYear": "24422",
-          "OtherExpensesCurrentYear": "40441",
-          "TotalExpensesPriorYear": "24422",
-          "TotalExpensesCurrentYear": "60441",
-          "RevenuesLessExpensesPriorYear": "229078",
-          "RevenuesLessExpensesCY": "135711",
-          "TotalAssetsBOY": "1480461",
-          "TotalAssetsEOY": "1616172",
-          "TotalLiabilitiesEOY": "0",
-          "NetAssetsOrFundBalancesBOY": "1480461",
-          "NetAssetsOrFundBalancesEOY": "1616172",
-          "MissionDescription": "CENTURY WALK IS AN ONGOING PUBLIC ARTS PROGRAM AVAILABLE TO THE PUBLIC. THE GOAL OF CENTURY WALK IS TO CREATE CULTURALLY SIGNIFICANT AND DIVERSE PUBLIC ART THROUGHOUT NAPERVILLE IN THE TWENTY-FIRST CENTURY. CENTURY WALK CORPORATION EXISTS SOLELY FOR THESE GOALS.",
-          "SignificantNewProgramServices": "false",
-          "SignificantChange": "false",
-          "Expense": "11134",
-          "Description": "ADVERTISING COSTS FOR ARTWORK DEDICATIONS",
-          "TotalProgramServiceExpense": "11334",
-          "DescribedIn501C3@referenceDocumentId": "IRS990ScheduleA",
-          "DescribedIn501C3": "true",
-          "ScheduleBRequired": "false",
-          "PoliticalActivities": "false",
-          "LobbyingActivities": "false",
-          "SubjectToProxyTax": "false",
-          "DonorAdvisedFunds@referenceDocumentId": "IRS990ScheduleD",
-          "DonorAdvisedFunds": "false",
-          "ConservationEasements@referenceDocumentId": "IRS990ScheduleD",
-          "ConservationEasements": "false",
-          "CollectionsOfArt@referenceDocumentId": "IRS990ScheduleD",
-          "CollectionsOfArt": "true",
-          "CreditCounseling@referenceDocumentId": "IRS990ScheduleD",
-          "CreditCounseling": "false",
-          "TermOrPermanentEndowments@referenceDocumentId": "IRS990ScheduleD",
-          "TermOrPermanentEndowments": "false",
-          "ReportLandBldgEquip@referenceDocumentId": "IRS990ScheduleD",
-          "ReportLandBldgEquip": "false",
-          "ReportInvestOthSecurities@referenceDocumentId": "IRS990ScheduleD",
-          "ReportInvestOthSecurities": "false",
-          "ReportProgRelInvest@referenceDocumentId": "IRS990ScheduleD",
-          "ReportProgRelInvest": "false",
-          "ReportOtherAssets@referenceDocumentId": "IRS990ScheduleD",
-          "ReportOtherAssets": "true",
-          "ReportOtherLiabilities@referenceDocumentId": "IRS990ScheduleD",
-          "ReportOtherLiabilities": "false",
-          "ReportFin48Footnote@referenceDocumentId": "IRS990ScheduleD",
-          "ReportFin48Footnote": "false",
-          "IndependentAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
-          "IndependentAuditFinancialStmt": "false",
-          "ConsolidatedAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
-          "ConsolidatedAuditFinancialStmt": "false",
-          "School": "false",
-          "ForeignOffice": "false",
-          "ForeignActivities": "false",
-          "MoreThan5000KToOrganizations": "false",
-          "MoreThan5000KToIndividuals": "false",
-          "ProfessionalFundraising": "false",
-          "FundraisingActivities": "false",
-          "Gaming": "false",
-          "Hospital": "false",
-          "GrantsToOrganizations": "false",
-          "GrantsToIndividuals": "false",
-          "ScheduleJRequired": "false",
-          "TaxExemptBonds": "false",
-          "InvestTaxExemptBonds": "false",
-          "EscrowAccount": "false",
-          "OnBehalfOfIssuer": "false",
-          "ExcessBenefitTransaction@referenceDocumentId": "IRS990ScheduleL",
-          "ExcessBenefitTransaction": "false",
-          "PriorExcessBenefitTransaction@referenceDocumentId": "IRS990ScheduleL",
-          "PriorExcessBenefitTransaction": "false",
-          "LoanToOfficerOrDQP@referenceDocumentId": "IRS990ScheduleL",
-          "LoanToOfficerOrDQP": "false",
-          "GrantToRelatedPerson@referenceDocumentId": "IRS990ScheduleL",
-          "GrantToRelatedPerson": "false",
-          "BsnssRltnshpWithOrganization@referenceDocumentId": "IRS990ScheduleL",
-          "BsnssRltnshpWithOrganization": "true",
-          "BsnssRltnshpThruFamilyMember@referenceDocumentId": "IRS990ScheduleL",
-          "BsnssRltnshpThruFamilyMember": "false",
-          "OfficerEntityWithBsnssRltnshp@referenceDocumentId": "IRS990ScheduleL",
-          "OfficerEntityWithBsnssRltnshp": "true",
-          "DeductibleNonCashContributions": "false",
-          "DeductibleContributionsOfArt": "false",
-          "Terminated": "false",
-          "PartialLiquidation": "false",
-          "DisregardedEntity": "false",
-          "RelatedEntity": "false",
-          "RelatedOrgControlledEntity": "false",
-          "TransactionRelatedEntity": "false",
-          "TransfersToExemptNonChrtblOrg": "false",
-          "ActivitiesConductedPartnership": "false",
-          "ScheduleORequired": "true",
-          "NumberFormsTransmittedWith1096": "5",
-          "NumberW2GIncluded": "0",
-          "ComplianceWithBackupWitholding": "true",
-          "NumberOfEmployees": "0",
-          "EmploymentTaxReturnsFiled": "false",
-          "UnrelatedBusinessIncome": "false",
-          "Form990-TFiled": "false",
-          "ForeignFinancialAccount": "false",
-          "ProhibitedTaxShelterTrans": "false",
-          "TaxablePartyNotification": "false",
-          "NonDeductibleContributions": "false",
-          "QuidProQuoContributions": "false",
-          "Form8282PropertyDisposedOf": "false",
-          "NumberOf8282Filed": "0",
-          "FundsToPayPremiums": "false",
-          "PremiumsPaid": "false",
-          "Form8899Filed": "false",
-          "Form1098CFiled": "false",
-          "ExcessBusinessHoldings": "false",
-          "TaxableDistributions": "false",
-          "DistributionToDonor": "false",
-          "FiledLieu1041": "false",
-          "LicensedMoreThanOneState": "false",
-          "IndoorTanningServices": "false",
-          "InfoInScheduleOPartVI": "X",
-          "NbrVotingGoverningBodyMembers": "12",
-          "NumberIndependentVotingMembers": "12",
-          "FamilyOrBusinessRelationship": "false",
-          "DelegationOfManagementDuties": "false",
-          "ChangesToOrganizingDocs": "false",
-          "MaterialDiversionOrMisuse": "false",
-          "MembersOrStockholders": "true",
-          "ElectionOfBoardMembers": "true",
-          "DecisionsSubjectToApproval": "false",
-          "MinutesOfGoverningBody": "true",
-          "MinutesOfCommittees": "true",
-          "OfficerMailingAddress": "false",
-          "LocalChapters": "false",
-          "Form990ProvidedToGoverningBody": "false",
-          "ConflictOfInterestPolicy": "false",
-          "AnnualDisclosureCoveredPersons": "false",
-          "RegularMonitoringEnforcement": "false",
-          "WhistleblowerPolicy": "false",
-          "DocumentRetentionPolicy": "false",
-          "CompensationProcessCEO": "false",
-          "CompensationProcessOther": "false",
-          "InvestmentInJointVenture": "false",
-          "StatesWhereCopyOfReturnIsFiled": "IL",
-          "UponRequest": "X",
-          "TotalReportableCompFromOrg": "20000",
-          "NumberIndividualsGT100K": "0",
-          "FormersListed": "false",
-          "TotalCompGT150K": "false",
-          "CompensationFromOtherSources": "false",
-          "NumberOfContractorsGT100K": "0",
-          "GovernmentGrants": "112500",
-          "AllOtherContributions": "84050",
-          "TotalContributions": "196550",
-          "TotalProgramServiceRevenue": "0",
-          "GrossSalesOfInventory": "1071",
-          "CostOfGoodsSold": "1469",
-          "TotalOtherRevenue": "0",
-          "FollowSFAS117": "X",
           "ReconcilationRevenueExpenses": "135711",
           "MethodOfAccountingCash": "X",
           "AccountantCompileOrReview": "false",
           "FSAudited": "false",
           "FederalGrantAuditRequired": "false"
         },
+        "IRS990ScheduleA@documentId": "IRS990ScheduleA",
+        "IRS990ScheduleA@softwareId": "12000229",
+        "IRS990ScheduleA@softwareVersion": "2012v2.0",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg170b1Avi": "X",
           "GiftsGrantsContribReceived170": {
             "CurrentTaxYearMinus4Years": "256975",
             "CurrentTaxYearMinus3Years": "232146",
@@ -2078,6 +2089,8 @@
             "CurrentTaxYear": "196300",
             "Total": "1108665"
           },
+          "AmountsSubstContributorsTotal": "0",
+          "PublicSupportTotal170": "1108665",
           "GrossInvestmentIncome170": {
             "CurrentTaxYearMinus4Years": "154",
             "CurrentTaxYearMinus3Years": "140",
@@ -2090,32 +2103,35 @@
           "OtherIncome170": {
             "Total": "0"
           },
-          "PubliclySupportedOrg170b1Avi": "X",
-          "AmountsSubstContributorsTotal": "0",
-          "PublicSupportTotal170": "1108665",
           "TotalSupport": "1108972",
           "PublicSupportPertcentage170": "0.99970",
           "PublicSupportPertcentPriorYear": "0.99880",
           "ThirtyThreePercntTestsCY170": "X"
         },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "12000229",
+        "IRS990ScheduleD@softwareVersion": "2012v2.0",
         "IRS990ScheduleD": {
           "HeldWorksOfArtAmts": {
             "AssetsInPartX": "1555998"
           },
+          "CollectUsedForPublicExhibition": "X",
+          "CollectUsedForPreservation": "X",
+          "SolicitedAssetsForSale": "false",
           "OtherAssets": {
             "Description": "ART COLLECTION",
             "BookValue": "1555998"
           },
+          "TotalBookValueOtherAssets": "1555998",
           "Form990ScheduleDPartXIII": {
             "Identifier": "Part III, Line 4",
             "ReturnReference": "Part III, Line 4: Description of organization's collections and how it furthers its purpose.",
             "Explanation": "The organization is dedicated to bringing public art to Naperville to add beauty to the town, build community and bridge generations by paying tribute to Naperville's 100 years of history through a diverse collection of murals, mosaics, reliefs, sculptures, and other public arts. The collection currently consists of pieces of public art on permanent outdoor display which represent the history of Naperville and expand the body of artwork throughout Naperville."
-          },
-          "CollectUsedForPublicExhibition": "X",
-          "CollectUsedForPreservation": "X",
-          "SolicitedAssetsForSale": "false",
-          "TotalBookValueOtherAssets": "1555998"
+          }
         },
+        "IRS990ScheduleL@documentId": "IRS990ScheduleL",
+        "IRS990ScheduleL@softwareId": "12000229",
+        "IRS990ScheduleL@softwareVersion": "2012v2.0",
         "IRS990ScheduleL": {
           "Form990ScheduleLPartIV": [
             {
@@ -2140,6 +2156,9 @@
             }
           ]
         },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "12000229",
+        "IRS990ScheduleO@softwareVersion": "2012v2.0",
         "IRS990ScheduleO": {
           "GeneralExplanation": [
             {
@@ -2153,33 +2172,19 @@
               "Explanation": "THE ORGANIZATION'S TREASURER WILL REVIEW THE FORM 990 PRIOR TO FILING."
             }
           ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "12000229",
-        "IRS990@softwareVersion": "2012v2.0",
-        "IRS990ScheduleA@documentId": "IRS990ScheduleA",
-        "IRS990ScheduleA@softwareId": "12000229",
-        "IRS990ScheduleA@softwareVersion": "2012v2.0",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "12000229",
-        "IRS990ScheduleD@softwareVersion": "2012v2.0",
-        "IRS990ScheduleL@documentId": "IRS990ScheduleL",
-        "IRS990ScheduleL@softwareId": "12000229",
-        "IRS990ScheduleL@softwareVersion": "2012v2.0",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "12000229",
-        "IRS990ScheduleO@softwareVersion": "2012v2.0"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "5"
-    },
-    "Return@returnVersion": "2012v2.0"
+        }
+      }
+    }
   },
   "201312": {
+    "Return@returnVersion": "2013v3.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2014-05-14T15:28:05-05:00",
+        "TaxPeriodEndDt": "2013-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "363244618",
           "PreparerFirmName": {
             "BusinessNameLine1": "BIK & CO LLP"
           },
@@ -2188,22 +2193,23 @@
             "City": "BURR RIDGE",
             "State": "IL",
             "ZIPCode": "60527"
-          },
-          "PreparerFirmEIN": "363244618"
+          }
         },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2013-01-01",
         "Filer": {
+          "EIN": "364201074",
           "BusinessName": {
             "BusinessNameLine1": "CENTURY WALK CORPORATION CO W BRAND BOBOSKY"
           },
+          "BusinessNameControlTxt": "CENT",
+          "PhoneNum": "6303555553",
           "USAddress": {
             "AddressLine1": "34 W CHICAGO AVE NO B",
             "City": "NAPERVILLE",
             "State": "IL",
             "ZIPCode": "60540"
-          },
-          "EIN": "364201074",
-          "BusinessNameControlTxt": "CENT",
-          "PhoneNum": "6303555553"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "DON WEBER",
@@ -2218,247 +2224,19 @@
           "PhoneNum": "6306548350",
           "PreparationDt": "2014-05-14"
         },
-        "ReturnTs": "2014-05-14T15:28:05-05:00",
-        "TaxPeriodEndDt": "2013-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2013-01-01",
         "TaxYr": "2013",
         "BuildTS": "2016-02-25 16:41:14Z"
       },
+      "ReturnData@documentCount": "6",
       "ReturnData": {
+        "IRS990@documentId": "RetDoc1038000001",
+        "IRS990@referenceDocumentId": "RetDoc1044400001",
         "IRS990": {
           "USAddress": {
             "AddressLine1": "34 W CHICAGO AVE NO B",
             "City": "NAPERVILLE",
             "State": "IL",
             "ZIPCode": "60540"
-          },
-          "ProgSrvcAccomActy2Grp": {
-            "ExpenseAmt": "977",
-            "Desc": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE."
-          },
-          "ProgSrvcAccomActy3Grp": {
-            "ExpenseAmt": "275",
-            "Desc": "PARADE ADMITTANCE FEE"
-          },
-          "BooksInCareOfDetail": {
-            "BusinessName": {
-              "BusinessNameLine1": "DON WEBER TREASURER"
-            },
-            "USAddress": {
-              "AddressLine1": "2105 CAMELLIA CT",
-              "City": "NAPERVILLE",
-              "State": "IL",
-              "ZIPCode": "60540"
-            },
-            "PhoneNum": "6303939494"
-          },
-          "Form990PartVIISectionAGrp": [
-            {
-              "PersonNm": "W BRAND BOBOSKY",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "20.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "OfficerInd": "X",
-              "ReportableCompFromOrgAmt": "30000",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "KATHY CHANNELL",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "STEVE COATES",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "SUE MC CARTHY",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "STEVE HYETT",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "PAT PHILLIPS",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "PAT SCHMITT",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "WILL SMITH",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "ROY GRUNDY",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "DON WEBER",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "10.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "OfficerInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "BETTYE WEHRLI",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "JOHN T HIGGINS",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            }
-          ],
-          "NetIncomeOrLossGrp": {
-            "TotalRevenueColumnAmt": "80",
-            "RelatedOrExemptFuncIncomeAmt": "80"
-          },
-          "TotalRevenueGrp": {
-            "TotalRevenueColumnAmt": "313531",
-            "RelatedOrExemptFuncIncomeAmt": "80",
-            "UnrelatedBusinessRevenueAmt": "0",
-            "ExclusionAmt": "0"
-          },
-          "CompCurrentOfcrDirectorsGrp": {
-            "TotalAmt": "30000",
-            "ManagementAndGeneralAmt": "30000"
-          },
-          "FeesForServicesAccountingGrp": {
-            "TotalAmt": "1550",
-            "ManagementAndGeneralAmt": "1550"
-          },
-          "AdvertisingGrp": {
-            "TotalAmt": "6898",
-            "ProgramServicesAmt": "6898"
-          },
-          "OfficeExpensesGrp": {
-            "TotalAmt": "127",
-            "ManagementAndGeneralAmt": "127"
-          },
-          "OccupancyGrp": {
-            "TotalAmt": "12000",
-            "ManagementAndGeneralAmt": "12000"
-          },
-          "OtherExpensesGrp": [
-            {
-              "Desc": "CLERICAL SERVICES",
-              "TotalAmt": "10336",
-              "ManagementAndGeneralAmt": "10336"
-            },
-            {
-              "Desc": "WEB HOSTING",
-              "TotalAmt": "3030",
-              "ManagementAndGeneralAmt": "3030"
-            },
-            {
-              "Desc": "PRINTING",
-              "TotalAmt": "1308",
-              "ManagementAndGeneralAmt": "1308"
-            },
-            {
-              "Desc": "REPAIRS & MAINTENANCE",
-              "TotalAmt": "977",
-              "ProgramServicesAmt": "977"
-            }
-          ],
-          "AllOtherExpensesGrp": {
-            "TotalAmt": "1557",
-            "ProgramServicesAmt": "275",
-            "ManagementAndGeneralAmt": "1282"
-          },
-          "TotalFunctionalExpensesGrp": {
-            "TotalAmt": "67783",
-            "ProgramServicesAmt": "8150",
-            "ManagementAndGeneralAmt": "59633",
-            "FundraisingAmt": "0"
-          },
-          "CashNonInterestBearingGrp": {
-            "BOYAmt": "13324",
-            "EOYAmt": "53468"
-          },
-          "InventoriesForSaleOrUseGrp": {
-            "BOYAmt": "46850",
-            "EOYAmt": "46850"
-          },
-          "OtherAssetsTotalGrp": {
-            "BOYAmt": "1555998",
-            "EOYAmt": "1761602"
-          },
-          "TotalAssetsGrp": {
-            "BOYAmt": "1616172",
-            "EOYAmt": "1861920"
-          },
-          "TotalLiabilitiesGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "UnrestrictedNetAssetsGrp": {
-            "BOYAmt": "1616172",
-            "EOYAmt": "1861920"
-          },
-          "TotalNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1616172",
-            "EOYAmt": "1861920"
-          },
-          "TotLiabNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1616172",
-            "EOYAmt": "1861920"
           },
           "GrossReceiptsAmt": "313531",
           "GroupReturnForAffiliatesInd": "0",
@@ -2510,6 +2288,14 @@
           "SignificantChangeInd": "0",
           "ExpenseAmt": "6898",
           "Desc": "ADVERTISING COSTS FOR ARTWORK DEDICATIONS",
+          "ProgSrvcAccomActy2Grp": {
+            "ExpenseAmt": "977",
+            "Desc": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE."
+          },
+          "ProgSrvcAccomActy3Grp": {
+            "ExpenseAmt": "275",
+            "Desc": "PARADE ADMITTANCE FEE"
+          },
           "TotalProgramServiceExpensesAmt": "8150",
           "DescribedInSection501c3Ind@referenceDocumentId": "RetDoc1039100001",
           "DescribedInSection501c3Ind": "1",
@@ -2616,229 +2402,17 @@
           "InvestmentInJointVentureInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "IL",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "30000",
-          "TotReportableCompRltdOrgAmt": "0",
-          "TotalOtherCompensationAmt": "0",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "0",
-          "TotalCompGreaterThan150KInd": "0",
-          "CompensationFromOtherSrcsInd": "0",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "GovernmentGrantsAmt": "226481",
-          "AllOtherContributionsAmt": "86970",
-          "TotalContributionsAmt": "313451",
-          "GrossSalesOfInventoryAmt": "80",
-          "CostOfGoodsSoldAmt": "0",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "245748",
-          "OtherChangesInNetAssetsAmt": "0",
-          "MethodOfAccountingCashInd": "X",
-          "AccountantCompileOrReviewInd": "0",
-          "FSAuditedInd": "0",
-          "FederalGrantAuditRequiredInd": "0"
-        },
-        "IRS990ScheduleA": {
-          "GiftsGrantsContriRcvd170Grp": {
-            "CurrentTaxYearMinus4YearsAmt": "232146",
-            "CurrentTaxYearMinus3YearsAmt": "192829",
-            "CurrentTaxYearMinus2YearsAmt": "230415",
-            "CurrentTaxYearMinus1YearAmt": "196300",
-            "CurrentTaxYearAmt": "313451",
-            "TotalAmt": "1165141"
-          },
-          "TotalCalendarYear170Grp": {
-            "CurrentTaxYearMinus4YearsAmt": "232146",
-            "CurrentTaxYearMinus3YearsAmt": "192829",
-            "CurrentTaxYearMinus2YearsAmt": "230415",
-            "CurrentTaxYearMinus1YearAmt": "196300",
-            "CurrentTaxYearAmt": "313451",
-            "TotalAmt": "1165141"
-          },
-          "GrossInvestmentIncome170Grp": {
-            "CurrentTaxYearMinus4YearsAmt": "140",
-            "CurrentTaxYearMinus3YearsAmt": "13",
-            "TotalAmt": "153"
-          },
-          "PublicOrganization170Ind": "X",
-          "PublicSupportTotal170Amt": "1165141",
-          "TotalSupportAmt": "1165294",
-          "GrossReceiptsRltdActivitiesAmt": "26623",
-          "PublicSupportCY170Pct": "0.99990",
-          "PublicSupportPY170Pct": "0.99980",
-          "ThirtyThrPctSuprtTestsCY170Ind": "X"
-        },
-        "IRS990ScheduleB": {
-          "ContributorInformationGrp": {
-            "ContributorBusinessName": {
-              "BusinessNameLine1": "RESTRICTED"
-            },
-            "ContributorUSAddress": {
-              "AddressLine1": "RESTRICTED",
-              "AddressLine2": "RESTRICTED",
-              "City": "RESTRICTED",
-              "State": "RESTRICTED",
-              "ZIPCode": "RESTRICTED"
-            },
-            "ContributorNum": "RESTRICTED",
-            "TotalContributionsAmt": "RESTRICTED"
-          }
-        },
-        "IRS990ScheduleD": {
-          "HeldWorksArtGrp": {
-            "AssetsIncludedAmt": "1761602"
-          },
-          "OtherAssetsOrgGrp": {
-            "Desc": "ART COLLECTION",
-            "BookValueAmt": "1761602"
-          },
-          "SupplementalInformationDetail": {
-            "FormAndLineReferenceDesc": "PART III, LINE 4:",
-            "ExplanationTxt": "THE ORGANIZATION IS DEDICATED TO BRINGING PUBLIC ART TO NAPERVILLE TO ADD BEAUTY TO THE TOWN, BUILD COMMUNITY AND BRIDGE GENERATIONS BY PAYING TRIBUTE TO NAPERVILLE'S 100 YEARS OF HISTORY THROUGH A DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES, AND OTHER PUBLIC ARTS. THE COLLECTION CONSISTS OF FORTY-FIVE (45) PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY WHICH REPRESENT THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT NAPERVILLE."
-          },
-          "CollectionUsedPubExhibitionInd": "X",
-          "CollectionUsedPreservationInd": "X",
-          "CollUsedLoanOrExchProgInd": "X",
-          "SolicitedAssetsSaleInd": "0",
-          "TotalBookValueLandBuildingsAmt": "0",
-          "TotalBookValueOtherAssetsAmt": "1761602"
-        },
-        "IRS990ScheduleL": {
-          "BusTrInvolveInterestedPrsnGrp": [
-            {
-              "NameOfInterested": {
-                "PersonNm": "W BRAND BOBOSKY"
-              },
-              "RelationshipDescriptionTxt": "OFFICER",
-              "TransactionAmt": "30000",
-              "TransactionDesc": "MANAGEMENT FEE",
-              "SharingOfRevenuesInd": "0"
-            },
-            {
-              "NameOfInterested": {
-                "BusinessName": {
-                  "BusinessNameLine1": "BRAND REALTY"
-                }
-              },
-              "RelationshipDescriptionTxt": "OFFICER",
-              "TransactionAmt": "12000",
-              "TransactionDesc": "PROPERTY RENTAL",
-              "SharingOfRevenuesInd": "0"
-            }
-          ]
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION A, LINE 2",
-              "ExplanationTxt": "REFER TO SCHEDULE L."
-            },
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION A, LINE 7A",
-              "ExplanationTxt": "DIRECTORS HAVE THE POWER TO ELECT NEW DIRECTORS TO THE GOVERNING BODY AS PEOPLE RESIGN AND POSTITIONS NEED TO BE REFILLED."
-            },
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION B, LINE 11",
-              "ExplanationTxt": "A DRAFT COPY OF THE FORM 990 IS PROVIDED TO THE PRESIDENT/CHAIRMAN OF THE BOARD OF THE ORGANIZATION FOR REVIEW AND DISCUSSION PURPOSES."
-            },
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION C, LINE 19",
-              "ExplanationTxt": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
-            }
-          ]
-        },
-        "IRS990@documentId": "RetDoc1038000001",
-        "IRS990@referenceDocumentId": "RetDoc1044400001",
-        "IRS990ScheduleA@documentId": "RetDoc1039100001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "IRS990ScheduleD@documentId": "RetDoc1039900001",
-        "IRS990ScheduleL@documentId": "RetDoc1042800001",
-        "IRS990ScheduleO@documentId": "RetDoc1044400001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCount": "6"
-    },
-    "Return@returnVersion": "2013v3.0"
-  },
-  "201412": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "BIK & CO LLP"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "7600 S COUNTY LINE RD STE 6",
-            "CityNm": "BURR RIDGE",
-            "StateAbbreviationCd": "IL",
-            "ZIPCd": "60527"
-          },
-          "PreparerFirmEIN": "363244618"
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "CENTURY WALK CORPORATION CO W BRAND BOBOSKY"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
-            "CityNm": "NAPERVILLE",
-            "StateAbbreviationCd": "IL",
-            "ZIPCd": "605405302"
-          },
-          "EIN": "364201074",
-          "BusinessNameControlTxt": "CENT",
-          "PhoneNum": "6303555553"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "DON WEBER",
-          "PersonTitleTxt": "DIRECTOR",
-          "PhoneNum": "6303555553",
-          "SignatureDt": "2015-07-07",
-          "DiscussWithPaidPreparerInd": "1"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "THOMAS J DAVEY",
-          "PTIN": "P00152978",
-          "PhoneNum": "6306548350",
-          "PreparationDt": "2015-07-07"
-        },
-        "ReturnTs": "2015-07-13T15:50:10-05:00",
-        "TaxPeriodEndDt": "2014-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2014-01-01",
-        "TaxYr": "2014",
-        "BuildTS": "2016-03-07 17:11:31Z"
-      },
-      "ReturnData": {
-        "IRS990": {
-          "USAddress": {
-            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
-            "CityNm": "NAPERVILLE",
-            "StateAbbreviationCd": "IL",
-            "ZIPCd": "605405302"
-          },
-          "ProgSrvcAccomActy2Grp": {
-            "ExpenseAmt": "2764",
-            "Desc": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE."
-          },
-          "ProgSrvcAccomActy3Grp": {
-            "ExpenseAmt": "1519",
-            "Desc": "DEDICATIONS"
-          },
-          "ProgSrvcAccomActyOtherGrp": {
-            "ExpenseAmt": "1198",
-            "Desc": "PRINTING AND COPYING"
-          },
           "BooksInCareOfDetail": {
             "BusinessName": {
-              "BusinessNameLine1Txt": "DON WEBER TREASURER"
+              "BusinessNameLine1": "DON WEBER TREASURER"
             },
+            "PhoneNum": "6303939494",
             "USAddress": {
-              "AddressLine1Txt": "2105 CAMELLIA CT",
-              "CityNm": "NAPERVILLE",
-              "StateAbbreviationCd": "IL",
-              "ZIPCd": "605405302"
-            },
-            "PhoneNum": "6303939494"
+              "AddressLine1": "2105 CAMELLIA CT",
+              "City": "NAPERVILLE",
+              "State": "IL",
+              "ZIPCode": "60540"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -2952,13 +2526,26 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "30000",
+          "TotReportableCompRltdOrgAmt": "0",
+          "TotalOtherCompensationAmt": "0",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "0",
+          "TotalCompGreaterThan150KInd": "0",
+          "CompensationFromOtherSrcsInd": "0",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "GovernmentGrantsAmt": "226481",
+          "AllOtherContributionsAmt": "86970",
+          "TotalContributionsAmt": "313451",
+          "GrossSalesOfInventoryAmt": "80",
+          "CostOfGoodsSoldAmt": "0",
           "NetIncomeOrLossGrp": {
-            "TotalRevenueColumnAmt": "-175",
-            "RelatedOrExemptFuncIncomeAmt": "-175"
+            "TotalRevenueColumnAmt": "80",
+            "RelatedOrExemptFuncIncomeAmt": "80"
           },
           "TotalRevenueGrp": {
-            "TotalRevenueColumnAmt": "217310",
-            "RelatedOrExemptFuncIncomeAmt": "-175",
+            "TotalRevenueColumnAmt": "313531",
+            "RelatedOrExemptFuncIncomeAmt": "80",
             "UnrelatedBusinessRevenueAmt": "0",
             "ExclusionAmt": "0"
           },
@@ -2967,16 +2554,16 @@
             "ManagementAndGeneralAmt": "30000"
           },
           "FeesForServicesAccountingGrp": {
-            "TotalAmt": "2550",
-            "ManagementAndGeneralAmt": "2550"
+            "TotalAmt": "1550",
+            "ManagementAndGeneralAmt": "1550"
           },
           "AdvertisingGrp": {
-            "TotalAmt": "6415",
-            "ProgramServicesAmt": "6415"
+            "TotalAmt": "6898",
+            "ProgramServicesAmt": "6898"
           },
           "OfficeExpensesGrp": {
-            "TotalAmt": "120",
-            "ManagementAndGeneralAmt": "120"
+            "TotalAmt": "127",
+            "ManagementAndGeneralAmt": "127"
           },
           "OccupancyGrp": {
             "TotalAmt": "12000",
@@ -2985,71 +2572,254 @@
           "OtherExpensesGrp": [
             {
               "Desc": "CLERICAL SERVICES",
-              "TotalAmt": "9085",
-              "ManagementAndGeneralAmt": "9085"
-            },
-            {
-              "Desc": "REPAIRS & MAINTENANCE",
-              "TotalAmt": "2764",
-              "ProgramServicesAmt": "2764"
+              "TotalAmt": "10336",
+              "ManagementAndGeneralAmt": "10336"
             },
             {
               "Desc": "WEB HOSTING",
-              "TotalAmt": "2350",
-              "ManagementAndGeneralAmt": "2350"
+              "TotalAmt": "3030",
+              "ManagementAndGeneralAmt": "3030"
             },
             {
-              "Desc": "DEDICATIONS",
-              "TotalAmt": "1519",
-              "ProgramServicesAmt": "1519"
+              "Desc": "PRINTING",
+              "TotalAmt": "1308",
+              "ManagementAndGeneralAmt": "1308"
+            },
+            {
+              "Desc": "REPAIRS & MAINTENANCE",
+              "TotalAmt": "977",
+              "ProgramServicesAmt": "977"
             }
           ],
           "AllOtherExpensesGrp": {
-            "TotalAmt": "2091",
-            "ProgramServicesAmt": "1198",
-            "ManagementAndGeneralAmt": "893"
+            "TotalAmt": "1557",
+            "ProgramServicesAmt": "275",
+            "ManagementAndGeneralAmt": "1282"
           },
           "TotalFunctionalExpensesGrp": {
-            "TotalAmt": "68894",
-            "ProgramServicesAmt": "11896",
-            "ManagementAndGeneralAmt": "56998",
+            "TotalAmt": "67783",
+            "ProgramServicesAmt": "8150",
+            "ManagementAndGeneralAmt": "59633",
             "FundraisingAmt": "0"
           },
           "CashNonInterestBearingGrp": {
-            "BOYAmt": "53468",
-            "EOYAmt": "28230"
+            "BOYAmt": "13324",
+            "EOYAmt": "53468"
           },
           "InventoriesForSaleOrUseGrp": {
             "BOYAmt": "46850",
-            "EOYAmt": "45975"
+            "EOYAmt": "46850"
           },
           "OtherAssetsTotalGrp": {
-            "BOYAmt": "1761602",
-            "EOYAmt": "1917302"
+            "BOYAmt": "1555998",
+            "EOYAmt": "1761602"
           },
           "TotalAssetsGrp": {
-            "BOYAmt": "1861920",
-            "EOYAmt": "1991507"
-          },
-          "DeferredRevenueGrp": {
-            "BOYAmt": "62994",
-            "EOYAmt": "44165"
+            "BOYAmt": "1616172",
+            "EOYAmt": "1861920"
           },
           "TotalLiabilitiesGrp": {
-            "BOYAmt": "62994",
-            "EOYAmt": "44165"
+            "BOYAmt": "0",
+            "EOYAmt": "0"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
-            "BOYAmt": "1798926",
-            "EOYAmt": "1947342"
+            "BOYAmt": "1616172",
+            "EOYAmt": "1861920"
           },
           "TotalNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1798926",
-            "EOYAmt": "1947342"
+            "BOYAmt": "1616172",
+            "EOYAmt": "1861920"
           },
           "TotLiabNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1861920",
-            "EOYAmt": "1991507"
+            "BOYAmt": "1616172",
+            "EOYAmt": "1861920"
+          },
+          "ReconcilationRevenueExpnssAmt": "245748",
+          "OtherChangesInNetAssetsAmt": "0",
+          "MethodOfAccountingCashInd": "X",
+          "AccountantCompileOrReviewInd": "0",
+          "FSAuditedInd": "0",
+          "FederalGrantAuditRequiredInd": "0"
+        },
+        "IRS990ScheduleA@documentId": "RetDoc1039100001",
+        "IRS990ScheduleA": {
+          "PublicOrganization170Ind": "X",
+          "GiftsGrantsContriRcvd170Grp": {
+            "CurrentTaxYearMinus4YearsAmt": "232146",
+            "CurrentTaxYearMinus3YearsAmt": "192829",
+            "CurrentTaxYearMinus2YearsAmt": "230415",
+            "CurrentTaxYearMinus1YearAmt": "196300",
+            "CurrentTaxYearAmt": "313451",
+            "TotalAmt": "1165141"
+          },
+          "TotalCalendarYear170Grp": {
+            "CurrentTaxYearMinus4YearsAmt": "232146",
+            "CurrentTaxYearMinus3YearsAmt": "192829",
+            "CurrentTaxYearMinus2YearsAmt": "230415",
+            "CurrentTaxYearMinus1YearAmt": "196300",
+            "CurrentTaxYearAmt": "313451",
+            "TotalAmt": "1165141"
+          },
+          "PublicSupportTotal170Amt": "1165141",
+          "GrossInvestmentIncome170Grp": {
+            "CurrentTaxYearMinus4YearsAmt": "140",
+            "CurrentTaxYearMinus3YearsAmt": "13",
+            "TotalAmt": "153"
+          },
+          "TotalSupportAmt": "1165294",
+          "GrossReceiptsRltdActivitiesAmt": "26623",
+          "PublicSupportCY170Pct": "0.99990",
+          "PublicSupportPY170Pct": "0.99980",
+          "ThirtyThrPctSuprtTestsCY170Ind": "X"
+        },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
+        "IRS990ScheduleB": {
+          "ContributorInformationGrp": {
+            "ContributorNum": "RESTRICTED",
+            "ContributorBusinessName": {
+              "BusinessNameLine1": "RESTRICTED"
+            },
+            "ContributorUSAddress": {
+              "AddressLine1": "RESTRICTED",
+              "AddressLine2": "RESTRICTED",
+              "City": "RESTRICTED",
+              "State": "RESTRICTED",
+              "ZIPCode": "RESTRICTED"
+            },
+            "TotalContributionsAmt": "RESTRICTED"
+          }
+        },
+        "IRS990ScheduleD@documentId": "RetDoc1039900001",
+        "IRS990ScheduleD": {
+          "HeldWorksArtGrp": {
+            "AssetsIncludedAmt": "1761602"
+          },
+          "CollectionUsedPubExhibitionInd": "X",
+          "CollectionUsedPreservationInd": "X",
+          "CollUsedLoanOrExchProgInd": "X",
+          "SolicitedAssetsSaleInd": "0",
+          "TotalBookValueLandBuildingsAmt": "0",
+          "OtherAssetsOrgGrp": {
+            "Desc": "ART COLLECTION",
+            "BookValueAmt": "1761602"
+          },
+          "TotalBookValueOtherAssetsAmt": "1761602",
+          "SupplementalInformationDetail": {
+            "FormAndLineReferenceDesc": "PART III, LINE 4:",
+            "ExplanationTxt": "THE ORGANIZATION IS DEDICATED TO BRINGING PUBLIC ART TO NAPERVILLE TO ADD BEAUTY TO THE TOWN, BUILD COMMUNITY AND BRIDGE GENERATIONS BY PAYING TRIBUTE TO NAPERVILLE'S 100 YEARS OF HISTORY THROUGH A DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES, AND OTHER PUBLIC ARTS. THE COLLECTION CONSISTS OF FORTY-FIVE (45) PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY WHICH REPRESENT THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT NAPERVILLE."
+          }
+        },
+        "IRS990ScheduleL@documentId": "RetDoc1042800001",
+        "IRS990ScheduleL": {
+          "BusTrInvolveInterestedPrsnGrp": [
+            {
+              "NameOfInterested": {
+                "PersonNm": "W BRAND BOBOSKY"
+              },
+              "RelationshipDescriptionTxt": "OFFICER",
+              "TransactionAmt": "30000",
+              "TransactionDesc": "MANAGEMENT FEE",
+              "SharingOfRevenuesInd": "0"
+            },
+            {
+              "NameOfInterested": {
+                "BusinessName": {
+                  "BusinessNameLine1": "BRAND REALTY"
+                }
+              },
+              "RelationshipDescriptionTxt": "OFFICER",
+              "TransactionAmt": "12000",
+              "TransactionDesc": "PROPERTY RENTAL",
+              "SharingOfRevenuesInd": "0"
+            }
+          ]
+        },
+        "IRS990ScheduleO@documentId": "RetDoc1044400001",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION A, LINE 2",
+              "ExplanationTxt": "REFER TO SCHEDULE L."
+            },
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION A, LINE 7A",
+              "ExplanationTxt": "DIRECTORS HAVE THE POWER TO ELECT NEW DIRECTORS TO THE GOVERNING BODY AS PEOPLE RESIGN AND POSTITIONS NEED TO BE REFILLED."
+            },
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION B, LINE 11",
+              "ExplanationTxt": "A DRAFT COPY OF THE FORM 990 IS PROVIDED TO THE PRESIDENT/CHAIRMAN OF THE BOARD OF THE ORGANIZATION FOR REVIEW AND DISCUSSION PURPOSES."
+            },
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION C, LINE 19",
+              "ExplanationTxt": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201412": {
+    "Return@returnVersion": "2014v5.0",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2015-07-13T15:50:10-05:00",
+        "TaxPeriodEndDt": "2014-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmEIN": "363244618",
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "BIK & CO LLP"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "7600 S COUNTY LINE RD STE 6",
+            "CityNm": "BURR RIDGE",
+            "StateAbbreviationCd": "IL",
+            "ZIPCd": "60527"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2014-01-01",
+        "Filer": {
+          "EIN": "364201074",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "CENTURY WALK CORPORATION CO W BRAND BOBOSKY"
+          },
+          "BusinessNameControlTxt": "CENT",
+          "PhoneNum": "6303555553",
+          "USAddress": {
+            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
+            "CityNm": "NAPERVILLE",
+            "StateAbbreviationCd": "IL",
+            "ZIPCd": "605405302"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "DON WEBER",
+          "PersonTitleTxt": "DIRECTOR",
+          "PhoneNum": "6303555553",
+          "SignatureDt": "2015-07-07",
+          "DiscussWithPaidPreparerInd": "1"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "THOMAS J DAVEY",
+          "PTIN": "P00152978",
+          "PhoneNum": "6306548350",
+          "PreparationDt": "2015-07-07"
+        },
+        "TaxYr": "2014",
+        "BuildTS": "2016-03-07 17:11:31Z"
+      },
+      "ReturnData@documentCnt": "6",
+      "ReturnData": {
+        "IRS990@documentId": "RetDoc1038000001",
+        "IRS990@referenceDocumentId": "RetDoc1044400001",
+        "IRS990": {
+          "USAddress": {
+            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
+            "CityNm": "NAPERVILLE",
+            "StateAbbreviationCd": "IL",
+            "ZIPCd": "605405302"
           },
           "GrossReceiptsAmt": "218185",
           "GroupReturnForAffiliatesInd": "0",
@@ -3102,6 +2872,18 @@
           "SignificantChangeInd": "0",
           "ExpenseAmt": "6415",
           "Desc": "ADVERTISING COSTS FOR ARTWORK DEDICATIONS",
+          "ProgSrvcAccomActy2Grp": {
+            "ExpenseAmt": "2764",
+            "Desc": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE."
+          },
+          "ProgSrvcAccomActy3Grp": {
+            "ExpenseAmt": "1519",
+            "Desc": "DEDICATIONS"
+          },
+          "ProgSrvcAccomActyOtherGrp": {
+            "ExpenseAmt": "1198",
+            "Desc": "PRINTING AND COPYING"
+          },
           "TotalOtherProgSrvcExpenseAmt": "1198",
           "TotalProgramServiceExpensesAmt": "11896",
           "DescribedInSection501c3Ind@referenceDocumentId": "RetDoc1039100001",
@@ -3209,225 +2991,17 @@
           "InvestmentInJointVentureInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "IL",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "30000",
-          "TotReportableCompRltdOrgAmt": "0",
-          "TotalOtherCompensationAmt": "0",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "0",
-          "TotalCompGreaterThan150KInd": "0",
-          "CompensationFromOtherSrcsInd": "0",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "GovernmentGrantsAmt": "151325",
-          "AllOtherContributionsAmt": "66160",
-          "TotalContributionsAmt": "217485",
-          "GrossSalesOfInventoryAmt": "700",
-          "CostOfGoodsSoldAmt": "875",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "148416",
-          "OtherChangesInNetAssetsAmt": "0",
-          "MethodOfAccountingAccrualInd": "X",
-          "AccountantCompileOrReviewInd": "0",
-          "FSAuditedInd": "0",
-          "FederalGrantAuditRequiredInd": "0"
-        },
-        "IRS990ScheduleA": {
-          "GiftsGrantsContriRcvd170Grp": {
-            "CurrentTaxYearMinus4YearsAmt": "192829",
-            "CurrentTaxYearMinus3YearsAmt": "230415",
-            "CurrentTaxYearMinus2YearsAmt": "196300",
-            "CurrentTaxYearMinus1YearAmt": "250457",
-            "CurrentTaxYearAmt": "217485",
-            "TotalAmt": "1087486"
-          },
-          "TotalCalendarYear170Grp": {
-            "CurrentTaxYearMinus4YearsAmt": "192829",
-            "CurrentTaxYearMinus3YearsAmt": "230415",
-            "CurrentTaxYearMinus2YearsAmt": "196300",
-            "CurrentTaxYearMinus1YearAmt": "250457",
-            "CurrentTaxYearAmt": "217485",
-            "TotalAmt": "1087486"
-          },
-          "GrossInvestmentIncome170Grp": {
-            "CurrentTaxYearMinus4YearsAmt": "13",
-            "TotalAmt": "13"
-          },
-          "PublicOrganization170Ind": "X",
-          "PublicSupportTotal170Amt": "1087486",
-          "TotalSupportAmt": "1087499",
-          "GrossReceiptsRltdActivitiesAmt": "27233",
-          "PublicSupportCY170Pct": "1.00000",
-          "PublicSupportPY170Pct": "0.99990",
-          "ThirtyThrPctSuprtTestsCY170Ind": "X"
-        },
-        "IRS990ScheduleB": {
-          "ContributorInformationGrp": {
-            "ContributorBusinessName": {
-              "BusinessNameLine1": "RESTRICTED"
-            },
-            "ContributorUSAddress": {
-              "AddressLine1": "RESTRICTED",
-              "AddressLine2": "RESTRICTED",
-              "City": "RESTRICTED",
-              "State": "RESTRICTED",
-              "ZIPCode": "RESTRICTED"
-            },
-            "ContributorNum": "RESTRICTED",
-            "TotalContributionsAmt": "RESTRICTED"
-          }
-        },
-        "IRS990ScheduleD": {
-          "HeldWorksArtGrp": {
-            "RevenuesIncludedAmt": "217485",
-            "AssetsIncludedAmt": "1917302"
-          },
-          "OtherAssetsOrgGrp": {
-            "Desc": "ART COLLECTION",
-            "BookValueAmt": "1917302"
-          },
-          "SupplementalInformationDetail": {
-            "FormAndLineReferenceDesc": "PART III, LINE 4:",
-            "ExplanationTxt": "THE ORGANIZATION IS DEDICATED TO BRINGING PUBLIC ART TO NAPERVILLE TO ADD BEAUTY TO THE TOWN, BUILD COMMUNITY AND BRIDGE GENERATIONS BY PAYING TRIBUTE TO NAPERVILLE'S 100 YEARS OF HISTORY THROUGH A DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES, AND OTHER PUBLIC ARTS. THE COLLECTION CONSISTS OF THIRTY-ONE (31) PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY WHICH REPRESENT THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT NAPERVILLE."
-          },
-          "CollectionUsedPubExhibitionInd": "X",
-          "CollectionUsedPreservationInd": "X",
-          "CollUsedLoanOrExchProgInd": "X",
-          "SolicitedAssetsSaleInd": "0",
-          "TotalBookValueLandBuildingsAmt": "0",
-          "TotalBookValueOtherAssetsAmt": "1917302"
-        },
-        "IRS990ScheduleL": {
-          "BusTrInvolveInterestedPrsnGrp": [
-            {
-              "NameOfInterested": {
-                "PersonNm": "W BRAND BOBOSKY"
-              },
-              "RelationshipDescriptionTxt": "OFFICER",
-              "TransactionAmt": "30000",
-              "TransactionDesc": "MANAGEMENT FEE",
-              "SharingOfRevenuesInd": "0"
-            },
-            {
-              "NameOfInterested": {
-                "BusinessName": {
-                  "BusinessNameLine1Txt": "BRAND REALTY"
-                }
-              },
-              "RelationshipDescriptionTxt": "OFFICER",
-              "TransactionAmt": "12000",
-              "TransactionDesc": "PROPERTY RENTAL",
-              "SharingOfRevenuesInd": "0"
-            }
-          ]
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION A, LINE 7A",
-              "ExplanationTxt": "DIRECTORS HAVE THE POWER TO ELECT NEW DIRECTORS TO THE GOVERNING BODY AS PEOPLE RESIGN AND POSTITIONS NEED TO BE REFILLED."
-            },
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION B, LINE 11",
-              "ExplanationTxt": "A DRAFT COPY OF THE FORM 990 IS PROVIDED TO THE PRESIDENT/CHAIRMAN OF THE BOARD OF THE ORGANIZATION FOR REVIEW AND DISCUSSION PURPOSES."
-            },
-            {
-              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION C, LINE 19",
-              "ExplanationTxt": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
-            }
-          ]
-        },
-        "IRS990@documentId": "RetDoc1038000001",
-        "IRS990@referenceDocumentId": "RetDoc1044400001",
-        "IRS990ScheduleA@documentId": "RetDoc1039100001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "IRS990ScheduleD@documentId": "RetDoc1039900001",
-        "IRS990ScheduleL@documentId": "RetDoc1042800001",
-        "IRS990ScheduleO@documentId": "RetDoc1044400001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "6"
-    },
-    "Return@returnVersion": "2014v5.0"
-  },
-  "201512": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "BIK & CO LLP"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "7600 S COUNTY LINE RD STE 6",
-            "CityNm": "BURR RIDGE",
-            "StateAbbreviationCd": "IL",
-            "ZIPCd": "60527"
-          },
-          "PreparerFirmEIN": "363244618"
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "CENTURY WALK CORPORATION",
-            "BusinessNameLine2Txt": "C/O W BRAND BOBOSKY"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
-            "CityNm": "NAPERVILLE",
-            "StateAbbreviationCd": "IL",
-            "ZIPCd": "605405302"
-          },
-          "EIN": "364201074",
-          "BusinessNameControlTxt": "CENT",
-          "PhoneNum": "6303555553"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "DON WEBER",
-          "PersonTitleTxt": "DIRECTOR",
-          "PhoneNum": "6303555553",
-          "SignatureDt": "2016-05-12",
-          "DiscussWithPaidPreparerInd": "1"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "THOMAS J DAVEY",
-          "PTIN": "P00152978",
-          "PhoneNum": "6306548350"
-        },
-        "ReturnTs": "2016-05-16T08:22:54-05:00",
-        "TaxPeriodEndDt": "2015-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2015-01-01",
-        "TaxYr": "2015",
-        "BuildTS": "2016-12-15 16:53:06Z"
-      },
-      "ReturnData": {
-        "IRS990": {
-          "USAddress": {
-            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
-            "CityNm": "NAPERVILLE",
-            "StateAbbreviationCd": "IL",
-            "ZIPCd": "605405302"
-          },
-          "ProgSrvcAccomActy2Grp": {
-            "ExpenseAmt": "4000",
-            "Desc": "ADVERTISING COSTS FOR ARTWORK DEDICATIONS"
-          },
-          "ProgSrvcAccomActy3Grp": {
-            "ExpenseAmt": "2057",
-            "Desc": "PRINTING."
-          },
-          "ProgSrvcAccomActyOtherGrp": {
-            "ExpenseAmt": "2000",
-            "Desc": "PROPOSAL STIPENDS TO ARTISTS FOR NEW ARTWORK."
-          },
           "BooksInCareOfDetail": {
             "BusinessName": {
               "BusinessNameLine1Txt": "DON WEBER TREASURER"
             },
+            "PhoneNum": "6303939494",
             "USAddress": {
               "AddressLine1Txt": "2105 CAMELLIA CT",
               "CityNm": "NAPERVILLE",
               "StateAbbreviationCd": "IL",
               "ZIPCd": "605405302"
-            },
-            "PhoneNum": "6303939494"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -3436,7 +3010,16 @@
               "AverageHoursPerWeekRt": "20.00",
               "IndividualTrusteeOrDirectorInd": "X",
               "OfficerInd": "X",
-              "ReportableCompFromOrgAmt": "20000",
+              "ReportableCompFromOrgAmt": "30000",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "KATHY CHANNELL",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
               "ReportableCompFromRltdOrgAmt": "0",
               "OtherCompensationAmt": "0"
             },
@@ -3450,7 +3033,34 @@
               "OtherCompensationAmt": "0"
             },
             {
+              "PersonNm": "SUE MC CARTHY",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
               "PersonNm": "STEVE HYETT",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "PAT PHILLIPS",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "PAT SCHMITT",
               "TitleTxt": "DIRECTOR",
               "AverageHoursPerWeekRt": "0.50",
               "IndividualTrusteeOrDirectorInd": "X",
@@ -3494,101 +3104,311 @@
               "ReportableCompFromOrgAmt": "0",
               "ReportableCompFromRltdOrgAmt": "0",
               "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "JOHN T HIGGINS",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "30000",
+          "TotReportableCompRltdOrgAmt": "0",
+          "TotalOtherCompensationAmt": "0",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "0",
+          "TotalCompGreaterThan150KInd": "0",
+          "CompensationFromOtherSrcsInd": "0",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "GovernmentGrantsAmt": "151325",
+          "AllOtherContributionsAmt": "66160",
+          "TotalContributionsAmt": "217485",
+          "GrossSalesOfInventoryAmt": "700",
+          "CostOfGoodsSoldAmt": "875",
+          "NetIncomeOrLossGrp": {
+            "TotalRevenueColumnAmt": "-175",
+            "RelatedOrExemptFuncIncomeAmt": "-175"
+          },
           "TotalRevenueGrp": {
-            "TotalRevenueColumnAmt": "137193",
-            "RelatedOrExemptFuncIncomeAmt": "0",
+            "TotalRevenueColumnAmt": "217310",
+            "RelatedOrExemptFuncIncomeAmt": "-175",
             "UnrelatedBusinessRevenueAmt": "0",
             "ExclusionAmt": "0"
           },
           "CompCurrentOfcrDirectorsGrp": {
-            "TotalAmt": "20000",
-            "ManagementAndGeneralAmt": "20000"
+            "TotalAmt": "30000",
+            "ManagementAndGeneralAmt": "30000"
           },
           "FeesForServicesAccountingGrp": {
-            "TotalAmt": "1650",
-            "ManagementAndGeneralAmt": "1650"
+            "TotalAmt": "2550",
+            "ManagementAndGeneralAmt": "2550"
           },
           "AdvertisingGrp": {
-            "TotalAmt": "4000",
-            "ProgramServicesAmt": "4000"
+            "TotalAmt": "6415",
+            "ProgramServicesAmt": "6415"
           },
           "OfficeExpensesGrp": {
-            "TotalAmt": "102",
-            "ManagementAndGeneralAmt": "102"
+            "TotalAmt": "120",
+            "ManagementAndGeneralAmt": "120"
           },
           "OccupancyGrp": {
-            "TotalAmt": "16000",
-            "ManagementAndGeneralAmt": "16000"
+            "TotalAmt": "12000",
+            "ManagementAndGeneralAmt": "12000"
           },
           "OtherExpensesGrp": [
             {
-              "Desc": "REPAIRS & MAINTENANCE",
-              "TotalAmt": "52641",
-              "ProgramServicesAmt": "52641"
-            },
-            {
               "Desc": "CLERICAL SERVICES",
-              "TotalAmt": "15006",
-              "ManagementAndGeneralAmt": "15006"
+              "TotalAmt": "9085",
+              "ManagementAndGeneralAmt": "9085"
             },
             {
-              "Desc": "PRINTING",
-              "TotalAmt": "2057",
-              "ProgramServicesAmt": "2057"
+              "Desc": "REPAIRS & MAINTENANCE",
+              "TotalAmt": "2764",
+              "ProgramServicesAmt": "2764"
             },
             {
-              "Desc": "PROPOSAL STIPEND",
-              "TotalAmt": "2000",
-              "ProgramServicesAmt": "2000"
+              "Desc": "WEB HOSTING",
+              "TotalAmt": "2350",
+              "ManagementAndGeneralAmt": "2350"
+            },
+            {
+              "Desc": "DEDICATIONS",
+              "TotalAmt": "1519",
+              "ProgramServicesAmt": "1519"
             }
           ],
           "AllOtherExpensesGrp": {
-            "TotalAmt": "2774",
-            "ManagementAndGeneralAmt": "2774"
+            "TotalAmt": "2091",
+            "ProgramServicesAmt": "1198",
+            "ManagementAndGeneralAmt": "893"
           },
           "TotalFunctionalExpensesGrp": {
-            "TotalAmt": "116230",
-            "ProgramServicesAmt": "60698",
-            "ManagementAndGeneralAmt": "55532",
+            "TotalAmt": "68894",
+            "ProgramServicesAmt": "11896",
+            "ManagementAndGeneralAmt": "56998",
             "FundraisingAmt": "0"
           },
           "CashNonInterestBearingGrp": {
-            "BOYAmt": "28230",
-            "EOYAmt": "13391"
+            "BOYAmt": "53468",
+            "EOYAmt": "28230"
           },
           "InventoriesForSaleOrUseGrp": {
-            "BOYAmt": "45975",
+            "BOYAmt": "46850",
             "EOYAmt": "45975"
           },
           "OtherAssetsTotalGrp": {
-            "BOYAmt": "1917302",
-            "EOYAmt": "1949772"
+            "BOYAmt": "1761602",
+            "EOYAmt": "1917302"
           },
           "TotalAssetsGrp": {
-            "BOYAmt": "1991507",
-            "EOYAmt": "2009138"
+            "BOYAmt": "1861920",
+            "EOYAmt": "1991507"
           },
           "DeferredRevenueGrp": {
-            "BOYAmt": "44165",
-            "EOYAmt": "40833"
+            "BOYAmt": "62994",
+            "EOYAmt": "44165"
           },
           "TotalLiabilitiesGrp": {
-            "BOYAmt": "44165",
-            "EOYAmt": "40833"
+            "BOYAmt": "62994",
+            "EOYAmt": "44165"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
-            "BOYAmt": "1947342",
-            "EOYAmt": "1968305"
+            "BOYAmt": "1798926",
+            "EOYAmt": "1947342"
           },
           "TotalNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1947342",
-            "EOYAmt": "1968305"
+            "BOYAmt": "1798926",
+            "EOYAmt": "1947342"
           },
           "TotLiabNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1991507",
-            "EOYAmt": "2009138"
+            "BOYAmt": "1861920",
+            "EOYAmt": "1991507"
+          },
+          "ReconcilationRevenueExpnssAmt": "148416",
+          "OtherChangesInNetAssetsAmt": "0",
+          "MethodOfAccountingAccrualInd": "X",
+          "AccountantCompileOrReviewInd": "0",
+          "FSAuditedInd": "0",
+          "FederalGrantAuditRequiredInd": "0"
+        },
+        "IRS990ScheduleA@documentId": "RetDoc1039100001",
+        "IRS990ScheduleA": {
+          "PublicOrganization170Ind": "X",
+          "GiftsGrantsContriRcvd170Grp": {
+            "CurrentTaxYearMinus4YearsAmt": "192829",
+            "CurrentTaxYearMinus3YearsAmt": "230415",
+            "CurrentTaxYearMinus2YearsAmt": "196300",
+            "CurrentTaxYearMinus1YearAmt": "250457",
+            "CurrentTaxYearAmt": "217485",
+            "TotalAmt": "1087486"
+          },
+          "TotalCalendarYear170Grp": {
+            "CurrentTaxYearMinus4YearsAmt": "192829",
+            "CurrentTaxYearMinus3YearsAmt": "230415",
+            "CurrentTaxYearMinus2YearsAmt": "196300",
+            "CurrentTaxYearMinus1YearAmt": "250457",
+            "CurrentTaxYearAmt": "217485",
+            "TotalAmt": "1087486"
+          },
+          "PublicSupportTotal170Amt": "1087486",
+          "GrossInvestmentIncome170Grp": {
+            "CurrentTaxYearMinus4YearsAmt": "13",
+            "TotalAmt": "13"
+          },
+          "TotalSupportAmt": "1087499",
+          "GrossReceiptsRltdActivitiesAmt": "27233",
+          "PublicSupportCY170Pct": "1.00000",
+          "PublicSupportPY170Pct": "0.99990",
+          "ThirtyThrPctSuprtTestsCY170Ind": "X"
+        },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
+        "IRS990ScheduleB": {
+          "ContributorInformationGrp": {
+            "ContributorNum": "RESTRICTED",
+            "ContributorBusinessName": {
+              "BusinessNameLine1": "RESTRICTED"
+            },
+            "ContributorUSAddress": {
+              "AddressLine1": "RESTRICTED",
+              "AddressLine2": "RESTRICTED",
+              "City": "RESTRICTED",
+              "State": "RESTRICTED",
+              "ZIPCode": "RESTRICTED"
+            },
+            "TotalContributionsAmt": "RESTRICTED"
+          }
+        },
+        "IRS990ScheduleD@documentId": "RetDoc1039900001",
+        "IRS990ScheduleD": {
+          "HeldWorksArtGrp": {
+            "RevenuesIncludedAmt": "217485",
+            "AssetsIncludedAmt": "1917302"
+          },
+          "CollectionUsedPubExhibitionInd": "X",
+          "CollectionUsedPreservationInd": "X",
+          "CollUsedLoanOrExchProgInd": "X",
+          "SolicitedAssetsSaleInd": "0",
+          "TotalBookValueLandBuildingsAmt": "0",
+          "OtherAssetsOrgGrp": {
+            "Desc": "ART COLLECTION",
+            "BookValueAmt": "1917302"
+          },
+          "TotalBookValueOtherAssetsAmt": "1917302",
+          "SupplementalInformationDetail": {
+            "FormAndLineReferenceDesc": "PART III, LINE 4:",
+            "ExplanationTxt": "THE ORGANIZATION IS DEDICATED TO BRINGING PUBLIC ART TO NAPERVILLE TO ADD BEAUTY TO THE TOWN, BUILD COMMUNITY AND BRIDGE GENERATIONS BY PAYING TRIBUTE TO NAPERVILLE'S 100 YEARS OF HISTORY THROUGH A DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES, AND OTHER PUBLIC ARTS. THE COLLECTION CONSISTS OF THIRTY-ONE (31) PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY WHICH REPRESENT THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT NAPERVILLE."
+          }
+        },
+        "IRS990ScheduleL@documentId": "RetDoc1042800001",
+        "IRS990ScheduleL": {
+          "BusTrInvolveInterestedPrsnGrp": [
+            {
+              "NameOfInterested": {
+                "PersonNm": "W BRAND BOBOSKY"
+              },
+              "RelationshipDescriptionTxt": "OFFICER",
+              "TransactionAmt": "30000",
+              "TransactionDesc": "MANAGEMENT FEE",
+              "SharingOfRevenuesInd": "0"
+            },
+            {
+              "NameOfInterested": {
+                "BusinessName": {
+                  "BusinessNameLine1Txt": "BRAND REALTY"
+                }
+              },
+              "RelationshipDescriptionTxt": "OFFICER",
+              "TransactionAmt": "12000",
+              "TransactionDesc": "PROPERTY RENTAL",
+              "SharingOfRevenuesInd": "0"
+            }
+          ]
+        },
+        "IRS990ScheduleO@documentId": "RetDoc1044400001",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION A, LINE 7A",
+              "ExplanationTxt": "DIRECTORS HAVE THE POWER TO ELECT NEW DIRECTORS TO THE GOVERNING BODY AS PEOPLE RESIGN AND POSTITIONS NEED TO BE REFILLED."
+            },
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION B, LINE 11",
+              "ExplanationTxt": "A DRAFT COPY OF THE FORM 990 IS PROVIDED TO THE PRESIDENT/CHAIRMAN OF THE BOARD OF THE ORGANIZATION FOR REVIEW AND DISCUSSION PURPOSES."
+            },
+            {
+              "FormAndLineReferenceDesc": "FORM 990, PART VI, SECTION C, LINE 19",
+              "ExplanationTxt": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201512": {
+    "Return@returnVersion": "2015v2.1",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2016-05-16T08:22:54-05:00",
+        "TaxPeriodEndDt": "2015-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmEIN": "363244618",
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "BIK & CO LLP"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "7600 S COUNTY LINE RD STE 6",
+            "CityNm": "BURR RIDGE",
+            "StateAbbreviationCd": "IL",
+            "ZIPCd": "60527"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2015-01-01",
+        "Filer": {
+          "EIN": "364201074",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "CENTURY WALK CORPORATION",
+            "BusinessNameLine2Txt": "C/O W BRAND BOBOSKY"
+          },
+          "BusinessNameControlTxt": "CENT",
+          "PhoneNum": "6303555553",
+          "USAddress": {
+            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
+            "CityNm": "NAPERVILLE",
+            "StateAbbreviationCd": "IL",
+            "ZIPCd": "605405302"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "DON WEBER",
+          "PersonTitleTxt": "DIRECTOR",
+          "PhoneNum": "6303555553",
+          "SignatureDt": "2016-05-12",
+          "DiscussWithPaidPreparerInd": "1"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "THOMAS J DAVEY",
+          "PTIN": "P00152978",
+          "PhoneNum": "6306548350"
+        },
+        "TaxYr": "2015",
+        "BuildTS": "2016-12-15 16:53:06Z"
+      },
+      "ReturnData@documentCnt": "6",
+      "ReturnData": {
+        "IRS990@documentId": "RetDoc1038000001",
+        "IRS990@referenceDocumentId": "RetDoc1044400001",
+        "IRS990": {
+          "USAddress": {
+            "AddressLine1Txt": "34 W CHICAGO AVE NO B",
+            "CityNm": "NAPERVILLE",
+            "StateAbbreviationCd": "IL",
+            "ZIPCd": "605405302"
           },
           "GrossReceiptsAmt": "137193",
           "GroupReturnForAffiliatesInd": "0",
@@ -3641,6 +3461,18 @@
           "SignificantChangeInd": "0",
           "ExpenseAmt": "52641",
           "Desc": "PAYMENTS TO SERVICE PROVIDERS WHO MAINTAIN THE ARTWORK FOR THE BENEFIT OF THE PUBLIC AT LARGE.",
+          "ProgSrvcAccomActy2Grp": {
+            "ExpenseAmt": "4000",
+            "Desc": "ADVERTISING COSTS FOR ARTWORK DEDICATIONS"
+          },
+          "ProgSrvcAccomActy3Grp": {
+            "ExpenseAmt": "2057",
+            "Desc": "PRINTING."
+          },
+          "ProgSrvcAccomActyOtherGrp": {
+            "ExpenseAmt": "2000",
+            "Desc": "PROPOSAL STIPENDS TO ARTISTS FOR NEW ARTWORK."
+          },
           "TotalOtherProgSrvcExpenseAmt": "2000",
           "TotalProgramServiceExpensesAmt": "60698",
           "DescribedInSection501c3Ind@referenceDocumentId": "RetDoc1039100001",
@@ -3748,6 +3580,85 @@
           "InvestmentInJointVentureInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "IL",
           "UponRequestInd": "X",
+          "BooksInCareOfDetail": {
+            "BusinessName": {
+              "BusinessNameLine1Txt": "DON WEBER TREASURER"
+            },
+            "PhoneNum": "6303939494",
+            "USAddress": {
+              "AddressLine1Txt": "2105 CAMELLIA CT",
+              "CityNm": "NAPERVILLE",
+              "StateAbbreviationCd": "IL",
+              "ZIPCd": "605405302"
+            }
+          },
+          "Form990PartVIISectionAGrp": [
+            {
+              "PersonNm": "W BRAND BOBOSKY",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "20.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "OfficerInd": "X",
+              "ReportableCompFromOrgAmt": "20000",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "STEVE COATES",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "STEVE HYETT",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "WILL SMITH",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "ROY GRUNDY",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "DON WEBER",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "10.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "OfficerInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "BETTYE WEHRLI",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            }
+          ],
           "TotalReportableCompFromOrgAmt": "20000",
           "TotReportableCompRltdOrgAmt": "0",
           "TotalOtherCompensationAmt": "0",
@@ -3759,7 +3670,101 @@
           "GovernmentGrantsAmt": "125833",
           "AllOtherContributionsAmt": "11360",
           "TotalContributionsAmt": "137193",
+          "TotalRevenueGrp": {
+            "TotalRevenueColumnAmt": "137193",
+            "RelatedOrExemptFuncIncomeAmt": "0",
+            "UnrelatedBusinessRevenueAmt": "0",
+            "ExclusionAmt": "0"
+          },
+          "CompCurrentOfcrDirectorsGrp": {
+            "TotalAmt": "20000",
+            "ManagementAndGeneralAmt": "20000"
+          },
+          "FeesForServicesAccountingGrp": {
+            "TotalAmt": "1650",
+            "ManagementAndGeneralAmt": "1650"
+          },
+          "AdvertisingGrp": {
+            "TotalAmt": "4000",
+            "ProgramServicesAmt": "4000"
+          },
+          "OfficeExpensesGrp": {
+            "TotalAmt": "102",
+            "ManagementAndGeneralAmt": "102"
+          },
+          "OccupancyGrp": {
+            "TotalAmt": "16000",
+            "ManagementAndGeneralAmt": "16000"
+          },
+          "OtherExpensesGrp": [
+            {
+              "Desc": "REPAIRS & MAINTENANCE",
+              "TotalAmt": "52641",
+              "ProgramServicesAmt": "52641"
+            },
+            {
+              "Desc": "CLERICAL SERVICES",
+              "TotalAmt": "15006",
+              "ManagementAndGeneralAmt": "15006"
+            },
+            {
+              "Desc": "PRINTING",
+              "TotalAmt": "2057",
+              "ProgramServicesAmt": "2057"
+            },
+            {
+              "Desc": "PROPOSAL STIPEND",
+              "TotalAmt": "2000",
+              "ProgramServicesAmt": "2000"
+            }
+          ],
+          "AllOtherExpensesGrp": {
+            "TotalAmt": "2774",
+            "ManagementAndGeneralAmt": "2774"
+          },
+          "TotalFunctionalExpensesGrp": {
+            "TotalAmt": "116230",
+            "ProgramServicesAmt": "60698",
+            "ManagementAndGeneralAmt": "55532",
+            "FundraisingAmt": "0"
+          },
+          "CashNonInterestBearingGrp": {
+            "BOYAmt": "28230",
+            "EOYAmt": "13391"
+          },
+          "InventoriesForSaleOrUseGrp": {
+            "BOYAmt": "45975",
+            "EOYAmt": "45975"
+          },
+          "OtherAssetsTotalGrp": {
+            "BOYAmt": "1917302",
+            "EOYAmt": "1949772"
+          },
+          "TotalAssetsGrp": {
+            "BOYAmt": "1991507",
+            "EOYAmt": "2009138"
+          },
+          "DeferredRevenueGrp": {
+            "BOYAmt": "44165",
+            "EOYAmt": "40833"
+          },
+          "TotalLiabilitiesGrp": {
+            "BOYAmt": "44165",
+            "EOYAmt": "40833"
+          },
           "OrganizationFollowsSFAS117Ind": "X",
+          "UnrestrictedNetAssetsGrp": {
+            "BOYAmt": "1947342",
+            "EOYAmt": "1968305"
+          },
+          "TotalNetAssetsFundBalanceGrp": {
+            "BOYAmt": "1947342",
+            "EOYAmt": "1968305"
+          },
+          "TotLiabNetAssetsFundBalanceGrp": {
+            "BOYAmt": "1991507",
+            "EOYAmt": "2009138"
+          },
           "ReconcilationRevenueExpnssAmt": "20963",
           "OtherChangesInNetAssetsAmt": "0",
           "MethodOfAccountingAccrualInd": "X",
@@ -3767,7 +3772,9 @@
           "FSAuditedInd": "0",
           "FederalGrantAuditRequiredInd": "0"
         },
+        "IRS990ScheduleA@documentId": "RetDoc1039100001",
         "IRS990ScheduleA": {
+          "PublicOrganization170Ind": "X",
           "GiftsGrantsContriRcvd170Grp": {
             "CurrentTaxYearMinus4YearsAmt": "230415",
             "CurrentTaxYearMinus3YearsAmt": "196300",
@@ -3784,7 +3791,6 @@
             "CurrentTaxYearAmt": "178026",
             "TotalAmt": "1072683"
           },
-          "PublicOrganization170Ind": "X",
           "PublicSupportTotal170Amt": "1072683",
           "TotalSupportAmt": "1072683",
           "GrossReceiptsRltdActivitiesAmt": "4695",
@@ -3792,8 +3798,10 @@
           "PublicSupportPY170Pct": "1.00000",
           "ThirtyThrPctSuprtTestsCY170Ind": "X"
         },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
         "IRS990ScheduleB": {
           "ContributorInformationGrp": {
+            "ContributorNum": "RESTRICTED",
             "ContributorBusinessName": {
               "BusinessNameLine1": "RESTRICTED"
             },
@@ -3804,30 +3812,31 @@
               "State": "RESTRICTED",
               "ZIPCode": "RESTRICTED"
             },
-            "ContributorNum": "RESTRICTED",
             "TotalContributionsAmt": "RESTRICTED"
           }
         },
+        "IRS990ScheduleD@documentId": "RetDoc1039900001",
         "IRS990ScheduleD": {
           "HeldWorksArtGrp": {
             "RevenuesIncludedAmt": "137193",
             "AssetsIncludedAmt": "1949772"
-          },
-          "OtherAssetsOrgGrp": {
-            "Desc": "ART COLLECTION",
-            "BookValueAmt": "1949772"
-          },
-          "SupplementalInformationDetail": {
-            "FormAndLineReferenceDesc": "PART III, LINE 4:",
-            "ExplanationTxt": "THE ORGANIZATION IS DEDICATED TO BRINGING PUBLIC ART TO NAPERVILLE TO ADD BEAUTY TO THE TOWN, BUILD COMMUNITY AND BRIDGE GENERATIONS BY PAYING TRIBUTE TO NAPERVILLE'S 100 YEARS OF HISTORY THROUGH A DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES, AND OTHER PUBLIC ARTS. THE COLLECTION CONSISTS OF THIRTY-ONE (31) PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY WHICH REPRESENT THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT NAPERVILLE."
           },
           "CollectionUsedPubExhibitionInd": "X",
           "CollectionUsedPreservationInd": "X",
           "CollUsedLoanOrExchProgInd": "X",
           "SolicitedAssetsSaleInd": "0",
           "TotalBookValueLandBuildingsAmt": "0",
-          "TotalBookValueOtherAssetsAmt": "1949772"
+          "OtherAssetsOrgGrp": {
+            "Desc": "ART COLLECTION",
+            "BookValueAmt": "1949772"
+          },
+          "TotalBookValueOtherAssetsAmt": "1949772",
+          "SupplementalInformationDetail": {
+            "FormAndLineReferenceDesc": "PART III, LINE 4:",
+            "ExplanationTxt": "THE ORGANIZATION IS DEDICATED TO BRINGING PUBLIC ART TO NAPERVILLE TO ADD BEAUTY TO THE TOWN, BUILD COMMUNITY AND BRIDGE GENERATIONS BY PAYING TRIBUTE TO NAPERVILLE'S 100 YEARS OF HISTORY THROUGH A DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES, AND OTHER PUBLIC ARTS. THE COLLECTION CONSISTS OF THIRTY-ONE (31) PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY WHICH REPRESENT THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT NAPERVILLE."
+          }
         },
+        "IRS990ScheduleL@documentId": "RetDoc1042800001",
         "IRS990ScheduleL": {
           "BusTrInvolveInterestedPrsnGrp": [
             {
@@ -3852,6 +3861,7 @@
             }
           ]
         },
+        "IRS990ScheduleO@documentId": "RetDoc1044400001",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -3867,24 +3877,19 @@
               "ExplanationTxt": "THE GOVERNING DOCUMENTS, POLICIES AND FINANCIAL STATEMENTS ARE AVAILABLE UPON WRITTEN REQUEST."
             }
           ]
-        },
-        "IRS990@documentId": "RetDoc1038000001",
-        "IRS990@referenceDocumentId": "RetDoc1044400001",
-        "IRS990ScheduleA@documentId": "RetDoc1039100001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "IRS990ScheduleD@documentId": "RetDoc1039900001",
-        "IRS990ScheduleL@documentId": "RetDoc1042800001",
-        "IRS990ScheduleO@documentId": "RetDoc1044400001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "6"
-    },
-    "Return@returnVersion": "2015v2.1"
+        }
+      }
+    }
   },
   "201612": {
+    "Return@returnVersion": "2016v3.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2017-08-22T14:38:48-04:00",
+        "TaxPeriodEndDt": "2016-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "731692583",
           "PreparerFirmName": {
             "BusinessNameLine1Txt": "Buth Group Ltd"
           },
@@ -3893,21 +3898,22 @@
             "CityNm": "Naperville",
             "StateAbbreviationCd": "IL",
             "ZIPCd": "605631673"
-          },
-          "PreparerFirmEIN": "731692583"
+          }
         },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2016-01-01",
         "Filer": {
+          "EIN": "364201074",
           "BusinessName": {
             "BusinessNameLine1Txt": "CENTURY WALK CORPORATION"
           },
+          "BusinessNameControlTxt": "CENT",
           "USAddress": {
             "AddressLine1Txt": "34 WEST CHICAGO AVE",
             "CityNm": "NAPERVILLE",
             "StateAbbreviationCd": "IL",
             "ZIPCd": "605405302"
-          },
-          "EIN": "364201074",
-          "BusinessNameControlTxt": "CENT"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "W BRAND BOBOSKY",
@@ -3934,208 +3940,15 @@
           "AtSubmissionCreationDeviceId": "DB495D405484FE6CE51F10286CB8030CAC4C9C10",
           "AtSubmissionFilingDeviceId": "DB495D405484FE6CE51F10286CB8030CAC4C9C10"
         },
-        "ReturnTs": "2017-08-22T14:38:48-04:00",
-        "TaxPeriodEndDt": "2016-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2016-01-01",
         "TaxYr": "2016",
         "BuildTS": "2017-02-10 21:41:12Z"
       },
+      "ReturnData@documentCnt": "6",
       "ReturnData": {
+        "IRS990@documentId": "IRS990",
         "IRS990": {
           "DoingBusinessAsName": {
             "BusinessNameLine1Txt": "CO W BRAND BOBOSKY"
-          },
-          "BooksInCareOfDetail": {
-            "USAddress": {
-              "AddressLine1Txt": "34 WEST CHICAGO AVE",
-              "CityNm": "NAPERVILLE",
-              "StateAbbreviationCd": "IL",
-              "ZIPCd": "605405302"
-            },
-            "PersonNm": "BRAND BOBOSKY",
-            "PhoneNum": "6306548350"
-          },
-          "Form990PartVIISectionAGrp": [
-            {
-              "PersonNm": "W BRAND BOBOSKY",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "20.00",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "OfficerInd": "X",
-              "ReportableCompFromOrgAmt": "30000",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "STEVE COATES",
-              "TitleTxt": "DIRECTOR RESIGNED 52016",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "STEVE HYETT",
-              "TitleTxt": "DIRECTOR RESIGNED 52016",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "WILL SMITH",
-              "TitleTxt": "DIRECTOR RESIGNED 52016",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "ROY GRUNDY",
-              "TitleTxt": "DIRECTOR RESIGNED 52016",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "DON WEBER",
-              "TitleTxt": "DIRECTOR RESIGNED 52016",
-              "AverageHoursPerWeekRt": "5.00",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "BETTYE WEHRLI",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "BART VITTORI",
-              "TitleTxt": "DIRECTOR EFFECTIVE 102016",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            }
-          ],
-          "OtherRevenueMiscGrp": {
-            "Desc": "INSURANCE REIMBURSEMENT",
-            "BusinessCd": "900099",
-            "TotalRevenueColumnAmt": "109681",
-            "RelatedOrExemptFuncIncomeAmt": "109681"
-          },
-          "TotalRevenueGrp": {
-            "TotalRevenueColumnAmt": "273564",
-            "RelatedOrExemptFuncIncomeAmt": "109681",
-            "UnrelatedBusinessRevenueAmt": "0",
-            "ExclusionAmt": "0"
-          },
-          "CompCurrentOfcrDirectorsGrp": {
-            "TotalAmt": "40000",
-            "ManagementAndGeneralAmt": "40000"
-          },
-          "FeesForServicesLegalGrp": {
-            "TotalAmt": "293",
-            "ManagementAndGeneralAmt": "293"
-          },
-          "FeesForServicesAccountingGrp": {
-            "TotalAmt": "1650",
-            "ManagementAndGeneralAmt": "1650"
-          },
-          "FeesForServicesOtherGrp": {
-            "TotalAmt": "13635",
-            "ManagementAndGeneralAmt": "13635"
-          },
-          "AdvertisingGrp": {
-            "TotalAmt": "31650",
-            "ProgramServicesAmt": "31650"
-          },
-          "OfficeExpensesGrp": {
-            "TotalAmt": "1515",
-            "ProgramServicesAmt": "230",
-            "ManagementAndGeneralAmt": "1285"
-          },
-          "InformationTechnologyGrp": {
-            "TotalAmt": "500",
-            "ManagementAndGeneralAmt": "500"
-          },
-          "OccupancyGrp": {
-            "TotalAmt": "8000",
-            "ManagementAndGeneralAmt": "8000"
-          },
-          "OtherExpensesGrp": [
-            {
-              "Desc": "BANK FEES",
-              "TotalAmt": "5",
-              "ManagementAndGeneralAmt": "5"
-            },
-            {
-              "Desc": "STATE FEES",
-              "TotalAmt": "15",
-              "ManagementAndGeneralAmt": "15"
-            }
-          ],
-          "TotalFunctionalExpensesGrp": {
-            "TotalAmt": "97263",
-            "ProgramServicesAmt": "31880",
-            "ManagementAndGeneralAmt": "65383",
-            "FundraisingAmt": "0"
-          },
-          "CashNonInterestBearingGrp": {
-            "BOYAmt": "13391",
-            "EOYAmt": "99891"
-          },
-          "InventoriesForSaleOrUseGrp": {
-            "BOYAmt": "45975",
-            "EOYAmt": "15325"
-          },
-          "OtherAssetsTotalGrp": {
-            "BOYAmt": "1949772",
-            "EOYAmt": "2029390"
-          },
-          "TotalAssetsGrp": {
-            "BOYAmt": "2009138",
-            "EOYAmt": "2144606"
-          },
-          "DeferredRevenueGrp": {
-            "BOYAmt": "40833"
-          },
-          "TotalLiabilitiesGrp": {
-            "BOYAmt": "40833",
-            "EOYAmt": "0"
-          },
-          "UnrestrictedNetAssetsGrp": {
-            "BOYAmt": "1968305",
-            "EOYAmt": "2144606"
-          },
-          "TotalNetAssetsFundBalanceGrp": {
-            "BOYAmt": "1968305",
-            "EOYAmt": "2144606"
-          },
-          "TotLiabNetAssetsFundBalanceGrp": {
-            "BOYAmt": "2009138",
-            "EOYAmt": "2144606"
           },
           "PrincipalOfficerNm": "W BRAND BOBOSKY",
           "GrossReceiptsAmt": "273564",
@@ -4276,6 +4089,99 @@
           "InvestmentInJointVentureInd": "false",
           "StatesWhereCopyOfReturnIsFldCd": "IL",
           "UponRequestInd": "X",
+          "BooksInCareOfDetail": {
+            "PersonNm": "BRAND BOBOSKY",
+            "PhoneNum": "6306548350",
+            "USAddress": {
+              "AddressLine1Txt": "34 WEST CHICAGO AVE",
+              "CityNm": "NAPERVILLE",
+              "StateAbbreviationCd": "IL",
+              "ZIPCd": "605405302"
+            }
+          },
+          "Form990PartVIISectionAGrp": [
+            {
+              "PersonNm": "W BRAND BOBOSKY",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "20.00",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "OfficerInd": "X",
+              "ReportableCompFromOrgAmt": "30000",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "STEVE COATES",
+              "TitleTxt": "DIRECTOR RESIGNED 52016",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "STEVE HYETT",
+              "TitleTxt": "DIRECTOR RESIGNED 52016",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "WILL SMITH",
+              "TitleTxt": "DIRECTOR RESIGNED 52016",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "ROY GRUNDY",
+              "TitleTxt": "DIRECTOR RESIGNED 52016",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "DON WEBER",
+              "TitleTxt": "DIRECTOR RESIGNED 52016",
+              "AverageHoursPerWeekRt": "5.00",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "BETTYE WEHRLI",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "BART VITTORI",
+              "TitleTxt": "DIRECTOR EFFECTIVE 102016",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            }
+          ],
           "TotalReportableCompFromOrgAmt": "30000",
           "TotReportableCompRltdOrgAmt": "0",
           "TotalOtherCompensationAmt": "0",
@@ -4287,9 +4193,107 @@
           "GovernmentGrantsAmt": "111883",
           "AllOtherContributionsAmt": "52000",
           "TotalContributionsAmt": "163883",
+          "OtherRevenueMiscGrp": {
+            "Desc": "INSURANCE REIMBURSEMENT",
+            "BusinessCd": "900099",
+            "TotalRevenueColumnAmt": "109681",
+            "RelatedOrExemptFuncIncomeAmt": "109681"
+          },
           "OtherRevenueTotalAmt": "109681",
+          "TotalRevenueGrp": {
+            "TotalRevenueColumnAmt": "273564",
+            "RelatedOrExemptFuncIncomeAmt": "109681",
+            "UnrelatedBusinessRevenueAmt": "0",
+            "ExclusionAmt": "0"
+          },
           "InfoInScheduleOPartIXInd": "X",
+          "CompCurrentOfcrDirectorsGrp": {
+            "TotalAmt": "40000",
+            "ManagementAndGeneralAmt": "40000"
+          },
+          "FeesForServicesLegalGrp": {
+            "TotalAmt": "293",
+            "ManagementAndGeneralAmt": "293"
+          },
+          "FeesForServicesAccountingGrp": {
+            "TotalAmt": "1650",
+            "ManagementAndGeneralAmt": "1650"
+          },
+          "FeesForServicesOtherGrp": {
+            "TotalAmt": "13635",
+            "ManagementAndGeneralAmt": "13635"
+          },
+          "AdvertisingGrp": {
+            "TotalAmt": "31650",
+            "ProgramServicesAmt": "31650"
+          },
+          "OfficeExpensesGrp": {
+            "TotalAmt": "1515",
+            "ProgramServicesAmt": "230",
+            "ManagementAndGeneralAmt": "1285"
+          },
+          "InformationTechnologyGrp": {
+            "TotalAmt": "500",
+            "ManagementAndGeneralAmt": "500"
+          },
+          "OccupancyGrp": {
+            "TotalAmt": "8000",
+            "ManagementAndGeneralAmt": "8000"
+          },
+          "OtherExpensesGrp": [
+            {
+              "Desc": "BANK FEES",
+              "TotalAmt": "5",
+              "ManagementAndGeneralAmt": "5"
+            },
+            {
+              "Desc": "STATE FEES",
+              "TotalAmt": "15",
+              "ManagementAndGeneralAmt": "15"
+            }
+          ],
+          "TotalFunctionalExpensesGrp": {
+            "TotalAmt": "97263",
+            "ProgramServicesAmt": "31880",
+            "ManagementAndGeneralAmt": "65383",
+            "FundraisingAmt": "0"
+          },
+          "CashNonInterestBearingGrp": {
+            "BOYAmt": "13391",
+            "EOYAmt": "99891"
+          },
+          "InventoriesForSaleOrUseGrp": {
+            "BOYAmt": "45975",
+            "EOYAmt": "15325"
+          },
+          "OtherAssetsTotalGrp": {
+            "BOYAmt": "1949772",
+            "EOYAmt": "2029390"
+          },
+          "TotalAssetsGrp": {
+            "BOYAmt": "2009138",
+            "EOYAmt": "2144606"
+          },
+          "DeferredRevenueGrp": {
+            "BOYAmt": "40833"
+          },
+          "TotalLiabilitiesGrp": {
+            "BOYAmt": "40833",
+            "EOYAmt": "0"
+          },
           "OrganizationFollowsSFAS117Ind": "X",
+          "UnrestrictedNetAssetsGrp": {
+            "BOYAmt": "1968305",
+            "EOYAmt": "2144606"
+          },
+          "TotalNetAssetsFundBalanceGrp": {
+            "BOYAmt": "1968305",
+            "EOYAmt": "2144606"
+          },
+          "TotLiabNetAssetsFundBalanceGrp": {
+            "BOYAmt": "2009138",
+            "EOYAmt": "2144606"
+          },
           "ReconcilationRevenueExpnssAmt": "176301",
           "OtherChangesInNetAssetsAmt": "0",
           "MethodOfAccountingAccrualInd": "X",
@@ -4297,7 +4301,9 @@
           "FSAuditedInd": "false",
           "FederalGrantAuditRequiredInd": "false"
         },
+        "IRS990ScheduleA@documentId": "990A",
         "IRS990ScheduleA": {
+          "PublicOrganization170Ind": "X",
           "GiftsGrantsContriRcvd170Grp": {
             "CurrentTaxYearMinus4YearsAmt": "196300",
             "CurrentTaxYearMinus3YearsAmt": "250457",
@@ -4314,6 +4320,8 @@
             "CurrentTaxYearAmt": "273564",
             "TotalAmt": "1115832"
           },
+          "SubstantialContributorsTotAmt": "132298",
+          "PublicSupportTotal170Amt": "983534",
           "GrossInvestmentIncome170Grp": {
             "CurrentTaxYearMinus4YearsAmt": "196300",
             "CurrentTaxYearMinus3YearsAmt": "250457",
@@ -4322,16 +4330,15 @@
             "CurrentTaxYearAmt": "273564",
             "TotalAmt": "1115832"
           },
-          "PublicOrganization170Ind": "X",
-          "SubstantialContributorsTotAmt": "132298",
-          "PublicSupportTotal170Amt": "983534",
           "TotalSupportAmt": "2231664",
           "PublicSupportCY170Pct": "0.44070",
           "PublicSupportPY170Pct": "1.00000",
           "ThirtyThrPctSuprtTestsCY170Ind": "X"
         },
+        "IRS990ScheduleB@documentId": "990B",
         "IRS990ScheduleB": {
           "ContributorInformationGrp": {
+            "ContributorNum": "RESTRICTED",
             "ContributorBusinessName": {
               "BusinessNameLine1": "RESTRICTED"
             },
@@ -4342,29 +4349,30 @@
               "State": "RESTRICTED",
               "ZIPCode": "RESTRICTED"
             },
-            "ContributorNum": "RESTRICTED",
             "TotalContributionsAmt": "RESTRICTED"
           }
         },
+        "IRS990ScheduleD@documentId": "990D",
         "IRS990ScheduleD": {
           "ArtPublicExhibitionAmountsGrp": {
             "RevenuesIncludedAmt": "273564",
             "AssetsIncludedAmt": "2029390"
           },
-          "OtherAssetsOrgGrp": {
-            "Desc": "ART COLLECTION",
-            "BookValueAmt": "2029390"
-          },
-          "SupplementalInformationDetail": {
-            "FormAndLineReferenceDesc": "Collections descriptions (Part III, line 4)",
-            "ExplanationTxt": "THE COLLECTIONS CONSIST OF OVER THIRTY PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY. THE DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES AND OTHER PUBLIC ART REPRESENTS THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT THE CITY."
-          },
           "CollectionUsedPubExhibitionInd": "X",
           "CollectionUsedPreservationInd": "X",
           "CollUsedLoanOrExchProgInd": "X",
           "SolicitedAssetsSaleInd": "false",
-          "TotalBookValueOtherAssetsAmt": "2029390"
+          "OtherAssetsOrgGrp": {
+            "Desc": "ART COLLECTION",
+            "BookValueAmt": "2029390"
+          },
+          "TotalBookValueOtherAssetsAmt": "2029390",
+          "SupplementalInformationDetail": {
+            "FormAndLineReferenceDesc": "Collections descriptions (Part III, line 4)",
+            "ExplanationTxt": "THE COLLECTIONS CONSIST OF OVER THIRTY PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY. THE DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES AND OTHER PUBLIC ART REPRESENTS THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT THE CITY."
+          }
         },
+        "IRS990ScheduleL@documentId": "990L",
         "IRS990ScheduleL": {
           "BusTrInvolveInterestedPrsnGrp": [
             {
@@ -4387,6 +4395,7 @@
             }
           ]
         },
+        "IRS990ScheduleO@documentId": "990O",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -4410,23 +4419,19 @@
               "ExplanationTxt": "CLERICAL WORK INCLUDING ROUTINE DOCUMENTATION AND OTHER ADMINISTRATIVE TASKS: 13,635"
             }
           ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990ScheduleA@documentId": "990A",
-        "IRS990ScheduleB@documentId": "990B",
-        "IRS990ScheduleD@documentId": "990D",
-        "IRS990ScheduleL@documentId": "990L",
-        "IRS990ScheduleO@documentId": "990O"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "6"
-    },
-    "Return@returnVersion": "2016v3.0"
+        }
+      }
+    }
   },
   "201712": {
+    "Return@returnVersion": "2017v2.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2018-08-23T15:04:29-04:00",
+        "TaxPeriodEndDt": "2017-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "731692583",
           "PreparerFirmName": {
             "BusinessNameLine1Txt": "Buth Group Ltd"
           },
@@ -4435,21 +4440,22 @@
             "CityNm": "Naperville",
             "StateAbbreviationCd": "IL",
             "ZIPCd": "605631673"
-          },
-          "PreparerFirmEIN": "731692583"
+          }
         },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2017-01-01",
         "Filer": {
+          "EIN": "364201074",
           "BusinessName": {
             "BusinessNameLine1Txt": "CENTURY WALK CORPORATION"
           },
+          "BusinessNameControlTxt": "CENT",
           "USAddress": {
             "AddressLine1Txt": "34 WEST CHICAGO AVE",
             "CityNm": "NAPERVILLE",
             "StateAbbreviationCd": "IL",
             "ZIPCd": "605405302"
-          },
-          "EIN": "364201074",
-          "BusinessNameControlTxt": "CENT"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "BRAND BOBOWSKI",
@@ -4476,155 +4482,15 @@
           "AtSubmissionCreationDeviceId": "DB495D405484FE6CE51F10286CB8030CAC4C9C10",
           "AtSubmissionFilingDeviceId": "DB495D405484FE6CE51F10286CB8030CAC4C9C10"
         },
-        "ReturnTs": "2018-08-23T15:04:29-04:00",
-        "TaxPeriodEndDt": "2017-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2017-01-01",
         "TaxYr": "2017",
         "BuildTS": "2018-06-14 16:35:46Z"
       },
+      "ReturnData@documentCnt": "6",
       "ReturnData": {
+        "IRS990@documentId": "IRS990",
         "IRS990": {
           "DoingBusinessAsName": {
             "BusinessNameLine1Txt": "CO W BRAND BOBOSKY"
-          },
-          "BooksInCareOfDetail": {
-            "USAddress": {
-              "AddressLine1Txt": "34 WEST CHICAGO AVE",
-              "CityNm": "NAPERVILLE",
-              "StateAbbreviationCd": "IL",
-              "ZIPCd": "605405302"
-            },
-            "PersonNm": "BRAND BOBOSKY",
-            "PhoneNum": "6306548350"
-          },
-          "Form990PartVIISectionAGrp": [
-            {
-              "PersonNm": "W BRAND BOBOSKY",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "20.00",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "OfficerInd": "X",
-              "ReportableCompFromOrgAmt": "30000",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "BETTYE WEHRLI",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            },
-            {
-              "PersonNm": "BART VITTORI",
-              "TitleTxt": "DIRECTOR",
-              "AverageHoursPerWeekRt": "0.50",
-              "AverageHoursPerWeekRltdOrgRt": "0.00",
-              "IndividualTrusteeOrDirectorInd": "X",
-              "ReportableCompFromOrgAmt": "0",
-              "ReportableCompFromRltdOrgAmt": "0",
-              "OtherCompensationAmt": "0"
-            }
-          ],
-          "TotalRevenueGrp": {
-            "TotalRevenueColumnAmt": "175055",
-            "RelatedOrExemptFuncIncomeAmt": "0",
-            "UnrelatedBusinessRevenueAmt": "0",
-            "ExclusionAmt": "0"
-          },
-          "CompCurrentOfcrDirectorsGrp": {
-            "TotalAmt": "30000",
-            "ManagementAndGeneralAmt": "30000"
-          },
-          "FeesForServicesAccountingGrp": {
-            "TotalAmt": "1565",
-            "ManagementAndGeneralAmt": "1565"
-          },
-          "FeesForServicesOtherGrp": {
-            "TotalAmt": "7196",
-            "ManagementAndGeneralAmt": "7196"
-          },
-          "AdvertisingGrp": {
-            "TotalAmt": "16326",
-            "ProgramServicesAmt": "16326"
-          },
-          "OfficeExpensesGrp": {
-            "TotalAmt": "2274",
-            "ManagementAndGeneralAmt": "2274"
-          },
-          "InformationTechnologyGrp": {
-            "TotalAmt": "630",
-            "ManagementAndGeneralAmt": "630"
-          },
-          "OccupancyGrp": {
-            "TotalAmt": "12000",
-            "ManagementAndGeneralAmt": "12000"
-          },
-          "ConferencesMeetingsGrp": {
-            "TotalAmt": "495",
-            "ManagementAndGeneralAmt": "495"
-          },
-          "OtherExpensesGrp": [
-            {
-              "Desc": "BANK FEES",
-              "TotalAmt": "61",
-              "ManagementAndGeneralAmt": "61"
-            },
-            {
-              "Desc": "STATE FEES",
-              "TotalAmt": "10",
-              "ManagementAndGeneralAmt": "10"
-            },
-            {
-              "Desc": "REPAIRS & MAINTAINANCE",
-              "TotalAmt": "10372",
-              "ProgramServicesAmt": "10372"
-            }
-          ],
-          "TotalFunctionalExpensesGrp": {
-            "TotalAmt": "80929",
-            "ProgramServicesAmt": "26698",
-            "ManagementAndGeneralAmt": "54231",
-            "FundraisingAmt": "0"
-          },
-          "CashNonInterestBearingGrp": {
-            "BOYAmt": "99891",
-            "EOYAmt": "118841"
-          },
-          "InventoriesForSaleOrUseGrp": {
-            "BOYAmt": "15325"
-          },
-          "OtherAssetsTotalGrp": {
-            "BOYAmt": "2029390",
-            "EOYAmt": "2119891"
-          },
-          "TotalAssetsGrp": {
-            "BOYAmt": "2144606",
-            "EOYAmt": "2238732"
-          },
-          "TotalLiabilitiesGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "UnrestrictedNetAssetsGrp": {
-            "BOYAmt": "2144606",
-            "EOYAmt": "2238732"
-          },
-          "TotalNetAssetsFundBalanceGrp": {
-            "BOYAmt": "2144606",
-            "EOYAmt": "2238732"
-          },
-          "TotLiabNetAssetsFundBalanceGrp": {
-            "BOYAmt": "2144606",
-            "EOYAmt": "2238732"
-          },
-          "AcctCompileOrReviewBasisGrp": {
-            "SeparateBasisFinclStmtInd": "X"
           },
           "PrincipalOfficerNm": "W BRAND BOBOSKY",
           "GrossReceiptsAmt": "175055",
@@ -4764,6 +4630,49 @@
           "InvestmentInJointVentureInd": "false",
           "StatesWhereCopyOfReturnIsFldCd": "IL",
           "UponRequestInd": "X",
+          "BooksInCareOfDetail": {
+            "PersonNm": "BRAND BOBOSKY",
+            "PhoneNum": "6306548350",
+            "USAddress": {
+              "AddressLine1Txt": "34 WEST CHICAGO AVE",
+              "CityNm": "NAPERVILLE",
+              "StateAbbreviationCd": "IL",
+              "ZIPCd": "605405302"
+            }
+          },
+          "Form990PartVIISectionAGrp": [
+            {
+              "PersonNm": "W BRAND BOBOSKY",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "20.00",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "OfficerInd": "X",
+              "ReportableCompFromOrgAmt": "30000",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "BETTYE WEHRLI",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            },
+            {
+              "PersonNm": "BART VITTORI",
+              "TitleTxt": "DIRECTOR",
+              "AverageHoursPerWeekRt": "0.50",
+              "AverageHoursPerWeekRltdOrgRt": "0.00",
+              "IndividualTrusteeOrDirectorInd": "X",
+              "ReportableCompFromOrgAmt": "0",
+              "ReportableCompFromRltdOrgAmt": "0",
+              "OtherCompensationAmt": "0"
+            }
+          ],
           "TotalReportableCompFromOrgAmt": "30000",
           "TotReportableCompRltdOrgAmt": "0",
           "TotalOtherCompensationAmt": "0",
@@ -4774,17 +4683,114 @@
           "GovernmentGrantsAmt": "138783",
           "AllOtherContributionsAmt": "36272",
           "TotalContributionsAmt": "175055",
+          "TotalRevenueGrp": {
+            "TotalRevenueColumnAmt": "175055",
+            "RelatedOrExemptFuncIncomeAmt": "0",
+            "UnrelatedBusinessRevenueAmt": "0",
+            "ExclusionAmt": "0"
+          },
           "InfoInScheduleOPartIXInd": "X",
+          "CompCurrentOfcrDirectorsGrp": {
+            "TotalAmt": "30000",
+            "ManagementAndGeneralAmt": "30000"
+          },
+          "FeesForServicesAccountingGrp": {
+            "TotalAmt": "1565",
+            "ManagementAndGeneralAmt": "1565"
+          },
+          "FeesForServicesOtherGrp": {
+            "TotalAmt": "7196",
+            "ManagementAndGeneralAmt": "7196"
+          },
+          "AdvertisingGrp": {
+            "TotalAmt": "16326",
+            "ProgramServicesAmt": "16326"
+          },
+          "OfficeExpensesGrp": {
+            "TotalAmt": "2274",
+            "ManagementAndGeneralAmt": "2274"
+          },
+          "InformationTechnologyGrp": {
+            "TotalAmt": "630",
+            "ManagementAndGeneralAmt": "630"
+          },
+          "OccupancyGrp": {
+            "TotalAmt": "12000",
+            "ManagementAndGeneralAmt": "12000"
+          },
+          "ConferencesMeetingsGrp": {
+            "TotalAmt": "495",
+            "ManagementAndGeneralAmt": "495"
+          },
+          "OtherExpensesGrp": [
+            {
+              "Desc": "BANK FEES",
+              "TotalAmt": "61",
+              "ManagementAndGeneralAmt": "61"
+            },
+            {
+              "Desc": "STATE FEES",
+              "TotalAmt": "10",
+              "ManagementAndGeneralAmt": "10"
+            },
+            {
+              "Desc": "REPAIRS & MAINTAINANCE",
+              "TotalAmt": "10372",
+              "ProgramServicesAmt": "10372"
+            }
+          ],
+          "TotalFunctionalExpensesGrp": {
+            "TotalAmt": "80929",
+            "ProgramServicesAmt": "26698",
+            "ManagementAndGeneralAmt": "54231",
+            "FundraisingAmt": "0"
+          },
+          "CashNonInterestBearingGrp": {
+            "BOYAmt": "99891",
+            "EOYAmt": "118841"
+          },
+          "InventoriesForSaleOrUseGrp": {
+            "BOYAmt": "15325"
+          },
+          "OtherAssetsTotalGrp": {
+            "BOYAmt": "2029390",
+            "EOYAmt": "2119891"
+          },
+          "TotalAssetsGrp": {
+            "BOYAmt": "2144606",
+            "EOYAmt": "2238732"
+          },
+          "TotalLiabilitiesGrp": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
           "OrganizationFollowsSFAS117Ind": "X",
+          "UnrestrictedNetAssetsGrp": {
+            "BOYAmt": "2144606",
+            "EOYAmt": "2238732"
+          },
+          "TotalNetAssetsFundBalanceGrp": {
+            "BOYAmt": "2144606",
+            "EOYAmt": "2238732"
+          },
+          "TotLiabNetAssetsFundBalanceGrp": {
+            "BOYAmt": "2144606",
+            "EOYAmt": "2238732"
+          },
           "ReconcilationRevenueExpnssAmt": "94126",
           "OtherChangesInNetAssetsAmt": "0",
           "MethodOfAccountingAccrualInd": "X",
           "AccountantCompileOrReviewInd": "true",
+          "AcctCompileOrReviewBasisGrp": {
+            "SeparateBasisFinclStmtInd": "X"
+          },
           "FSAuditedInd": "false",
           "AuditCommitteeInd": "true",
           "FederalGrantAuditRequiredInd": "false"
         },
+        "IRS990ScheduleA@documentId": "990A",
         "IRS990ScheduleA": {
+          "PublicOrganization170Ind": "X",
           "GiftsGrantsContriRcvd170Grp": {
             "CurrentTaxYearMinus4YearsAmt": "250457",
             "CurrentTaxYearMinus3YearsAmt": "217485",
@@ -4801,6 +4807,7 @@
             "CurrentTaxYearAmt": "175055",
             "TotalAmt": "1094587"
           },
+          "PublicSupportTotal170Amt": "1094587",
           "GrossInvestmentIncome170Grp": {
             "CurrentTaxYearMinus4YearsAmt": "250457",
             "CurrentTaxYearMinus3YearsAmt": "217485",
@@ -4809,32 +4816,34 @@
             "CurrentTaxYearAmt": "175055",
             "TotalAmt": "1094587"
           },
-          "PublicOrganization170Ind": "X",
-          "PublicSupportTotal170Amt": "1094587",
           "TotalSupportAmt": "2189174",
           "PublicSupportCY170Pct": "0.50000",
           "PublicSupportPY170Pct": "0.44070",
           "ThirtyThrPctSuprtTestsCY170Ind": "X"
         },
+        "IRS990ScheduleB@documentId": "990B",
+        "IRS990ScheduleB": null,
+        "IRS990ScheduleD@documentId": "990D",
         "IRS990ScheduleD": {
           "ArtPublicExhibitionAmountsGrp": {
             "RevenuesIncludedAmt": "175055",
             "AssetsIncludedAmt": "2119891"
           },
-          "OtherAssetsOrgGrp": {
-            "Desc": "ART COLLECTION",
-            "BookValueAmt": "2119891"
-          },
-          "SupplementalInformationDetail": {
-            "FormAndLineReferenceDesc": "Collections descriptions (Part III, line 4)",
-            "ExplanationTxt": "THE COLLECTIONS CONSIST OF OVER FORTY FIVE PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY. THE DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES AND OTHER PUBLIC ART REPRESENTS THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT THE CITY."
-          },
           "CollectionUsedPubExhibitionInd": "X",
           "CollectionUsedPreservationInd": "X",
           "CollUsedLoanOrExchProgInd": "X",
           "SolicitedAssetsSaleInd": "false",
-          "TotalBookValueOtherAssetsAmt": "2119891"
+          "OtherAssetsOrgGrp": {
+            "Desc": "ART COLLECTION",
+            "BookValueAmt": "2119891"
+          },
+          "TotalBookValueOtherAssetsAmt": "2119891",
+          "SupplementalInformationDetail": {
+            "FormAndLineReferenceDesc": "Collections descriptions (Part III, line 4)",
+            "ExplanationTxt": "THE COLLECTIONS CONSIST OF OVER FORTY FIVE PIECES OF PUBLIC ART ON PERMANENT OUTDOOR DISPLAY. THE DIVERSE COLLECTION OF MURALS, MOSAICS, RELIEFS, SCULPTURES AND OTHER PUBLIC ART REPRESENTS THE HISTORY OF NAPERVILLE AND EXPAND THE BODY OF ARTWORK THROUGHOUT THE CITY."
+          }
         },
+        "IRS990ScheduleL@documentId": "990L",
         "IRS990ScheduleL": {
           "BusTrInvolveInterestedPrsnGrp": [
             {
@@ -4857,6 +4866,7 @@
             }
           ]
         },
+        "IRS990ScheduleO@documentId": "990O",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -4876,17 +4886,8 @@
               "ExplanationTxt": "CLERICAL WORK INCLUDING ROUTINE DOCUMENTATION AND OTHER ADMINISTRATIVE TASKS: 7196"
             }
           ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990ScheduleA@documentId": "990A",
-        "IRS990ScheduleB@documentId": "990B",
-        "IRS990ScheduleD@documentId": "990D",
-        "IRS990ScheduleL@documentId": "990L",
-        "IRS990ScheduleO@documentId": "990O"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "6"
-    },
-    "Return@returnVersion": "2017v2.2"
+        }
+      }
+    }
   }
 }
