@@ -57,8 +57,11 @@ class ComposeEfilesUpdater:
             ein, updates = change
             composite: Dict = self._get_existing(ein)
             for period, json_path in updates.items():
-                with open(json_path) as fh:
-                    content: Dict = json.load(fh)
-                composite[period] = content
+                try:
+                    with open(json_path) as fh:
+                        content: Dict = json.load(fh)
+                    composite[period] = content
+                except FileNotFoundError as e:
+                    logging.warning(e)
             with self.path_mgr.open_for_writing(ein, TEMPLATE) as fh:
                 json.dump(composite, fh, indent=2)

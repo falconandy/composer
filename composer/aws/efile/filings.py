@@ -112,9 +112,12 @@ def _xml_to_json(changes: List[Tuple[str, Dict[str, FilingMetadata]]], xml_cache
         (ein, updates) = change
         for filing_md in updates.values():
             irs_efile_id: str = filing_md.irs_efile_id
-            xml_path: str = os.path.join(_ein_path(xml_cache_dir, ein), "%s_public.xml" % irs_efile_id)
+            xml_path: str = os.path.join(_ein_path(xml_cache_dir, ein), "%s_public_1.xml" % irs_efile_id)
             json_path: str = os.path.join(_ein_path(json_cache_dir, ein), "%s.json" % irs_efile_id)
-            with open(xml_path) as xml_fh, open(json_path, "w") as json_fh:
-                raw_xml: str = xml_fh.read()
-                as_json: Dict = translate(raw_xml)
-                json.dump(as_json, json_fh)
+            try:
+                with open(xml_path) as xml_fh, open(json_path, "w") as json_fh:
+                    raw_xml: str = xml_fh.read()
+                    as_json: Dict = translate(raw_xml)
+                    json.dump(as_json, json_fh)
+            except FileNotFoundError as e:
+                logging.warning(e)
