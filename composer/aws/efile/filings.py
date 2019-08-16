@@ -47,8 +47,7 @@ class RetrieveEfiles:
     """Download any new e-files as XML from S3 and store them in a temporary directory. Convert them to JSON files, also
     stored in a temporary directory. Yield a map of EIN -> (map of period -> JSON file path)."""
 
-    def __init__(self, bucket: Bucket, tmp_base: str = "/tmp", no_cleanup: bool = False):
-        self.bucket: Bucket = bucket
+    def __init__(self, tmp_base: str = "/tmp", no_cleanup: bool = False):
         self.xml_cache_dir: str = _tmpdir(tmp_base)  # Official temp directory package makes things too hard
         self.json_cache_dir: str = _tmpdir(tmp_base)
         self.no_cleanup: bool = no_cleanup
@@ -86,9 +85,12 @@ class RetrieveEfiles:
             shutil.rmtree(self.xml_cache_dir, ignore_errors=True)
             shutil.rmtree(self.json_cache_dir, ignore_errors=True)
 
+    @staticmethod
+    def get_bucket() -> Bucket:
+        return efile_bucket()
 
 def _download_xml_on_process(targets: List[Tuple[str, str]]):
-    bucket = efile_bucket()
+    bucket = RetrieveEfiles.get_bucket()
     run_on_thread_pool(_download_xml_on_thread, targets, bucket, workers_count=os.cpu_count()*10)
 
 
@@ -112,7 +114,7 @@ def _xml_to_json(changes: List[Tuple[str, Dict[str, FilingMetadata]]], xml_cache
         (ein, updates) = change
         for filing_md in updates.values():
             irs_efile_id: str = filing_md.irs_efile_id
-            xml_path: str = os.path.join(_ein_path(xml_cache_dir, ein), "%s_public_1.xml" % irs_efile_id)
+            xml_path: str = os.path.join(_ein_path(xml_cache_dir, ein), "%s_public.xml" % irs_efile_id)
             json_path: str = os.path.join(_ein_path(json_cache_dir, ein), "%s.json" % irs_efile_id)
             try:
                 with open(xml_path) as xml_fh, open(json_path, "w") as json_fh:

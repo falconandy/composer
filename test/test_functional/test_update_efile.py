@@ -33,9 +33,7 @@ def make_indices(timepoint: str) -> EfileIndices:
     return indices
 
 def make_compose(tp_path: str) -> ComposeEfiles:
-    efile_xml_path: str = os.path.join(fixture_path, "efile_xml")
-    xml_bucket: Bucket = file_backed_bucket(efile_xml_path)
-    retrieve: RetrieveEfiles = RetrieveEfiles(xml_bucket)
+    retrieve: RetrieveEfiles = RetrieveEfiles()
     path_mgr: EINPathManager = EINPathManager(tp_path)
     compose: ComposeEfiles = ComposeEfiles(retrieve, path_mgr)
     return compose
@@ -45,6 +43,12 @@ def do_update(timepoint: str, tp_path: str):
     compose: ComposeEfiles = make_compose(tp_path)
     update: UpdateEfileState = UpdateEfileState(tp_path, indices, compose)
     update()
+
+def get_bucket():
+    efile_xml_path: str = os.path.join(fixture_path, "efile_xml")
+    return file_backed_bucket(efile_xml_path)
+
+RetrieveEfiles.get_bucket = get_bucket
 
 """Run the initial update -- no data exists"""
 os.makedirs(tp1_path)

@@ -22,7 +22,7 @@ class UpdateEfileState(Callable):
     def build(cls, basepath: str, temp_path: str, no_cleanup: bool) -> "UpdateEfileState":
         bucket: Bucket = efile_bucket()
         indices: EfileIndices = EfileIndices(bucket)
-        compose: ComposeEfiles = ComposeEfiles.build(basepath, bucket, temp_path, no_cleanup)
+        compose: ComposeEfiles = ComposeEfiles.build(basepath, temp_path, no_cleanup)
         return cls(basepath, indices, compose)
 
     def _connect(self) -> Connection:

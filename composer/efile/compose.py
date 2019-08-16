@@ -19,8 +19,8 @@ class ComposeEfiles(Callable):
     path_mgr: EINPathManager
 
     @classmethod
-    def build(cls, basepath: str, bucket: Bucket, temp_path: str, no_cleanup: bool) -> "ComposeEfiles":
-        retrieve: RetrieveEfiles = RetrieveEfiles(bucket, temp_path, no_cleanup)
+    def build(cls, basepath: str, temp_path: str, no_cleanup: bool) -> "ComposeEfiles":
+        retrieve: RetrieveEfiles = RetrieveEfiles(temp_path, no_cleanup)
         path_mgr: EINPathManager = EINPathManager(basepath)
         return cls(retrieve, path_mgr)
 
