@@ -72,8 +72,8 @@ class RetrieveEfiles:
         """Download all XML files to local storage. I/O-bound, so thread pool."""
         logging.info("Downloading new XML files.")
         targets: List[Tuple[str, str]] = list(_get_download_targets(changes, self.xml_cache_dir))
-        # run_on_process_pool(_download_xml, targets, None)
-        run_on_thread_pool(_download_xml, targets, self.bucket, workers_count=os.cpu_count()*10)
+        run_on_process_pool(_download_xml_on_process, targets)
+        # run_on_thread_pool(_download_xml_on_thread, targets, self.bucket, workers_count=os.cpu_count()*10)
 
     def __call__(self, changes: Iterable[Tuple[str, Dict[str, FilingMetadata]]]) \
             -> Iterator[Tuple[str, Dict[str, str]]]:
@@ -87,9 +87,12 @@ class RetrieveEfiles:
             shutil.rmtree(self.json_cache_dir, ignore_errors=True)
 
 
-def _download_xml(targets: List[Tuple[str, str]], bucket: Optional[Bucket]):
-    bucket = bucket or efile_bucket()
-    total_size = 0
+def _download_xml_on_process(targets: List[Tuple[str, str]]):
+    bucket = efile_bucket()
+    run_on_thread_pool(_download_xml_on_thread, targets, bucket, workers_count=os.cpu_count()*10)
+
+
+def _download_xml_on_thread(targets: List[Tuple[str, str]], bucket: Optional[Bucket]):
     for target in targets:
         ein_path, irs_efile_id = target  # types: str, str
         s3_key: str = "%s_public.xml" % irs_efile_id
@@ -100,7 +103,6 @@ def _download_xml(targets: List[Tuple[str, str]], bucket: Optional[Bucket]):
             continue
         destination: str = os.path.join(ein_path, s3_key)
         with open(destination, "w") as fh:
-            total_size += len(raw_xml.encode("utf-8"))
             fh.write(raw_xml)
 
 
