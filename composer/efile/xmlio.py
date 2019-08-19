@@ -1,17 +1,22 @@
 from collections.abc import Callable
-from typing import Dict
 
 from io import StringIO
 
 import re
 import lxml.etree
-from lxml import etree
 from lxml.etree import XMLParser, parse
 from xmljson import XMLData
-from collections import OrderedDict
+from collections import Counter, OrderedDict
 
 # noinspection PyProtectedMember
-from composer.efile.convert import convert
+# from .convert import convert
+
+import sys
+
+# Python 3: define unicode() as str()
+if sys.version_info[0] == 3:
+    unicode = str
+    basestring = str
 
 Element = lxml.etree._Element
 
@@ -40,12 +45,9 @@ def _clean_xml(raw: str) -> str:
     return no_ns
 
 def _strip_prefix(almost_clean):
-    almost_clean = re.sub("<xsd:", "<", almost_clean)
-    almost_clean = re.sub("</xsd:", "</", almost_clean)
-    almost_clean = re.sub("<irs:", "<", almost_clean)
-    almost_clean = re.sub("</irs:", "</", almost_clean)
+    almost_clean = re.sub("<[A-Za-z]+:", "<", almost_clean)
+    almost_clean = re.sub("</[A-Za-z]+:", "</", almost_clean)
     return almost_clean
-
 
 def _clean_xsd(raw: str) -> str:
     almost_clean = _clean_xml(raw)
@@ -65,15 +67,52 @@ def _get_cleaned_root(raw_xml: str) -> Element:
 
 class MongoFish(XMLData):
     """Same as BadgerFish convention, except changes "$" to "_" for Mongo."""
-    def __init__(self, **kwargs):
-        super(MongoFish, self).__init__(attr_prefix='@', text_content='_', **kwargs)
 
+    def __init__(self, **kwargs):
+        super(MongoFish, self).__init__(
+            dict_type=OrderedDict, xml_fromstring=False, text_content=True, simple_text=True)
+
+    def data(self, root, in_list=False):
+        '''Convert etree.Element into a dictionary'''
+        value = self.dict()
+        root_d = self.dict()
+        for attr, attrval in root.attrib.items():
+            attr_value = self._fromstring(attrval)
+            if in_list:
+                value['@' + attr] = attr_value
+            else:
+                root_d[root.tag + '@' + attr] = attr_value
+
+        children = [node for node in root if isinstance(node.tag, basestring)]
+        count = Counter(child.tag for child in children)
+        for child in children:
+            if count[child.tag] == 1:
+                value.update(self.data(child))
+            else:
+                result = value.setdefault(child.tag, self.list())
+                result += self.data(child, True).values()
+
+        if root.text:
+            text = root.text.strip()
+            if text:
+                if len(children) > 0:
+                    raise ValueError('Mixed text and tags in {}'.format(root.tag))
+                value = self._fromstring(text)
+
+        # if elements with no children nor attrs become None
+        if isinstance(value, dict) and not value:
+            value = None
+
+        root_d[root.tag] = value
+
+        return root_d
 
 class JsonTranslator(Callable):
     def __init__(self):
-        self._fish = MongoFish(dict_type=OrderedDict, xml_fromstring=False)
+        self._fish = MongoFish()
 
     def __call__(self, xml_str: str):
         xml = _get_cleaned_root(xml_str)
         fish_json = self._fish.data(xml)
-        return convert(fish_json)
+
+        return fish_json

@@ -1,20 +1,26 @@
 {
   "201012": {
+    "Return@returnVersion": "2010v3.4",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2013-08-16T17:23:00-07:00",
+        "TaxPeriodEndDate": "2010-12-31",
+        "ReturnType": "990EZ",
+        "TaxPeriodBeginDate": "2010-01-01",
         "Filer": {
+          "EIN": "260687839",
           "Name": {
             "BusinessNameLine1": "Cooking With Kids Foundation"
           },
+          "NameControl": "COOK",
+          "Phone": "9259321114",
           "USAddress": {
             "AddressLine1": "1571 Ptarmigan Drive 1A",
             "City": "Walnut Creek",
             "State": "CA",
             "ZIPCode": "945955315"
-          },
-          "EIN": "260687839",
-          "NameControl": "COOK",
-          "Phone": "9259321114"
+          }
         },
         "Officer": {
           "Name": "Stephen Smith",
@@ -22,112 +28,16 @@
           "Phone": "9255133015",
           "DateSigned": "2013-08-16"
         },
-        "Timestamp": "2013-08-16T17:23:00-07:00",
-        "TaxPeriodEndDate": "2010-12-31",
-        "ReturnType": "990EZ",
-        "TaxPeriodBeginDate": "2010-01-01",
         "TaxYear": "2010",
         "BuildTS": "2016-02-24 21:20:13Z"
       },
+      "ReturnData@documentCount": "5",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000004 R000005",
+        "IRS990EZ@softwareId": "10000077",
+        "IRS990EZ@softwareVersion": "v1.00",
         "IRS990EZ": {
-          "CashSavingsAndInvestments": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "LandAndBuildings": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "OtherAssetsTotal": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "TotalAssets": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "SumOfTotalLiabilities": {
-            "BOY": "3792",
-            "EOY": "3792"
-          },
-          "NetAssetsOrFundBalances": {
-            "BOY": "-3792",
-            "EOY": "-3792"
-          },
-          "ProgramServiceAccomplishment": {
-            "DescriptionProgramServiceAccom": "Foundation was primarily engaged in organizational activities",
-            "GrantsAndAllocations": "0",
-            "ProgramServiceExpenses": "0"
-          },
-          "OfficerDirectorTrusteeKeyEmpl": [
-            {
-              "AddressUS": {
-                "AddressLine1": "1571 Ptarmigan Drive 1A",
-                "City": "Walnut Creek",
-                "State": "CA",
-                "ZIPCode": "945955315"
-              },
-              "PersonName": "Linda Kay Rexroat",
-              "Title": "President, CEO, and Director",
-              "AvgHoursPerWkDevotedToPosition": "40",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "AddressUS": {
-                "AddressLine1": "1571 Ptarmigan Drive 1A",
-                "City": "Walnut Creek",
-                "State": "CA",
-                "ZIPCode": "945955315"
-              },
-              "PersonName": "John Rexroat",
-              "Title": "Secretary and Director",
-              "AvgHoursPerWkDevotedToPosition": "10",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "AddressUS": {
-                "AddressLine1": "1483 Bismarck Lane",
-                "City": "Brentwood",
-                "State": "CA",
-                "ZIPCode": "945136917"
-              },
-              "PersonName": "Stephen F Smith",
-              "Title": "CFO and Director",
-              "AvgHoursPerWkDevotedToPosition": "2",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "AddressUS": {
-                "AddressLine1": "1748 Oakmont Drive",
-                "City": "Walnut Creek",
-                "State": "CA",
-                "ZIPCode": "945952012"
-              },
-              "PersonName": "Lou Ann Berardi",
-              "Title": "Director",
-              "AvgHoursPerWkDevotedToPosition": "4",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            }
-          ],
-          "TheBooksAreInCareOf": {
-            "AddressUS": {
-              "AddressLine1": "1571 Ptarmigan Drive 1A",
-              "City": "Walnut Creek",
-              "State": "CA",
-              "ZIPCode": "945955315"
-            },
-            "NamePerson": "John Rexroat",
-            "TelephoneNumber": "9253236915"
-          },
           "AmendedReturn": "X",
           "MethodOfAccountingCash": "X",
           "ScheduleBNotRequired": "X",
@@ -165,8 +75,95 @@
           "OtherChangesInNetAssets": "-1174",
           "NetAssetsOrFundBalancesEOY": "-3792",
           "InfoInScheduleOPartII": "X",
+          "CashSavingsAndInvestments": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "LandAndBuildings": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "OtherAssetsTotal": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "TotalAssets": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "SumOfTotalLiabilities": {
+            "BOY": "3792",
+            "EOY": "3792"
+          },
+          "NetAssetsOrFundBalances": {
+            "BOY": "-3792",
+            "EOY": "-3792"
+          },
           "PrimaryExemptPurpose": "Promote healthy eating thru Cooking With Kids classes",
+          "ProgramServiceAccomplishment": {
+            "DescriptionProgramServiceAccom": "Foundation was primarily engaged in organizational activities",
+            "GrantsAndAllocations": "0",
+            "ProgramServiceExpenses": "0"
+          },
           "TotalProgramServiceExpenses": "0",
+          "OfficerDirectorTrusteeKeyEmpl": [
+            {
+              "PersonName": "Linda Kay Rexroat",
+              "AddressUS": {
+                "AddressLine1": "1571 Ptarmigan Drive 1A",
+                "City": "Walnut Creek",
+                "State": "CA",
+                "ZIPCode": "945955315"
+              },
+              "Title": "President, CEO, and Director",
+              "AvgHoursPerWkDevotedToPosition": "40",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "John Rexroat",
+              "AddressUS": {
+                "AddressLine1": "1571 Ptarmigan Drive 1A",
+                "City": "Walnut Creek",
+                "State": "CA",
+                "ZIPCode": "945955315"
+              },
+              "Title": "Secretary and Director",
+              "AvgHoursPerWkDevotedToPosition": "10",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "Stephen F Smith",
+              "AddressUS": {
+                "AddressLine1": "1483 Bismarck Lane",
+                "City": "Brentwood",
+                "State": "CA",
+                "ZIPCode": "945136917"
+              },
+              "Title": "CFO and Director",
+              "AvgHoursPerWkDevotedToPosition": "2",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "Lou Ann Berardi",
+              "AddressUS": {
+                "AddressLine1": "1748 Oakmont Drive",
+                "City": "Walnut Creek",
+                "State": "CA",
+                "ZIPCode": "945952012"
+              },
+              "Title": "Director",
+              "AvgHoursPerWkDevotedToPosition": "4",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            }
+          ],
           "ActivitiesNotPreviouslyRpt": "0",
           "MadeChangesToOrgnzngEtcDoc": "0",
           "OrganizationHadUBI": "0",
@@ -185,6 +182,16 @@
           "AmountOfTaxReimbursedByOrg": "0",
           "ProhibitedTaxShelterTrans": "0",
           "StatesWhereCopyOfReturnIsFiled": "CA",
+          "TheBooksAreInCareOf": {
+            "NamePerson": "John Rexroat",
+            "AddressUS": {
+              "AddressLine1": "1571 Ptarmigan Drive 1A",
+              "City": "Walnut Creek",
+              "State": "CA",
+              "ZIPCode": "945955315"
+            },
+            "TelephoneNumber": "9253236915"
+          },
           "ForeignFinancialAccount": "0",
           "ForeignOffice": "0",
           "MaintainAnyDonorAdvisedFunds": "0",
@@ -199,7 +206,11 @@
           "PartVIAHghstPaidCntrctProfSer": "NONE",
           "FiledScheduleA": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "10000077",
+        "IRS990ScheduleA@softwareVersion": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2": "X",
           "GiftsGrantsContribReceived509": {
             "CurrentTaxYear": "100",
             "Total": "100"
@@ -244,6 +255,7 @@
             "CurrentTaxYear": "0",
             "Total": "0"
           },
+          "PublicSupportTotal509": "100",
           "GrossInvestmentIncome509": {
             "CurrentTaxYear": "0",
             "Total": "0"
@@ -276,10 +288,11 @@
             "CurrentTaxYear": "100",
             "Total": "100"
           },
-          "PubliclySupportedOrg509a2": "X",
-          "PublicSupportTotal509": "100",
           "First5Years509": "X"
         },
+        "IRS990ScheduleL@documentId": "R000003",
+        "IRS990ScheduleL@softwareId": "10000077",
+        "IRS990ScheduleL@softwareVersion": "v1.00",
         "IRS990ScheduleL": {
           "LoanTable": {
             "NamePerson": "Linda Kay Rexroat",
@@ -293,6 +306,9 @@
           },
           "TotalBalanceDue": "3792"
         },
+        "IRS990ScheduleO@documentId": "R000004",
+        "IRS990ScheduleO@softwareId": "10000077",
+        "IRS990ScheduleO@softwareVersion": "v1.00",
         "IRS990ScheduleO": {
           "GeneralExplanation": [
             {
@@ -317,47 +333,37 @@
             }
           ]
         },
-        "ReasonableCauseExplanation": {
-          "Explanation": "This is an Amended filing for a previous return filed timely"
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000004 R000005",
-        "IRS990EZ@softwareId": "10000077",
-        "IRS990EZ@softwareVersion": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "10000077",
-        "IRS990ScheduleA@softwareVersion": "v1.00",
-        "IRS990ScheduleL@documentId": "R000003",
-        "IRS990ScheduleL@softwareId": "10000077",
-        "IRS990ScheduleL@softwareVersion": "v1.00",
-        "IRS990ScheduleO@documentId": "R000004",
-        "IRS990ScheduleO@softwareId": "10000077",
-        "IRS990ScheduleO@softwareVersion": "v1.00",
         "ReasonableCauseExplanation@documentId": "R000005",
         "ReasonableCauseExplanation@softwareId": "10000077",
-        "ReasonableCauseExplanation@softwareVersion": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "5"
-    },
-    "Return@returnVersion": "2010v3.4"
+        "ReasonableCauseExplanation@softwareVersion": "v1.00",
+        "ReasonableCauseExplanation": {
+          "Explanation": "This is an Amended filing for a previous return filed timely"
+        }
+      }
+    }
   },
   "201112": {
+    "Return@returnVersion": "2011v1.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2014-08-10T20:36:35-07:00",
+        "TaxPeriodEndDate": "2011-12-31",
+        "ReturnType": "990EZ",
+        "TaxPeriodBeginDate": "2011-01-01",
         "Filer": {
+          "EIN": "260687839",
           "Name": {
             "BusinessNameLine1": "Cooking With Kids Foundation"
           },
+          "NameControl": "COOK",
+          "Phone": "9259321114",
           "USAddress": {
             "AddressLine1": "3762 Sundale Road",
             "City": "Lafayette",
             "State": "CA",
             "ZIPCode": "945493537"
-          },
-          "EIN": "260687839",
-          "NameControl": "COOK",
-          "Phone": "9259321114"
+          }
         },
         "Officer": {
           "Name": "Stephen Smith",
@@ -365,112 +371,16 @@
           "Phone": "9255133015",
           "DateSigned": "2014-08-10"
         },
-        "Timestamp": "2014-08-10T20:36:35-07:00",
-        "TaxPeriodEndDate": "2011-12-31",
-        "ReturnType": "990EZ",
-        "TaxPeriodBeginDate": "2011-01-01",
         "TaxYear": "2011",
         "BuildTS": "2016-02-25 16:41:14Z"
       },
+      "ReturnData@documentCount": "5",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000004 R000005",
+        "IRS990EZ@softwareId": "11000129",
+        "IRS990EZ@softwareVersion": "v1.00",
         "IRS990EZ": {
-          "CashSavingsAndInvestments": {
-            "BOY": "415",
-            "EOY": "440"
-          },
-          "LandAndBuildings": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "OtherAssetsTotal": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "TotalAssets": {
-            "BOY": "415",
-            "EOY": "440"
-          },
-          "SumOfTotalLiabilities": {
-            "BOY": "3792",
-            "EOY": "3742"
-          },
-          "NetAssetsOrFundBalances": {
-            "BOY": "-3377",
-            "EOY": "-3302"
-          },
-          "ProgramServiceAccomplishment": {
-            "DescriptionProgramServiceAccom": "Taught numerous cooking classes to young children",
-            "GrantsAndAllocations": "0",
-            "ProgramServiceExpenses": "14480"
-          },
-          "OfficerDirectorTrusteeKeyEmpl": [
-            {
-              "AddressUS": {
-                "AddressLine1": "3762 Sundale Road",
-                "City": "Lafayette",
-                "State": "CA",
-                "ZIPCode": "945493537"
-              },
-              "PersonName": "Linda Kay Rexroat",
-              "Title": "President, CEO, & Director",
-              "AvgHoursPerWkDevotedToPosition": "40",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "AddressUS": {
-                "AddressLine1": "3762 Sundale Road",
-                "City": "Lafayette",
-                "State": "CA",
-                "ZIPCode": "945493537"
-              },
-              "PersonName": "John Rexroat",
-              "Title": "Secretary and Director",
-              "AvgHoursPerWkDevotedToPosition": "20",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "AddressUS": {
-                "AddressLine1": "1483 Bismarck Lane",
-                "City": "Brentwood",
-                "State": "CA",
-                "ZIPCode": "945136917"
-              },
-              "PersonName": "Stephen F Smith",
-              "Title": "CFO and Director",
-              "AvgHoursPerWkDevotedToPosition": "4.00",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "AddressUS": {
-                "AddressLine1": "1748 Oakmont Drive",
-                "City": "Walnut Creek",
-                "State": "CA",
-                "ZIPCode": "945952012"
-              },
-              "PersonName": "Lou Ann Berardi",
-              "Title": "Director",
-              "AvgHoursPerWkDevotedToPosition": "4.00",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            }
-          ],
-          "TheBooksAreInCareOf": {
-            "AddressUS": {
-              "AddressLine1": "3762 Sundale Road",
-              "City": "Lafayette",
-              "State": "CA",
-              "ZIPCode": "945493537"
-            },
-            "NamePerson": "Lynda Rexroat",
-            "TelephoneNumber": "9253236915"
-          },
           "AmendedReturn": "X",
           "MethodOfAccountingAccrual": "X",
           "ScheduleBNotRequired": "X",
@@ -509,9 +419,96 @@
           "OtherChangesInNetAssets": "0",
           "NetAssetsOrFundBalancesEOY": "-3302",
           "InfoInScheduleOPartII": "X",
+          "CashSavingsAndInvestments": {
+            "BOY": "415",
+            "EOY": "440"
+          },
+          "LandAndBuildings": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "OtherAssetsTotal": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "TotalAssets": {
+            "BOY": "415",
+            "EOY": "440"
+          },
+          "SumOfTotalLiabilities": {
+            "BOY": "3792",
+            "EOY": "3742"
+          },
+          "NetAssetsOrFundBalances": {
+            "BOY": "-3377",
+            "EOY": "-3302"
+          },
           "InfoInScheduleOPartIII": "X",
           "PrimaryExemptPurpose": "Promote healthy eating thru Cooking With Kids Classes",
+          "ProgramServiceAccomplishment": {
+            "DescriptionProgramServiceAccom": "Taught numerous cooking classes to young children",
+            "GrantsAndAllocations": "0",
+            "ProgramServiceExpenses": "14480"
+          },
           "TotalProgramServiceExpenses": "14480",
+          "OfficerDirectorTrusteeKeyEmpl": [
+            {
+              "PersonName": "Linda Kay Rexroat",
+              "AddressUS": {
+                "AddressLine1": "3762 Sundale Road",
+                "City": "Lafayette",
+                "State": "CA",
+                "ZIPCode": "945493537"
+              },
+              "Title": "President, CEO, & Director",
+              "AvgHoursPerWkDevotedToPosition": "40",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "John Rexroat",
+              "AddressUS": {
+                "AddressLine1": "3762 Sundale Road",
+                "City": "Lafayette",
+                "State": "CA",
+                "ZIPCode": "945493537"
+              },
+              "Title": "Secretary and Director",
+              "AvgHoursPerWkDevotedToPosition": "20",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "Stephen F Smith",
+              "AddressUS": {
+                "AddressLine1": "1483 Bismarck Lane",
+                "City": "Brentwood",
+                "State": "CA",
+                "ZIPCode": "945136917"
+              },
+              "Title": "CFO and Director",
+              "AvgHoursPerWkDevotedToPosition": "4.00",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "Lou Ann Berardi",
+              "AddressUS": {
+                "AddressLine1": "1748 Oakmont Drive",
+                "City": "Walnut Creek",
+                "State": "CA",
+                "ZIPCode": "945952012"
+              },
+              "Title": "Director",
+              "AvgHoursPerWkDevotedToPosition": "4.00",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            }
+          ],
           "ActivitiesNotPreviouslyRpt": "0",
           "MadeChangesToOrgnzngEtcDoc": "0",
           "OrganizationHadUBI": "0",
@@ -531,6 +528,16 @@
           "AmountOfTaxReimbursedByOrg": "0",
           "ProhibitedTaxShelterTrans": "0",
           "StatesWhereCopyOfReturnIsFiled": "CA",
+          "TheBooksAreInCareOf": {
+            "NamePerson": "Lynda Rexroat",
+            "AddressUS": {
+              "AddressLine1": "3762 Sundale Road",
+              "City": "Lafayette",
+              "State": "CA",
+              "ZIPCode": "945493537"
+            },
+            "TelephoneNumber": "9253236915"
+          },
           "ForeignFinancialAccount": "0",
           "ForeignOffice": "0",
           "MaintainAnyDonorAdvisedFunds": "0",
@@ -546,7 +553,11 @@
           "PartVIAHghstPaidCntrctProfSer": "NONE",
           "FiledScheduleA": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "11000129",
+        "IRS990ScheduleA@softwareVersion": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2": "X",
           "GiftsGrantsContribReceived509": {
             "CurrentTaxYearMinus1Year": "100",
             "CurrentTaxYear": "85",
@@ -598,6 +609,7 @@
             "CurrentTaxYear": "0",
             "Total": "0"
           },
+          "PublicSupportTotal509": "26117",
           "GrossInvestmentIncome509": {
             "CurrentTaxYearMinus1Year": "0",
             "CurrentTaxYear": "0",
@@ -634,10 +646,11 @@
             "CurrentTaxYear": "23465",
             "Total": "26117"
           },
-          "PubliclySupportedOrg509a2": "X",
-          "PublicSupportTotal509": "26117",
           "First5Years509": "X"
         },
+        "IRS990ScheduleL@documentId": "R000003",
+        "IRS990ScheduleL@softwareId": "11000129",
+        "IRS990ScheduleL@softwareVersion": "v1.00",
         "IRS990ScheduleL": {
           "LoanTable": {
             "NamePerson": "Linda Kay Rexroat",
@@ -651,6 +664,9 @@
           },
           "TotalBalanceDue": "3742"
         },
+        "IRS990ScheduleO@documentId": "R000004",
+        "IRS990ScheduleO@softwareId": "11000129",
+        "IRS990ScheduleO@softwareVersion": "v1.00",
         "IRS990ScheduleO": {
           "GeneralExplanation": [
             {
@@ -675,47 +691,37 @@
             }
           ]
         },
-        "ReasonableCauseExplanation": {
-          "Explanation": "This is amended return for a return previously filed timely."
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000004 R000005",
-        "IRS990EZ@softwareId": "11000129",
-        "IRS990EZ@softwareVersion": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "11000129",
-        "IRS990ScheduleA@softwareVersion": "v1.00",
-        "IRS990ScheduleL@documentId": "R000003",
-        "IRS990ScheduleL@softwareId": "11000129",
-        "IRS990ScheduleL@softwareVersion": "v1.00",
-        "IRS990ScheduleO@documentId": "R000004",
-        "IRS990ScheduleO@softwareId": "11000129",
-        "IRS990ScheduleO@softwareVersion": "v1.00",
         "ReasonableCauseExplanation@documentId": "R000005",
         "ReasonableCauseExplanation@softwareId": "11000129",
-        "ReasonableCauseExplanation@softwareVersion": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "5"
-    },
-    "Return@returnVersion": "2011v1.2"
+        "ReasonableCauseExplanation@softwareVersion": "v1.00",
+        "ReasonableCauseExplanation": {
+          "Explanation": "This is amended return for a return previously filed timely."
+        }
+      }
+    }
   },
   "201212": {
+    "Return@returnVersion": "2012v2.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2014-08-10T21:24:15-07:00",
+        "TaxPeriodEndDate": "2012-12-31",
+        "ReturnType": "990EZ",
+        "TaxPeriodBeginDate": "2012-01-01",
         "Filer": {
+          "EIN": "260687839",
           "Name": {
             "BusinessNameLine1": "COOKING WITH KIDS"
           },
+          "NameControl": "COOK",
+          "Phone": "9259321114",
           "USAddress": {
             "AddressLine1": "3762 Sundale Road",
             "City": "Lafayette",
             "State": "CA",
             "ZIPCode": "945493537"
-          },
-          "EIN": "260687839",
-          "NameControl": "COOK",
-          "Phone": "9259321114"
+          }
         },
         "Officer": {
           "Name": "Stephen Smith",
@@ -723,88 +729,16 @@
           "Phone": "9255133015",
           "DateSigned": "2014-08-10"
         },
-        "Timestamp": "2014-08-10T21:24:15-07:00",
-        "TaxPeriodEndDate": "2012-12-31",
-        "ReturnType": "990EZ",
-        "TaxPeriodBeginDate": "2012-01-01",
         "TaxYear": "2012",
         "BuildTS": "2016-03-07 17:11:31Z"
       },
+      "ReturnData@documentCount": "6",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000005 R000006",
+        "IRS990EZ@softwareId": "12000197",
+        "IRS990EZ@softwareVersion": "v1.00",
         "IRS990EZ": {
-          "CashSavingsAndInvestments": {
-            "BOY": "440",
-            "EOY": "3382"
-          },
-          "LandAndBuildings": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "OtherAssetsTotal": {
-            "BOY": "0",
-            "EOY": "0"
-          },
-          "TotalAssets": {
-            "BOY": "440",
-            "EOY": "3382"
-          },
-          "SumOfTotalLiabilities": {
-            "BOY": "3742",
-            "EOY": "6287"
-          },
-          "NetAssetsOrFundBalances": {
-            "BOY": "-3302",
-            "EOY": "-2905"
-          },
-          "ProgramServiceAccomplishment": {
-            "DescriptionProgramServiceAccom": "Taught numerous cooking classes to young children",
-            "GrantsAndAllocations": "0",
-            "ProgramServiceExpenses": "14923"
-          },
-          "OfficerDirectorTrusteeKeyEmpl": [
-            {
-              "PersonName": "Linda Kay Rexroat",
-              "Title": "President, CEO, & Director",
-              "AvgHoursPerWkDevotedToPosition": "40",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "PersonName": "John Rexroat",
-              "Title": "Secretary and Director",
-              "AvgHoursPerWkDevotedToPosition": "10",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "PersonName": "Stephen F Smith",
-              "Title": "CFO and Director",
-              "AvgHoursPerWkDevotedToPosition": "2",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            },
-            {
-              "PersonName": "Lou Ann Berardi",
-              "Title": "Director",
-              "AvgHoursPerWkDevotedToPosition": "4",
-              "Compensation": "0",
-              "ContriToEmplBenefitPlansEtc": "0",
-              "ExpenseAccountOtherAllowances": "0"
-            }
-          ],
-          "TheBooksAreInCareOf": {
-            "AddressUS": {
-              "AddressLine1": "3762 Sundale Road",
-              "City": "Lafayette",
-              "State": "CA",
-              "ZIPCode": "945493537"
-            },
-            "NamePerson": "Lynda Rexroat",
-            "TelephoneNumber": "9253236915"
-          },
           "AmendedReturn": "X",
           "MethodOfAccountingAccrual": "X",
           "WebSite": "www.cwkf.org",
@@ -842,8 +776,71 @@
           "OtherChangesInNetAssets": "0",
           "NetAssetsOrFundBalancesEOY": "-2905",
           "InfoInScheduleOPartII": "X",
+          "CashSavingsAndInvestments": {
+            "BOY": "440",
+            "EOY": "3382"
+          },
+          "LandAndBuildings": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "OtherAssetsTotal": {
+            "BOY": "0",
+            "EOY": "0"
+          },
+          "TotalAssets": {
+            "BOY": "440",
+            "EOY": "3382"
+          },
+          "SumOfTotalLiabilities": {
+            "BOY": "3742",
+            "EOY": "6287"
+          },
+          "NetAssetsOrFundBalances": {
+            "BOY": "-3302",
+            "EOY": "-2905"
+          },
           "PrimaryExemptPurpose": "Promote healthy eating thru Cooking With Kids Classes",
+          "ProgramServiceAccomplishment": {
+            "DescriptionProgramServiceAccom": "Taught numerous cooking classes to young children",
+            "GrantsAndAllocations": "0",
+            "ProgramServiceExpenses": "14923"
+          },
           "TotalProgramServiceExpenses": "14923",
+          "OfficerDirectorTrusteeKeyEmpl": [
+            {
+              "PersonName": "Linda Kay Rexroat",
+              "Title": "President, CEO, & Director",
+              "AvgHoursPerWkDevotedToPosition": "40",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "John Rexroat",
+              "Title": "Secretary and Director",
+              "AvgHoursPerWkDevotedToPosition": "10",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "Stephen F Smith",
+              "Title": "CFO and Director",
+              "AvgHoursPerWkDevotedToPosition": "2",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            },
+            {
+              "PersonName": "Lou Ann Berardi",
+              "Title": "Director",
+              "AvgHoursPerWkDevotedToPosition": "4",
+              "Compensation": "0",
+              "ContriToEmplBenefitPlansEtc": "0",
+              "ExpenseAccountOtherAllowances": "0"
+            }
+          ],
           "ActivitiesNotPreviouslyRpt": "0",
           "MadeChangesToOrgnzngEtcDoc": "0",
           "OrganizationHadUBI": "0",
@@ -863,6 +860,16 @@
           "AmountOfTaxReimbursedByOrg": "0",
           "ProhibitedTaxShelterTrans": "0",
           "StatesWhereCopyOfReturnIsFiled": "CA",
+          "TheBooksAreInCareOf": {
+            "NamePerson": "Lynda Rexroat",
+            "AddressUS": {
+              "AddressLine1": "3762 Sundale Road",
+              "City": "Lafayette",
+              "State": "CA",
+              "ZIPCode": "945493537"
+            },
+            "TelephoneNumber": "9253236915"
+          },
           "ForeignFinancialAccount": "0",
           "ForeignOffice": "0",
           "MaintainAnyDonorAdvisedFunds": "0",
@@ -878,7 +885,11 @@
           "PartVIAHghstPaidCntrctProfSer": "NONE",
           "FiledScheduleA": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "12000197",
+        "IRS990ScheduleA@softwareVersion": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2": "X",
           "GiftsGrantsContribReceived509": {
             "CurrentTaxYearMinus2Years": "0",
             "CurrentTaxYearMinus1Year": "0",
@@ -937,6 +948,7 @@
             "CurrentTaxYear": "0",
             "Total": "0"
           },
+          "PublicSupportTotal509": "45542",
           "GrossInvestmentIncome509": {
             "CurrentTaxYearMinus2Years": "0",
             "CurrentTaxYearMinus1Year": "0",
@@ -977,12 +989,14 @@
             "CurrentTaxYear": "24596",
             "Total": "45542"
           },
-          "PubliclySupportedOrg509a2": "X",
-          "PublicSupportTotal509": "45542",
           "First5Years509": "X"
         },
+        "IRS990ScheduleB@documentId": "R000003",
+        "IRS990ScheduleB@softwareId": "12000197",
+        "IRS990ScheduleB@softwareVersion": "v1.00",
         "IRS990ScheduleB": {
           "ContributorInfo": {
+            "ContributorNumber": "RESTRICTED",
             "ContributorNameBusiness": {
               "BusinessNameLine1": "RESTRICTED"
             },
@@ -993,10 +1007,12 @@
               "State": "RESTRICTED",
               "ZIPCode": "RESTRICTED"
             },
-            "ContributorNumber": "RESTRICTED",
             "AggregateContributions": "RESTRICTED"
           }
         },
+        "IRS990ScheduleL@documentId": "R000004",
+        "IRS990ScheduleL@softwareId": "12000197",
+        "IRS990ScheduleL@softwareVersion": "v1.00",
         "IRS990ScheduleL": {
           "LoanTable": {
             "NamePerson": "Linda Kay Rexroat",
@@ -1011,6 +1027,9 @@
           },
           "TotalBalanceDue": "6287"
         },
+        "IRS990ScheduleO@documentId": "R000005",
+        "IRS990ScheduleO@softwareId": "12000197",
+        "IRS990ScheduleO@softwareVersion": "v1.00",
         "IRS990ScheduleO": {
           "GeneralExplanation": [
             {
@@ -1030,50 +1049,37 @@
             }
           ]
         },
-        "ReasonableCauseExplanation": {
-          "Explanation": "Amendment to a previous return filed timely."
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000005 R000006",
-        "IRS990EZ@softwareId": "12000197",
-        "IRS990EZ@softwareVersion": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "12000197",
-        "IRS990ScheduleA@softwareVersion": "v1.00",
-        "IRS990ScheduleB@documentId": "R000003",
-        "IRS990ScheduleB@softwareId": "12000197",
-        "IRS990ScheduleB@softwareVersion": "v1.00",
-        "IRS990ScheduleL@documentId": "R000004",
-        "IRS990ScheduleL@softwareId": "12000197",
-        "IRS990ScheduleL@softwareVersion": "v1.00",
-        "IRS990ScheduleO@documentId": "R000005",
-        "IRS990ScheduleO@softwareId": "12000197",
-        "IRS990ScheduleO@softwareVersion": "v1.00",
         "ReasonableCauseExplanation@documentId": "R000006",
         "ReasonableCauseExplanation@softwareId": "12000197",
-        "ReasonableCauseExplanation@softwareVersion": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "6"
-    },
-    "Return@returnVersion": "2012v2.0"
+        "ReasonableCauseExplanation@softwareVersion": "v1.00",
+        "ReasonableCauseExplanation": {
+          "Explanation": "Amendment to a previous return filed timely."
+        }
+      }
+    }
   },
   "201312": {
+    "Return@returnVersion": "2013v3.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2014-08-10T22:23:11-07:00",
+        "TaxPeriodEndDt": "2013-12-31",
+        "ReturnTypeCd": "990EZ",
+        "TaxPeriodBeginDt": "2013-01-01",
         "Filer": {
+          "EIN": "260687839",
           "BusinessName": {
             "BusinessNameLine1": "Cooking With Kids Foundation"
           },
+          "BusinessNameControlTxt": "COOK",
+          "PhoneNum": "9259321114",
           "USAddress": {
             "AddressLine1": "3762 Sundale Road",
             "City": "Lafayette",
             "State": "CA",
             "ZIPCode": "945493537"
-          },
-          "EIN": "260687839",
-          "BusinessNameControlTxt": "COOK",
-          "PhoneNum": "9259321114"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "Stephen Smith",
@@ -1081,88 +1087,16 @@
           "PhoneNum": "9255133015",
           "SignatureDt": "2014-08-10"
         },
-        "ReturnTs": "2014-08-10T22:23:11-07:00",
-        "TaxPeriodEndDt": "2013-12-31",
-        "ReturnTypeCd": "990EZ",
-        "TaxPeriodBeginDt": "2013-01-01",
         "TaxYr": "2013",
         "BuildTS": "2015-11-30 17:44:51Z"
       },
+      "ReturnData@documentCount": "6",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000005 R000006",
+        "IRS990EZ@softwareId": "13000241",
+        "IRS990EZ@softwareVersion": "v1.00",
         "IRS990EZ": {
-          "CashSavingsAndInvestmentsGrp": {
-            "BOYAmt": "3382",
-            "EOYAmt": "3908"
-          },
-          "LandAndBuildingsGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "OtherAssetsTotalDetail": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "Form990TotalAssetsGrp": {
-            "BOYAmt": "3382",
-            "EOYAmt": "3908"
-          },
-          "SumOfTotalLiabilitiesGrp": {
-            "BOYAmt": "6287",
-            "EOYAmt": "1785"
-          },
-          "NetAssetsOrFundBalancesGrp": {
-            "BOYAmt": "-2905",
-            "EOYAmt": "2123"
-          },
-          "ProgramSrvcAccomplishmentGrp": {
-            "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
-            "GrantsAndAllocationsAmt": "0",
-            "ProgramServiceExpensesAmt": "12626"
-          },
-          "OfficerDirectorTrusteeEmplGrp": [
-            {
-              "PersonNm": "Linda Kay Rexroat",
-              "TitleTxt": "President, CEO, & Director",
-              "AverageHrsPerWkDevotedToPosRt": "40",
-              "CompensationAmt": "1200",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "John Rexroat",
-              "TitleTxt": "Secretary and Director",
-              "AverageHrsPerWkDevotedToPosRt": "10",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "Stephen F Smith",
-              "TitleTxt": "CFO and Director",
-              "AverageHrsPerWkDevotedToPosRt": "4",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "Lou Ann Berardi",
-              "TitleTxt": "Director",
-              "AverageHrsPerWkDevotedToPosRt": "4",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            }
-          ],
-          "BooksInCareOfDetail": {
-            "USAddress": {
-              "AddressLine1": "3762 Sundale Road",
-              "City": "Lafayette",
-              "State": "CA",
-              "ZIPCode": "945493537"
-            },
-            "PersonNm": "Lynda Rexroat",
-            "PhoneNum": "9252129771"
-          },
           "MethodOfAccountingAccrualInd": "X",
           "WebsiteAddressTxt": "www.cwkf.org",
           "Organization501c3Ind@referenceDocumentId": "R000002",
@@ -1200,8 +1134,71 @@
           "OtherChangesInNetAssetsAmt": "0",
           "NetAssetsOrFundBalancesEOYAmt": "2123",
           "InfoInScheduleOPartIIInd": "X",
+          "CashSavingsAndInvestmentsGrp": {
+            "BOYAmt": "3382",
+            "EOYAmt": "3908"
+          },
+          "LandAndBuildingsGrp": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
+          "OtherAssetsTotalDetail": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
+          "Form990TotalAssetsGrp": {
+            "BOYAmt": "3382",
+            "EOYAmt": "3908"
+          },
+          "SumOfTotalLiabilitiesGrp": {
+            "BOYAmt": "6287",
+            "EOYAmt": "1785"
+          },
+          "NetAssetsOrFundBalancesGrp": {
+            "BOYAmt": "-2905",
+            "EOYAmt": "2123"
+          },
           "PrimaryExemptPurposeTxt": "Promote healthy eating thru Cooking With Kids Classes",
+          "ProgramSrvcAccomplishmentGrp": {
+            "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
+            "GrantsAndAllocationsAmt": "0",
+            "ProgramServiceExpensesAmt": "12626"
+          },
           "TotalProgramServiceExpensesAmt": "12626",
+          "OfficerDirectorTrusteeEmplGrp": [
+            {
+              "PersonNm": "Linda Kay Rexroat",
+              "TitleTxt": "President, CEO, & Director",
+              "AverageHrsPerWkDevotedToPosRt": "40",
+              "CompensationAmt": "1200",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "John Rexroat",
+              "TitleTxt": "Secretary and Director",
+              "AverageHrsPerWkDevotedToPosRt": "10",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "Stephen F Smith",
+              "TitleTxt": "CFO and Director",
+              "AverageHrsPerWkDevotedToPosRt": "4",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "Lou Ann Berardi",
+              "TitleTxt": "Director",
+              "AverageHrsPerWkDevotedToPosRt": "4",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            }
+          ],
           "ActivitiesNotPreviouslyRptInd": "0",
           "ChgMadeToOrgnzngDocNotRptInd": "0",
           "OrganizationHadUBIInd": "0",
@@ -1221,6 +1218,16 @@
           "TaxReimbursedByOrganizationAmt": "0",
           "ProhibitedTaxShelterTransInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "CA",
+          "BooksInCareOfDetail": {
+            "PersonNm": "Lynda Rexroat",
+            "USAddress": {
+              "AddressLine1": "3762 Sundale Road",
+              "City": "Lafayette",
+              "State": "CA",
+              "ZIPCode": "945493537"
+            },
+            "PhoneNum": "9252129771"
+          },
           "ForeignFinancialAccountInd": "0",
           "ForeignOfficeInd": "0",
           "DonorAdvisedFndsInd": "0",
@@ -1236,7 +1243,11 @@
           "PartVIHghstPdCntrctProfSrvcTxt": "NONE",
           "FiledScheduleAInd": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "13000241",
+        "IRS990ScheduleA@softwareVersion": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2Ind": "X",
           "GiftsGrantsContrisRcvd509Grp": {
             "CurrentTaxYearMinus3YearsAmt": "0",
             "CurrentTaxYearMinus2YearsAmt": "0",
@@ -1302,6 +1313,7 @@
             "CurrentTaxYearAmt": "0",
             "TotalAmt": "0"
           },
+          "PublicSupportTotal509Amt": "73848",
           "GrossInvestmentIncome509Grp": {
             "CurrentTaxYearMinus3YearsAmt": "0",
             "CurrentTaxYearMinus2YearsAmt": "0",
@@ -1345,12 +1357,14 @@
             "CurrentTaxYearAmt": "28270",
             "TotalAmt": "73848"
           },
-          "PubliclySupportedOrg509a2Ind": "X",
-          "PublicSupportTotal509Amt": "73848",
           "First5Years509Ind": "X"
         },
+        "IRS990ScheduleB@documentId": "R000003",
+        "IRS990ScheduleB@softwareId": "13000241",
+        "IRS990ScheduleB@softwareVersion": "v1.00",
         "IRS990ScheduleB": {
           "ContributorInformationGrp": {
+            "ContributorNum": "RESTRICTED",
             "ContributorBusinessName": {
               "BusinessNameLine1": "RESTRICTED"
             },
@@ -1361,10 +1375,12 @@
               "State": "RESTRICTED",
               "ZIPCode": "RESTRICTED"
             },
-            "ContributorNum": "RESTRICTED",
             "TotalContributionsAmt": "RESTRICTED"
           }
         },
+        "IRS990ScheduleL@documentId": "R000004",
+        "IRS990ScheduleL@softwareId": "13000241",
+        "IRS990ScheduleL@softwareVersion": "v1.00",
         "IRS990ScheduleL": {
           "LoansBtwnOrgInterestedPrsnGrp": {
             "PersonNm": "Lynda Kay Rexroat",
@@ -1379,6 +1395,9 @@
           },
           "TotalBalanceDueAmt": "1785"
         },
+        "IRS990ScheduleO@documentId": "R000005",
+        "IRS990ScheduleO@softwareId": "13000241",
+        "IRS990ScheduleO@softwareVersion": "v1.00",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -1391,50 +1410,37 @@
             }
           ]
         },
-        "ReasonableCauseExplanation": {
-          "ExplanationTxt": "Extension granted."
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000005 R000006",
-        "IRS990EZ@softwareId": "13000241",
-        "IRS990EZ@softwareVersion": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "13000241",
-        "IRS990ScheduleA@softwareVersion": "v1.00",
-        "IRS990ScheduleB@documentId": "R000003",
-        "IRS990ScheduleB@softwareId": "13000241",
-        "IRS990ScheduleB@softwareVersion": "v1.00",
-        "IRS990ScheduleL@documentId": "R000004",
-        "IRS990ScheduleL@softwareId": "13000241",
-        "IRS990ScheduleL@softwareVersion": "v1.00",
-        "IRS990ScheduleO@documentId": "R000005",
-        "IRS990ScheduleO@softwareId": "13000241",
-        "IRS990ScheduleO@softwareVersion": "v1.00",
         "ReasonableCauseExplanation@documentId": "R000006",
         "ReasonableCauseExplanation@softwareId": "13000241",
-        "ReasonableCauseExplanation@softwareVersion": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCount": "6"
-    },
-    "Return@returnVersion": "2013v3.0"
+        "ReasonableCauseExplanation@softwareVersion": "v1.00",
+        "ReasonableCauseExplanation": {
+          "ExplanationTxt": "Extension granted."
+        }
+      }
+    }
   },
   "201412": {
+    "Return@returnVersion": "2014v5.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2015-05-14T20:39:02-07:00",
+        "TaxPeriodEndDt": "2014-12-31",
+        "ReturnTypeCd": "990EZ",
+        "TaxPeriodBeginDt": "2014-01-01",
         "Filer": {
+          "EIN": "260687839",
           "BusinessName": {
             "BusinessNameLine1Txt": "Cooking With Kids Foundation"
           },
+          "BusinessNameControlTxt": "COOK",
+          "PhoneNum": "9259321114",
           "USAddress": {
             "AddressLine1Txt": "3762 Sundale Road",
             "CityNm": "Lafayette",
             "StateAbbreviationCd": "CA",
             "ZIPCd": "945493537"
-          },
-          "EIN": "260687839",
-          "BusinessNameControlTxt": "COOK",
-          "PhoneNum": "9259321114"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "Stephen Smith",
@@ -1442,15 +1448,52 @@
           "PhoneNum": "9255133015",
           "SignatureDt": "2015-05-14"
         },
-        "ReturnTs": "2015-05-14T20:39:02-07:00",
-        "TaxPeriodEndDt": "2014-12-31",
-        "ReturnTypeCd": "990EZ",
-        "TaxPeriodBeginDt": "2014-01-01",
         "TaxYr": "2014",
         "BuildTS": "2016-04-25 22:37:26Z"
       },
+      "ReturnData@documentCnt": "4",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000004",
+        "IRS990EZ@softwareId": "14000267",
+        "IRS990EZ@softwareVersionNum": "v1.00",
         "IRS990EZ": {
+          "MethodOfAccountingAccrualInd": "X",
+          "WebsiteAddressTxt": "www.cwkf.org",
+          "Organization501c3Ind@referenceDocumentId": "R000002",
+          "Organization501c3Ind": "X",
+          "TypeOfOrganizationCorpInd": "X",
+          "GrossReceiptsAmt": "31831",
+          "InfoInScheduleOPartIInd": "X",
+          "ContributionsGiftsGrantsEtcAmt": "2600",
+          "ProgramServiceRevenueAmt": "29231",
+          "MembershipDuesAmt": "0",
+          "InvestmentIncomeAmt": "0",
+          "SaleOfAssetsGrossAmt": "0",
+          "CostOrOtherBasisExpenseSaleAmt": "0",
+          "GainOrLossFromSaleOfAssetsAmt": "0",
+          "GamingGrossIncomeAmt": "0",
+          "FundraisingGrossIncomeAmt@fndrsngEventContriPrevRptAmt": "0",
+          "FundraisingGrossIncomeAmt": "0",
+          "SpecialEventsDirectExpensesAmt": "0",
+          "SpecialEventsNetIncomeLossAmt": "0",
+          "GrossSalesOfInventoryAmt": "0",
+          "CostOfGoodsSoldAmt": "0",
+          "GrossProfitLossSlsOfInvntryAmt": "0",
+          "OtherRevenueTotalAmt": "0",
+          "TotalRevenueAmt": "31831",
+          "GrantsAndSimilarAmountsPaidAmt": "0",
+          "BenefitsPaidToOrForMembersAmt": "0",
+          "SalariesOtherCompEmplBnftAmt": "500",
+          "FeesAndOtherPymtToIndCntrctAmt": "8380",
+          "OccupancyRentUtltsAndMaintAmt": "446",
+          "PrintingPublicationsPostageAmt": "151",
+          "OtherExpensesTotalAmt": "18328",
+          "TotalExpensesAmt": "27805",
+          "ExcessOrDeficitForYearAmt": "4026",
+          "NetAssetsOrFundBalancesBOYAmt": "2123",
+          "OtherChangesInNetAssetsAmt": "0",
+          "NetAssetsOrFundBalancesEOYAmt": "6149",
           "CashSavingsAndInvestmentsGrp": {
             "BOYAmt": "3908",
             "EOYAmt": "6149"
@@ -1475,11 +1518,13 @@
             "BOYAmt": "2123",
             "EOYAmt": "6149"
           },
+          "PrimaryExemptPurposeTxt": "Promote healthy eating thru Cooking With Kids Classes",
           "ProgramSrvcAccomplishmentGrp": {
             "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
             "GrantsAndAllocationsAmt": "0",
             "ProgramServiceExpensesAmt": "19316"
           },
+          "TotalProgramServiceExpensesAmt": "19316",
           "OfficerDirectorTrusteeEmplGrp": [
             {
               "PersonNm": "Linda Kay Rexroat",
@@ -1522,54 +1567,6 @@
               "ExpenseAccountOtherAllwncAmt": "0"
             }
           ],
-          "BooksInCareOfDetail": {
-            "USAddress": {
-              "AddressLine1Txt": "3762 Sundale Road",
-              "CityNm": "Lafayette",
-              "StateAbbreviationCd": "CA",
-              "ZIPCd": "945493537"
-            },
-            "PersonNm": "Lynda Rexroat",
-            "PhoneNum": "9252129771"
-          },
-          "MethodOfAccountingAccrualInd": "X",
-          "WebsiteAddressTxt": "www.cwkf.org",
-          "Organization501c3Ind@referenceDocumentId": "R000002",
-          "Organization501c3Ind": "X",
-          "TypeOfOrganizationCorpInd": "X",
-          "GrossReceiptsAmt": "31831",
-          "InfoInScheduleOPartIInd": "X",
-          "ContributionsGiftsGrantsEtcAmt": "2600",
-          "ProgramServiceRevenueAmt": "29231",
-          "MembershipDuesAmt": "0",
-          "InvestmentIncomeAmt": "0",
-          "SaleOfAssetsGrossAmt": "0",
-          "CostOrOtherBasisExpenseSaleAmt": "0",
-          "GainOrLossFromSaleOfAssetsAmt": "0",
-          "GamingGrossIncomeAmt": "0",
-          "FundraisingGrossIncomeAmt@fndrsngEventContriPrevRptAmt": "0",
-          "FundraisingGrossIncomeAmt": "0",
-          "SpecialEventsDirectExpensesAmt": "0",
-          "SpecialEventsNetIncomeLossAmt": "0",
-          "GrossSalesOfInventoryAmt": "0",
-          "CostOfGoodsSoldAmt": "0",
-          "GrossProfitLossSlsOfInvntryAmt": "0",
-          "OtherRevenueTotalAmt": "0",
-          "TotalRevenueAmt": "31831",
-          "GrantsAndSimilarAmountsPaidAmt": "0",
-          "BenefitsPaidToOrForMembersAmt": "0",
-          "SalariesOtherCompEmplBnftAmt": "500",
-          "FeesAndOtherPymtToIndCntrctAmt": "8380",
-          "OccupancyRentUtltsAndMaintAmt": "446",
-          "PrintingPublicationsPostageAmt": "151",
-          "OtherExpensesTotalAmt": "18328",
-          "TotalExpensesAmt": "27805",
-          "ExcessOrDeficitForYearAmt": "4026",
-          "NetAssetsOrFundBalancesBOYAmt": "2123",
-          "OtherChangesInNetAssetsAmt": "0",
-          "NetAssetsOrFundBalancesEOYAmt": "6149",
-          "PrimaryExemptPurposeTxt": "Promote healthy eating thru Cooking With Kids Classes",
-          "TotalProgramServiceExpensesAmt": "19316",
           "ActivitiesNotPreviouslyRptInd": "0",
           "ChgMadeToOrgnzngDocNotRptInd": "0",
           "OrganizationHadUBIInd": "0",
@@ -1586,6 +1583,16 @@
           "TaxReimbursedByOrganizationAmt": "0",
           "ProhibitedTaxShelterTransInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "CA",
+          "BooksInCareOfDetail": {
+            "PersonNm": "Lynda Rexroat",
+            "USAddress": {
+              "AddressLine1Txt": "3762 Sundale Road",
+              "CityNm": "Lafayette",
+              "StateAbbreviationCd": "CA",
+              "ZIPCd": "945493537"
+            },
+            "PhoneNum": "9252129771"
+          },
           "ForeignFinancialAccountInd": "0",
           "ForeignOfficeInd": "0",
           "DonorAdvisedFndsInd": "0",
@@ -1601,7 +1608,11 @@
           "PartVIHghstPdCntrctProfSrvcTxt": "NONE",
           "FiledScheduleAInd": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "14000267",
+        "IRS990ScheduleA@softwareVersionNum": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2Ind": "X",
           "GiftsGrantsContrisRcvd509Grp": {
             "CurrentTaxYearMinus4YearsAmt": "0",
             "CurrentTaxYearMinus3YearsAmt": "0",
@@ -1674,6 +1685,7 @@
             "CurrentTaxYearAmt": "0",
             "TotalAmt": "0"
           },
+          "PublicSupportTotal509Amt": "105679",
           "GrossInvestmentIncome509Grp": {
             "CurrentTaxYearMinus4YearsAmt": "0",
             "CurrentTaxYearMinus3YearsAmt": "0",
@@ -1722,12 +1734,14 @@
             "CurrentTaxYearAmt": "31831",
             "TotalAmt": "105679"
           },
-          "PubliclySupportedOrg509a2Ind": "X",
-          "PublicSupportTotal509Amt": "105679",
           "First5Years509Ind": "X"
         },
+        "IRS990ScheduleB@documentId": "R000003",
+        "IRS990ScheduleB@softwareId": "14000267",
+        "IRS990ScheduleB@softwareVersionNum": "v1.00",
         "IRS990ScheduleB": {
           "ContributorInformationGrp": {
+            "ContributorNum": "RESTRICTED",
             "ContributorBusinessName": {
               "BusinessNameLine1": "RESTRICTED"
             },
@@ -1738,51 +1752,43 @@
               "State": "RESTRICTED",
               "ZIPCode": "RESTRICTED"
             },
-            "ContributorNum": "RESTRICTED",
             "TotalContributionsAmt": "RESTRICTED"
           }
         },
+        "IRS990ScheduleO@documentId": "R000004",
+        "IRS990ScheduleO@softwareId": "14000267",
+        "IRS990ScheduleO@softwareVersionNum": "v1.00",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": {
             "FormAndLineReferenceDesc": "Form 990-EZ, Part I, Line 16",
             "ExplanationTxt": "Description;Amount^Corporate Registration Fees;31|Advertising and Promotion;232|Automobile Expense;4685|Bank Service Charges;32|Charitble Contributions;100|Computer and Internet Expenses;963|Conferenceand Meetings;87|Fundraiser Expenses;335|Language Translation;480|Meeting Expense;27|Dues and Subscriptions;205|Key Person Insurance;615|Auto Insurance;874|Consumables Food;3132|Supplies Cooking Class;1179|Equipment Small Tools;236|Material Fee Offset;40|Mandatory Testing for Teachers;249|Shopping;819|Recruitment Advertising;75|Other Supplies;20|Mobile Kitchen Remodel Cost;75|Office Expense;1867|Rent Expense;675|Repairs and Maintenance;146|Aprons;96|Small Tools and Equipment;105|Telephone Expense;948^Total;18328^"
           }
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000004",
-        "IRS990EZ@softwareId": "14000267",
-        "IRS990EZ@softwareVersionNum": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "14000267",
-        "IRS990ScheduleA@softwareVersionNum": "v1.00",
-        "IRS990ScheduleB@documentId": "R000003",
-        "IRS990ScheduleB@softwareId": "14000267",
-        "IRS990ScheduleB@softwareVersionNum": "v1.00",
-        "IRS990ScheduleO@documentId": "R000004",
-        "IRS990ScheduleO@softwareId": "14000267",
-        "IRS990ScheduleO@softwareVersionNum": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "4"
-    },
-    "Return@returnVersion": "2014v5.0"
+        }
+      }
+    }
   },
   "201512": {
+    "Return@returnVersion": "2015v2.1",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2016-05-08T19:51:33-07:00",
+        "TaxPeriodEndDt": "2015-12-31",
+        "ReturnTypeCd": "990EZ",
+        "TaxPeriodBeginDt": "2015-01-01",
         "Filer": {
+          "EIN": "260687839",
           "BusinessName": {
             "BusinessNameLine1Txt": "Cooking With Kids Foundation"
           },
+          "BusinessNameControlTxt": "COOK",
+          "PhoneNum": "9259321114",
           "USAddress": {
             "AddressLine1Txt": "2600 Ryan Road",
             "CityNm": "Concord",
             "StateAbbreviationCd": "CA",
             "ZIPCd": "945182600"
-          },
-          "EIN": "260687839",
-          "BusinessNameControlTxt": "COOK",
-          "PhoneNum": "9259321114"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "Stephen Smith",
@@ -1790,88 +1796,16 @@
           "PhoneNum": "9255133015",
           "SignatureDt": "2016-05-08"
         },
-        "ReturnTs": "2016-05-08T19:51:33-07:00",
-        "TaxPeriodEndDt": "2015-12-31",
-        "ReturnTypeCd": "990EZ",
-        "TaxPeriodBeginDt": "2015-01-01",
         "TaxYr": "2015",
         "BuildTS": "2016-09-27 15:27:22Z"
       },
+      "ReturnData@documentCnt": "3",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000003",
+        "IRS990EZ@softwareId": "15000352",
+        "IRS990EZ@softwareVersionNum": "v1.00",
         "IRS990EZ": {
-          "CashSavingsAndInvestmentsGrp": {
-            "BOYAmt": "5292",
-            "EOYAmt": "2437"
-          },
-          "LandAndBuildingsGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "OtherAssetsTotalDetail": {
-            "BOYAmt": "0",
-            "EOYAmt": "975"
-          },
-          "Form990TotalAssetsGrp": {
-            "BOYAmt": "5292",
-            "EOYAmt": "3412"
-          },
-          "SumOfTotalLiabilitiesGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "NetAssetsOrFundBalancesGrp": {
-            "BOYAmt": "5292",
-            "EOYAmt": "3412"
-          },
-          "ProgramSrvcAccomplishmentGrp": {
-            "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
-            "GrantsAndAllocationsAmt": "0",
-            "ProgramServiceExpensesAmt": "16164"
-          },
-          "OfficerDirectorTrusteeEmplGrp": [
-            {
-              "PersonNm": "Linda Kay Rexroat",
-              "TitleTxt": "President, CEO, & Director",
-              "AverageHrsPerWkDevotedToPosRt": "40",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "John Rexroat",
-              "TitleTxt": "Secretary and Director",
-              "AverageHrsPerWkDevotedToPosRt": "4",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "Stephen F Smith",
-              "TitleTxt": "CFO and Director",
-              "AverageHrsPerWkDevotedToPosRt": "6",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "Bill Durkin",
-              "TitleTxt": "Director",
-              "AverageHrsPerWkDevotedToPosRt": "2",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            }
-          ],
-          "BooksInCareOfDetail": {
-            "USAddress": {
-              "AddressLine1Txt": "2600 Ryan Road",
-              "CityNm": "Concord",
-              "StateAbbreviationCd": "CA",
-              "ZIPCd": "945182600"
-            },
-            "PersonNm": "Lynda Rexroat",
-            "PhoneNum": "9252129771"
-          },
           "MethodOfAccountingAccrualInd": "X",
           "ScheduleBNotRequiredInd": "X",
           "WebsiteAddressTxt": "www.cwkf.org",
@@ -1910,8 +1844,71 @@
           "OtherChangesInNetAssetsAmt": "0",
           "NetAssetsOrFundBalancesEOYAmt": "3412",
           "InfoInScheduleOPartIIInd": "X",
+          "CashSavingsAndInvestmentsGrp": {
+            "BOYAmt": "5292",
+            "EOYAmt": "2437"
+          },
+          "LandAndBuildingsGrp": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
+          "OtherAssetsTotalDetail": {
+            "BOYAmt": "0",
+            "EOYAmt": "975"
+          },
+          "Form990TotalAssetsGrp": {
+            "BOYAmt": "5292",
+            "EOYAmt": "3412"
+          },
+          "SumOfTotalLiabilitiesGrp": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
+          "NetAssetsOrFundBalancesGrp": {
+            "BOYAmt": "5292",
+            "EOYAmt": "3412"
+          },
           "PrimaryExemptPurposeTxt": "Promote healthy eating thru Cooking With Kids Classes",
+          "ProgramSrvcAccomplishmentGrp": {
+            "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
+            "GrantsAndAllocationsAmt": "0",
+            "ProgramServiceExpensesAmt": "16164"
+          },
           "TotalProgramServiceExpensesAmt": "16164",
+          "OfficerDirectorTrusteeEmplGrp": [
+            {
+              "PersonNm": "Linda Kay Rexroat",
+              "TitleTxt": "President, CEO, & Director",
+              "AverageHrsPerWkDevotedToPosRt": "40",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "John Rexroat",
+              "TitleTxt": "Secretary and Director",
+              "AverageHrsPerWkDevotedToPosRt": "4",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "Stephen F Smith",
+              "TitleTxt": "CFO and Director",
+              "AverageHrsPerWkDevotedToPosRt": "6",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "Bill Durkin",
+              "TitleTxt": "Director",
+              "AverageHrsPerWkDevotedToPosRt": "2",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            }
+          ],
           "ActivitiesNotPreviouslyRptInd": "0",
           "ChgMadeToOrgnzngDocNotRptInd": "0",
           "OrganizationHadUBIInd": "0",
@@ -1928,6 +1925,16 @@
           "TaxReimbursedByOrganizationAmt": "0",
           "ProhibitedTaxShelterTransInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "CA",
+          "BooksInCareOfDetail": {
+            "PersonNm": "Lynda Rexroat",
+            "USAddress": {
+              "AddressLine1Txt": "2600 Ryan Road",
+              "CityNm": "Concord",
+              "StateAbbreviationCd": "CA",
+              "ZIPCd": "945182600"
+            },
+            "PhoneNum": "9252129771"
+          },
           "ForeignFinancialAccountInd": "0",
           "ForeignOfficeInd": "0",
           "DonorAdvisedFndsInd": "0",
@@ -1943,7 +1950,11 @@
           "PartVIHghstPdCntrctProfSrvcTxt": "NONE",
           "FiledScheduleAInd": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "15000352",
+        "IRS990ScheduleA@softwareVersionNum": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2Ind": "X",
           "GiftsGrantsContrisRcvd509Grp": {
             "CurrentTaxYearMinus4YearsAmt": "0",
             "CurrentTaxYearMinus3YearsAmt": "2814",
@@ -2016,6 +2027,7 @@
             "CurrentTaxYearAmt": "0",
             "TotalAmt": "0"
           },
+          "PublicSupportTotal509Amt": "134277",
           "GrossInvestmentIncome509Grp": {
             "CurrentTaxYearMinus4YearsAmt": "0",
             "CurrentTaxYearMinus3YearsAmt": "0",
@@ -2064,14 +2076,15 @@
             "CurrentTaxYearAmt": "31150",
             "TotalAmt": "134277"
           },
-          "PubliclySupportedOrg509a2Ind": "X",
-          "PublicSupportTotal509Amt": "134277",
           "PublicSupportCY509Pct": "1",
           "PublicSupportPY509Pct": "1",
           "InvestmentIncomeCYPct": "0",
           "InvestmentIncomePYPct": "0",
           "ThirtyThrPctSuprtTestsCY509Ind": "X"
         },
+        "IRS990ScheduleO@documentId": "R000003",
+        "IRS990ScheduleO@softwareId": "15000352",
+        "IRS990ScheduleO@softwareVersionNum": "v1.00",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -2083,39 +2096,32 @@
               "ExplanationTxt": "Inventoried Promotional Materials (Preprinted Aprons)"
             }
           ]
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000003",
-        "IRS990EZ@softwareId": "15000352",
-        "IRS990EZ@softwareVersionNum": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "15000352",
-        "IRS990ScheduleA@softwareVersionNum": "v1.00",
-        "IRS990ScheduleO@documentId": "R000003",
-        "IRS990ScheduleO@softwareId": "15000352",
-        "IRS990ScheduleO@softwareVersionNum": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "3"
-    },
-    "Return@returnVersion": "2015v2.1"
+        }
+      }
+    }
   },
   "201612": {
+    "Return@returnVersion": "2016v3.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2017-08-29T18:40:50-07:00",
+        "TaxPeriodEndDt": "2016-12-31",
+        "ReturnTypeCd": "990EZ",
+        "TaxPeriodBeginDt": "2016-01-01",
         "Filer": {
+          "EIN": "260687839",
           "BusinessName": {
             "BusinessNameLine1Txt": "Cooking With Kids Foundation"
           },
+          "BusinessNameControlTxt": "COOK",
+          "PhoneNum": "9259321114",
           "USAddress": {
             "AddressLine1Txt": "2600 Ryan Road",
             "CityNm": "Concord",
             "StateAbbreviationCd": "CA",
             "ZIPCd": "945182600"
-          },
-          "EIN": "260687839",
-          "BusinessNameControlTxt": "COOK",
-          "PhoneNum": "9259321114"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "Stephen Smith",
@@ -2128,88 +2134,16 @@
             "IPv4AddressTxt": "73.93.51.103"
           }
         },
-        "ReturnTs": "2017-08-29T18:40:50-07:00",
-        "TaxPeriodEndDt": "2016-12-31",
-        "ReturnTypeCd": "990EZ",
-        "TaxPeriodBeginDt": "2016-01-01",
         "TaxYr": "2016",
         "BuildTS": "2017-02-10 21:41:12Z"
       },
+      "ReturnData@documentCnt": "4",
       "ReturnData": {
+        "IRS990EZ@documentId": "R000001",
+        "IRS990EZ@referenceDocumentId": "R000003 R000004",
+        "IRS990EZ@softwareId": "16000425",
+        "IRS990EZ@softwareVersionNum": "v1.00",
         "IRS990EZ": {
-          "CashSavingsAndInvestmentsGrp": {
-            "BOYAmt": "2437",
-            "EOYAmt": "9995"
-          },
-          "LandAndBuildingsGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "OtherAssetsTotalDetail": {
-            "BOYAmt": "975",
-            "EOYAmt": "1490"
-          },
-          "Form990TotalAssetsGrp": {
-            "BOYAmt": "3412",
-            "EOYAmt": "11485"
-          },
-          "SumOfTotalLiabilitiesGrp": {
-            "BOYAmt": "0",
-            "EOYAmt": "0"
-          },
-          "NetAssetsOrFundBalancesGrp": {
-            "BOYAmt": "3412",
-            "EOYAmt": "11485"
-          },
-          "ProgramSrvcAccomplishmentGrp": {
-            "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
-            "GrantsAndAllocationsAmt": "0",
-            "ProgramServiceExpensesAmt": "17229"
-          },
-          "OfficerDirectorTrusteeEmplGrp": [
-            {
-              "PersonNm": "Linda Kay Rexroat",
-              "TitleTxt": "President, CEO, & Director",
-              "AverageHrsPerWkDevotedToPosRt": "40",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "John Rexroat",
-              "TitleTxt": "Secretary and Director",
-              "AverageHrsPerWkDevotedToPosRt": "4",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "Stephen F Smith",
-              "TitleTxt": "CFO and Director",
-              "AverageHrsPerWkDevotedToPosRt": "6",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            },
-            {
-              "PersonNm": "Bill Durkin",
-              "TitleTxt": "Director",
-              "AverageHrsPerWkDevotedToPosRt": "2",
-              "CompensationAmt": "0",
-              "EmployeeBenefitProgramAmt": "0",
-              "ExpenseAccountOtherAllwncAmt": "0"
-            }
-          ],
-          "BooksInCareOfDetail": {
-            "USAddress": {
-              "AddressLine1Txt": "2600 Ryan Road",
-              "CityNm": "Concord",
-              "StateAbbreviationCd": "CA",
-              "ZIPCd": "945182600"
-            },
-            "PersonNm": "Lynda Rexroat",
-            "PhoneNum": "9252129771"
-          },
           "MethodOfAccountingAccrualInd": "X",
           "ScheduleBNotRequiredInd": "X",
           "WebsiteAddressTxt": "www.cwkf.org",
@@ -2248,8 +2182,71 @@
           "OtherChangesInNetAssetsAmt": "1544",
           "NetAssetsOrFundBalancesEOYAmt": "11485",
           "InfoInScheduleOPartIIInd": "X",
+          "CashSavingsAndInvestmentsGrp": {
+            "BOYAmt": "2437",
+            "EOYAmt": "9995"
+          },
+          "LandAndBuildingsGrp": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
+          "OtherAssetsTotalDetail": {
+            "BOYAmt": "975",
+            "EOYAmt": "1490"
+          },
+          "Form990TotalAssetsGrp": {
+            "BOYAmt": "3412",
+            "EOYAmt": "11485"
+          },
+          "SumOfTotalLiabilitiesGrp": {
+            "BOYAmt": "0",
+            "EOYAmt": "0"
+          },
+          "NetAssetsOrFundBalancesGrp": {
+            "BOYAmt": "3412",
+            "EOYAmt": "11485"
+          },
           "PrimaryExemptPurposeTxt": "Promote healthy eating thru Cooking With Kids Classes",
+          "ProgramSrvcAccomplishmentGrp": {
+            "DescriptionProgramSrvcAccomTxt": "Taught numerous cooking classes to young children",
+            "GrantsAndAllocationsAmt": "0",
+            "ProgramServiceExpensesAmt": "17229"
+          },
           "TotalProgramServiceExpensesAmt": "17229",
+          "OfficerDirectorTrusteeEmplGrp": [
+            {
+              "PersonNm": "Linda Kay Rexroat",
+              "TitleTxt": "President, CEO, & Director",
+              "AverageHrsPerWkDevotedToPosRt": "40",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "John Rexroat",
+              "TitleTxt": "Secretary and Director",
+              "AverageHrsPerWkDevotedToPosRt": "4",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "Stephen F Smith",
+              "TitleTxt": "CFO and Director",
+              "AverageHrsPerWkDevotedToPosRt": "6",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            },
+            {
+              "PersonNm": "Bill Durkin",
+              "TitleTxt": "Director",
+              "AverageHrsPerWkDevotedToPosRt": "2",
+              "CompensationAmt": "0",
+              "EmployeeBenefitProgramAmt": "0",
+              "ExpenseAccountOtherAllwncAmt": "0"
+            }
+          ],
           "ActivitiesNotPreviouslyRptInd": "0",
           "ChgMadeToOrgnzngDocNotRptInd": "0",
           "OrganizationHadUBIInd": "0",
@@ -2266,6 +2263,16 @@
           "TaxReimbursedByOrganizationAmt": "0",
           "ProhibitedTaxShelterTransInd": "0",
           "StatesWhereCopyOfReturnIsFldCd": "CA",
+          "BooksInCareOfDetail": {
+            "PersonNm": "Lynda Rexroat",
+            "USAddress": {
+              "AddressLine1Txt": "2600 Ryan Road",
+              "CityNm": "Concord",
+              "StateAbbreviationCd": "CA",
+              "ZIPCd": "945182600"
+            },
+            "PhoneNum": "9252129771"
+          },
           "ForeignFinancialAccountInd": "0",
           "ForeignOfficeInd": "0",
           "DonorAdvisedFndsInd": "0",
@@ -2281,7 +2288,11 @@
           "PartVIHghstPdCntrctProfSrvcTxt": "NONE",
           "FiledScheduleAInd": "1"
         },
+        "IRS990ScheduleA@documentId": "R000002",
+        "IRS990ScheduleA@softwareId": "16000425",
+        "IRS990ScheduleA@softwareVersionNum": "v1.00",
         "IRS990ScheduleA": {
+          "PubliclySupportedOrg509a2Ind": "X",
           "GiftsGrantsContrisRcvd509Grp": {
             "CurrentTaxYearMinus4YearsAmt": "2814",
             "CurrentTaxYearMinus3YearsAmt": "1000",
@@ -2354,6 +2365,7 @@
             "CurrentTaxYearAmt": "0",
             "TotalAmt": "0"
           },
+          "PublicSupportTotal509Amt": "157165",
           "GrossInvestmentIncome509Grp": {
             "CurrentTaxYearMinus4YearsAmt": "0",
             "CurrentTaxYearMinus3YearsAmt": "0",
@@ -2401,14 +2413,15 @@
             "CurrentTaxYearAmt": "41282",
             "TotalAmt": "157165"
           },
-          "PubliclySupportedOrg509a2Ind": "X",
-          "PublicSupportTotal509Amt": "157165",
           "PublicSupportCY509Pct": "1",
           "PublicSupportPY509Pct": "1",
           "InvestmentIncomeCYPct": "0",
           "InvestmentIncomePYPct": "0",
           "ThirtyThrPctSuprtTestsPY509Ind": "X"
         },
+        "IRS990ScheduleO@documentId": "R000003",
+        "IRS990ScheduleO@softwareId": "16000425",
+        "IRS990ScheduleO@softwareVersionNum": "v1.00",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -2425,26 +2438,13 @@
             }
           ]
         },
-        "ReasonableCauseExplanation": {
-          "ExplanationTxt": "A Form 8868 Extension was applied for and granted."
-        },
-        "IRS990EZ@documentId": "R000001",
-        "IRS990EZ@referenceDocumentId": "R000003 R000004",
-        "IRS990EZ@softwareId": "16000425",
-        "IRS990EZ@softwareVersionNum": "v1.00",
-        "IRS990ScheduleA@documentId": "R000002",
-        "IRS990ScheduleA@softwareId": "16000425",
-        "IRS990ScheduleA@softwareVersionNum": "v1.00",
-        "IRS990ScheduleO@documentId": "R000003",
-        "IRS990ScheduleO@softwareId": "16000425",
-        "IRS990ScheduleO@softwareVersionNum": "v1.00",
         "ReasonableCauseExplanation@documentId": "R000004",
         "ReasonableCauseExplanation@softwareId": "16000425",
-        "ReasonableCauseExplanation@softwareVersionNum": "v1.00"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "4"
-    },
-    "Return@returnVersion": "2016v3.0"
+        "ReasonableCauseExplanation@softwareVersionNum": "v1.00",
+        "ReasonableCauseExplanation": {
+          "ExplanationTxt": "A Form 8868 Extension was applied for and granted."
+        }
+      }
+    }
   }
 }

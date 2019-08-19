@@ -1,7 +1,11 @@
 {
   "201012": {
+    "Return@returnVersion": "2010v3.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2011-05-16T09:48:10-05:00",
+        "TaxPeriodEndDate": "2010-12-31",
         "PreparerFirm": {
           "PreparerFirmBusinessName": {
             "BusinessNameLine1": "CLARK SCHAEFER HACKETT AND CO"
@@ -13,19 +17,21 @@
             "ZIPCode": "452024093"
           }
         },
+        "ReturnType": "990PF",
+        "TaxPeriodBeginDate": "2010-01-01",
         "Filer": {
+          "EIN": "208419458",
           "Name": {
             "BusinessNameLine1": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "NameControl": "GROS",
+          "Phone": "5137856060",
           "USAddress": {
             "AddressLine1": "9435 WATERSTONE BLVD",
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45249"
-          },
-          "EIN": "208419458",
-          "NameControl": "GROS",
-          "Phone": "5137856060"
+          }
         },
         "Officer": {
           "Name": "SANDRA GROSS",
@@ -38,15 +44,16 @@
           "Name": "A E SCHWEIER CPA",
           "Phone": "5132413111"
         },
-        "Timestamp": "2011-05-16T09:48:10-05:00",
-        "TaxPeriodEndDate": "2010-12-31",
-        "ReturnType": "990PF",
-        "TaxPeriodBeginDate": "2010-01-01",
         "TaxYear": "2010",
         "BuildTS": "2016-02-24 21:20:13Z"
       },
+      "ReturnData@documentCount": "7",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "ExemptPF": "X",
+          "FMVAssetsEOY": "934831",
+          "MethodOfAccountingCash": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ContriReceivedRevAndExpnss": "48525",
             "DividendsRevAndExpnss": "21548",
@@ -182,12 +189,6 @@
             "TaxDue": "54"
           },
           "StatementsRegardingActivities": {
-            "BooksInCareOfUSAddress": {
-              "AddressLine1": "4985 WALNUT WOODS LANE",
-              "City": "CINCINNATI",
-              "State": "OH",
-              "ZIPCode": "45243"
-            },
             "LegislativePoliticalActivities": "0",
             "MoreThan100Spent": "0",
             "Form1120POLFiled": "0",
@@ -210,6 +211,12 @@
             "WebsiteAddress": "N/A",
             "BooksInCareOfPersonName": "SANDRA GROSS",
             "BooksInCareOfPhoneNumber": "5137856060",
+            "BooksInCareOfUSAddress": {
+              "AddressLine1": "4985 WALNUT WOODS LANE",
+              "City": "CINCINNATI",
+              "State": "OH",
+              "ZIPCode": "45243"
+            },
             "ForeignBank": "0"
           },
           "StatementsRegardingActy4720": {
@@ -236,13 +243,13 @@
           "OfcrDirTrusteesKeyEmployeeInfo": {
             "OfcrDirTrusteesOrKeyEmployee": [
               {
+                "PersonName": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonName": "SANDRA GROSS",
                 "Title": "PRESIDENT",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -250,13 +257,13 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonName": "JOHN HUTTON",
                 "Title": "VICE PRESIDENT",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -264,13 +271,13 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1": "105 E 4TH STREET STE 1500",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonName": "ANTHONY SCHWEIER",
                 "Title": "TREASURER",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -278,6 +285,7 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2": "TWO",
@@ -285,7 +293,6 @@
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonName": "MICHAEL SCHWARTZ",
                 "Title": "SECRETARY",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -358,13 +365,13 @@
           },
           "SupplementaryInformation": {
             "AppicationSubmissionInfo": {
+              "RecipientName": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1": "4985 WALNUT WOODS LANE",
                 "City": "CINCINNATI",
                 "State": "OH",
                 "ZIPCode": "45243"
               },
-              "RecipientName": "SANDRA GROSS",
               "RecipientPhoneNumber": "5132413111",
               "FormAndInfoAndMaterials": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlines": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -466,34 +473,34 @@
             "PerformanceOfServicesEtc": "0",
             "SharingOfFacilitiesEtc": "0",
             "RelationshipsNoncharitableEOs": "0"
-          },
-          "ExemptPF": "X",
-          "FMVAssetsEOY": "934831",
-          "MethodOfAccountingCash": "X"
+          }
         },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
         "IRS990ScheduleB": {
+          "Organization501c3ExemptPF": "X",
+          "GeneralRule": "X",
           "ContributorInfo": [
             {
+              "ContributorNumber": "1",
+              "ContributorNameIndividual": "SANDRA GROSS",
               "ContributorAddressUS": {
                 "AddressLine1": "4985 WALNUT WOODS LANE",
                 "City": "CINCINNATI",
                 "State": "OH",
                 "ZIPCode": "45243"
               },
-              "ContributorNumber": "1",
-              "ContributorNameIndividual": "SANDRA GROSS",
               "AggregateContributions": "48352",
               "NoncashContributionType": "X"
             },
             {
+              "ContributorNumber": "2",
+              "ContributorNameIndividual": "SANDRA GROSS",
               "ContributorAddressUS": {
                 "AddressLine1": "4985 WALNUT WOODS LANE",
                 "City": "CINCINNATI",
                 "State": "OH",
                 "ZIPCode": "45243"
               },
-              "ContributorNumber": "2",
-              "ContributorNameIndividual": "SANDRA GROSS",
               "AggregateContributions": "173",
               "PersonContributionType": "X"
             }
@@ -503,10 +510,9 @@
             "NoncashPropertyDescription": "977 COMMON SHARES OF PHILIP MORRIS INTERNATIONAL INC STOCK",
             "FairMarketValue": "48352",
             "DateReceived": "2010-02-16"
-          },
-          "Organization501c3ExemptPF": "X",
-          "GeneralRule": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFees": {
             "Category": "ACCOUNTING FEES",
@@ -515,6 +521,7 @@
             "DisbursementsCharitablePrps": "0"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorpStock": {
             "NameOfStock": "CORPORATE STOCKS",
@@ -522,6 +529,7 @@
             "EOYFMV": "862095"
           }
         },
+        "InvestmentsOtherSchedule2@documentId": "RetDoc2018100001",
         "InvestmentsOtherSchedule2": {
           "InvestmentsOther": {
             "CategoryOrItem": "MUTUAL FUNDS",
@@ -530,6 +538,7 @@
             "EOYFMV": "69864"
           }
         },
+        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
         "OtherIncomeSchedule2": {
           "OtherIncome": {
             "Description": "MISCELLANEOUS INCOME",
@@ -538,6 +547,7 @@
             "AdjustedNetIncome": "26"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "Taxes": [
             {
@@ -559,24 +569,19 @@
               "DisbursementsCharitablePrps": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "InvestmentsOtherSchedule2@documentId": "RetDoc2018100001",
-        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "7"
-    },
-    "Return@returnVersion": "2010v3.2"
+        }
+      }
+    }
   },
   "201112": {
+    "Return@returnVersion": "2011v1.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2012-05-29T16:12:51-05:00",
+        "TaxPeriodEndDate": "2011-12-31",
         "PreparerFirm": {
+          "EIN": "310800053",
           "PreparerFirmBusinessName": {
             "BusinessNameLine1": "CLARK SCHAEFER HACKETT AND CO"
           },
@@ -585,22 +590,23 @@
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45202"
-          },
-          "EIN": "310800053"
+          }
         },
+        "ReturnType": "990PF",
+        "TaxPeriodBeginDate": "2011-01-01",
         "Filer": {
+          "EIN": "208419458",
           "Name": {
             "BusinessNameLine1": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "NameControl": "GROS",
+          "Phone": "5137856060",
           "USAddress": {
             "AddressLine1": "9435 WATERSTONE BLVD",
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45249"
-          },
-          "EIN": "208419458",
-          "NameControl": "GROS",
-          "Phone": "5137856060"
+          }
         },
         "Officer": {
           "Name": "SANDRA GROSS",
@@ -615,15 +621,16 @@
           "Phone": "5132413111",
           "DatePrepared": "2012-04-24"
         },
-        "Timestamp": "2012-05-29T16:12:51-05:00",
-        "TaxPeriodEndDate": "2011-12-31",
-        "ReturnType": "990PF",
-        "TaxPeriodBeginDate": "2011-01-01",
         "TaxYear": "2011",
         "BuildTS": "2016-02-24 21:20:13Z"
       },
+      "ReturnData@documentCount": "8",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "ExemptPF": "X",
+          "FMVAssetsEOY": "817733",
+          "MethodOfAccountingCash": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ContriReceivedRevAndExpnss": "70357",
             "InterestOnSavingsRevAndExpnss": "15",
@@ -767,12 +774,6 @@
             "TaxDue": "264"
           },
           "StatementsRegardingActivities": {
-            "BooksInCareOfUSAddress": {
-              "AddressLine1": "4985 WALNUT WOODS LANE",
-              "City": "CINCINNATI",
-              "State": "OH",
-              "ZIPCode": "45243"
-            },
             "LegislativePoliticalActivities": "0",
             "MoreThan100Spent": "0",
             "Form1120POLFiled": "0",
@@ -795,6 +796,12 @@
             "WebsiteAddress": "N/A",
             "BooksInCareOfPersonName": "SANDRA GROSS",
             "BooksInCareOfPhoneNumber": "5137856060",
+            "BooksInCareOfUSAddress": {
+              "AddressLine1": "4985 WALNUT WOODS LANE",
+              "City": "CINCINNATI",
+              "State": "OH",
+              "ZIPCode": "45243"
+            },
             "ForeignBank": "0"
           },
           "StatementsRegardingActy4720": {
@@ -821,13 +828,13 @@
           "OfcrDirTrusteesKeyEmployeeInfo": {
             "OfcrDirTrusteesOrKeyEmployee": [
               {
+                "PersonName": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonName": "SANDRA GROSS",
                 "Title": "PRESIDENT",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -835,13 +842,13 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonName": "JOHN HUTTON",
                 "Title": "VICE PRESIDENT",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -849,13 +856,13 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1": "1 E 4TH STREET STE 1200",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonName": "ANTHONY SCHWEIER",
                 "Title": "TREASURER",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -863,6 +870,7 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2": "TWO",
@@ -870,7 +878,6 @@
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonName": "MICHAEL SCHWARTZ",
                 "Title": "SECRETARY",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -943,13 +950,13 @@
           },
           "SupplementaryInformation": {
             "AppicationSubmissionInfo": {
+              "RecipientName": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1": "4985 WALNUT WOODS LANE",
                 "City": "CINCINNATI",
                 "State": "OH",
                 "ZIPCode": "45243"
               },
-              "RecipientName": "SANDRA GROSS",
               "RecipientPhoneNumber": "5132413111",
               "FormAndInfoAndMaterials": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlines": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -1040,21 +1047,21 @@
             "PerformanceOfServicesEtc": "0",
             "SharingOfFacilitiesEtc": "0",
             "RelationshipsNoncharitableEOs": "0"
-          },
-          "ExemptPF": "X",
-          "FMVAssetsEOY": "817733",
-          "MethodOfAccountingCash": "X"
+          }
         },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
         "IRS990ScheduleB": {
+          "Organization501c3ExemptPF": "X",
+          "GeneralRule": "X",
           "ContributorInfo": {
+            "ContributorNumber": "1",
+            "ContributorNameIndividual": "SANDRA GROSS",
             "ContributorAddressUS": {
               "AddressLine1": "4985 WALNUT WOODS LANE",
               "City": "CINCINNATI",
               "State": "OH",
               "ZIPCode": "45243"
             },
-            "ContributorNumber": "1",
-            "ContributorNameIndividual": "SANDRA GROSS",
             "AggregateContributions": "69335",
             "NoncashContributionType": "X"
           },
@@ -1063,10 +1070,9 @@
             "NoncashPropertyDescription": "1200 COMMON SHARES OF HEWLETT PACKARD $42,414 799 COMMON SHARES OF ALTRIA GROUP $26,921",
             "FairMarketValue": "69335",
             "DateReceived": "2011-06-29"
-          },
-          "Organization501c3ExemptPF": "X",
-          "GeneralRule": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFees": {
             "Category": "ACCOUNTING FEES",
@@ -1075,6 +1081,7 @@
             "DisbursementsCharitablePrps": "0"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorpStock": {
             "NameOfStock": "CORPORATE STOCKS",
@@ -1082,12 +1089,14 @@
             "EOYFMV": "806306"
           }
         },
+        "OtherDecreasesSchedule@documentId": "RetDoc2049800001",
         "OtherDecreasesSchedule": {
           "OtherDecreases": {
             "Description": "ADJUSTMENT FOR APPRECIATION IN STOCK GIFTED",
             "Amount": "64137"
           }
         },
+        "OtherExpensesSchedule@documentId": "RetDoc2003200001",
         "OtherExpensesSchedule": {
           "OtherExpenses": {
             "Description": "MISCELLANEOUS EXPENSES",
@@ -1096,6 +1105,7 @@
             "DisbursementsCharitablePrps": "0"
           }
         },
+        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
         "OtherIncomeSchedule2": {
           "OtherIncome": {
             "Description": "MISCELLANEOUS INCOME",
@@ -1104,6 +1114,7 @@
             "AdjustedNetIncome": "29"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "Taxes": [
             {
@@ -1125,25 +1136,19 @@
               "DisbursementsCharitablePrps": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "OtherDecreasesSchedule@documentId": "RetDoc2049800001",
-        "OtherExpensesSchedule@documentId": "RetDoc2003200001",
-        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "8"
-    },
-    "Return@returnVersion": "2011v1.2"
+        }
+      }
+    }
   },
   "201212": {
+    "Return@returnVersion": "2012v2.1",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2013-05-15T15:01:17-05:00",
+        "TaxPeriodEndDate": "2012-12-31",
         "PreparerFirm": {
+          "EIN": "310800053",
           "PreparerFirmBusinessName": {
             "BusinessNameLine1": "CLARK SCHAEFER HACKETT AND CO"
           },
@@ -1152,22 +1157,23 @@
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45202"
-          },
-          "EIN": "310800053"
+          }
         },
+        "ReturnType": "990PF",
+        "TaxPeriodBeginDate": "2012-01-01",
         "Filer": {
+          "EIN": "208419458",
           "Name": {
             "BusinessNameLine1": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "NameControl": "GROS",
+          "Phone": "5137856060",
           "USAddress": {
             "AddressLine1": "9435 WATERSTONE BLVD NO 390",
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45249"
-          },
-          "EIN": "208419458",
-          "NameControl": "GROS",
-          "Phone": "5137856060"
+          }
         },
         "Officer": {
           "Name": "SANDRA GROSS",
@@ -1182,15 +1188,16 @@
           "Phone": "5132413111",
           "DatePrepared": "2013-04-26"
         },
-        "Timestamp": "2013-05-15T15:01:17-05:00",
-        "TaxPeriodEndDate": "2012-12-31",
-        "ReturnType": "990PF",
-        "TaxPeriodBeginDate": "2012-01-01",
         "TaxYear": "2012",
         "BuildTS": "2016-02-25 16:41:14Z"
       },
+      "ReturnData@documentCount": "7",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "ExemptPF": "X",
+          "FMVAssetsEOY": "436032",
+          "MethodOfAccountingCash": "X",
           "AnalysisOfRevenueAndExpenses": {
             "NotRequiredToAttachScheduleB": "X",
             "DividendsRevAndExpnss": "19141",
@@ -1320,12 +1327,6 @@
             "TaxDue": "1555"
           },
           "StatementsRegardingActivities": {
-            "BooksInCareOfUSAddress": {
-              "AddressLine1": "4985 WALNUT WOODS LANE",
-              "City": "CINCINNATI",
-              "State": "OH",
-              "ZIPCode": "45243"
-            },
             "LegislativePoliticalActivities": "0",
             "MoreThan100Spent": "0",
             "Form1120POLFiled": "0",
@@ -1348,6 +1349,12 @@
             "WebsiteAddress": "N/A",
             "BooksInCareOfPersonName": "SANDRA GROSS",
             "BooksInCareOfPhoneNumber": "5137856060",
+            "BooksInCareOfUSAddress": {
+              "AddressLine1": "4985 WALNUT WOODS LANE",
+              "City": "CINCINNATI",
+              "State": "OH",
+              "ZIPCode": "45243"
+            },
             "ForeignBank": "0"
           },
           "StatementsRegardingActy4720": {
@@ -1374,13 +1381,13 @@
           "OfcrDirTrusteesKeyEmployeeInfo": {
             "OfcrDirTrusteesOrKeyEmployee": [
               {
+                "PersonName": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonName": "SANDRA GROSS",
                 "Title": "PRESIDENT",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -1388,13 +1395,13 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonName": "JOHN HUTTON",
                 "Title": "VICE PRESIDENT",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -1402,13 +1409,13 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1": "1 E 4TH STREET STE 1200",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonName": "ANTHONY SCHWEIER",
                 "Title": "TREASURER",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -1416,6 +1423,7 @@
                 "ExpenseAccountOtherAllowances": "0"
               },
               {
+                "PersonName": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2": "TWO",
@@ -1423,7 +1431,6 @@
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonName": "MICHAEL SCHWARTZ",
                 "Title": "SECRETARY",
                 "AvgHoursPerWkDevotedToPosition": "0.00",
                 "Compensation": "0",
@@ -1497,13 +1504,13 @@
           },
           "SupplementaryInformation": {
             "AppicationSubmissionInfo": {
+              "RecipientName": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1": "4985 WALNUT WOODS LANE",
                 "City": "CINCINNATI",
                 "State": "OH",
                 "ZIPCode": "45243"
               },
-              "RecipientName": "SANDRA GROSS",
               "RecipientPhoneNumber": "5132413111",
               "FormAndInfoAndMaterials": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlines": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -1620,11 +1627,9 @@
             "PerformanceOfServicesEtc": "0",
             "SharingOfFacilitiesEtc": "0",
             "RelationshipsNoncharitableEOs": "0"
-          },
-          "ExemptPF": "X",
-          "FMVAssetsEOY": "436032",
-          "MethodOfAccountingCash": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFees": {
             "Category": "ACCOUNTING FEES",
@@ -1633,6 +1638,7 @@
             "DisbursementsCharitablePrps": "0"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorpStock": {
             "NameOfStock": "CORPORATE STOCKS",
@@ -1640,6 +1646,7 @@
             "EOYFMV": "432256"
           }
         },
+        "LegalFeesSchedule@documentId": "RetDoc2002100001",
         "LegalFeesSchedule": {
           "LegalFees": {
             "Category": "LEGAL FEES",
@@ -1648,6 +1655,7 @@
             "DisbursementsCharitablePrps": "0"
           }
         },
+        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
         "OtherIncomeSchedule2": {
           "OtherIncome": {
             "Description": "MISCELLANEOUS INCOME",
@@ -1656,12 +1664,14 @@
             "AdjustedNetIncome": "280"
           }
         },
+        "OtherIncreasesSchedule@documentId": "RetDoc2049700001",
         "OtherIncreasesSchedule": {
           "OtherIncreases": {
             "Description": "ADJUSTMENT FOR APPRECIATION OF STOCK GIFTED",
             "Amount": "64135"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "Taxes": [
             {
@@ -1677,24 +1687,19 @@
               "DisbursementsCharitablePrps": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "LegalFeesSchedule@documentId": "RetDoc2002100001",
-        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
-        "OtherIncreasesSchedule@documentId": "RetDoc2049700001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "7"
-    },
-    "Return@returnVersion": "2012v2.1"
+        }
+      }
+    }
   },
   "201312": {
+    "Return@returnVersion": "2013v3.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2014-05-15T11:24:43-05:00",
+        "TaxPeriodEndDt": "2013-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "310800053",
           "PreparerFirmName": {
             "BusinessNameLine1": "CLARK SCHAEFER HACKETT & CO"
           },
@@ -1703,22 +1708,23 @@
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45202"
-          },
-          "PreparerFirmEIN": "310800053"
+          }
         },
+        "ReturnTypeCd": "990PF",
+        "TaxPeriodBeginDt": "2013-01-01",
         "Filer": {
+          "EIN": "208419458",
           "BusinessName": {
             "BusinessNameLine1": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "BusinessNameControlTxt": "GROS",
+          "PhoneNum": "5137856060",
           "USAddress": {
             "AddressLine1": "9435 WATERSTONE BLVD NO 390",
             "City": "CINCINNATI",
             "State": "OH",
             "ZIPCode": "45249"
-          },
-          "EIN": "208419458",
-          "BusinessNameControlTxt": "GROS",
-          "PhoneNum": "5137856060"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "SANDRA GROSS",
@@ -1733,15 +1739,16 @@
           "PhoneNum": "5132413111",
           "PreparationDt": "2014-05-15"
         },
-        "ReturnTs": "2014-05-15T11:24:43-05:00",
-        "TaxPeriodEndDt": "2013-12-31",
-        "ReturnTypeCd": "990PF",
-        "TaxPeriodBeginDt": "2013-01-01",
         "TaxYr": "2013",
         "BuildTS": "2015-12-30 17:16:21Z"
       },
+      "ReturnData@documentCount": "4",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "Organization501c3ExemptPFInd": "X",
+          "FMVAssetsEOYAmt": "799783",
+          "MethodOfAccountingCashInd": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ScheduleBNotRequiredInd": "X",
             "DividendsRevAndExpnssAmt": "13939",
@@ -1852,12 +1859,6 @@
             "RefundAmt": "0"
           },
           "StatementsRegardingActyGrp": {
-            "LocationOfBooksUSAddress": {
-              "AddressLine1": "4985 WALNUT WOODS LANE",
-              "City": "CINCINNATI",
-              "State": "OH",
-              "ZIPCode": "45243"
-            },
             "LegislativePoliticalActyInd": "0",
             "MoreThan100SpentInd": "0",
             "Form1120POLFiledInd": "0",
@@ -1880,6 +1881,12 @@
             "WebsiteAddressTxt": "N/A",
             "IndividualWithBooksNm": "SANDRA GROSS",
             "PhoneNum": "5137856060",
+            "LocationOfBooksUSAddress": {
+              "AddressLine1": "4985 WALNUT WOODS LANE",
+              "City": "CINCINNATI",
+              "State": "OH",
+              "ZIPCode": "45243"
+            },
             "ForeignAccountsQuestionInd": "0"
           },
           "StatementsRegardingActy4720Grp": {
@@ -1906,13 +1913,13 @@
           "OfficerDirTrstKeyEmplInfoGrp": {
             "OfficerDirTrstKeyEmplGrp": [
               {
+                "PersonNm": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonNm": "SANDRA GROSS",
                 "TitleTxt": "PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -1920,13 +1927,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1": "4985 WALNUT WOODS LANE",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "452434063"
                 },
-                "PersonNm": "JOHN HUTTON",
                 "TitleTxt": "VICE PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -1934,13 +1941,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1": "1 E 4TH STREET STE 1200",
                   "City": "CINCINNATI",
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonNm": "ANTHONY SCHWEIER",
                 "TitleTxt": "TREASURER",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -1948,6 +1955,7 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2": "TWO",
@@ -1955,7 +1963,6 @@
                   "State": "OH",
                   "ZIPCode": "45202"
                 },
-                "PersonNm": "MICHAEL SCHWARTZ",
                 "TitleTxt": "SECRETARY",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -2030,13 +2037,13 @@
           },
           "SupplementaryInformationGrp": {
             "ApplicationSubmissionInfoGrp": {
+              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1": "4985 WALNUT WOODS LANE",
                 "City": "CINCINNATI",
                 "State": "OH",
                 "ZIPCode": "45243"
               },
-              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientPhoneNum": "5132413111",
               "FormAndInfoAndMaterialsTxt": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlinesTxt": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -2164,11 +2171,9 @@
             "PerformanceOfServicesEtcInd": "0",
             "SharingOfFacilitiesEtcInd": "0",
             "RelationshipsNonchrtblEOInd": "0"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "FMVAssetsEOYAmt": "799783",
-          "MethodOfAccountingCashInd": "X"
+          }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorporateStockGrp": {
             "StockNm": "CORPORATE STOCKS",
@@ -2176,12 +2181,14 @@
             "EOYFMVAmt": "793051"
           }
         },
+        "OtherIncreasesSchedule@documentId": "RetDoc2049700001",
         "OtherIncreasesSchedule": {
           "OtherIncreasesDetail": {
             "Description": "ADJUSTMENT FOR APPRECIATION OF STOCK GIFTED",
             "Amount": "3784"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "TaxesDetail": [
             {
@@ -2197,21 +2204,19 @@
               "DisbursementsCharitablePrpsAmt": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "OtherIncreasesSchedule@documentId": "RetDoc2049700001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCount": "4"
-    },
-    "Return@returnVersion": "2013v3.0"
+        }
+      }
+    }
   },
   "201412": {
+    "Return@returnVersion": "2014v5.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2015-05-14T09:45:04-05:00",
+        "TaxPeriodEndDt": "2014-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "310800053",
           "PreparerFirmName": {
             "BusinessNameLine1Txt": "CLARK SCHAEFER HACKETT & CO"
           },
@@ -2220,22 +2225,23 @@
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45202"
-          },
-          "PreparerFirmEIN": "310800053"
+          }
         },
+        "ReturnTypeCd": "990PF",
+        "TaxPeriodBeginDt": "2014-01-01",
         "Filer": {
+          "EIN": "208419458",
           "BusinessName": {
             "BusinessNameLine1Txt": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "BusinessNameControlTxt": "GROS",
+          "PhoneNum": "5137856060",
           "USAddress": {
             "AddressLine1Txt": "9435 WATERSTONE BLVD NO 390",
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45249"
-          },
-          "EIN": "208419458",
-          "BusinessNameControlTxt": "GROS",
-          "PhoneNum": "5137856060"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "SANDRA GROSS",
@@ -2250,15 +2256,16 @@
           "PhoneNum": "5132413111",
           "PreparationDt": "2015-05-09"
         },
-        "ReturnTs": "2015-05-14T09:45:04-05:00",
-        "TaxPeriodEndDt": "2014-12-31",
-        "ReturnTypeCd": "990PF",
-        "TaxPeriodBeginDt": "2014-01-01",
         "TaxYr": "2014",
         "BuildTS": "2016-02-25 16:41:14Z"
       },
+      "ReturnData@documentCnt": "8",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "Organization501c3ExemptPFInd": "X",
+          "FMVAssetsEOYAmt": "1186835",
+          "MethodOfAccountingCashInd": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ContriRcvdRevAndExpnssAmt": "399465",
             "DividendsRevAndExpnssAmt": "20723",
@@ -2386,12 +2393,6 @@
             "TaxDueAmt": "977"
           },
           "StatementsRegardingActyGrp": {
-            "LocationOfBooksUSAddress": {
-              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
-              "CityNm": "CINCINNATI",
-              "StateAbbreviationCd": "OH",
-              "ZIPCd": "45243"
-            },
             "LegislativePoliticalActyInd": "0",
             "MoreThan100SpentInd": "0",
             "Form1120POLFiledInd": "0",
@@ -2414,6 +2415,12 @@
             "WebsiteAddressTxt": "N/A",
             "IndividualWithBooksNm": "SANDRA GROSS",
             "PhoneNum": "5137856060",
+            "LocationOfBooksUSAddress": {
+              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
+              "CityNm": "CINCINNATI",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "45243"
+            },
             "ForeignAccountsQuestionInd": "0"
           },
           "StatementsRegardingActy4720Grp": {
@@ -2440,13 +2447,13 @@
           "OfficerDirTrstKeyEmplInfoGrp": {
             "OfficerDirTrstKeyEmplGrp": [
               {
+                "PersonNm": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "SANDRA GROSS",
                 "TitleTxt": "PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -2454,13 +2461,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "JOHN HUTTON",
                 "TitleTxt": "VICE PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -2468,13 +2475,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1Txt": "1 E 4TH STREET STE 1200",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "ANTHONY SCHWEIER",
                 "TitleTxt": "TREASURER",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -2482,6 +2489,7 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1Txt": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2Txt": "TWO",
@@ -2489,7 +2497,6 @@
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "MICHAEL SCHWARTZ",
                 "TitleTxt": "SECRETARY",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -2566,13 +2573,13 @@
           },
           "SupplementaryInformationGrp": {
             "ApplicationSubmissionInfoGrp": {
+              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                 "CityNm": "CINCINNATI",
                 "StateAbbreviationCd": "OH",
                 "ZIPCd": "45243"
               },
-              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientPhoneNum": "5132413111",
               "FormAndInfoAndMaterialsTxt": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlinesTxt": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -2675,21 +2682,21 @@
             "PerformanceOfServicesEtcInd": "0",
             "SharingOfFacilitiesEtcInd": "0",
             "RelationshipsNonchrtblEOInd": "0"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "FMVAssetsEOYAmt": "1186835",
-          "MethodOfAccountingCashInd": "X"
+          }
         },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
         "IRS990ScheduleB": {
+          "Organization501c3ExemptPFInd": "X",
+          "GeneralRuleInd": "X",
           "ContributorInformationGrp": {
+            "ContributorNum": "1",
+            "ContributorPersonNm": "SANDRA GROSS",
             "ContributorUSAddress": {
               "AddressLine1Txt": "4985 WALNUT WOODS LANE",
               "CityNm": "CINCINNATI",
               "StateAbbreviationCd": "OH",
               "ZIPCd": "45243"
             },
-            "ContributorNum": "1",
-            "ContributorPersonNm": "SANDRA GROSS",
             "TotalContributionsAmt": "399465",
             "NoncashContributionInd": "X"
           },
@@ -2698,10 +2705,9 @@
             "NoncashPropertyDesc": "800 SHARES OF ALLSTATE, 1,667 SHARES OF VORNADO REALTY TRUST, 1500 SHARES OF PEPSICO.",
             "FairMarketValueAmt": "399465",
             "ReceivedDt": "2014-12-26"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "GeneralRuleInd": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFeesDetail": {
             "CategoryTxt": "ACCOUNTING FEES",
@@ -2710,6 +2716,7 @@
             "DisbursementsCharitablePrpsAmt": "1300"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorporateStockGrp": {
             "StockNm": "CORPORATE STOCKS",
@@ -2717,6 +2724,7 @@
             "EOYFMVAmt": "1177457"
           }
         },
+        "LegalFeesSchedule@documentId": "RetDoc2002100001",
         "LegalFeesSchedule": {
           "LegalFeesGrp": {
             "CategoryTxt": "LEGAL FEES",
@@ -2725,12 +2733,14 @@
             "DisbursementsCharitablePrpsAmt": "0"
           }
         },
+        "OtherDecreasesSchedule@documentId": "RetDoc2049800001",
         "OtherDecreasesSchedule": {
           "OtherDecreasesDetail": {
             "Desc": "APPRECIATION OF GIFTED STOCK",
             "Amt": "316064"
           }
         },
+        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
         "OtherIncomeSchedule2": {
           "OtherIncomeDetail": {
             "Desc": "LITIGATION SETTLEMENT",
@@ -2738,6 +2748,7 @@
             "AdjustedNetIncomeAmt": "546"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "TaxesDetail": [
             {
@@ -2753,25 +2764,19 @@
               "DisbursementsCharitablePrpsAmt": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "LegalFeesSchedule@documentId": "RetDoc2002100001",
-        "OtherDecreasesSchedule@documentId": "RetDoc2049800001",
-        "OtherIncomeSchedule2@documentId": "RetDoc2001500001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "8"
-    },
-    "Return@returnVersion": "2014v5.0"
+        }
+      }
+    }
   },
   "201512": {
+    "Return@returnVersion": "2015v2.1",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2016-08-29T14:12:42-05:00",
+        "TaxPeriodEndDt": "2015-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "310800053",
           "PreparerFirmName": {
             "BusinessNameLine1Txt": "CLARK SCHAEFER HACKETT & CO"
           },
@@ -2780,22 +2785,23 @@
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45202"
-          },
-          "PreparerFirmEIN": "310800053"
+          }
         },
+        "ReturnTypeCd": "990PF",
+        "TaxPeriodBeginDt": "2015-01-01",
         "Filer": {
+          "EIN": "208419458",
           "BusinessName": {
             "BusinessNameLine1Txt": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "BusinessNameControlTxt": "GROS",
+          "PhoneNum": "5137856060",
           "USAddress": {
             "AddressLine1Txt": "9435 WATERSTONE BLVD NO 390",
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45249"
-          },
-          "EIN": "208419458",
-          "BusinessNameControlTxt": "GROS",
-          "PhoneNum": "5137856060"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "SANDRA GROSS",
@@ -2810,15 +2816,16 @@
           "PhoneNum": "5132413111",
           "PreparationDt": "2016-05-04"
         },
-        "ReturnTs": "2016-08-29T14:12:42-05:00",
-        "TaxPeriodEndDt": "2015-12-31",
-        "ReturnTypeCd": "990PF",
-        "TaxPeriodBeginDt": "2015-01-01",
         "TaxYr": "2015",
         "BuildTS": "2016-12-15 16:53:06Z"
       },
+      "ReturnData@documentCnt": "5",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "Organization501c3ExemptPFInd": "X",
+          "FMVAssetsEOYAmt": "1120941",
+          "MethodOfAccountingCashInd": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ScheduleBNotRequiredInd": "X",
             "DividendsRevAndExpnssAmt": "25598",
@@ -2944,12 +2951,6 @@
             "RefundAmt": "0"
           },
           "StatementsRegardingActyGrp": {
-            "LocationOfBooksUSAddress": {
-              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
-              "CityNm": "CINCINNATI",
-              "StateAbbreviationCd": "OH",
-              "ZIPCd": "45243"
-            },
             "LegislativePoliticalActyInd": "0",
             "MoreThan100SpentInd": "0",
             "Form1120POLFiledInd": "0",
@@ -2972,6 +2973,12 @@
             "WebsiteAddressTxt": "N/A",
             "IndividualWithBooksNm": "SANDRA GROSS",
             "PhoneNum": "5137856060",
+            "LocationOfBooksUSAddress": {
+              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
+              "CityNm": "CINCINNATI",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "45243"
+            },
             "ForeignAccountsQuestionInd": "0"
           },
           "StatementsRegardingActy4720Grp": {
@@ -2998,13 +3005,13 @@
           "OfficerDirTrstKeyEmplInfoGrp": {
             "OfficerDirTrstKeyEmplGrp": [
               {
+                "PersonNm": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "SANDRA GROSS",
                 "TitleTxt": "PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3012,13 +3019,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "JOHN HUTTON",
                 "TitleTxt": "VICE PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3026,13 +3033,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1Txt": "1 E 4TH STREET STE 1200",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "ANTHONY SCHWEIER",
                 "TitleTxt": "TREASURER",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3040,6 +3047,7 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1Txt": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2Txt": "TWO",
@@ -3047,7 +3055,6 @@
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "MICHAEL SCHWARTZ",
                 "TitleTxt": "SECRETARY",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3126,13 +3133,13 @@
           },
           "SupplementaryInformationGrp": {
             "ApplicationSubmissionInfoGrp": {
+              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                 "CityNm": "CINCINNATI",
                 "StateAbbreviationCd": "OH",
                 "ZIPCd": "45243"
               },
-              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientPhoneNum": "5132413111",
               "FormAndInfoAndMaterialsTxt": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlinesTxt": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -3249,11 +3256,9 @@
             "PerformanceOfServicesEtcInd": "0",
             "SharingOfFacilitiesEtcInd": "0",
             "RelationshipsNonchrtblEOInd": "0"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "FMVAssetsEOYAmt": "1120941",
-          "MethodOfAccountingCashInd": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFeesDetail": {
             "CategoryTxt": "ACCOUNTING FEES",
@@ -3262,6 +3267,7 @@
             "DisbursementsCharitablePrpsAmt": "1300"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorporateStockGrp": {
             "StockNm": "CORPORATE STOCKS",
@@ -3269,6 +3275,7 @@
             "EOYFMVAmt": "1118031"
           }
         },
+        "LegalFeesSchedule@documentId": "RetDoc2002100001",
         "LegalFeesSchedule": {
           "LegalFeesGrp": {
             "CategoryTxt": "LEGAL FEES",
@@ -3277,6 +3284,7 @@
             "DisbursementsCharitablePrpsAmt": "221"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "TaxesDetail": [
             {
@@ -3292,22 +3300,19 @@
               "DisbursementsCharitablePrpsAmt": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "LegalFeesSchedule@documentId": "RetDoc2002100001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "5"
-    },
-    "Return@returnVersion": "2015v2.1"
+        }
+      }
+    }
   },
   "201612": {
+    "Return@returnVersion": "2016v3.0",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2017-05-15T13:29:26-05:00",
+        "TaxPeriodEndDt": "2016-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "310800053",
           "PreparerFirmName": {
             "BusinessNameLine1Txt": "CLARK SCHAEFER HACKETT & CO"
           },
@@ -3316,22 +3321,23 @@
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45202"
-          },
-          "PreparerFirmEIN": "310800053"
+          }
         },
+        "ReturnTypeCd": "990PF",
+        "TaxPeriodBeginDt": "2016-01-01",
         "Filer": {
+          "EIN": "208419458",
           "BusinessName": {
             "BusinessNameLine1Txt": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "BusinessNameControlTxt": "GROS",
+          "PhoneNum": "5137856060",
           "USAddress": {
             "AddressLine1Txt": "9435 WATERSTONE BLVD NO 390",
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45249"
-          },
-          "EIN": "208419458",
-          "BusinessNameControlTxt": "GROS",
-          "PhoneNum": "5137856060"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "SANDRA GROSS",
@@ -3357,15 +3363,16 @@
           "AtSubmissionCreationDeviceId": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
           "AtSubmissionFilingDeviceId": "D93BD9CB575C87B019B079EDF6156F555A1AB6BD"
         },
-        "ReturnTs": "2017-05-15T13:29:26-05:00",
-        "TaxPeriodEndDt": "2016-12-31",
-        "ReturnTypeCd": "990PF",
-        "TaxPeriodBeginDt": "2016-01-01",
         "TaxYr": "2016",
         "BuildTS": "2017-02-10 21:41:12Z"
       },
+      "ReturnData@documentCnt": "7",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "Organization501c3ExemptPFInd": "X",
+          "FMVAssetsEOYAmt": "1633168",
+          "MethodOfAccountingCashInd": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ContriRcvdRevAndExpnssAmt": "506869",
             "DividendsRevAndExpnssAmt": "32034",
@@ -3491,12 +3498,6 @@
             "TaxDueAmt": "813"
           },
           "StatementsRegardingActyGrp": {
-            "LocationOfBooksUSAddress": {
-              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
-              "CityNm": "CINCINNATI",
-              "StateAbbreviationCd": "OH",
-              "ZIPCd": "45243"
-            },
             "LegislativePoliticalActyInd": "0",
             "MoreThan100SpentInd": "0",
             "Form1120POLFiledInd": "0",
@@ -3519,6 +3520,12 @@
             "WebsiteAddressTxt": "N/A",
             "IndividualWithBooksNm": "SANDRA GROSS",
             "PhoneNum": "5137856060",
+            "LocationOfBooksUSAddress": {
+              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
+              "CityNm": "CINCINNATI",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "45243"
+            },
             "ForeignAccountsQuestionInd": "0"
           },
           "StatementsRegardingActy4720Grp": {
@@ -3545,13 +3552,13 @@
           "OfficerDirTrstKeyEmplInfoGrp": {
             "OfficerDirTrstKeyEmplGrp": [
               {
+                "PersonNm": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "SANDRA GROSS",
                 "TitleTxt": "PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3559,13 +3566,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "JOHN HUTTON",
                 "TitleTxt": "VICE PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3573,13 +3580,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1Txt": "1 E 4TH STREET STE 1200",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "ANTHONY SCHWEIER",
                 "TitleTxt": "TREASURER",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3587,6 +3594,7 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1Txt": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2Txt": "TWO",
@@ -3594,7 +3602,6 @@
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "MICHAEL SCHWARTZ",
                 "TitleTxt": "SECRETARY",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -3674,13 +3681,13 @@
           },
           "SupplementaryInformationGrp": {
             "ApplicationSubmissionInfoGrp": {
+              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                 "CityNm": "CINCINNATI",
                 "StateAbbreviationCd": "OH",
                 "ZIPCd": "45243"
               },
-              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientPhoneNum": "5132413111",
               "FormAndInfoAndMaterialsTxt": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlinesTxt": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -3778,13 +3785,14 @@
             "PerformanceOfServicesEtcInd": "0",
             "SharingOfFacilitiesEtcInd": "0",
             "RelationshipsNonchrtblEOInd": "0"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "FMVAssetsEOYAmt": "1633168",
-          "MethodOfAccountingCashInd": "X"
+          }
         },
+        "IRS990ScheduleB@documentId": "RetDoc1234500001",
         "IRS990ScheduleB": {
+          "Organization501c3ExemptPFInd": "X",
+          "GeneralRuleInd": "X",
           "ContributorInformationGrp": {
+            "ContributorNum": "1",
             "ContributorBusinessName": {
               "BusinessNameLine1Txt": "SANDRA GROSS"
             },
@@ -3794,7 +3802,6 @@
               "StateAbbreviationCd": "OH",
               "ZIPCd": "45243"
             },
-            "ContributorNum": "1",
             "TotalContributionsAmt": "506869",
             "NoncashContributionInd": "X"
           },
@@ -3803,10 +3810,9 @@
             "NoncashPropertyDesc": "STOCK",
             "FairMarketValueAmt": "506869",
             "ReceivedDt": "2016-12-22"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "GeneralRuleInd": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFeesDetail": {
             "CategoryTxt": "ACCOUNTING FEES",
@@ -3815,6 +3821,7 @@
             "DisbursementsCharitablePrpsAmt": "1425"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorporateStockGrp": {
             "StockNm": "CORPORATE STOCKS",
@@ -3822,6 +3829,7 @@
             "EOYFMVAmt": "1608626"
           }
         },
+        "LegalFeesSchedule@documentId": "RetDoc2002100001",
         "LegalFeesSchedule": {
           "LegalFeesGrp": {
             "CategoryTxt": "LEGAL FEES",
@@ -3830,12 +3838,14 @@
             "DisbursementsCharitablePrpsAmt": "46"
           }
         },
+        "OtherDecreasesSchedule@documentId": "RetDoc2049800001",
         "OtherDecreasesSchedule": {
           "OtherDecreasesDetail": {
             "Desc": "ADJUSTMENT TO BASIS IN DONATED STOCK",
             "Amt": "479883"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "TaxesDetail": {
             "CategoryTxt": "OH TAX",
@@ -3843,24 +3853,19 @@
             "NetInvestmentIncomeAmt": "0",
             "DisbursementsCharitablePrpsAmt": "200"
           }
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "IRS990ScheduleB@documentId": "RetDoc1234500001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "LegalFeesSchedule@documentId": "RetDoc2002100001",
-        "OtherDecreasesSchedule@documentId": "RetDoc2049800001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "7"
-    },
-    "Return@returnVersion": "2016v3.0"
+        }
+      }
+    }
   },
   "201712": {
+    "Return@returnVersion": "2017v2.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2018-05-14T09:45:34-05:00",
+        "TaxPeriodEndDt": "2017-12-31",
         "PreparerFirmGrp": {
+          "PreparerFirmEIN": "310800053",
           "PreparerFirmName": {
             "BusinessNameLine1Txt": "CLARK SCHAEFER HACKETT & CO"
           },
@@ -3869,22 +3874,23 @@
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45202"
-          },
-          "PreparerFirmEIN": "310800053"
+          }
         },
+        "ReturnTypeCd": "990PF",
+        "TaxPeriodBeginDt": "2017-01-01",
         "Filer": {
+          "EIN": "208419458",
           "BusinessName": {
             "BusinessNameLine1Txt": "THE GROSSHUTTON FAMILY FOUNDATION"
           },
+          "BusinessNameControlTxt": "GROS",
+          "PhoneNum": "5137856060",
           "USAddress": {
             "AddressLine1Txt": "9435 WATERSTONE BLVD NO 390",
             "CityNm": "CINCINNATI",
             "StateAbbreviationCd": "OH",
             "ZIPCd": "45249"
-          },
-          "EIN": "208419458",
-          "BusinessNameControlTxt": "GROS",
-          "PhoneNum": "5137856060"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "SANDRA GROSS",
@@ -3910,15 +3916,16 @@
           "AtSubmissionCreationDeviceId": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709",
           "AtSubmissionFilingDeviceId": "7A53D5E48E17CEF2F73D199BFFE393E611BB3BD5"
         },
-        "ReturnTs": "2018-05-14T09:45:34-05:00",
-        "TaxPeriodEndDt": "2017-12-31",
-        "ReturnTypeCd": "990PF",
-        "TaxPeriodBeginDt": "2017-01-01",
         "TaxYr": "2017",
         "BuildTS": "2018-06-14 16:35:46Z"
       },
+      "ReturnData@documentCnt": "5",
       "ReturnData": {
+        "IRS990PF@documentId": "RetDoc1235000001",
         "IRS990PF": {
+          "Organization501c3ExemptPFInd": "X",
+          "FMVAssetsEOYAmt": "1683094",
+          "MethodOfAccountingCashInd": "X",
           "AnalysisOfRevenueAndExpenses": {
             "ScheduleBNotRequiredInd": "X",
             "InterestOnSavRevAndExpnssAmt": "2",
@@ -4038,12 +4045,6 @@
             "TaxDueAmt": "1935"
           },
           "StatementsRegardingActyGrp": {
-            "LocationOfBooksUSAddress": {
-              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
-              "CityNm": "CINCINNATI",
-              "StateAbbreviationCd": "OH",
-              "ZIPCd": "45243"
-            },
             "LegislativePoliticalActyInd": "0",
             "MoreThan100SpentInd": "0",
             "Form1120POLFiledInd": "0",
@@ -4066,6 +4067,12 @@
             "WebsiteAddressTxt": "N/A",
             "IndividualWithBooksNm": "SANDRA GROSS",
             "PhoneNum": "5137856060",
+            "LocationOfBooksUSAddress": {
+              "AddressLine1Txt": "4985 WALNUT WOODS LANE",
+              "CityNm": "CINCINNATI",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "45243"
+            },
             "ForeignAccountsQuestionInd": "0"
           },
           "StatementsRegardingActy4720Grp": {
@@ -4092,13 +4099,13 @@
           "OfficerDirTrstKeyEmplInfoGrp": {
             "OfficerDirTrstKeyEmplGrp": [
               {
+                "PersonNm": "SANDRA GROSS",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "SANDRA GROSS",
                 "TitleTxt": "PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -4106,13 +4113,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "JOHN HUTTON",
                 "USAddress": {
                   "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "452434063"
                 },
-                "PersonNm": "JOHN HUTTON",
                 "TitleTxt": "VICE PRESIDENT",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -4120,13 +4127,13 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "ANTHONY SCHWEIER",
                 "USAddress": {
                   "AddressLine1Txt": "1 E 4TH STREET STE 1200",
                   "CityNm": "CINCINNATI",
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "ANTHONY SCHWEIER",
                 "TitleTxt": "TREASURER",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -4134,6 +4141,7 @@
                 "ExpenseAccountOtherAllwncAmt": "0"
               },
               {
+                "PersonNm": "MICHAEL SCHWARTZ",
                 "USAddress": {
                   "AddressLine1Txt": "221 E 4TH STREET STE 2000 - ATRIUM",
                   "AddressLine2Txt": "TWO",
@@ -4141,7 +4149,6 @@
                   "StateAbbreviationCd": "OH",
                   "ZIPCd": "45202"
                 },
-                "PersonNm": "MICHAEL SCHWARTZ",
                 "TitleTxt": "SECRETARY",
                 "AverageHrsPerWkDevotedToPosRt": "0.00",
                 "CompensationAmt": "0",
@@ -4221,13 +4228,13 @@
           },
           "SupplementaryInformationGrp": {
             "ApplicationSubmissionInfoGrp": {
+              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientUSAddress": {
                 "AddressLine1Txt": "4985 WALNUT WOODS LANE",
                 "CityNm": "CINCINNATI",
                 "StateAbbreviationCd": "OH",
                 "ZIPCd": "45243"
               },
-              "RecipientPersonNm": "SANDRA GROSS",
               "RecipientPhoneNum": "5132413111",
               "FormAndInfoAndMaterialsTxt": "THE TRUST ACCEPTS WRITTEN APPLICATIONS FROM ORGANIZATIONS EXEMPT FROM TAX UNDER I.R.C. 509(A)(1), (2) OR (3). APPLICATIONS RECEIVED FROM OTHER ORGANIZATIONS OR FROM ANY INDIVIDUAL(S) WILL NOT BE CONSIDERED. THE APPLICATION MUST BE ACCOMPANIED BY A COPY OF THE EXEMPTED ORGANIZATION'S INTERNAL REVENUE SERVICE DETERMINATION LETTER REGARDING ITS CLASSIFICATION.",
               "SubmissionDeadlinesTxt": "APPLICATIONS ACCEPTED AT ANY TIME.",
@@ -4374,11 +4381,9 @@
             "PerformanceOfServicesEtcInd": "0",
             "SharingOfFacilitiesEtcInd": "0",
             "RelationshipsNonchrtblEOInd": "0"
-          },
-          "Organization501c3ExemptPFInd": "X",
-          "FMVAssetsEOYAmt": "1683094",
-          "MethodOfAccountingCashInd": "X"
+          }
         },
+        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
         "AccountingFeesSchedule": {
           "AccountingFeesDetail": {
             "CategoryTxt": "ACCOUNTING FEES",
@@ -4387,6 +4392,7 @@
             "DisbursementsCharitablePrpsAmt": "1425"
           }
         },
+        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
         "InvestmentsCorpStockSchedule": {
           "InvestmentsCorporateStockGrp": {
             "StockNm": "CORPORATE STOCKS",
@@ -4394,6 +4400,7 @@
             "EOYFMVAmt": "1648039"
           }
         },
+        "LegalFeesSchedule@documentId": "RetDoc2002100001",
         "LegalFeesSchedule": {
           "LegalFeesGrp": {
             "CategoryTxt": "LEGAL FEES",
@@ -4402,6 +4409,7 @@
             "DisbursementsCharitablePrpsAmt": "1360"
           }
         },
+        "TaxesSchedule@documentId": "RetDoc2002500001",
         "TaxesSchedule": {
           "TaxesDetail": [
             {
@@ -4417,16 +4425,8 @@
               "DisbursementsCharitablePrpsAmt": "0"
             }
           ]
-        },
-        "IRS990PF@documentId": "RetDoc1235000001",
-        "AccountingFeesSchedule@documentId": "RetDoc2002200001",
-        "InvestmentsCorpStockSchedule@documentId": "RetDoc2018900001",
-        "LegalFeesSchedule@documentId": "RetDoc2002100001",
-        "TaxesSchedule@documentId": "RetDoc2002500001"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "5"
-    },
-    "Return@returnVersion": "2017v2.2"
+        }
+      }
+    }
   }
 }

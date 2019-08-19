@@ -1,7 +1,11 @@
 {
   "201012": {
+    "Return@returnVersion": "2010v3.2",
     "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
       "ReturnHeader": {
+        "Timestamp": "2011-10-26T12:36:41-07:00",
+        "TaxPeriodEndDate": "2010-12-31",
         "PreparerFirm": {
           "PreparerFirmBusinessName": {
             "BusinessNameLine1": "RENGGLI & RENGGLI PS"
@@ -13,20 +17,22 @@
             "ZIPCode": "992042806"
           }
         },
+        "ReturnType": "990",
+        "TaxPeriodBeginDate": "2010-01-01",
         "Filer": {
+          "EIN": "943041314",
           "Name": {
             "BusinessNameLine1": "Law Enforcement Officers & Firefighters",
             "BusinessNameLine2": "Health and Welfare Trust"
           },
+          "NameControl": "LAWE",
+          "Phone": "5094845598",
           "USAddress": {
             "AddressLine1": "4407 N Division",
             "City": "Spokane",
             "State": "WA",
             "ZIPCode": "99207"
-          },
-          "EIN": "943041314",
-          "NameControl": "LAWE",
-          "Phone": "5094845598"
+          }
         },
         "Officer": {
           "Name": "David West",
@@ -37,24 +43,185 @@
           "Name": "Nancy LS Lampe CPA",
           "Phone": "5093633912"
         },
-        "Timestamp": "2011-10-26T12:36:41-07:00",
-        "TaxPeriodEndDate": "2010-12-31",
-        "ReturnType": "990",
-        "TaxPeriodBeginDate": "2010-01-01",
         "TaxYear": "2010",
         "BuildTS": "2016-03-07 17:11:31Z"
       },
+      "ReturnData@documentCount": "3",
       "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": " IRS990ScheduleO",
+        "IRS990@softwareId": "10000105",
+        "IRS990@softwareVersion": "2010v3.2",
         "IRS990": {
+          "AmendedReturn": "X",
+          "GrossReceipts": "17534649",
+          "GroupReturnForAffiliates": "false",
+          "AllAffiliatesIncluded": "false",
+          "Organization501c@typeOf501cOrganization": "9",
+          "Organization501c": "X",
+          "WebSite": "www.loefftrust.com",
+          "TypeOfOrganizationTrust": "X",
+          "YearFormation": "1986",
+          "StateLegalDomicile": "WA",
+          "ActivityOrMissionDescription": "Provide medical services.",
+          "NbrVotingMembersGoverningBody": "8",
+          "NbrIndependentVotingMembers": "0",
+          "TotalNbrEmployees": "2",
+          "TotalGrossUBI": "0",
+          "ContributionsGrantsCurrentYear": "0",
+          "ProgramServiceRevenuePriorYear": "12811564",
+          "ProgramServiceRevenueCY": "17050344",
+          "InvestmentIncomePriorYear": "72806",
+          "InvestmentIncomeCurrentYear": "286366",
+          "OtherRevenuePriorYear": "224537",
+          "OtherRevenueCurrentYear": "197939",
+          "TotalRevenuePriorYear": "13108907",
+          "TotalRevenueCurrentYear": "17534649",
+          "GrantsAndSimilarAmntsCY": "0",
+          "BenefitsPaidToMembersPriorYear": "11203091",
+          "BenefitsPaidToMembersCY": "16142601",
+          "SalariesEtcPriorYear": "88312",
+          "SalariesEtcCurrentYear": "105915",
+          "TotalProfFundrsngExpCY": "0",
+          "TotalFundrsngExpCurrentYear": "0",
+          "OtherExpensePriorYear": "1383213",
+          "OtherExpensesCurrentYear": "2445169",
+          "TotalExpensesPriorYear": "12674616",
+          "TotalExpensesCurrentYear": "18693685",
+          "RevenuesLessExpensesPriorYear": "434291",
+          "RevenuesLessExpensesCY": "-1159036",
+          "TotalAssetsBOY": "7866662",
+          "TotalAssetsEOY": "6900173",
+          "TotalLiabilitiesBOY": "569860",
+          "TotalLiabilitiesEOY": "762407",
+          "NetAssetsOrFundBalancesBOY": "7296802",
+          "NetAssetsOrFundBalancesEOY": "6137766",
+          "MissionDescription": "Provide medical services.",
+          "SignificantNewProgramServices": "false",
+          "SignificantChange": "false",
+          "Expense": "16248516",
+          "Description": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
+          "TotalProgramServiceExpense": "16248516",
+          "DescribedIn501C3": "false",
+          "ScheduleBRequired": "false",
+          "PoliticalActivities": "false",
+          "LobbyingActivities": "false",
+          "SubjectToProxyTax": "false",
+          "DonorAdvisedFunds@referenceDocumentId": " IRS990ScheduleD",
+          "DonorAdvisedFunds": "false",
+          "ConservationEasements@referenceDocumentId": " IRS990ScheduleD",
+          "ConservationEasements": "false",
+          "CollectionsOfArt@referenceDocumentId": " IRS990ScheduleD",
+          "CollectionsOfArt": "false",
+          "CreditCounseling@referenceDocumentId": " IRS990ScheduleD",
+          "CreditCounseling": "false",
+          "TermOrPermanentEndowments@referenceDocumentId": " IRS990ScheduleD",
+          "TermOrPermanentEndowments": "false",
+          "ReportLandBldgEquip@referenceDocumentId": " IRS990ScheduleD",
+          "ReportLandBldgEquip": "false",
+          "ReportInvestOthSecurities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportInvestOthSecurities": "false",
+          "ReportProgRelInvest@referenceDocumentId": " IRS990ScheduleD",
+          "ReportProgRelInvest": "false",
+          "ReportOtherAssets@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherAssets": "false",
+          "ReportOtherLiabilities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherLiabilities": "true",
+          "ReportFin48Footnote@referenceDocumentId": " IRS990ScheduleD",
+          "ReportFin48Footnote": "false",
+          "IndependentAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "IndependentAuditFinancialStmt": "true",
+          "ConsolidatedAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "ConsolidatedAuditFinancialStmt": "false",
+          "School": "false",
+          "ForeignOffice": "false",
+          "ForeignActivities": "false",
+          "MoreThan5000KToOrganizations": "false",
+          "MoreThan5000KToIndividuals": "false",
+          "ProfessionalFundraising": "false",
+          "FundraisingActivities": "false",
+          "Gaming": "false",
+          "Hospital": "false",
+          "GrantsToOrganizations": "false",
+          "GrantsToIndividuals": "false",
+          "ScheduleJRequired": "false",
+          "TaxExemptBonds": "false",
+          "InvestTaxExemptBonds": "false",
+          "EscrowAccount": "false",
+          "OnBehalfOfIssuer": "false",
+          "ExcessBenefitTransaction": "false",
+          "PriorExcessBenefitTransaction": "false",
+          "LoanToOfficerOrDQP": "false",
+          "GrantToRelatedPerson": "false",
+          "BsnssRltnshpWithOrganization": "false",
+          "BsnssRltnshpThruFamilyMember": "false",
+          "OfficerEntityWithBsnssRltnshp": "false",
+          "DeductibleNonCashContributions": "false",
+          "DeductibleContributionsOfArt": "false",
+          "Terminated": "false",
+          "PartialLiquidation": "false",
+          "DisregardedEntity": "false",
+          "RelatedEntity": "false",
+          "RelatedOrgControlledEntity": "false",
+          "TransactionRelatedEntity": "false",
+          "TransfersToExemptNonChrtblOrg": "false",
+          "ActivitiesConductedPartnership": "false",
+          "ScheduleORequired": "false",
+          "NumberFormsTransmittedWith1096": "4",
+          "NumberW2GIncluded": "0",
+          "ComplianceWithBackupWitholding": "false",
+          "NumberOfEmployees": "2",
+          "EmploymentTaxReturnsFiled": "true",
+          "UnrelatedBusinessIncome": "false",
+          "Form990-TFiled": "false",
+          "ForeignFinancialAccount": "false",
+          "ProhibitedTaxShelterTrans": "false",
+          "TaxablePartyNotification": "false",
+          "Form8886TFiled": "false",
+          "NonDeductibleContributions": "false",
+          "NonDeductibleDisclosure": "false",
+          "ExcessBusinessHoldings": "false",
+          "TaxableDistributions": "false",
+          "DistributionToDonor": "false",
+          "FiledLieu1041": "false",
+          "LicensedMoreThanOneState": "false",
+          "IndoorTanningServices": "false",
+          "Form720Filed": "false",
+          "InfoInScheduleOPartVI": "X",
+          "NbrVotingGoverningBodyMembers": "8",
+          "NumberIndependentVotingMembers": "0",
+          "FamilyOrBusinessRelationship": "false",
+          "DelegationOfManagementDuties": "false",
+          "ChangesToOrganizingDocs": "false",
+          "MaterialDiversionOrMisuse": "false",
+          "MembersOrStockholders": "false",
+          "ElectionOfBoardMembers": "false",
+          "DecisionsSubjectToApproval": "false",
+          "MinutesOfGoverningBody": "false",
+          "MinutesOfCommittees": "false",
+          "OfficerMailingAddress": "false",
+          "LocalChapters": "false",
+          "PoliciesReferenceChapters": "false",
+          "Form990ProvidedToGoverningBody": "false",
+          "ConflictOfInterestPolicy": "false",
+          "AnnualDisclosureCoveredPersons": "false",
+          "RegularMonitoringEnforcement": "false",
+          "WhistleblowerPolicy": "false",
+          "DocumentRetentionPolicy": "false",
+          "CompensationProcessCEO": "false",
+          "CompensationProcessOther": "false",
+          "InvestmentInJointVenture": "false",
+          "WrittenPolicyOrProcedure": "false",
+          "OwnWebsite": "X",
           "TheBooksAreInCareOf": {
+            "NamePerson": "David West",
+            "TelephoneNumber": "5094842388",
             "AddressUS": {
               "AddressLine1": "4407 N Division Ste 516",
               "City": "Spokane",
               "State": "WA",
               "ZIPCode": "99204"
-            },
-            "NamePerson": "David West",
-            "TelephoneNumber": "5094842388"
+            }
           },
           "Form990PartVIISectionA": [
             {
@@ -131,6 +298,13 @@
               "OtherCompensation": "0"
             }
           ],
+          "TotalReportableCompFromOrg": "59319",
+          "NumberIndividualsGT100K": "0",
+          "FormersListed": "false",
+          "TotalCompGT150K": "false",
+          "CompensationFromOtherSources": "false",
+          "NumberOfContractorsGT100K": "0",
+          "TotalContributions": "0",
           "ProgramServiceRevenue": [
             {
               "Description": "Reinsurance income",
@@ -143,6 +317,7 @@
               "RelatedOrExemptFunctionIncome": "17006786"
             }
           ],
+          "TotalProgramServiceRevenue": "17050344",
           "InvestmentIncome": {
             "TotalRevenueColumn": "286366",
             "ExclusionAmount": "286366"
@@ -180,6 +355,7 @@
               "RelatedOrExemptFunctionIncome": "194163"
             }
           ],
+          "TotalOtherRevenue": "197939",
           "TotalRevenue": {
             "TotalRevenueColumn": "17534649",
             "RelatedOrExemptFunctionIncome": "17248283",
@@ -383,6 +559,7 @@
             "BOY": "569860",
             "EOY": "762407"
           },
+          "FollowSFAS117": "X",
           "UnrestrictedNetAssets": {
             "BOY": "7296802",
             "EOY": "6137766"
@@ -395,8 +572,118 @@
             "BOY": "7866662",
             "EOY": "6900173"
           },
+          "ReconcilationRevenueExpenses": "-1159036",
+          "MethodOfAccountingAccrual": "X",
+          "AccountantCompileOrReview": "false",
+          "FSAudited": "true",
+          "AuditCommittee": "false",
+          "FinancialStatementSeparate": "X",
+          "FederalGrantAuditRequired": "false",
+          "FederalGrantAuditPerformed": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "10000105",
+        "IRS990ScheduleD@softwareVersion": "2010v3.2",
+        "IRS990ScheduleD": {
+          "OtherLiabilities": [
+            {
+              "Description": "Premium deposits",
+              "Amount": "762108"
+            },
+            {
+              "Description": "Payroll taxes",
+              "Amount": "299"
+            }
+          ],
+          "TotalOfAmounts": "762407",
+          "TotalRevenue": "17534649",
+          "TotalExpenses": "18693685",
+          "ExcessOrDeficitForYear": "-1159036",
+          "ExcessOrDeficitPerFS": "-1159036",
+          "TotRevenueEtcAuditedFinclStmt": "17534649",
+          "RevenueSubtotal": "17534649",
+          "TotalRevenuePerForm990": "17534649",
+          "TotExpensesEtcAuditedFinclStmt": "18693685",
+          "ExpensesSubtotal": "18693685",
+          "TotalExpensesPerForm990": "18693685"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "10000105",
+        "IRS990ScheduleO@softwareVersion": "2010v3.2",
+        "IRS990ScheduleO": {
+          "GeneralExplanation": [
+            {
+              "Identifier": "Form 990, Part VI, Line 19",
+              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "Explanation": "No documents available to the public."
+            },
+            {
+              "Identifier": "Form 990, Part VI, Line 11",
+              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
+              "Explanation": "No review was or will be conducted."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201112": {
+    "Return@returnVersion": "2011v1.2",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
+      "ReturnHeader": {
+        "Timestamp": "2012-10-30T11:51:30-07:00",
+        "TaxPeriodEndDate": "2011-12-31",
+        "PreparerFirm": {
+          "PreparerFirmBusinessName": {
+            "BusinessNameLine1": "RENGGLI & RENGGLI PS"
+          },
+          "PreparerFirmUSAddress": {
+            "AddressLine1": "705 W 7TH AVE STE A-3",
+            "City": "SPOKANE",
+            "State": "WA",
+            "ZIPCode": "992042806"
+          }
+        },
+        "ReturnType": "990",
+        "TaxPeriodBeginDate": "2011-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "Name": {
+            "BusinessNameLine1": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2": "Health and Welfare Trust"
+          },
+          "NameControl": "LAWE",
+          "Phone": "5094845598",
+          "USAddress": {
+            "AddressLine1": "4407 N Division",
+            "City": "Spokane",
+            "State": "WA",
+            "ZIPCode": "99207"
+          }
+        },
+        "Officer": {
+          "Name": "Ted Rail",
+          "Title": "Trustee",
+          "DateSigned": "2012-10-30",
+          "AuthorizeThirdParty": "true"
+        },
+        "Preparer": {
+          "Name": "Verna J Renggli CPA",
+          "Phone": "5093633909"
+        },
+        "TaxYear": "2011",
+        "BuildTS": "2016-02-24 21:20:13Z"
+      },
+      "ReturnData@documentCount": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "11000144",
+        "IRS990@softwareVersion": "2011v1.2",
+        "IRS990": {
           "AmendedReturn": "X",
-          "GrossReceipts": "17534649",
+          "GrossReceipts": "27997683",
           "GroupReturnForAffiliates": "false",
           "AllAffiliatesIncluded": "false",
           "Organization501c@typeOf501cOrganization": "9",
@@ -411,69 +698,69 @@
           "TotalNbrEmployees": "2",
           "TotalGrossUBI": "0",
           "ContributionsGrantsCurrentYear": "0",
-          "ProgramServiceRevenuePriorYear": "12811564",
-          "ProgramServiceRevenueCY": "17050344",
-          "InvestmentIncomePriorYear": "72806",
-          "InvestmentIncomeCurrentYear": "286366",
-          "OtherRevenuePriorYear": "224537",
-          "OtherRevenueCurrentYear": "197939",
-          "TotalRevenuePriorYear": "13108907",
-          "TotalRevenueCurrentYear": "17534649",
+          "ProgramServiceRevenuePriorYear": "17050344",
+          "ProgramServiceRevenueCY": "27245025",
+          "InvestmentIncomePriorYear": "286366",
+          "InvestmentIncomeCurrentYear": "-95110",
+          "OtherRevenuePriorYear": "197939",
+          "OtherRevenueCurrentYear": "847768",
+          "TotalRevenuePriorYear": "17534649",
+          "TotalRevenueCurrentYear": "27997683",
           "GrantsAndSimilarAmntsCY": "0",
-          "BenefitsPaidToMembersPriorYear": "11203091",
-          "BenefitsPaidToMembersCY": "16142601",
-          "SalariesEtcPriorYear": "88312",
-          "SalariesEtcCurrentYear": "105915",
+          "BenefitsPaidToMembersPriorYear": "16142601",
+          "BenefitsPaidToMembersCY": "27083777",
+          "SalariesEtcPriorYear": "105915",
+          "SalariesEtcCurrentYear": "115802",
           "TotalProfFundrsngExpCY": "0",
           "TotalFundrsngExpCurrentYear": "0",
-          "OtherExpensePriorYear": "1383213",
-          "OtherExpensesCurrentYear": "2445169",
-          "TotalExpensesPriorYear": "12674616",
-          "TotalExpensesCurrentYear": "18693685",
-          "RevenuesLessExpensesPriorYear": "434291",
-          "RevenuesLessExpensesCY": "-1159036",
-          "TotalAssetsBOY": "7866662",
-          "TotalAssetsEOY": "6900173",
-          "TotalLiabilitiesBOY": "569860",
-          "TotalLiabilitiesEOY": "762407",
-          "NetAssetsOrFundBalancesBOY": "7296802",
-          "NetAssetsOrFundBalancesEOY": "6137766",
+          "OtherExpensePriorYear": "2445169",
+          "OtherExpensesCurrentYear": "3273893",
+          "TotalExpensesPriorYear": "18693685",
+          "TotalExpensesCurrentYear": "30473472",
+          "RevenuesLessExpensesPriorYear": "-1159036",
+          "RevenuesLessExpensesCY": "-2475789",
+          "TotalAssetsBOY": "6900173",
+          "TotalAssetsEOY": "4825105",
+          "TotalLiabilitiesBOY": "762407",
+          "TotalLiabilitiesEOY": "1163128",
+          "NetAssetsOrFundBalancesBOY": "6137766",
+          "NetAssetsOrFundBalancesEOY": "3661977",
           "MissionDescription": "Provide medical services.",
           "SignificantNewProgramServices": "false",
           "SignificantChange": "false",
-          "Expense": "16248516",
+          "Expense": "27200093",
           "Description": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpense": "16248516",
+          "TotalProgramServiceExpense": "27200093",
           "DescribedIn501C3": "false",
           "ScheduleBRequired": "false",
           "PoliticalActivities": "false",
           "LobbyingActivities": "false",
           "SubjectToProxyTax": "false",
-          "DonorAdvisedFunds@referenceDocumentId": " IRS990ScheduleD",
+          "DonorAdvisedFunds@referenceDocumentId": "IRS990ScheduleD",
           "DonorAdvisedFunds": "false",
-          "ConservationEasements@referenceDocumentId": " IRS990ScheduleD",
+          "ConservationEasements@referenceDocumentId": "IRS990ScheduleD",
           "ConservationEasements": "false",
-          "CollectionsOfArt@referenceDocumentId": " IRS990ScheduleD",
+          "CollectionsOfArt@referenceDocumentId": "IRS990ScheduleD",
           "CollectionsOfArt": "false",
-          "CreditCounseling@referenceDocumentId": " IRS990ScheduleD",
+          "CreditCounseling@referenceDocumentId": "IRS990ScheduleD",
           "CreditCounseling": "false",
-          "TermOrPermanentEndowments@referenceDocumentId": " IRS990ScheduleD",
+          "TermOrPermanentEndowments@referenceDocumentId": "IRS990ScheduleD",
           "TermOrPermanentEndowments": "false",
-          "ReportLandBldgEquip@referenceDocumentId": " IRS990ScheduleD",
-          "ReportLandBldgEquip": "false",
-          "ReportInvestOthSecurities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportLandBldgEquip@referenceDocumentId": "IRS990ScheduleD",
+          "ReportLandBldgEquip": "true",
+          "ReportInvestOthSecurities@referenceDocumentId": "IRS990ScheduleD",
           "ReportInvestOthSecurities": "false",
-          "ReportProgRelInvest@referenceDocumentId": " IRS990ScheduleD",
+          "ReportProgRelInvest@referenceDocumentId": "IRS990ScheduleD",
           "ReportProgRelInvest": "false",
-          "ReportOtherAssets@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherAssets@referenceDocumentId": "IRS990ScheduleD",
           "ReportOtherAssets": "false",
-          "ReportOtherLiabilities@referenceDocumentId": " IRS990ScheduleD",
+          "ReportOtherLiabilities@referenceDocumentId": "IRS990ScheduleD",
           "ReportOtherLiabilities": "true",
-          "ReportFin48Footnote@referenceDocumentId": " IRS990ScheduleD",
+          "ReportFin48Footnote@referenceDocumentId": "IRS990ScheduleD",
           "ReportFin48Footnote": "false",
-          "IndependentAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "IndependentAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
           "IndependentAuditFinancialStmt": "true",
-          "ConsolidatedAuditFinancialStmt@referenceDocumentId": " IRS990ScheduleD",
+          "ConsolidatedAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
           "ConsolidatedAuditFinancialStmt": "false",
           "School": "false",
           "ForeignOffice": "false",
@@ -555,135 +842,15 @@
           "InvestmentInJointVenture": "false",
           "WrittenPolicyOrProcedure": "false",
           "OwnWebsite": "X",
-          "TotalReportableCompFromOrg": "59319",
-          "NumberIndividualsGT100K": "0",
-          "FormersListed": "false",
-          "TotalCompGT150K": "false",
-          "CompensationFromOtherSources": "false",
-          "NumberOfContractorsGT100K": "0",
-          "TotalContributions": "0",
-          "TotalProgramServiceRevenue": "17050344",
-          "TotalOtherRevenue": "197939",
-          "FollowSFAS117": "X",
-          "ReconcilationRevenueExpenses": "-1159036",
-          "MethodOfAccountingAccrual": "X",
-          "AccountantCompileOrReview": "false",
-          "FSAudited": "true",
-          "AuditCommittee": "false",
-          "FinancialStatementSeparate": "X",
-          "FederalGrantAuditRequired": "false",
-          "FederalGrantAuditPerformed": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLiabilities": [
-            {
-              "Description": "Premium deposits",
-              "Amount": "762108"
-            },
-            {
-              "Description": "Payroll taxes",
-              "Amount": "299"
-            }
-          ],
-          "TotalOfAmounts": "762407",
-          "TotalRevenue": "17534649",
-          "TotalExpenses": "18693685",
-          "ExcessOrDeficitForYear": "-1159036",
-          "ExcessOrDeficitPerFS": "-1159036",
-          "TotRevenueEtcAuditedFinclStmt": "17534649",
-          "RevenueSubtotal": "17534649",
-          "TotalRevenuePerForm990": "17534649",
-          "TotExpensesEtcAuditedFinclStmt": "18693685",
-          "ExpensesSubtotal": "18693685",
-          "TotalExpensesPerForm990": "18693685"
-        },
-        "IRS990ScheduleO": {
-          "GeneralExplanation": [
-            {
-              "Identifier": "Form 990, Part VI, Line 19",
-              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "Explanation": "No documents available to the public."
-            },
-            {
-              "Identifier": "Form 990, Part VI, Line 11",
-              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
-              "Explanation": "No review was or will be conducted."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": " IRS990ScheduleO",
-        "IRS990@softwareId": "10000105",
-        "IRS990@softwareVersion": "2010v3.2",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "10000105",
-        "IRS990ScheduleD@softwareVersion": "2010v3.2",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "10000105",
-        "IRS990ScheduleO@softwareVersion": "2010v3.2"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "3"
-    },
-    "Return@returnVersion": "2010v3.2"
-  },
-  "201112": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirm": {
-          "PreparerFirmBusinessName": {
-            "BusinessNameLine1": "RENGGLI & RENGGLI PS"
-          },
-          "PreparerFirmUSAddress": {
-            "AddressLine1": "705 W 7TH AVE STE A-3",
-            "City": "SPOKANE",
-            "State": "WA",
-            "ZIPCode": "992042806"
-          }
-        },
-        "Filer": {
-          "Name": {
-            "BusinessNameLine1": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1": "4407 N Division",
-            "City": "Spokane",
-            "State": "WA",
-            "ZIPCode": "99207"
-          },
-          "EIN": "943041314",
-          "NameControl": "LAWE",
-          "Phone": "5094845598"
-        },
-        "Officer": {
-          "Name": "Ted Rail",
-          "Title": "Trustee",
-          "DateSigned": "2012-10-30",
-          "AuthorizeThirdParty": "true"
-        },
-        "Preparer": {
-          "Name": "Verna J Renggli CPA",
-          "Phone": "5093633909"
-        },
-        "Timestamp": "2012-10-30T11:51:30-07:00",
-        "TaxPeriodEndDate": "2011-12-31",
-        "ReturnType": "990",
-        "TaxPeriodBeginDate": "2011-01-01",
-        "TaxYear": "2011",
-        "BuildTS": "2016-02-24 21:20:13Z"
-      },
-      "ReturnData": {
-        "IRS990": {
           "TheBooksAreInCareOf": {
+            "NamePerson": "Jenny Wisniewski",
+            "TelephoneNumber": "5094842388",
             "AddressUS": {
               "AddressLine1": "4407 N Division Ste 516",
               "City": "Spokane",
               "State": "WA",
               "ZIPCode": "99204"
-            },
-            "NamePerson": "Jenny Wisniewski",
-            "TelephoneNumber": "5094842388"
+            }
           },
           "Form990PartVIISectionA": [
             {
@@ -758,6 +925,13 @@
               "OtherCompensation": "0"
             }
           ],
+          "TotalReportableCompFromOrg": "58517",
+          "NumberIndividualsGT100K": "0",
+          "FormersListed": "false",
+          "TotalCompGT150K": "false",
+          "CompensationFromOtherSources": "false",
+          "NumberOfContractorsGT100K": "0",
+          "TotalContributions": "0",
           "ProgramServiceRevenue": [
             {
               "Description": "Reinsurance income",
@@ -770,6 +944,7 @@
               "RelatedOrExemptFunctionIncome": "26406147"
             }
           ],
+          "TotalProgramServiceRevenue": "27245025",
           "InvestmentIncome": {
             "TotalRevenueColumn": "-95110",
             "ExclusionAmount": "-95110"
@@ -812,6 +987,7 @@
               "RelatedOrExemptFunctionIncome": "438058"
             }
           ],
+          "TotalOtherRevenue": "847768",
           "TotalRevenue": {
             "TotalRevenueColumn": "27997683",
             "RelatedOrExemptFunctionIncome": "28092793",
@@ -987,6 +1163,8 @@
             "BOY": "728",
             "EOY": "843333"
           },
+          "LandBuildingsEquipmentBasis": "6116",
+          "LandBldgEquipmentAccumDeprec": "514",
           "LandBuildingsEquipmentBasisNet": {
             "EOY": "5602"
           },
@@ -1018,6 +1196,7 @@
             "BOY": "762407",
             "EOY": "1163128"
           },
+          "FollowSFAS117": "X",
           "UnrestrictedNetAssets": {
             "BOY": "6137766",
             "EOY": "3661977"
@@ -1030,8 +1209,125 @@
             "BOY": "6900173",
             "EOY": "4825105"
           },
+          "ReconcilationRevenueExpenses": "-2475789",
+          "MethodOfAccountingAccrual": "X",
+          "AccountantCompileOrReview": "false",
+          "FSAudited": "true",
+          "AuditCommittee": "false",
+          "FinancialStatementSeparate": "X",
+          "FederalGrantAuditRequired": "false",
+          "FederalGrantAuditPerformed": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "11000144",
+        "IRS990ScheduleD@softwareVersion": "2011v1.2",
+        "IRS990ScheduleD": {
+          "OtherLandBuildings": {
+            "OtherCostOrOtherBasis": "6116",
+            "Depreciation": "514",
+            "BookValue": "5602"
+          },
+          "TotalOfBookValueLandBuildings": "5602",
+          "OtherLiabilities": [
+            {
+              "Description": "Premium deposits",
+              "Amount": "1162894"
+            },
+            {
+              "Description": "Payroll taxes",
+              "Amount": "234"
+            }
+          ],
+          "TotalOfAmounts": "1163128",
+          "TotalRevenue": "27997683",
+          "TotalExpenses": "30473472",
+          "ExcessOrDeficitForYear": "-2475789",
+          "ExcessOrDeficitPerFS": "-2475789",
+          "TotRevenueEtcAuditedFinclStmt": "27997683",
+          "RevenueSubtotal": "27997683",
+          "TotalRevenuePerForm990": "27997683",
+          "TotExpensesEtcAuditedFinclStmt": "30473472",
+          "ExpensesSubtotal": "30473472",
+          "TotalExpensesPerForm990": "30473472"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "11000144",
+        "IRS990ScheduleO@softwareVersion": "2011v1.2",
+        "IRS990ScheduleO": {
+          "GeneralExplanation": [
+            {
+              "Identifier": "Form 990, Part VI, Line 19",
+              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "Explanation": "No documents available to the public."
+            },
+            {
+              "Identifier": "Form 990, Part VI, Line 11",
+              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
+              "Explanation": "No review was or will be conducted."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201212": {
+    "Return@returnVersion": "2012v2.0",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCount": "0",
+      "ReturnHeader": {
+        "Timestamp": "2013-10-17T15:14:25-07:00",
+        "TaxPeriodEndDate": "2012-12-31",
+        "PreparerFirm": {
+          "PreparerFirmBusinessName": {
+            "BusinessNameLine1": "RENGGLI & RENGGLI PS"
+          },
+          "PreparerFirmUSAddress": {
+            "AddressLine1": "705 W 7TH AVE STE A-3",
+            "City": "SPOKANE",
+            "State": "WA",
+            "ZIPCode": "992042806"
+          }
+        },
+        "ReturnType": "990",
+        "TaxPeriodBeginDate": "2012-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "Name": {
+            "BusinessNameLine1": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2": "Health and Welfare Trust"
+          },
+          "NameControl": "LAWE",
+          "Phone": "5094845598",
+          "USAddress": {
+            "AddressLine1": "4407 N Division",
+            "City": "Spokane",
+            "State": "WA",
+            "ZIPCode": "99207"
+          }
+        },
+        "Officer": {
+          "Name": "Jennifer S Wisniewski",
+          "Title": "Program Manager",
+          "DateSigned": "2013-10-17",
+          "AuthorizeThirdParty": "true"
+        },
+        "Preparer": {
+          "Name": "Nancy LS Lampe CPA",
+          "PTIN": "P00416548",
+          "Phone": "5093633912"
+        },
+        "TaxYear": "2012",
+        "BuildTS": "2016-03-07 17:11:31Z"
+      },
+      "ReturnData@documentCount": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "12000229",
+        "IRS990@softwareVersion": "2012v2.0",
+        "IRS990": {
           "AmendedReturn": "X",
-          "GrossReceipts": "27997683",
+          "GrossReceipts": "32511874",
           "GroupReturnForAffiliates": "false",
           "AllAffiliatesIncluded": "false",
           "Organization501c@typeOf501cOrganization": "9",
@@ -1043,42 +1339,42 @@
           "ActivityOrMissionDescription": "Provide medical services.",
           "NbrVotingMembersGoverningBody": "8",
           "NbrIndependentVotingMembers": "0",
-          "TotalNbrEmployees": "2",
+          "TotalNbrEmployees": "3",
           "TotalGrossUBI": "0",
           "ContributionsGrantsCurrentYear": "0",
-          "ProgramServiceRevenuePriorYear": "17050344",
-          "ProgramServiceRevenueCY": "27245025",
-          "InvestmentIncomePriorYear": "286366",
-          "InvestmentIncomeCurrentYear": "-95110",
-          "OtherRevenuePriorYear": "197939",
-          "OtherRevenueCurrentYear": "847768",
-          "TotalRevenuePriorYear": "17534649",
-          "TotalRevenueCurrentYear": "27997683",
+          "ProgramServiceRevenuePriorYear": "27245025",
+          "ProgramServiceRevenueCY": "31867659",
+          "InvestmentIncomePriorYear": "-95110",
+          "InvestmentIncomeCurrentYear": "7210",
+          "OtherRevenuePriorYear": "847768",
+          "OtherRevenueCurrentYear": "637005",
+          "TotalRevenuePriorYear": "27997683",
+          "TotalRevenueCurrentYear": "32511874",
           "GrantsAndSimilarAmntsCY": "0",
-          "BenefitsPaidToMembersPriorYear": "16142601",
-          "BenefitsPaidToMembersCY": "27083777",
-          "SalariesEtcPriorYear": "105915",
-          "SalariesEtcCurrentYear": "115802",
+          "BenefitsPaidToMembersPriorYear": "27083777",
+          "BenefitsPaidToMembersCY": "31573178",
+          "SalariesEtcPriorYear": "115802",
+          "SalariesEtcCurrentYear": "98598",
           "TotalProfFundrsngExpCY": "0",
           "TotalFundrsngExpCurrentYear": "0",
-          "OtherExpensePriorYear": "2445169",
-          "OtherExpensesCurrentYear": "3273893",
-          "TotalExpensesPriorYear": "18693685",
-          "TotalExpensesCurrentYear": "30473472",
-          "RevenuesLessExpensesPriorYear": "-1159036",
-          "RevenuesLessExpensesCY": "-2475789",
-          "TotalAssetsBOY": "6900173",
-          "TotalAssetsEOY": "4825105",
-          "TotalLiabilitiesBOY": "762407",
-          "TotalLiabilitiesEOY": "1163128",
-          "NetAssetsOrFundBalancesBOY": "6137766",
-          "NetAssetsOrFundBalancesEOY": "3661977",
+          "OtherExpensePriorYear": "3273893",
+          "OtherExpensesCurrentYear": "2617160",
+          "TotalExpensesPriorYear": "30473472",
+          "TotalExpensesCurrentYear": "34288936",
+          "RevenuesLessExpensesPriorYear": "-2475789",
+          "RevenuesLessExpensesCY": "-1777062",
+          "TotalAssetsBOY": "4825105",
+          "TotalAssetsEOY": "3175475",
+          "TotalLiabilitiesBOY": "1163128",
+          "TotalLiabilitiesEOY": "1290560",
+          "NetAssetsOrFundBalancesBOY": "3661977",
+          "NetAssetsOrFundBalancesEOY": "1884915",
           "MissionDescription": "Provide medical services.",
           "SignificantNewProgramServices": "false",
           "SignificantChange": "false",
-          "Expense": "27200093",
+          "Expense": "31673407",
           "Description": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpense": "27200093",
+          "TotalProgramServiceExpense": "31673407",
           "DescribedIn501C3": "false",
           "ScheduleBRequired": "false",
           "PoliticalActivities": "false",
@@ -1144,26 +1440,23 @@
           "TransfersToExemptNonChrtblOrg": "false",
           "ActivitiesConductedPartnership": "false",
           "ScheduleORequired": "false",
-          "NumberFormsTransmittedWith1096": "4",
+          "NumberFormsTransmittedWith1096": "5",
           "NumberW2GIncluded": "0",
           "ComplianceWithBackupWitholding": "false",
-          "NumberOfEmployees": "2",
+          "NumberOfEmployees": "3",
           "EmploymentTaxReturnsFiled": "true",
           "UnrelatedBusinessIncome": "false",
           "Form990-TFiled": "false",
           "ForeignFinancialAccount": "false",
           "ProhibitedTaxShelterTrans": "false",
           "TaxablePartyNotification": "false",
-          "Form8886TFiled": "false",
           "NonDeductibleContributions": "false",
-          "NonDeductibleDisclosure": "false",
           "ExcessBusinessHoldings": "false",
           "TaxableDistributions": "false",
           "DistributionToDonor": "false",
           "FiledLieu1041": "false",
           "LicensedMoreThanOneState": "false",
           "IndoorTanningServices": "false",
-          "Form720Filed": "false",
           "InfoInScheduleOPartVI": "X",
           "NbrVotingGoverningBodyMembers": "8",
           "NumberIndependentVotingMembers": "0",
@@ -1178,7 +1471,6 @@
           "MinutesOfCommittees": "false",
           "OfficerMailingAddress": "false",
           "LocalChapters": "false",
-          "PoliciesReferenceChapters": "false",
           "Form990ProvidedToGoverningBody": "false",
           "ConflictOfInterestPolicy": "false",
           "AnnualDisclosureCoveredPersons": "false",
@@ -1188,146 +1480,17 @@
           "CompensationProcessCEO": "false",
           "CompensationProcessOther": "false",
           "InvestmentInJointVenture": "false",
-          "WrittenPolicyOrProcedure": "false",
           "OwnWebsite": "X",
-          "TotalReportableCompFromOrg": "58517",
-          "NumberIndividualsGT100K": "0",
-          "FormersListed": "false",
-          "TotalCompGT150K": "false",
-          "CompensationFromOtherSources": "false",
-          "NumberOfContractorsGT100K": "0",
-          "TotalContributions": "0",
-          "TotalProgramServiceRevenue": "27245025",
-          "TotalOtherRevenue": "847768",
-          "LandBuildingsEquipmentBasis": "6116",
-          "LandBldgEquipmentAccumDeprec": "514",
-          "FollowSFAS117": "X",
-          "ReconcilationRevenueExpenses": "-2475789",
-          "MethodOfAccountingAccrual": "X",
-          "AccountantCompileOrReview": "false",
-          "FSAudited": "true",
-          "AuditCommittee": "false",
-          "FinancialStatementSeparate": "X",
-          "FederalGrantAuditRequired": "false",
-          "FederalGrantAuditPerformed": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLandBuildings": {
-            "OtherCostOrOtherBasis": "6116",
-            "Depreciation": "514",
-            "BookValue": "5602"
-          },
-          "OtherLiabilities": [
-            {
-              "Description": "Premium deposits",
-              "Amount": "1162894"
-            },
-            {
-              "Description": "Payroll taxes",
-              "Amount": "234"
-            }
-          ],
-          "TotalOfBookValueLandBuildings": "5602",
-          "TotalOfAmounts": "1163128",
-          "TotalRevenue": "27997683",
-          "TotalExpenses": "30473472",
-          "ExcessOrDeficitForYear": "-2475789",
-          "ExcessOrDeficitPerFS": "-2475789",
-          "TotRevenueEtcAuditedFinclStmt": "27997683",
-          "RevenueSubtotal": "27997683",
-          "TotalRevenuePerForm990": "27997683",
-          "TotExpensesEtcAuditedFinclStmt": "30473472",
-          "ExpensesSubtotal": "30473472",
-          "TotalExpensesPerForm990": "30473472"
-        },
-        "IRS990ScheduleO": {
-          "GeneralExplanation": [
-            {
-              "Identifier": "Form 990, Part VI, Line 19",
-              "ReturnReference": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "Explanation": "No documents available to the public."
-            },
-            {
-              "Identifier": "Form 990, Part VI, Line 11",
-              "ReturnReference": "Form 990, Part VI, Line 11: Form 990 Review Process",
-              "Explanation": "No review was or will be conducted."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "11000144",
-        "IRS990@softwareVersion": "2011v1.2",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "11000144",
-        "IRS990ScheduleD@softwareVersion": "2011v1.2",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "11000144",
-        "IRS990ScheduleO@softwareVersion": "2011v1.2"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "3"
-    },
-    "Return@returnVersion": "2011v1.2"
-  },
-  "201212": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirm": {
-          "PreparerFirmBusinessName": {
-            "BusinessNameLine1": "RENGGLI & RENGGLI PS"
-          },
-          "PreparerFirmUSAddress": {
-            "AddressLine1": "705 W 7TH AVE STE A-3",
-            "City": "SPOKANE",
-            "State": "WA",
-            "ZIPCode": "992042806"
-          }
-        },
-        "Filer": {
-          "Name": {
-            "BusinessNameLine1": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1": "4407 N Division",
-            "City": "Spokane",
-            "State": "WA",
-            "ZIPCode": "99207"
-          },
-          "EIN": "943041314",
-          "NameControl": "LAWE",
-          "Phone": "5094845598"
-        },
-        "Officer": {
-          "Name": "Jennifer S Wisniewski",
-          "Title": "Program Manager",
-          "DateSigned": "2013-10-17",
-          "AuthorizeThirdParty": "true"
-        },
-        "Preparer": {
-          "Name": "Nancy LS Lampe CPA",
-          "PTIN": "P00416548",
-          "Phone": "5093633912"
-        },
-        "Timestamp": "2013-10-17T15:14:25-07:00",
-        "TaxPeriodEndDate": "2012-12-31",
-        "ReturnType": "990",
-        "TaxPeriodBeginDate": "2012-01-01",
-        "TaxYear": "2012",
-        "BuildTS": "2016-03-07 17:11:31Z"
-      },
-      "ReturnData": {
-        "IRS990": {
+          "UponRequest": "X",
           "TheBooksAreInCareOf": {
+            "NamePerson": "Jenny Wisniewski",
+            "TelephoneNumber": "5094842388",
             "AddressUS": {
               "AddressLine1": "4407 N Division Ste 516",
               "City": "Spokane",
               "State": "WA",
               "ZIPCode": "99204"
-            },
-            "NamePerson": "Jenny Wisniewski",
-            "TelephoneNumber": "5094842388"
+            }
           },
           "Form990PartVIISectionA": [
             {
@@ -1411,6 +1574,13 @@
               "OtherCompensation": "0"
             }
           ],
+          "TotalReportableCompFromOrg": "67081",
+          "NumberIndividualsGT100K": "0",
+          "FormersListed": "false",
+          "TotalCompGT150K": "false",
+          "CompensationFromOtherSources": "false",
+          "NumberOfContractorsGT100K": "0",
+          "TotalContributions": "0",
           "ProgramServiceRevenue": [
             {
               "Description": "Reinsurance income",
@@ -1423,6 +1593,7 @@
               "RelatedOrExemptFunctionIncome": "31159176"
             }
           ],
+          "TotalProgramServiceRevenue": "31867659",
           "InvestmentIncome": {
             "TotalRevenueColumn": "7210",
             "ExclusionAmount": "7210"
@@ -1465,6 +1636,7 @@
               "RelatedOrExemptFunctionIncome": "578835"
             }
           ],
+          "TotalOtherRevenue": "637005",
           "TotalRevenue": {
             "TotalRevenueColumn": "32511874",
             "RelatedOrExemptFunctionIncome": "32504664",
@@ -1634,6 +1806,8 @@
             "BOY": "843333",
             "EOY": "1267"
           },
+          "LandBuildingsEquipmentBasis": "13374",
+          "LandBldgEquipmentAccumDeprec": "2145",
           "LandBuildingsEquipmentBasisNet": {
             "BOY": "5602",
             "EOY": "11229"
@@ -1665,6 +1839,7 @@
             "BOY": "1163128",
             "EOY": "1290560"
           },
+          "FollowSFAS117": "X",
           "UnrestrictedNetAssets": {
             "BOY": "3661977",
             "EOY": "1884915"
@@ -1677,190 +1852,26 @@
             "BOY": "4825105",
             "EOY": "3175475"
           },
-          "FSAuditedBasis": {
-            "FinancialStatementSeparate": "X"
-          },
-          "AmendedReturn": "X",
-          "GrossReceipts": "32511874",
-          "GroupReturnForAffiliates": "false",
-          "AllAffiliatesIncluded": "false",
-          "Organization501c@typeOf501cOrganization": "9",
-          "Organization501c": "X",
-          "WebSite": "www.loefftrust.com",
-          "TypeOfOrganizationTrust": "X",
-          "YearFormation": "1986",
-          "StateLegalDomicile": "WA",
-          "ActivityOrMissionDescription": "Provide medical services.",
-          "NbrVotingMembersGoverningBody": "8",
-          "NbrIndependentVotingMembers": "0",
-          "TotalNbrEmployees": "3",
-          "TotalGrossUBI": "0",
-          "ContributionsGrantsCurrentYear": "0",
-          "ProgramServiceRevenuePriorYear": "27245025",
-          "ProgramServiceRevenueCY": "31867659",
-          "InvestmentIncomePriorYear": "-95110",
-          "InvestmentIncomeCurrentYear": "7210",
-          "OtherRevenuePriorYear": "847768",
-          "OtherRevenueCurrentYear": "637005",
-          "TotalRevenuePriorYear": "27997683",
-          "TotalRevenueCurrentYear": "32511874",
-          "GrantsAndSimilarAmntsCY": "0",
-          "BenefitsPaidToMembersPriorYear": "27083777",
-          "BenefitsPaidToMembersCY": "31573178",
-          "SalariesEtcPriorYear": "115802",
-          "SalariesEtcCurrentYear": "98598",
-          "TotalProfFundrsngExpCY": "0",
-          "TotalFundrsngExpCurrentYear": "0",
-          "OtherExpensePriorYear": "3273893",
-          "OtherExpensesCurrentYear": "2617160",
-          "TotalExpensesPriorYear": "30473472",
-          "TotalExpensesCurrentYear": "34288936",
-          "RevenuesLessExpensesPriorYear": "-2475789",
-          "RevenuesLessExpensesCY": "-1777062",
-          "TotalAssetsBOY": "4825105",
-          "TotalAssetsEOY": "3175475",
-          "TotalLiabilitiesBOY": "1163128",
-          "TotalLiabilitiesEOY": "1290560",
-          "NetAssetsOrFundBalancesBOY": "3661977",
-          "NetAssetsOrFundBalancesEOY": "1884915",
-          "MissionDescription": "Provide medical services.",
-          "SignificantNewProgramServices": "false",
-          "SignificantChange": "false",
-          "Expense": "31673407",
-          "Description": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpense": "31673407",
-          "DescribedIn501C3": "false",
-          "ScheduleBRequired": "false",
-          "PoliticalActivities": "false",
-          "LobbyingActivities": "false",
-          "SubjectToProxyTax": "false",
-          "DonorAdvisedFunds@referenceDocumentId": "IRS990ScheduleD",
-          "DonorAdvisedFunds": "false",
-          "ConservationEasements@referenceDocumentId": "IRS990ScheduleD",
-          "ConservationEasements": "false",
-          "CollectionsOfArt@referenceDocumentId": "IRS990ScheduleD",
-          "CollectionsOfArt": "false",
-          "CreditCounseling@referenceDocumentId": "IRS990ScheduleD",
-          "CreditCounseling": "false",
-          "TermOrPermanentEndowments@referenceDocumentId": "IRS990ScheduleD",
-          "TermOrPermanentEndowments": "false",
-          "ReportLandBldgEquip@referenceDocumentId": "IRS990ScheduleD",
-          "ReportLandBldgEquip": "true",
-          "ReportInvestOthSecurities@referenceDocumentId": "IRS990ScheduleD",
-          "ReportInvestOthSecurities": "false",
-          "ReportProgRelInvest@referenceDocumentId": "IRS990ScheduleD",
-          "ReportProgRelInvest": "false",
-          "ReportOtherAssets@referenceDocumentId": "IRS990ScheduleD",
-          "ReportOtherAssets": "false",
-          "ReportOtherLiabilities@referenceDocumentId": "IRS990ScheduleD",
-          "ReportOtherLiabilities": "true",
-          "ReportFin48Footnote@referenceDocumentId": "IRS990ScheduleD",
-          "ReportFin48Footnote": "false",
-          "IndependentAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
-          "IndependentAuditFinancialStmt": "true",
-          "ConsolidatedAuditFinancialStmt@referenceDocumentId": "IRS990ScheduleD",
-          "ConsolidatedAuditFinancialStmt": "false",
-          "School": "false",
-          "ForeignOffice": "false",
-          "ForeignActivities": "false",
-          "MoreThan5000KToOrganizations": "false",
-          "MoreThan5000KToIndividuals": "false",
-          "ProfessionalFundraising": "false",
-          "FundraisingActivities": "false",
-          "Gaming": "false",
-          "Hospital": "false",
-          "GrantsToOrganizations": "false",
-          "GrantsToIndividuals": "false",
-          "ScheduleJRequired": "false",
-          "TaxExemptBonds": "false",
-          "InvestTaxExemptBonds": "false",
-          "EscrowAccount": "false",
-          "OnBehalfOfIssuer": "false",
-          "ExcessBenefitTransaction": "false",
-          "PriorExcessBenefitTransaction": "false",
-          "LoanToOfficerOrDQP": "false",
-          "GrantToRelatedPerson": "false",
-          "BsnssRltnshpWithOrganization": "false",
-          "BsnssRltnshpThruFamilyMember": "false",
-          "OfficerEntityWithBsnssRltnshp": "false",
-          "DeductibleNonCashContributions": "false",
-          "DeductibleContributionsOfArt": "false",
-          "Terminated": "false",
-          "PartialLiquidation": "false",
-          "DisregardedEntity": "false",
-          "RelatedEntity": "false",
-          "RelatedOrgControlledEntity": "false",
-          "TransactionRelatedEntity": "false",
-          "TransfersToExemptNonChrtblOrg": "false",
-          "ActivitiesConductedPartnership": "false",
-          "ScheduleORequired": "false",
-          "NumberFormsTransmittedWith1096": "5",
-          "NumberW2GIncluded": "0",
-          "ComplianceWithBackupWitholding": "false",
-          "NumberOfEmployees": "3",
-          "EmploymentTaxReturnsFiled": "true",
-          "UnrelatedBusinessIncome": "false",
-          "Form990-TFiled": "false",
-          "ForeignFinancialAccount": "false",
-          "ProhibitedTaxShelterTrans": "false",
-          "TaxablePartyNotification": "false",
-          "NonDeductibleContributions": "false",
-          "ExcessBusinessHoldings": "false",
-          "TaxableDistributions": "false",
-          "DistributionToDonor": "false",
-          "FiledLieu1041": "false",
-          "LicensedMoreThanOneState": "false",
-          "IndoorTanningServices": "false",
-          "InfoInScheduleOPartVI": "X",
-          "NbrVotingGoverningBodyMembers": "8",
-          "NumberIndependentVotingMembers": "0",
-          "FamilyOrBusinessRelationship": "false",
-          "DelegationOfManagementDuties": "false",
-          "ChangesToOrganizingDocs": "false",
-          "MaterialDiversionOrMisuse": "false",
-          "MembersOrStockholders": "false",
-          "ElectionOfBoardMembers": "false",
-          "DecisionsSubjectToApproval": "false",
-          "MinutesOfGoverningBody": "false",
-          "MinutesOfCommittees": "false",
-          "OfficerMailingAddress": "false",
-          "LocalChapters": "false",
-          "Form990ProvidedToGoverningBody": "false",
-          "ConflictOfInterestPolicy": "false",
-          "AnnualDisclosureCoveredPersons": "false",
-          "RegularMonitoringEnforcement": "false",
-          "WhistleblowerPolicy": "false",
-          "DocumentRetentionPolicy": "false",
-          "CompensationProcessCEO": "false",
-          "CompensationProcessOther": "false",
-          "InvestmentInJointVenture": "false",
-          "OwnWebsite": "X",
-          "UponRequest": "X",
-          "TotalReportableCompFromOrg": "67081",
-          "NumberIndividualsGT100K": "0",
-          "FormersListed": "false",
-          "TotalCompGT150K": "false",
-          "CompensationFromOtherSources": "false",
-          "NumberOfContractorsGT100K": "0",
-          "TotalContributions": "0",
-          "TotalProgramServiceRevenue": "31867659",
-          "TotalOtherRevenue": "637005",
-          "LandBuildingsEquipmentBasis": "13374",
-          "LandBldgEquipmentAccumDeprec": "2145",
-          "FollowSFAS117": "X",
           "ReconcilationRevenueExpenses": "-1777062",
           "MethodOfAccountingAccrual": "X",
           "AccountantCompileOrReview": "false",
           "FSAudited": "true",
+          "FSAuditedBasis": {
+            "FinancialStatementSeparate": "X"
+          },
           "AuditCommittee": "false",
           "FederalGrantAuditRequired": "false"
         },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "12000229",
+        "IRS990ScheduleD@softwareVersion": "2012v2.0",
         "IRS990ScheduleD": {
           "OtherLandBuildings": {
             "OtherCostOrOtherBasis": "13374",
             "Depreciation": "2145",
             "BookValue": "11229"
           },
+          "TotalOfBookValueLandBuildings": "11229",
           "OtherLiabilities": [
             {
               "Description": "Premium deposits",
@@ -1871,7 +1882,6 @@
               "Amount": "268"
             }
           ],
-          "TotalOfBookValueLandBuildings": "11229",
           "TotalOfAmounts": "1290560",
           "TotRevenueEtcAuditedFinclStmt": "32511874",
           "RevenueSubtotal": "32511874",
@@ -1880,6 +1890,9 @@
           "ExpensesSubtotal": "34288936",
           "TotalExpensesPerForm990": "34288936"
         },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "12000229",
+        "IRS990ScheduleO@softwareVersion": "2012v2.0",
         "IRS990ScheduleO": {
           "GeneralExplanation": [
             {
@@ -1897,26 +1910,17 @@
               "Explanation": "No review was or will be conducted."
             }
           ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "12000229",
-        "IRS990@softwareVersion": "2012v2.0",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "12000229",
-        "IRS990ScheduleD@softwareVersion": "2012v2.0",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "12000229",
-        "IRS990ScheduleO@softwareVersion": "2012v2.0"
-      },
-      "ReturnHeader@binaryAttachmentCount": "0",
-      "ReturnData@documentCount": "3"
-    },
-    "Return@returnVersion": "2012v2.0"
+        }
+      }
+    }
   },
   "201312": {
+    "Return@returnVersion": "2013v3.1",
     "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
       "ReturnHeader": {
+        "ReturnTs": "2014-11-17T09:21:02-08:00",
+        "TaxPeriodEndDt": "2013-12-31",
         "PreparerFirmGrp": {
           "PreparerFirmName": {
             "BusinessNameLine1": "RENGGLI & RENGGLI PS"
@@ -1928,20 +1932,22 @@
             "ZIPCode": "992042806"
           }
         },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2013-01-01",
         "Filer": {
+          "EIN": "943041314",
           "BusinessName": {
             "BusinessNameLine1": "Law Enforcement Officers & Firefighters",
             "BusinessNameLine2": "Health and Welfare Trust"
           },
+          "BusinessNameControlTxt": "LAWE",
+          "PhoneNum": "5094845598",
           "USAddress": {
             "AddressLine1": "4407 N Division",
             "City": "Spokane",
             "State": "WA",
             "ZIPCode": "99207"
-          },
-          "EIN": "943041314",
-          "BusinessNameControlTxt": "LAWE",
-          "PhoneNum": "5094845598"
+          }
         },
         "BusinessOfficerGrp": {
           "PersonNm": "Jennifer S Wisniewski",
@@ -1954,30 +1960,188 @@
           "PTIN": "P00416548",
           "PhoneNum": "5097475330"
         },
-        "ReturnTs": "2014-11-17T09:21:02-08:00",
-        "TaxPeriodEndDt": "2013-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2013-01-01",
         "TaxYr": "2013",
         "BuildTS": "2015-11-30 17:44:51Z"
       },
+      "ReturnData@documentCount": "3",
       "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "13000170",
+        "IRS990@softwareVersion": "2013v3.1",
         "IRS990": {
+          "AmendedReturnInd": "X",
+          "PrincipalOfficerNm": "Jennifer S Wisniewski",
           "USAddress": {
             "AddressLine1": "5321 W Newell Court",
             "City": "Spokane",
             "State": "WA",
             "ZIPCode": "99208"
           },
+          "GrossReceiptsAmt": "25566566",
+          "GroupReturnForAffiliatesInd": "false",
+          "AllAffiliatesIncludedInd": "false",
+          "Organization501cInd@organization501cTypeTxt": "9",
+          "Organization501cInd": "X",
+          "WebsiteAddressTxt": "www.loefftrust.com",
+          "TypeOfOrganizationTrustInd": "X",
+          "FormationYr": "1986",
+          "LegalDomicileStateCd": "WA",
+          "ActivityOrMissionDesc": "Provide medical services.",
+          "VotingMembersGoverningBodyCnt": "8",
+          "VotingMembersIndependentCnt": "8",
+          "TotalEmployeeCnt": "2",
+          "TotalGrossUBIAmt": "0",
+          "CYContributionsGrantsAmt": "0",
+          "PYProgramServiceRevenueAmt": "31867659",
+          "CYProgramServiceRevenueAmt": "25562301",
+          "PYInvestmentIncomeAmt": "7210",
+          "CYInvestmentIncomeAmt": "4265",
+          "PYOtherRevenueAmt": "637005",
+          "CYOtherRevenueAmt": "0",
+          "PYTotalRevenueAmt": "32511874",
+          "CYTotalRevenueAmt": "25566566",
+          "CYGrantsAndSimilarPaidAmt": "0",
+          "PYBenefitsPaidToMembersAmt": "31573178",
+          "CYBenefitsPaidToMembersAmt": "21726543",
+          "PYSalariesCompEmpBnftPaidAmt": "98598",
+          "CYSalariesCompEmpBnftPaidAmt": "110252",
+          "CYTotalProfFndrsngExpnsAmt": "0",
+          "CYTotalFundraisingExpenseAmt": "0",
+          "PYOtherExpensesAmt": "2617160",
+          "CYOtherExpensesAmt": "2169455",
+          "PYTotalExpensesAmt": "34288936",
+          "CYTotalExpensesAmt": "24006250",
+          "PYRevenuesLessExpensesAmt": "-1777062",
+          "CYRevenuesLessExpensesAmt": "1560316",
+          "TotalAssetsBOYAmt": "3175475",
+          "TotalAssetsEOYAmt": "3928778",
+          "TotalLiabilitiesBOYAmt": "1290560",
+          "TotalLiabilitiesEOYAmt": "483547",
+          "NetAssetsOrFundBalancesBOYAmt": "1884915",
+          "NetAssetsOrFundBalancesEOYAmt": "3445231",
+          "MissionDesc": "Provide medical services.",
+          "SignificantNewProgramSrvcInd": "false",
+          "SignificantChangeInd": "false",
+          "ExpenseAmt": "24006250",
+          "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
+          "TotalProgramServiceExpensesAmt": "24006250",
+          "DescribedInSection501c3Ind": "false",
+          "ScheduleBRequiredInd": "false",
+          "PoliticalCampaignActyInd": "false",
+          "LobbyingActivitiesInd": "false",
+          "SubjectToProxyTaxInd": "false",
+          "DonorAdvisedFundInd@referenceDocumentId": "IRS990ScheduleD",
+          "DonorAdvisedFundInd": "false",
+          "ConservationEasementsInd@referenceDocumentId": "IRS990ScheduleD",
+          "ConservationEasementsInd": "false",
+          "CollectionsOfArtInd@referenceDocumentId": "IRS990ScheduleD",
+          "CollectionsOfArtInd": "false",
+          "CreditCounselingInd@referenceDocumentId": "IRS990ScheduleD",
+          "CreditCounselingInd": "false",
+          "TempOrPermanentEndowmentsInd@referenceDocumentId": "IRS990ScheduleD",
+          "TempOrPermanentEndowmentsInd": "false",
+          "ReportLandBuildingEquipmentInd@referenceDocumentId": "IRS990ScheduleD",
+          "ReportLandBuildingEquipmentInd": "true",
+          "ReportInvestmentsOtherSecInd@referenceDocumentId": "IRS990ScheduleD",
+          "ReportInvestmentsOtherSecInd": "false",
+          "ReportProgramRelatedInvstInd@referenceDocumentId": "IRS990ScheduleD",
+          "ReportProgramRelatedInvstInd": "false",
+          "ReportOtherAssetsInd@referenceDocumentId": "IRS990ScheduleD",
+          "ReportOtherAssetsInd": "false",
+          "ReportOtherLiabilitiesInd@referenceDocumentId": "IRS990ScheduleD",
+          "ReportOtherLiabilitiesInd": "true",
+          "IncludeFIN48FootnoteInd@referenceDocumentId": "IRS990ScheduleD",
+          "IncludeFIN48FootnoteInd": "false",
+          "IndependentAuditFinclStmtInd@referenceDocumentId": "IRS990ScheduleD",
+          "IndependentAuditFinclStmtInd": "true",
+          "ConsolidatedAuditFinclStmtInd@referenceDocumentId": "IRS990ScheduleD",
+          "ConsolidatedAuditFinclStmtInd": "false",
+          "SchoolOperatingInd": "false",
+          "ForeignOfficeInd": "false",
+          "ForeignActivitiesInd": "false",
+          "MoreThan5000KToOrgInd": "false",
+          "MoreThan5000KToIndividualsInd": "false",
+          "ProfessionalFundraisingInd": "false",
+          "FundraisingActivitiesInd": "false",
+          "GamingActivitiesInd": "false",
+          "OperateHospitalInd": "false",
+          "GrantsToOrganizationsInd": "false",
+          "GrantsToIndividualsInd": "false",
+          "ScheduleJRequiredInd": "false",
+          "TaxExemptBondsInd": "false",
+          "InvestTaxExemptBondsInd": "false",
+          "EscrowAccountInd": "false",
+          "OnBehalfOfIssuerInd": "false",
+          "EngagedInExcessBenefitTransInd": "false",
+          "PYExcessBenefitTransInd": "false",
+          "LoanOutstandingInd": "false",
+          "GrantToRelatedPersonInd": "false",
+          "BusinessRlnWithOrgMemInd": "false",
+          "BusinessRlnWithFamMemInd": "false",
+          "BusinessRlnWithOfficerEntInd": "false",
+          "DeductibleNonCashContriInd": "false",
+          "DeductibleArtContributionInd": "false",
+          "TerminateOperationsInd": "false",
+          "PartialLiquidationInd": "false",
+          "DisregardedEntityInd": "false",
+          "RelatedEntityInd": "false",
+          "RelatedOrganizationCtrlEntInd": "false",
+          "TransactionWithControlEntInd": "false",
+          "TrnsfrExmptNonChrtblRltdOrgInd": "false",
+          "ActivitiesConductedPrtshpInd": "false",
+          "ScheduleORequiredInd": "true",
+          "IRPDocumentCnt": "3",
+          "IRPDocumentW2GCnt": "0",
+          "BackupWthldComplianceInd": "false",
+          "EmployeeCnt": "2",
+          "EmploymentTaxReturnsFiledInd": "true",
+          "UnrelatedBusIncmOverLimitInd": "false",
+          "Form990TFiledInd": "false",
+          "ForeignFinancialAccountInd": "false",
+          "ProhibitedTaxShelterTransInd": "false",
+          "TaxablePartyNotificationInd": "false",
+          "NondeductibleContributionsInd": "false",
+          "ExcessBusinessHoldingsInd": "false",
+          "TaxableDistributionsInd": "false",
+          "DistributionToDonorInd": "false",
+          "OrgFiledInLieuOfForm1041Ind": "false",
+          "LicensedMoreThanOneStateInd": "false",
+          "IndoorTanningServicesInd": "false",
+          "InfoInScheduleOPartVIInd": "X",
+          "GoverningBodyVotingMembersCnt": "8",
+          "IndependentVotingMemberCnt": "8",
+          "FamilyOrBusinessRlnInd": "false",
+          "DelegationOfMgmtDutiesInd": "false",
+          "ChangeToOrgDocumentsInd": "false",
+          "MaterialDiversionOrMisuseInd": "false",
+          "MembersOrStockholdersInd": "false",
+          "ElectionOfBoardMembersInd": "false",
+          "DecisionsSubjectToApprovaInd": "false",
+          "MinutesOfGoverningBodyInd": "true",
+          "MinutesOfCommitteesInd": "false",
+          "OfficerMailingAddressInd": "false",
+          "LocalChaptersInd": "false",
+          "Form990ProvidedToGvrnBodyInd": "false",
+          "ConflictOfInterestPolicyInd": "false",
+          "AnnualDisclosureCoveredPrsnInd": "false",
+          "RegularMonitoringEnfrcInd": "false",
+          "WhistleblowerPolicyInd": "false",
+          "DocumentRetentionPolicyInd": "false",
+          "CompensationProcessCEOInd": "false",
+          "CompensationProcessOtherInd": "false",
+          "InvestmentInJointVentureInd": "false",
+          "OwnWebsiteInd": "X",
+          "UponRequestInd": "X",
           "BooksInCareOfDetail": {
+            "PersonNm": "Jenny Wisniewski",
+            "PhoneNum": "5094842388",
             "USAddress": {
               "AddressLine1": "4407 N Division Ste 516",
               "City": "Spokane",
               "State": "WA",
               "ZIPCode": "99204"
-            },
-            "PersonNm": "Jenny Wisniewski",
-            "PhoneNum": "5094842388"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -2061,11 +2225,19 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "72432",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "false",
+          "TotalCompGreaterThan150KInd": "false",
+          "CompensationFromOtherSrcsInd": "false",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "TotalContributionsAmt": "0",
           "ProgramServiceRevenueGrp": {
             "Desc": "Premium collections",
             "TotalRevenueColumnAmt": "25562301",
             "RelatedOrExemptFuncIncomeAmt": "25562301"
           },
+          "TotalProgramServiceRevenueAmt": "25562301",
           "InvestmentIncomeGrp": {
             "TotalRevenueColumnAmt": "4265",
             "ExclusionAmt": "4265"
@@ -2091,6 +2263,7 @@
           "NetIncomeOrLossGrp": {
             "TotalRevenueColumnAmt": "0"
           },
+          "OtherRevenueTotalAmt": "0",
           "TotalRevenueGrp": {
             "TotalRevenueColumnAmt": "25566566",
             "RelatedOrExemptFuncIncomeAmt": "25562301",
@@ -2258,6 +2431,8 @@
             "BOYAmt": "1267",
             "EOYAmt": "0"
           },
+          "LandBldgEquipCostOrOtherBssAmt": "13374",
+          "LandBldgEquipAccumDeprecAmt": "4382",
           "LandBldgEquipBasisNetGrp": {
             "BOYAmt": "11229",
             "EOYAmt": "8992"
@@ -2289,6 +2464,7 @@
             "BOYAmt": "1290560",
             "EOYAmt": "483547"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
             "BOYAmt": "1884915",
             "EOYAmt": "3445231"
@@ -2301,12 +2477,131 @@
             "BOYAmt": "3175475",
             "EOYAmt": "3928778"
           },
+          "ReconcilationRevenueExpnssAmt": "1560316",
+          "MethodOfAccountingAccrualInd": "X",
+          "AccountantCompileOrReviewInd": "false",
+          "FSAuditedInd": "true",
           "FSAuditedBasisGrp": {
             "SeparateBasisFinclStmtInd": "X"
           },
+          "AuditCommitteeInd": "false",
+          "FederalGrantAuditRequiredInd": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "13000170",
+        "IRS990ScheduleD@softwareVersion": "2013v3.1",
+        "IRS990ScheduleD": {
+          "OtherLandBuildingsGrp": {
+            "OtherCostOrOtherBasisAmt": "13374",
+            "DepreciationAmt": "4382",
+            "BookValueAmt": "8992"
+          },
+          "TotalBookValueLandBuildingsAmt": "8992",
+          "OtherLiabilitiesOrgGrp": [
+            {
+              "Desc": "Payroll taxes",
+              "Amt": "225"
+            },
+            {
+              "Desc": "Premium deposits",
+              "Amt": "483322"
+            }
+          ],
+          "TotalLiabilityAmt": "483547",
+          "TotalRevEtcAuditedFinclStmtAmt": "25566566",
+          "RevenueSubtotalAmt": "25566566",
+          "TotalRevenuePerForm990Amt": "25566566",
+          "TotExpnsEtcAuditedFinclStmtAmt": "24006250",
+          "ExpensesSubtotalAmt": "24006250",
+          "TotalExpensesPerForm990Amt": "24006250"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "13000170",
+        "IRS990ScheduleO@softwareVersion": "2013v3.1",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
+              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by independent accountants."
+            },
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
+            },
+            {
+              "FormAndLineReferenceDesc": "Amended Explanation",
+              "ExplanationTxt": "Form 990 has been amended to include year end auditors financial statement adjustments."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201412": {
+    "Return@returnVersion": "2014v6.0",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2017-01-24T08:49:26-08:00",
+        "TaxPeriodEndDt": "2014-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "David E Renggli CPA PS"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "400 S Jefferson St ste 220",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99204"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2014-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2Txt": "Health and Welfare Trust"
+          },
+          "BusinessNameControlTxt": "LAWE",
+          "PhoneNum": "5094845598",
+          "USAddress": {
+            "AddressLine1Txt": "4407 N Division",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99207"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "Jennifer S Wisniewski",
+          "PersonTitleTxt": "Program Manager",
+          "SignatureDt": "2017-01-24",
+          "DiscussWithPaidPreparerInd": "true"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "David E Renggli CPA",
+          "PTIN": "P00251734",
+          "PhoneNum": "5093508937"
+        },
+        "TaxYr": "2014",
+        "BuildTS": "2017-02-10 21:41:12Z"
+      },
+      "ReturnData@documentCnt": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "14000265",
+        "IRS990@softwareVersionNum": "2014v6.0",
+        "IRS990": {
           "AmendedReturnInd": "X",
           "PrincipalOfficerNm": "Jennifer S Wisniewski",
-          "GrossReceiptsAmt": "25566566",
+          "USAddress": {
+            "AddressLine1Txt": "10709 N Navaho Dr",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99208"
+          },
+          "GrossReceiptsAmt": "16170701",
           "GroupReturnForAffiliatesInd": "false",
           "AllAffiliatesIncludedInd": "false",
           "Organization501cInd@organization501cTypeTxt": "9",
@@ -2321,39 +2616,39 @@
           "TotalEmployeeCnt": "2",
           "TotalGrossUBIAmt": "0",
           "CYContributionsGrantsAmt": "0",
-          "PYProgramServiceRevenueAmt": "31867659",
-          "CYProgramServiceRevenueAmt": "25562301",
-          "PYInvestmentIncomeAmt": "7210",
-          "CYInvestmentIncomeAmt": "4265",
-          "PYOtherRevenueAmt": "637005",
+          "PYProgramServiceRevenueAmt": "25562301",
+          "CYProgramServiceRevenueAmt": "16165806",
+          "PYInvestmentIncomeAmt": "4265",
+          "CYInvestmentIncomeAmt": "4895",
           "CYOtherRevenueAmt": "0",
-          "PYTotalRevenueAmt": "32511874",
-          "CYTotalRevenueAmt": "25566566",
+          "PYTotalRevenueAmt": "25566566",
+          "CYTotalRevenueAmt": "16170701",
           "CYGrantsAndSimilarPaidAmt": "0",
-          "PYBenefitsPaidToMembersAmt": "31573178",
-          "CYBenefitsPaidToMembersAmt": "21726543",
-          "PYSalariesCompEmpBnftPaidAmt": "98598",
-          "CYSalariesCompEmpBnftPaidAmt": "110252",
+          "PYBenefitsPaidToMembersAmt": "21726543",
+          "CYBenefitsPaidToMembersAmt": "14785056",
+          "PYSalariesCompEmpBnftPaidAmt": "110252",
+          "CYSalariesCompEmpBnftPaidAmt": "112775",
           "CYTotalProfFndrsngExpnsAmt": "0",
           "CYTotalFundraisingExpenseAmt": "0",
-          "PYOtherExpensesAmt": "2617160",
-          "CYOtherExpensesAmt": "2169455",
-          "PYTotalExpensesAmt": "34288936",
-          "CYTotalExpensesAmt": "24006250",
-          "PYRevenuesLessExpensesAmt": "-1777062",
-          "CYRevenuesLessExpensesAmt": "1560316",
-          "TotalAssetsBOYAmt": "3175475",
-          "TotalAssetsEOYAmt": "3928778",
-          "TotalLiabilitiesBOYAmt": "1290560",
-          "TotalLiabilitiesEOYAmt": "483547",
-          "NetAssetsOrFundBalancesBOYAmt": "1884915",
-          "NetAssetsOrFundBalancesEOYAmt": "3445231",
+          "PYOtherExpensesAmt": "2169455",
+          "CYOtherExpensesAmt": "1512646",
+          "PYTotalExpensesAmt": "24006250",
+          "CYTotalExpensesAmt": "16410477",
+          "PYRevenuesLessExpensesAmt": "1560316",
+          "CYRevenuesLessExpensesAmt": "-239776",
+          "TotalAssetsBOYAmt": "3928778",
+          "TotalAssetsEOYAmt": "4985256",
+          "TotalLiabilitiesBOYAmt": "483547",
+          "TotalLiabilitiesEOYAmt": "1779801",
+          "NetAssetsOrFundBalancesBOYAmt": "3445231",
+          "NetAssetsOrFundBalancesEOYAmt": "3205455",
           "MissionDesc": "Provide medical services.",
           "SignificantNewProgramSrvcInd": "false",
           "SignificantChangeInd": "false",
-          "ExpenseAmt": "24006250",
+          "ExpenseAmt": "13541025",
+          "RevenueAmt": "16082445",
           "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpensesAmt": "24006250",
+          "TotalProgramServiceExpensesAmt": "13541025",
           "DescribedInSection501c3Ind": "false",
           "ScheduleBRequiredInd": "false",
           "PoliticalCampaignActyInd": "false",
@@ -2430,7 +2725,7 @@
           "ProhibitedTaxShelterTransInd": "false",
           "TaxablePartyNotificationInd": "false",
           "NondeductibleContributionsInd": "false",
-          "ExcessBusinessHoldingsInd": "false",
+          "DAFExcessBusinessHoldingsInd": "false",
           "TaxableDistributionsInd": "false",
           "DistributionToDonorInd": "false",
           "OrgFiledInLieuOfForm1041Ind": "false",
@@ -2461,146 +2756,15 @@
           "InvestmentInJointVentureInd": "false",
           "OwnWebsiteInd": "X",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "72432",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "false",
-          "TotalCompGreaterThan150KInd": "false",
-          "CompensationFromOtherSrcsInd": "false",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "TotalContributionsAmt": "0",
-          "TotalProgramServiceRevenueAmt": "25562301",
-          "OtherRevenueTotalAmt": "0",
-          "LandBldgEquipCostOrOtherBssAmt": "13374",
-          "LandBldgEquipAccumDeprecAmt": "4382",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "1560316",
-          "MethodOfAccountingAccrualInd": "X",
-          "AccountantCompileOrReviewInd": "false",
-          "FSAuditedInd": "true",
-          "AuditCommitteeInd": "false",
-          "FederalGrantAuditRequiredInd": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLandBuildingsGrp": {
-            "OtherCostOrOtherBasisAmt": "13374",
-            "DepreciationAmt": "4382",
-            "BookValueAmt": "8992"
-          },
-          "OtherLiabilitiesOrgGrp": [
-            {
-              "Desc": "Payroll taxes",
-              "Amt": "225"
-            },
-            {
-              "Desc": "Premium deposits",
-              "Amt": "483322"
-            }
-          ],
-          "TotalBookValueLandBuildingsAmt": "8992",
-          "TotalLiabilityAmt": "483547",
-          "TotalRevEtcAuditedFinclStmtAmt": "25566566",
-          "RevenueSubtotalAmt": "25566566",
-          "TotalRevenuePerForm990Amt": "25566566",
-          "TotExpnsEtcAuditedFinclStmtAmt": "24006250",
-          "ExpensesSubtotalAmt": "24006250",
-          "TotalExpensesPerForm990Amt": "24006250"
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
-              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by independent accountants."
-            },
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
-            },
-            {
-              "FormAndLineReferenceDesc": "Amended Explanation",
-              "ExplanationTxt": "Form 990 has been amended to include year end auditors financial statement adjustments."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "13000170",
-        "IRS990@softwareVersion": "2013v3.1",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "13000170",
-        "IRS990ScheduleD@softwareVersion": "2013v3.1",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "13000170",
-        "IRS990ScheduleO@softwareVersion": "2013v3.1"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCount": "3"
-    },
-    "Return@returnVersion": "2013v3.1"
-  },
-  "201412": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "David E Renggli CPA PS"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "400 S Jefferson St ste 220",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99204"
-          }
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2Txt": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "4407 N Division",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99207"
-          },
-          "EIN": "943041314",
-          "BusinessNameControlTxt": "LAWE",
-          "PhoneNum": "5094845598"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "Jennifer S Wisniewski",
-          "PersonTitleTxt": "Program Manager",
-          "SignatureDt": "2017-01-24",
-          "DiscussWithPaidPreparerInd": "true"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "David E Renggli CPA",
-          "PTIN": "P00251734",
-          "PhoneNum": "5093508937"
-        },
-        "ReturnTs": "2017-01-24T08:49:26-08:00",
-        "TaxPeriodEndDt": "2014-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2014-01-01",
-        "TaxYr": "2014",
-        "BuildTS": "2017-02-10 21:41:12Z"
-      },
-      "ReturnData": {
-        "IRS990": {
-          "USAddress": {
-            "AddressLine1Txt": "10709 N Navaho Dr",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99208"
-          },
           "BooksInCareOfDetail": {
+            "PersonNm": "Jenny Wisniewski",
+            "PhoneNum": "5094842388",
             "USAddress": {
               "AddressLine1Txt": "4407 N Division Ste 516",
               "CityNm": "Spokane",
               "StateAbbreviationCd": "WA",
               "ZIPCd": "99204"
-            },
-            "PersonNm": "Jenny Wisniewski",
-            "PhoneNum": "5094842388"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -2684,11 +2848,19 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "73428",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "false",
+          "TotalCompGreaterThan150KInd": "false",
+          "CompensationFromOtherSrcsInd": "false",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "TotalContributionsAmt": "0",
           "ProgramServiceRevenueGrp": {
             "Desc": "Premium collections",
             "TotalRevenueColumnAmt": "16165806",
             "RelatedOrExemptFuncIncomeAmt": "16165806"
           },
+          "TotalProgramServiceRevenueAmt": "16165806",
           "InvestmentIncomeGrp": {
             "TotalRevenueColumnAmt": "4895",
             "ExclusionAmt": "4895"
@@ -2714,6 +2886,7 @@
           "NetIncomeOrLossGrp": {
             "TotalRevenueColumnAmt": "0"
           },
+          "OtherRevenueTotalAmt": "0",
           "TotalRevenueGrp": {
             "TotalRevenueColumnAmt": "16170701",
             "RelatedOrExemptFuncIncomeAmt": "16165806",
@@ -2881,6 +3054,8 @@
           "PrepaidExpensesDefrdChargesGrp": {
             "EOYAmt": "1275"
           },
+          "LandBldgEquipCostOrOtherBssAmt": "13374",
+          "LandBldgEquipAccumDeprecAmt": "6572",
           "LandBldgEquipBasisNetGrp": {
             "BOYAmt": "8992",
             "EOYAmt": "6802"
@@ -2915,6 +3090,7 @@
             "BOYAmt": "483547",
             "EOYAmt": "1779801"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
             "BOYAmt": "3445231",
             "EOYAmt": "3205455"
@@ -2927,12 +3103,131 @@
             "BOYAmt": "3928778",
             "EOYAmt": "4985256"
           },
+          "ReconcilationRevenueExpnssAmt": "-239776",
+          "MethodOfAccountingAccrualInd": "X",
+          "AccountantCompileOrReviewInd": "false",
+          "FSAuditedInd": "true",
           "FSAuditedBasisGrp": {
             "SeparateBasisFinclStmtInd": "X"
           },
+          "AuditCommitteeInd": "false",
+          "FederalGrantAuditRequiredInd": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "14000265",
+        "IRS990ScheduleD@softwareVersionNum": "2014v6.0",
+        "IRS990ScheduleD": {
+          "OtherLandBuildingsGrp": {
+            "OtherCostOrOtherBasisAmt": "13374",
+            "DepreciationAmt": "6572",
+            "BookValueAmt": "6802"
+          },
+          "TotalBookValueLandBuildingsAmt": "6802",
+          "OtherLiabilitiesOrgGrp": [
+            {
+              "Desc": "Claims payable-audit adjustment",
+              "Amt": "1171980"
+            },
+            {
+              "Desc": "Payroll taxes",
+              "Amt": "225"
+            },
+            {
+              "Desc": "Premium deposits",
+              "Amt": "596578"
+            }
+          ],
+          "TotalLiabilityAmt": "1768783",
+          "TotalRevEtcAuditedFinclStmtAmt": "16170701",
+          "RevenueSubtotalAmt": "16170701",
+          "TotalRevenuePerForm990Amt": "16170701",
+          "TotExpnsEtcAuditedFinclStmtAmt": "16410477",
+          "ExpensesSubtotalAmt": "16410477",
+          "TotalExpensesPerForm990Amt": "16410477"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "14000265",
+        "IRS990ScheduleO@softwareVersionNum": "2014v6.0",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
+              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
+            },
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201512": {
+    "Return@returnVersion": "2015v3.0",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2017-01-24T08:51:21-08:00",
+        "TaxPeriodEndDt": "2015-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "David E Renggli CPA PS"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "400 S Jefferson St ste 220",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99204"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2015-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2Txt": "Health and Welfare Trust"
+          },
+          "BusinessNameControlTxt": "LAWE",
+          "PhoneNum": "5094845598",
+          "USAddress": {
+            "AddressLine1Txt": "4407 N Division",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99207"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "Jennifer S Wisniewski",
+          "PersonTitleTxt": "Program Manager",
+          "SignatureDt": "2017-01-24",
+          "DiscussWithPaidPreparerInd": "true"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "David E Renggli CPA",
+          "PTIN": "P00251734",
+          "PhoneNum": "5093508937"
+        },
+        "TaxYr": "2015",
+        "BuildTS": "2017-02-10 21:41:12Z"
+      },
+      "ReturnData@documentCnt": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "15000324",
+        "IRS990@softwareVersionNum": "2015v3.0",
+        "IRS990": {
           "AmendedReturnInd": "X",
           "PrincipalOfficerNm": "Jennifer S Wisniewski",
-          "GrossReceiptsAmt": "16170701",
+          "USAddress": {
+            "AddressLine1Txt": "10709 N Navaho Dr",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99208"
+          },
+          "GrossReceiptsAmt": "15792833",
           "GroupReturnForAffiliatesInd": "false",
           "AllAffiliatesIncludedInd": "false",
           "Organization501cInd@organization501cTypeTxt": "9",
@@ -2947,39 +3242,39 @@
           "TotalEmployeeCnt": "2",
           "TotalGrossUBIAmt": "0",
           "CYContributionsGrantsAmt": "0",
-          "PYProgramServiceRevenueAmt": "25562301",
-          "CYProgramServiceRevenueAmt": "16165806",
-          "PYInvestmentIncomeAmt": "4265",
-          "CYInvestmentIncomeAmt": "4895",
+          "PYProgramServiceRevenueAmt": "16165806",
+          "CYProgramServiceRevenueAmt": "15788222",
+          "PYInvestmentIncomeAmt": "4895",
+          "CYInvestmentIncomeAmt": "4611",
           "CYOtherRevenueAmt": "0",
-          "PYTotalRevenueAmt": "25566566",
-          "CYTotalRevenueAmt": "16170701",
+          "PYTotalRevenueAmt": "16170701",
+          "CYTotalRevenueAmt": "15792833",
           "CYGrantsAndSimilarPaidAmt": "0",
-          "PYBenefitsPaidToMembersAmt": "21726543",
-          "CYBenefitsPaidToMembersAmt": "14785056",
-          "PYSalariesCompEmpBnftPaidAmt": "110252",
-          "CYSalariesCompEmpBnftPaidAmt": "112775",
+          "PYBenefitsPaidToMembersAmt": "14785056",
+          "CYBenefitsPaidToMembersAmt": "15004973",
+          "PYSalariesCompEmpBnftPaidAmt": "112775",
+          "CYSalariesCompEmpBnftPaidAmt": "121116",
           "CYTotalProfFndrsngExpnsAmt": "0",
           "CYTotalFundraisingExpenseAmt": "0",
-          "PYOtherExpensesAmt": "2169455",
-          "CYOtherExpensesAmt": "1512646",
-          "PYTotalExpensesAmt": "24006250",
-          "CYTotalExpensesAmt": "16410477",
-          "PYRevenuesLessExpensesAmt": "1560316",
-          "CYRevenuesLessExpensesAmt": "-239776",
-          "TotalAssetsBOYAmt": "3928778",
-          "TotalAssetsEOYAmt": "4985256",
-          "TotalLiabilitiesBOYAmt": "483547",
-          "TotalLiabilitiesEOYAmt": "1779801",
-          "NetAssetsOrFundBalancesBOYAmt": "3445231",
-          "NetAssetsOrFundBalancesEOYAmt": "3205455",
+          "PYOtherExpensesAmt": "1512645",
+          "CYOtherExpensesAmt": "1483481",
+          "PYTotalExpensesAmt": "16410476",
+          "CYTotalExpensesAmt": "16609570",
+          "PYRevenuesLessExpensesAmt": "-239775",
+          "CYRevenuesLessExpensesAmt": "-816737",
+          "TotalAssetsBOYAmt": "4985256",
+          "TotalAssetsEOYAmt": "4470668",
+          "TotalLiabilitiesBOYAmt": "1779801",
+          "TotalLiabilitiesEOYAmt": "2081950",
+          "NetAssetsOrFundBalancesBOYAmt": "3205455",
+          "NetAssetsOrFundBalancesEOYAmt": "2388718",
           "MissionDesc": "Provide medical services.",
           "SignificantNewProgramSrvcInd": "false",
           "SignificantChangeInd": "false",
-          "ExpenseAmt": "13541025",
-          "RevenueAmt": "16082445",
+          "ExpenseAmt": "15290335",
+          "RevenueAmt": "15788222",
           "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpensesAmt": "13541025",
+          "TotalProgramServiceExpensesAmt": "15290335",
           "DescribedInSection501c3Ind": "false",
           "ScheduleBRequiredInd": "false",
           "PoliticalCampaignActyInd": "false",
@@ -3008,7 +3303,7 @@
           "IncludeFIN48FootnoteInd@referenceDocumentId": "IRS990ScheduleD",
           "IncludeFIN48FootnoteInd": "false",
           "IndependentAuditFinclStmtInd@referenceDocumentId": "IRS990ScheduleD",
-          "IndependentAuditFinclStmtInd": "true",
+          "IndependentAuditFinclStmtInd": "false",
           "ConsolidatedAuditFinclStmtInd@referenceDocumentId": "IRS990ScheduleD",
           "ConsolidatedAuditFinclStmtInd": "false",
           "SchoolOperatingInd": "false",
@@ -3087,146 +3382,15 @@
           "InvestmentInJointVentureInd": "false",
           "OwnWebsiteInd": "X",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "73428",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "false",
-          "TotalCompGreaterThan150KInd": "false",
-          "CompensationFromOtherSrcsInd": "false",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "TotalContributionsAmt": "0",
-          "TotalProgramServiceRevenueAmt": "16165806",
-          "OtherRevenueTotalAmt": "0",
-          "LandBldgEquipCostOrOtherBssAmt": "13374",
-          "LandBldgEquipAccumDeprecAmt": "6572",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "-239776",
-          "MethodOfAccountingAccrualInd": "X",
-          "AccountantCompileOrReviewInd": "false",
-          "FSAuditedInd": "true",
-          "AuditCommitteeInd": "false",
-          "FederalGrantAuditRequiredInd": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLandBuildingsGrp": {
-            "OtherCostOrOtherBasisAmt": "13374",
-            "DepreciationAmt": "6572",
-            "BookValueAmt": "6802"
-          },
-          "OtherLiabilitiesOrgGrp": [
-            {
-              "Desc": "Claims payable-audit adjustment",
-              "Amt": "1171980"
-            },
-            {
-              "Desc": "Payroll taxes",
-              "Amt": "225"
-            },
-            {
-              "Desc": "Premium deposits",
-              "Amt": "596578"
-            }
-          ],
-          "TotalBookValueLandBuildingsAmt": "6802",
-          "TotalLiabilityAmt": "1768783",
-          "TotalRevEtcAuditedFinclStmtAmt": "16170701",
-          "RevenueSubtotalAmt": "16170701",
-          "TotalRevenuePerForm990Amt": "16170701",
-          "TotExpnsEtcAuditedFinclStmtAmt": "16410477",
-          "ExpensesSubtotalAmt": "16410477",
-          "TotalExpensesPerForm990Amt": "16410477"
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
-              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
-            },
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "14000265",
-        "IRS990@softwareVersionNum": "2014v6.0",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "14000265",
-        "IRS990ScheduleD@softwareVersionNum": "2014v6.0",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "14000265",
-        "IRS990ScheduleO@softwareVersionNum": "2014v6.0"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "3"
-    },
-    "Return@returnVersion": "2014v6.0"
-  },
-  "201512": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "David E Renggli CPA PS"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "400 S Jefferson St ste 220",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99204"
-          }
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2Txt": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "4407 N Division",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99207"
-          },
-          "EIN": "943041314",
-          "BusinessNameControlTxt": "LAWE",
-          "PhoneNum": "5094845598"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "Jennifer S Wisniewski",
-          "PersonTitleTxt": "Program Manager",
-          "SignatureDt": "2017-01-24",
-          "DiscussWithPaidPreparerInd": "true"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "David E Renggli CPA",
-          "PTIN": "P00251734",
-          "PhoneNum": "5093508937"
-        },
-        "ReturnTs": "2017-01-24T08:51:21-08:00",
-        "TaxPeriodEndDt": "2015-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2015-01-01",
-        "TaxYr": "2015",
-        "BuildTS": "2017-02-10 21:41:12Z"
-      },
-      "ReturnData": {
-        "IRS990": {
-          "USAddress": {
-            "AddressLine1Txt": "10709 N Navaho Dr",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99208"
-          },
           "BooksInCareOfDetail": {
+            "PersonNm": "Jenny Wisniewski",
+            "PhoneNum": "5094842388",
             "USAddress": {
               "AddressLine1Txt": "4407 N Division Ste 516",
               "CityNm": "Spokane",
               "StateAbbreviationCd": "WA",
               "ZIPCd": "99204"
-            },
-            "PersonNm": "Jenny Wisniewski",
-            "PhoneNum": "5094842388"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -3310,11 +3474,19 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "77692",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "false",
+          "TotalCompGreaterThan150KInd": "false",
+          "CompensationFromOtherSrcsInd": "false",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "TotalContributionsAmt": "0",
           "ProgramServiceRevenueGrp": {
             "Desc": "Premium collections",
             "TotalRevenueColumnAmt": "15788222",
             "RelatedOrExemptFuncIncomeAmt": "15788222"
           },
+          "TotalProgramServiceRevenueAmt": "15788222",
           "InvestmentIncomeGrp": {
             "TotalRevenueColumnAmt": "4611",
             "ExclusionAmt": "4611"
@@ -3340,6 +3512,7 @@
           "NetIncomeOrLossGrp": {
             "TotalRevenueColumnAmt": "0"
           },
+          "OtherRevenueTotalAmt": "0",
           "TotalRevenueGrp": {
             "TotalRevenueColumnAmt": "15792833",
             "RelatedOrExemptFuncIncomeAmt": "15788222",
@@ -3509,6 +3682,8 @@
             "BOYAmt": "1275",
             "EOYAmt": "1820"
           },
+          "LandBldgEquipCostOrOtherBssAmt": "13374",
+          "LandBldgEquipAccumDeprecAmt": "8717",
           "LandBldgEquipBasisNetGrp": {
             "BOYAmt": "6802",
             "EOYAmt": "4657"
@@ -3543,6 +3718,7 @@
             "BOYAmt": "1779801",
             "EOYAmt": "2081950"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
             "BOYAmt": "3205455",
             "EOYAmt": "2388718"
@@ -3555,12 +3731,122 @@
             "BOYAmt": "4985256",
             "EOYAmt": "4470668"
           },
+          "ReconcilationRevenueExpnssAmt": "-816737",
+          "MethodOfAccountingAccrualInd": "X",
+          "AccountantCompileOrReviewInd": "false",
+          "FSAuditedInd": "true",
           "FSAuditedBasisGrp": {
             "SeparateBasisFinclStmtInd": "X"
           },
+          "AuditCommitteeInd": "false",
+          "FederalGrantAuditRequiredInd": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "15000324",
+        "IRS990ScheduleD@softwareVersionNum": "2015v3.0",
+        "IRS990ScheduleD": {
+          "OtherLandBuildingsGrp": {
+            "OtherCostOrOtherBasisAmt": "13374",
+            "DepreciationAmt": "8717",
+            "BookValueAmt": "4657"
+          },
+          "TotalBookValueLandBuildingsAmt": "4657",
+          "OtherLiabilitiesOrgGrp": [
+            {
+              "Desc": "Audit adjustment",
+              "Amt": "1067101"
+            },
+            {
+              "Desc": "Payroll taxes",
+              "Amt": "248"
+            },
+            {
+              "Desc": "Premium deposits",
+              "Amt": "1014599"
+            },
+            {
+              "Desc": "Rounding",
+              "Amt": "2"
+            }
+          ],
+          "TotalLiabilityAmt": "2081950"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "15000324",
+        "IRS990ScheduleO@softwareVersionNum": "2015v3.0",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
+              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
+            },
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201612": {
+    "Return@returnVersion": "2016v3.0",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2018-06-18T11:17:57-07:00",
+        "TaxPeriodEndDt": "2016-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "David E Renggli CPA PS"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "400 S Jefferson St ste 220",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99204"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2016-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2Txt": "Health and Welfare Trust"
+          },
+          "BusinessNameControlTxt": "LAWE",
+          "PhoneNum": "5094845598",
+          "USAddress": {
+            "AddressLine1Txt": "4407 N Division",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99207"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "Jennifer S Wisniewski",
+          "PersonTitleTxt": "Program Manager",
+          "SignatureDt": "2018-06-18",
+          "DiscussWithPaidPreparerInd": "true"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "David E Renggli CPA",
+          "PTIN": "P00251734",
+          "PhoneNum": "5093508937"
+        },
+        "TaxYr": "2016",
+        "BuildTS": "2018-06-14 16:35:46Z"
+      },
+      "ReturnData@documentCnt": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "16000303",
+        "IRS990@softwareVersionNum": "2016v3.0",
+        "IRS990": {
           "AmendedReturnInd": "X",
-          "PrincipalOfficerNm": "Jennifer S Wisniewski",
-          "GrossReceiptsAmt": "15792833",
+          "GrossReceiptsAmt": "21280558",
           "GroupReturnForAffiliatesInd": "false",
           "AllAffiliatesIncludedInd": "false",
           "Organization501cInd@organization501cTypeTxt": "9",
@@ -3575,39 +3861,38 @@
           "TotalEmployeeCnt": "2",
           "TotalGrossUBIAmt": "0",
           "CYContributionsGrantsAmt": "0",
-          "PYProgramServiceRevenueAmt": "16165806",
-          "CYProgramServiceRevenueAmt": "15788222",
-          "PYInvestmentIncomeAmt": "4895",
-          "CYInvestmentIncomeAmt": "4611",
+          "PYProgramServiceRevenueAmt": "15788222",
+          "CYProgramServiceRevenueAmt": "21276399",
+          "PYInvestmentIncomeAmt": "4611",
+          "CYInvestmentIncomeAmt": "4159",
           "CYOtherRevenueAmt": "0",
-          "PYTotalRevenueAmt": "16170701",
-          "CYTotalRevenueAmt": "15792833",
+          "PYTotalRevenueAmt": "15792833",
+          "CYTotalRevenueAmt": "21280558",
           "CYGrantsAndSimilarPaidAmt": "0",
-          "PYBenefitsPaidToMembersAmt": "14785056",
-          "CYBenefitsPaidToMembersAmt": "15004973",
-          "PYSalariesCompEmpBnftPaidAmt": "112775",
-          "CYSalariesCompEmpBnftPaidAmt": "121116",
+          "PYBenefitsPaidToMembersAmt": "15109852",
+          "CYBenefitsPaidToMembersAmt": "21502832",
+          "PYSalariesCompEmpBnftPaidAmt": "121116",
+          "CYSalariesCompEmpBnftPaidAmt": "117959",
           "CYTotalProfFndrsngExpnsAmt": "0",
           "CYTotalFundraisingExpenseAmt": "0",
-          "PYOtherExpensesAmt": "1512645",
-          "CYOtherExpensesAmt": "1483481",
-          "PYTotalExpensesAmt": "16410476",
-          "CYTotalExpensesAmt": "16609570",
-          "PYRevenuesLessExpensesAmt": "-239775",
-          "CYRevenuesLessExpensesAmt": "-816737",
-          "TotalAssetsBOYAmt": "4985256",
-          "TotalAssetsEOYAmt": "4470668",
-          "TotalLiabilitiesBOYAmt": "1779801",
-          "TotalLiabilitiesEOYAmt": "2081950",
-          "NetAssetsOrFundBalancesBOYAmt": "3205455",
-          "NetAssetsOrFundBalancesEOYAmt": "2388718",
+          "PYOtherExpensesAmt": "1483481",
+          "CYOtherExpensesAmt": "1891943",
+          "PYTotalExpensesAmt": "16714449",
+          "CYTotalExpensesAmt": "23512734",
+          "PYRevenuesLessExpensesAmt": "-921616",
+          "CYRevenuesLessExpensesAmt": "-2232176",
+          "TotalAssetsBOYAmt": "4470668",
+          "TotalAssetsEOYAmt": "3476389",
+          "TotalLiabilitiesBOYAmt": "2081950",
+          "TotalLiabilitiesEOYAmt": "3319847",
+          "NetAssetsOrFundBalancesBOYAmt": "2388718",
+          "NetAssetsOrFundBalancesEOYAmt": "156542",
           "MissionDesc": "Provide medical services.",
           "SignificantNewProgramSrvcInd": "false",
           "SignificantChangeInd": "false",
-          "ExpenseAmt": "15290335",
-          "RevenueAmt": "15788222",
+          "ExpenseAmt": "20745829",
           "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpensesAmt": "15290335",
+          "TotalProgramServiceExpensesAmt": "20745829",
           "DescribedInSection501c3Ind": "false",
           "ScheduleBRequiredInd": "false",
           "PoliticalCampaignActyInd": "false",
@@ -3715,138 +4000,15 @@
           "InvestmentInJointVentureInd": "false",
           "OwnWebsiteInd": "X",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "77692",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "false",
-          "TotalCompGreaterThan150KInd": "false",
-          "CompensationFromOtherSrcsInd": "false",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "TotalContributionsAmt": "0",
-          "TotalProgramServiceRevenueAmt": "15788222",
-          "OtherRevenueTotalAmt": "0",
-          "LandBldgEquipCostOrOtherBssAmt": "13374",
-          "LandBldgEquipAccumDeprecAmt": "8717",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "-816737",
-          "MethodOfAccountingAccrualInd": "X",
-          "AccountantCompileOrReviewInd": "false",
-          "FSAuditedInd": "true",
-          "AuditCommitteeInd": "false",
-          "FederalGrantAuditRequiredInd": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLandBuildingsGrp": {
-            "OtherCostOrOtherBasisAmt": "13374",
-            "DepreciationAmt": "8717",
-            "BookValueAmt": "4657"
-          },
-          "OtherLiabilitiesOrgGrp": [
-            {
-              "Desc": "Audit adjustment",
-              "Amt": "1067101"
-            },
-            {
-              "Desc": "Payroll taxes",
-              "Amt": "248"
-            },
-            {
-              "Desc": "Premium deposits",
-              "Amt": "1014599"
-            },
-            {
-              "Desc": "Rounding",
-              "Amt": "2"
-            }
-          ],
-          "TotalBookValueLandBuildingsAmt": "4657",
-          "TotalLiabilityAmt": "2081950"
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
-              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
-            },
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "15000324",
-        "IRS990@softwareVersionNum": "2015v3.0",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "15000324",
-        "IRS990ScheduleD@softwareVersionNum": "2015v3.0",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "15000324",
-        "IRS990ScheduleO@softwareVersionNum": "2015v3.0"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "3"
-    },
-    "Return@returnVersion": "2015v3.0"
-  },
-  "201612": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "David E Renggli CPA PS"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "400 S Jefferson St ste 220",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99204"
-          }
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2Txt": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "4407 N Division",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99207"
-          },
-          "EIN": "943041314",
-          "BusinessNameControlTxt": "LAWE",
-          "PhoneNum": "5094845598"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "Jennifer S Wisniewski",
-          "PersonTitleTxt": "Program Manager",
-          "SignatureDt": "2018-06-18",
-          "DiscussWithPaidPreparerInd": "true"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "David E Renggli CPA",
-          "PTIN": "P00251734",
-          "PhoneNum": "5093508937"
-        },
-        "ReturnTs": "2018-06-18T11:17:57-07:00",
-        "TaxPeriodEndDt": "2016-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2016-01-01",
-        "TaxYr": "2016",
-        "BuildTS": "2018-06-14 16:35:46Z"
-      },
-      "ReturnData": {
-        "IRS990": {
           "BooksInCareOfDetail": {
+            "PersonNm": "Jenny Wisniewski",
+            "PhoneNum": "5094842388",
             "USAddress": {
               "AddressLine1Txt": "4407 N Division Ste 516",
               "CityNm": "Spokane",
               "StateAbbreviationCd": "WA",
               "ZIPCd": "99204"
-            },
-            "PersonNm": "Jenny Wisniewski",
-            "PhoneNum": "5094842388"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -3930,11 +4092,19 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "76524",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "false",
+          "TotalCompGreaterThan150KInd": "false",
+          "CompensationFromOtherSrcsInd": "false",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "TotalContributionsAmt": "0",
           "ProgramServiceRevenueGrp": {
             "Desc": "Premium collections",
             "TotalRevenueColumnAmt": "21276399",
             "RelatedOrExemptFuncIncomeAmt": "21276399"
           },
+          "TotalProgramServiceRevenueAmt": "21276399",
           "InvestmentIncomeGrp": {
             "TotalRevenueColumnAmt": "4159",
             "ExclusionAmt": "4159"
@@ -3960,6 +4130,7 @@
           "NetIncomeOrLossGrp": {
             "TotalRevenueColumnAmt": "0"
           },
+          "OtherRevenueTotalAmt": "0",
           "TotalRevenueGrp": {
             "TotalRevenueColumnAmt": "21280558",
             "RelatedOrExemptFuncIncomeAmt": "21276399",
@@ -4127,6 +4298,8 @@
             "BOYAmt": "1820",
             "EOYAmt": "1820"
           },
+          "LandBldgEquipCostOrOtherBssAmt": "13374",
+          "LandBldgEquipAccumDeprecAmt": "10687",
           "LandBldgEquipBasisNetGrp": {
             "BOYAmt": "4657",
             "EOYAmt": "2687"
@@ -4158,6 +4331,7 @@
             "BOYAmt": "2081950",
             "EOYAmt": "3319847"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
             "BOYAmt": "2388718",
             "EOYAmt": "156542"
@@ -4170,16 +4344,131 @@
             "BOYAmt": "4470668",
             "EOYAmt": "3476389"
           },
+          "ReconcilationRevenueExpnssAmt": "-2232176",
+          "MethodOfAccountingAccrualInd": "X",
+          "AccountantCompileOrReviewInd": "false",
+          "FSAuditedInd": "true",
           "FSAuditedBasisGrp": {
             "SeparateBasisFinclStmtInd": "X"
           },
-          "AmendedReturnInd": "X",
-          "GrossReceiptsAmt": "21280558",
+          "AuditCommitteeInd": "false",
+          "FederalGrantAuditRequiredInd": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "16000303",
+        "IRS990ScheduleD@softwareVersionNum": "2016v3.0",
+        "IRS990ScheduleD": {
+          "OtherLandBuildingsGrp": {
+            "OtherCostOrOtherBasisAmt": "13374",
+            "DepreciationAmt": "10687",
+            "BookValueAmt": "2687"
+          },
+          "TotalBookValueLandBuildingsAmt": "2687",
+          "OtherLiabilitiesOrgGrp": [
+            {
+              "Desc": "Claims payable",
+              "Amt": "1263000"
+            },
+            {
+              "Desc": "Claims payable audit adjust",
+              "Amt": "943026"
+            },
+            {
+              "Desc": "Payroll taxes",
+              "Amt": "246"
+            },
+            {
+              "Desc": "Premium deposits",
+              "Amt": "1113576"
+            },
+            {
+              "Desc": "Rounding",
+              "Amt": "-1"
+            }
+          ],
+          "TotalLiabilityAmt": "3319847"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "16000303",
+        "IRS990ScheduleO@softwareVersionNum": "2016v3.0",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
+              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
+            },
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201712": {
+    "Return@returnVersion": "2017v2.2",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2018-02-27T10:50:56-08:00",
+        "TaxPeriodEndDt": "2017-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmEIN": "364814205",
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "David E Renggli CPA PS"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "400 S Jefferson St ste 220",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99204"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2017-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2Txt": "Health and Welfare Trust"
+          },
+          "BusinessNameControlTxt": "LAWE",
+          "PhoneNum": "5094845598",
+          "USAddress": {
+            "AddressLine1Txt": "4407 N Division",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99207"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "Jennifer S Wisniewski",
+          "PersonTitleTxt": "Program Manager",
+          "SignatureDt": "2018-02-27",
+          "DiscussWithPaidPreparerInd": "true"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "David E Renggli CPA",
+          "PTIN": "P00251734",
+          "PhoneNum": "5093508937"
+        },
+        "TaxYr": "2017",
+        "BuildTS": "2018-06-14 16:35:46Z"
+      },
+      "ReturnData@documentCnt": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO",
+        "IRS990@softwareId": "17005038",
+        "IRS990@softwareVersionNum": "2017v2.2",
+        "IRS990": {
+          "GrossReceiptsAmt": "29930839",
           "GroupReturnForAffiliatesInd": "false",
           "AllAffiliatesIncludedInd": "false",
           "Organization501cInd@organization501cTypeTxt": "9",
           "Organization501cInd": "X",
-          "WebsiteAddressTxt": "www.loefftrust.com",
+          "WebsiteAddressTxt": "www.leofftrust.com",
           "TypeOfOrganizationTrustInd": "X",
           "FormationYr": "1986",
           "LegalDomicileStateCd": "WA",
@@ -4189,42 +4478,41 @@
           "TotalEmployeeCnt": "2",
           "TotalGrossUBIAmt": "0",
           "CYContributionsGrantsAmt": "0",
-          "PYProgramServiceRevenueAmt": "15788222",
-          "CYProgramServiceRevenueAmt": "21276399",
-          "PYInvestmentIncomeAmt": "4611",
-          "CYInvestmentIncomeAmt": "4159",
+          "PYProgramServiceRevenueAmt": "21276399",
+          "CYProgramServiceRevenueAmt": "29928282",
+          "PYInvestmentIncomeAmt": "4159",
+          "CYInvestmentIncomeAmt": "2557",
           "CYOtherRevenueAmt": "0",
-          "PYTotalRevenueAmt": "15792833",
-          "CYTotalRevenueAmt": "21280558",
+          "PYTotalRevenueAmt": "21280558",
+          "CYTotalRevenueAmt": "29930839",
           "CYGrantsAndSimilarPaidAmt": "0",
-          "PYBenefitsPaidToMembersAmt": "15109852",
-          "CYBenefitsPaidToMembersAmt": "21502832",
-          "PYSalariesCompEmpBnftPaidAmt": "121116",
-          "CYSalariesCompEmpBnftPaidAmt": "117959",
+          "PYBenefitsPaidToMembersAmt": "20559806",
+          "CYBenefitsPaidToMembersAmt": "30121964",
+          "PYSalariesCompEmpBnftPaidAmt": "117959",
+          "CYSalariesCompEmpBnftPaidAmt": "122208",
           "CYTotalProfFndrsngExpnsAmt": "0",
           "CYTotalFundraisingExpenseAmt": "0",
-          "PYOtherExpensesAmt": "1483481",
-          "CYOtherExpensesAmt": "1891943",
-          "PYTotalExpensesAmt": "16714449",
-          "CYTotalExpensesAmt": "23512734",
-          "PYRevenuesLessExpensesAmt": "-921616",
-          "CYRevenuesLessExpensesAmt": "-2232176",
-          "TotalAssetsBOYAmt": "4470668",
-          "TotalAssetsEOYAmt": "3476389",
-          "TotalLiabilitiesBOYAmt": "2081950",
-          "TotalLiabilitiesEOYAmt": "3319847",
-          "NetAssetsOrFundBalancesBOYAmt": "2388718",
-          "NetAssetsOrFundBalancesEOYAmt": "156542",
+          "PYOtherExpensesAmt": "1891943",
+          "CYOtherExpensesAmt": "1899718",
+          "PYTotalExpensesAmt": "22569708",
+          "CYTotalExpensesAmt": "32143890",
+          "PYRevenuesLessExpensesAmt": "-1289150",
+          "CYRevenuesLessExpensesAmt": "-2213051",
+          "TotalAssetsBOYAmt": "3476389",
+          "TotalAssetsEOYAmt": "2499634",
+          "TotalLiabilitiesBOYAmt": "2376821",
+          "TotalLiabilitiesEOYAmt": "3613117",
+          "NetAssetsOrFundBalancesBOYAmt": "1099568",
+          "NetAssetsOrFundBalancesEOYAmt": "-1113483",
           "MissionDesc": "Provide medical services.",
           "SignificantNewProgramSrvcInd": "false",
           "SignificantChangeInd": "false",
-          "ExpenseAmt": "20745829",
+          "ExpenseAmt": "31131400",
           "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpensesAmt": "20745829",
+          "TotalProgramServiceExpensesAmt": "31131400",
           "DescribedInSection501c3Ind": "false",
           "ScheduleBRequiredInd": "false",
           "PoliticalCampaignActyInd": "false",
-          "LobbyingActivitiesInd": "false",
           "SubjectToProxyTaxInd": "false",
           "DonorAdvisedFundInd@referenceDocumentId": "IRS990ScheduleD",
           "DonorAdvisedFundInd": "false",
@@ -4268,8 +4556,6 @@
           "InvestTaxExemptBondsInd": "false",
           "EscrowAccountInd": "false",
           "OnBehalfOfIssuerInd": "false",
-          "EngagedInExcessBenefitTransInd": "false",
-          "PYExcessBenefitTransInd": "false",
           "LoanOutstandingInd": "false",
           "GrantToRelatedPersonInd": "false",
           "BusinessRlnWithOrgMemInd": "false",
@@ -4282,13 +4568,11 @@
           "DisregardedEntityInd": "false",
           "RelatedEntityInd": "false",
           "RelatedOrganizationCtrlEntInd": "false",
-          "TransactionWithControlEntInd": "false",
-          "TrnsfrExmptNonChrtblRltdOrgInd": "false",
           "ActivitiesConductedPrtshpInd": "false",
           "ScheduleORequiredInd": "true",
-          "IRPDocumentCnt": "3",
+          "IRPDocumentCnt": "2",
           "IRPDocumentW2GCnt": "0",
-          "BackupWthldComplianceInd": "false",
+          "BackupWthldComplianceInd": "true",
           "EmployeeCnt": "2",
           "EmploymentTaxReturnsFiledInd": "true",
           "UnrelatedBusIncmOverLimitInd": "false",
@@ -4328,143 +4612,15 @@
           "InvestmentInJointVentureInd": "false",
           "OwnWebsiteInd": "X",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "76524",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "false",
-          "TotalCompGreaterThan150KInd": "false",
-          "CompensationFromOtherSrcsInd": "false",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "TotalContributionsAmt": "0",
-          "TotalProgramServiceRevenueAmt": "21276399",
-          "OtherRevenueTotalAmt": "0",
-          "LandBldgEquipCostOrOtherBssAmt": "13374",
-          "LandBldgEquipAccumDeprecAmt": "10687",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "-2232176",
-          "MethodOfAccountingAccrualInd": "X",
-          "AccountantCompileOrReviewInd": "false",
-          "FSAuditedInd": "true",
-          "AuditCommitteeInd": "false",
-          "FederalGrantAuditRequiredInd": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLandBuildingsGrp": {
-            "OtherCostOrOtherBasisAmt": "13374",
-            "DepreciationAmt": "10687",
-            "BookValueAmt": "2687"
-          },
-          "OtherLiabilitiesOrgGrp": [
-            {
-              "Desc": "Claims payable",
-              "Amt": "1263000"
-            },
-            {
-              "Desc": "Claims payable audit adjust",
-              "Amt": "943026"
-            },
-            {
-              "Desc": "Payroll taxes",
-              "Amt": "246"
-            },
-            {
-              "Desc": "Premium deposits",
-              "Amt": "1113576"
-            },
-            {
-              "Desc": "Rounding",
-              "Amt": "-1"
-            }
-          ],
-          "TotalBookValueLandBuildingsAmt": "2687",
-          "TotalLiabilityAmt": "3319847"
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
-              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
-            },
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "16000303",
-        "IRS990@softwareVersionNum": "2016v3.0",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "16000303",
-        "IRS990ScheduleD@softwareVersionNum": "2016v3.0",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "16000303",
-        "IRS990ScheduleO@softwareVersionNum": "2016v3.0"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "3"
-    },
-    "Return@returnVersion": "2016v3.0"
-  },
-  "201712": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "David E Renggli CPA PS"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "400 S Jefferson St ste 220",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99204"
-          },
-          "PreparerFirmEIN": "364814205"
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2Txt": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "4407 N Division",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99207"
-          },
-          "EIN": "943041314",
-          "BusinessNameControlTxt": "LAWE",
-          "PhoneNum": "5094845598"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "Jennifer S Wisniewski",
-          "PersonTitleTxt": "Program Manager",
-          "SignatureDt": "2018-02-27",
-          "DiscussWithPaidPreparerInd": "true"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "David E Renggli CPA",
-          "PTIN": "P00251734",
-          "PhoneNum": "5093508937"
-        },
-        "ReturnTs": "2018-02-27T10:50:56-08:00",
-        "TaxPeriodEndDt": "2017-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2017-01-01",
-        "TaxYr": "2017",
-        "BuildTS": "2018-06-14 16:35:46Z"
-      },
-      "ReturnData": {
-        "IRS990": {
           "BooksInCareOfDetail": {
+            "PersonNm": "Jenny Wisniewski",
+            "PhoneNum": "5094842388",
             "USAddress": {
               "AddressLine1Txt": "4407 N Division Ste 516",
               "CityNm": "Spokane",
               "StateAbbreviationCd": "WA",
               "ZIPCd": "99207"
-            },
-            "PersonNm": "Jenny Wisniewski",
-            "PhoneNum": "5094842388"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -4548,11 +4704,19 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "78329",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "false",
+          "TotalCompGreaterThan150KInd": "false",
+          "CompensationFromOtherSrcsInd": "false",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "TotalContributionsAmt": "0",
           "ProgramServiceRevenueGrp": {
             "Desc": "Premium collections",
             "TotalRevenueColumnAmt": "29928282",
             "RelatedOrExemptFuncIncomeAmt": "29928282"
           },
+          "TotalProgramServiceRevenueAmt": "29928282",
           "InvestmentIncomeGrp": {
             "TotalRevenueColumnAmt": "2557",
             "RelatedOrExemptFuncIncomeAmt": "2557"
@@ -4578,6 +4742,7 @@
           "NetIncomeOrLossGrp": {
             "TotalRevenueColumnAmt": "0"
           },
+          "OtherRevenueTotalAmt": "0",
           "TotalRevenueGrp": {
             "TotalRevenueColumnAmt": "29930839",
             "RelatedOrExemptFuncIncomeAmt": "29930839"
@@ -4745,6 +4910,8 @@
             "BOYAmt": "1820",
             "EOYAmt": "1333"
           },
+          "LandBldgEquipCostOrOtherBssAmt": "13374",
+          "LandBldgEquipAccumDeprecAmt": "12173",
           "LandBldgEquipBasisNetGrp": {
             "BOYAmt": "2687",
             "EOYAmt": "1201"
@@ -4776,6 +4943,7 @@
             "BOYAmt": "2376821",
             "EOYAmt": "3613117"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
             "BOYAmt": "1099568",
             "EOYAmt": "-1113483"
@@ -4788,10 +4956,124 @@
             "BOYAmt": "3476389",
             "EOYAmt": "2499634"
           },
+          "ReconcilationRevenueExpnssAmt": "-2213051",
+          "MethodOfAccountingAccrualInd": "X",
+          "AccountantCompileOrReviewInd": "false",
+          "FSAuditedInd": "true",
           "FSAuditedBasisGrp": {
             "SeparateBasisFinclStmtInd": "X"
           },
-          "GrossReceiptsAmt": "29930839",
+          "AuditCommitteeInd": "false",
+          "FederalGrantAuditRequiredInd": "false"
+        },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "17005038",
+        "IRS990ScheduleD@softwareVersionNum": "2017v2.2",
+        "IRS990ScheduleD": {
+          "OtherLandBuildingsGrp": {
+            "OtherCostOrOtherBasisAmt": "13374",
+            "DepreciationAmt": "12173",
+            "BookValueAmt": "1201"
+          },
+          "TotalBookValueLandBuildingsAmt": "1201",
+          "OtherLiabilitiesOrgGrp": [
+            {
+              "Desc": "Claims payable",
+              "Amt": "1263000"
+            },
+            {
+              "Desc": "Payroll taxes",
+              "Amt": "3805"
+            },
+            {
+              "Desc": "Premium deposits",
+              "Amt": "2346312"
+            }
+          ],
+          "TotalLiabilityAmt": "3613117"
+        },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "17005038",
+        "IRS990ScheduleO@softwareVersionNum": "2017v2.2",
+        "IRS990ScheduleO": {
+          "SupplementalInformationDetail": [
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
+              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
+            },
+            {
+              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "201812": {
+    "Return@returnVersion": "2018v3.1",
+    "Return": {
+      "ReturnHeader@binaryAttachmentCnt": "0",
+      "ReturnHeader": {
+        "ReturnTs": "2019-03-20T15:11:28-07:00",
+        "TaxPeriodEndDt": "2018-12-31",
+        "PreparerFirmGrp": {
+          "PreparerFirmEIN": "364814205",
+          "PreparerFirmName": {
+            "BusinessNameLine1Txt": "David E Renggli CPA PS"
+          },
+          "PreparerUSAddress": {
+            "AddressLine1Txt": "400 S Jefferson St ste 220",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99204"
+          }
+        },
+        "ReturnTypeCd": "990",
+        "TaxPeriodBeginDt": "2018-01-01",
+        "Filer": {
+          "EIN": "943041314",
+          "BusinessName": {
+            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
+            "BusinessNameLine2Txt": "Health and Welfare Trust"
+          },
+          "BusinessNameControlTxt": "LAWE",
+          "PhoneNum": "5094845598",
+          "USAddress": {
+            "AddressLine1Txt": "4407 N Division",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99207"
+          }
+        },
+        "BusinessOfficerGrp": {
+          "PersonNm": "Jennifer S Wisniewski",
+          "PersonTitleTxt": "Program Manager",
+          "SignatureDt": "2019-03-20",
+          "DiscussWithPaidPreparerInd": "true"
+        },
+        "PreparerPersonGrp": {
+          "PreparerPersonNm": "David E Renggli CPA",
+          "PTIN": "P00251734",
+          "PhoneNum": "5092429911"
+        },
+        "TaxYr": "2018",
+        "BuildTS": "2019-02-21 02:37:17Z"
+      },
+      "ReturnData@documentCnt": "3",
+      "ReturnData": {
+        "IRS990@documentId": "IRS990",
+        "IRS990@referenceDocumentId": "IRS990ScheduleO 990BinaryAttachments.1",
+        "IRS990@softwareId": "18007218",
+        "IRS990@softwareVersionNum": "2018v3.1",
+        "IRS990": {
+          "USAddress": {
+            "AddressLine1Txt": "4407 N Division 516",
+            "CityNm": "Spokane",
+            "StateAbbreviationCd": "WA",
+            "ZIPCd": "99207"
+          },
+          "GrossReceiptsAmt": "42878312",
           "GroupReturnForAffiliatesInd": "false",
           "AllAffiliatesIncludedInd": "false",
           "Organization501cInd@organization501cTypeTxt": "9",
@@ -4806,38 +5088,38 @@
           "TotalEmployeeCnt": "2",
           "TotalGrossUBIAmt": "0",
           "CYContributionsGrantsAmt": "0",
-          "PYProgramServiceRevenueAmt": "21276399",
-          "CYProgramServiceRevenueAmt": "29928282",
-          "PYInvestmentIncomeAmt": "4159",
-          "CYInvestmentIncomeAmt": "2557",
+          "PYProgramServiceRevenueAmt": "29928282",
+          "CYProgramServiceRevenueAmt": "42869786",
+          "PYInvestmentIncomeAmt": "2557",
+          "CYInvestmentIncomeAmt": "8526",
           "CYOtherRevenueAmt": "0",
-          "PYTotalRevenueAmt": "21280558",
-          "CYTotalRevenueAmt": "29930839",
+          "PYTotalRevenueAmt": "29930839",
+          "CYTotalRevenueAmt": "42878312",
           "CYGrantsAndSimilarPaidAmt": "0",
-          "PYBenefitsPaidToMembersAmt": "20559806",
-          "CYBenefitsPaidToMembersAmt": "30121964",
-          "PYSalariesCompEmpBnftPaidAmt": "117959",
-          "CYSalariesCompEmpBnftPaidAmt": "122208",
+          "PYBenefitsPaidToMembersAmt": "32217921",
+          "CYBenefitsPaidToMembersAmt": "38668189",
+          "PYSalariesCompEmpBnftPaidAmt": "122208",
+          "CYSalariesCompEmpBnftPaidAmt": "137746",
           "CYTotalProfFndrsngExpnsAmt": "0",
           "CYTotalFundraisingExpenseAmt": "0",
-          "PYOtherExpensesAmt": "1891943",
-          "CYOtherExpensesAmt": "1899718",
-          "PYTotalExpensesAmt": "22569708",
-          "CYTotalExpensesAmt": "32143890",
-          "PYRevenuesLessExpensesAmt": "-1289150",
-          "CYRevenuesLessExpensesAmt": "-2213051",
-          "TotalAssetsBOYAmt": "3476389",
-          "TotalAssetsEOYAmt": "2499634",
-          "TotalLiabilitiesBOYAmt": "2376821",
-          "TotalLiabilitiesEOYAmt": "3613117",
-          "NetAssetsOrFundBalancesBOYAmt": "1099568",
-          "NetAssetsOrFundBalancesEOYAmt": "-1113483",
+          "PYOtherExpensesAmt": "1899717",
+          "CYOtherExpensesAmt": "2383376",
+          "PYTotalExpensesAmt": "34239846",
+          "CYTotalExpensesAmt": "41189311",
+          "PYRevenuesLessExpensesAmt": "-4309007",
+          "CYRevenuesLessExpensesAmt": "1689001",
+          "TotalAssetsBOYAmt": "2716552",
+          "TotalAssetsEOYAmt": "4370171",
+          "TotalLiabilitiesBOYAmt": "6869017",
+          "TotalLiabilitiesEOYAmt": "6833635",
+          "NetAssetsOrFundBalancesBOYAmt": "-4152465",
+          "NetAssetsOrFundBalancesEOYAmt": "-2463464",
           "MissionDesc": "Provide medical services.",
           "SignificantNewProgramSrvcInd": "false",
           "SignificantChangeInd": "false",
-          "ExpenseAmt": "31131400",
+          "ExpenseAmt": "38553753",
           "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpensesAmt": "31131400",
+          "TotalProgramServiceExpensesAmt": "38553753",
           "DescribedInSection501c3Ind": "false",
           "ScheduleBRequiredInd": "false",
           "PoliticalCampaignActyInd": "false",
@@ -4915,6 +5197,8 @@
           "OrgFiledInLieuOfForm1041Ind": "false",
           "LicensedMoreThanOneStateInd": "false",
           "IndoorTanningServicesInd": "false",
+          "SubjToTaxRmnrtnExPrchtPymtInd": "false",
+          "SubjectToExcsTaxNetInvstIncInd": "false",
           "InfoInScheduleOPartVIInd": "X",
           "GoverningBodyVotingMembersCnt": "8",
           "IndependentVotingMemberCnt": "8",
@@ -4940,141 +5224,15 @@
           "InvestmentInJointVentureInd": "false",
           "OwnWebsiteInd": "X",
           "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "78329",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "false",
-          "TotalCompGreaterThan150KInd": "false",
-          "CompensationFromOtherSrcsInd": "false",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "TotalContributionsAmt": "0",
-          "TotalProgramServiceRevenueAmt": "29928282",
-          "OtherRevenueTotalAmt": "0",
-          "LandBldgEquipCostOrOtherBssAmt": "13374",
-          "LandBldgEquipAccumDeprecAmt": "12173",
-          "OrganizationFollowsSFAS117Ind": "X",
-          "ReconcilationRevenueExpnssAmt": "-2213051",
-          "MethodOfAccountingAccrualInd": "X",
-          "AccountantCompileOrReviewInd": "false",
-          "FSAuditedInd": "true",
-          "AuditCommitteeInd": "false",
-          "FederalGrantAuditRequiredInd": "false"
-        },
-        "IRS990ScheduleD": {
-          "OtherLandBuildingsGrp": {
-            "OtherCostOrOtherBasisAmt": "13374",
-            "DepreciationAmt": "12173",
-            "BookValueAmt": "1201"
-          },
-          "OtherLiabilitiesOrgGrp": [
-            {
-              "Desc": "Claims payable",
-              "Amt": "1263000"
-            },
-            {
-              "Desc": "Payroll taxes",
-              "Amt": "3805"
-            },
-            {
-              "Desc": "Premium deposits",
-              "Amt": "2346312"
-            }
-          ],
-          "TotalBookValueLandBuildingsAmt": "1201",
-          "TotalLiabilityAmt": "3613117"
-        },
-        "IRS990ScheduleO": {
-          "SupplementalInformationDetail": [
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
-              "ExplanationTxt": "The Program Manager reviews the 990 before it is signed and e filed by accountants."
-            },
-            {
-              "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
-              "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
-            }
-          ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO",
-        "IRS990@softwareId": "17005038",
-        "IRS990@softwareVersionNum": "2017v2.2",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "17005038",
-        "IRS990ScheduleD@softwareVersionNum": "2017v2.2",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "17005038",
-        "IRS990ScheduleO@softwareVersionNum": "2017v2.2"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "3"
-    },
-    "Return@returnVersion": "2017v2.2"
-  },
-  "201812": {
-    "Return": {
-      "ReturnHeader": {
-        "PreparerFirmGrp": {
-          "PreparerFirmName": {
-            "BusinessNameLine1Txt": "David E Renggli CPA PS"
-          },
-          "PreparerUSAddress": {
-            "AddressLine1Txt": "400 S Jefferson St ste 220",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99204"
-          },
-          "PreparerFirmEIN": "364814205"
-        },
-        "Filer": {
-          "BusinessName": {
-            "BusinessNameLine1Txt": "Law Enforcement Officers & Firefighters",
-            "BusinessNameLine2Txt": "Health and Welfare Trust"
-          },
-          "USAddress": {
-            "AddressLine1Txt": "4407 N Division",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99207"
-          },
-          "EIN": "943041314",
-          "BusinessNameControlTxt": "LAWE",
-          "PhoneNum": "5094845598"
-        },
-        "BusinessOfficerGrp": {
-          "PersonNm": "Jennifer S Wisniewski",
-          "PersonTitleTxt": "Program Manager",
-          "SignatureDt": "2019-03-20",
-          "DiscussWithPaidPreparerInd": "true"
-        },
-        "PreparerPersonGrp": {
-          "PreparerPersonNm": "David E Renggli CPA",
-          "PTIN": "P00251734",
-          "PhoneNum": "5092429911"
-        },
-        "ReturnTs": "2019-03-20T15:11:28-07:00",
-        "TaxPeriodEndDt": "2018-12-31",
-        "ReturnTypeCd": "990",
-        "TaxPeriodBeginDt": "2018-01-01",
-        "TaxYr": "2018",
-        "BuildTS": "2019-02-21 02:37:17Z"
-      },
-      "ReturnData": {
-        "IRS990": {
-          "USAddress": {
-            "AddressLine1Txt": "4407 N Division 516",
-            "CityNm": "Spokane",
-            "StateAbbreviationCd": "WA",
-            "ZIPCd": "99207"
-          },
           "BooksInCareOfDetail": {
+            "PersonNm": "Jenny Wisniewski",
+            "PhoneNum": "5094842388",
             "USAddress": {
               "AddressLine1Txt": "4407 N Division Ste 516",
               "CityNm": "Spokane",
               "StateAbbreviationCd": "WA",
               "ZIPCd": "99207"
-            },
-            "PersonNm": "Jenny Wisniewski",
-            "PhoneNum": "5094842388"
+            }
           },
           "Form990PartVIISectionAGrp": [
             {
@@ -5158,11 +5316,19 @@
               "OtherCompensationAmt": "0"
             }
           ],
+          "TotalReportableCompFromOrgAmt": "86787",
+          "IndivRcvdGreaterThan100KCnt": "0",
+          "FormerOfcrEmployeesListedInd": "false",
+          "TotalCompGreaterThan150KInd": "false",
+          "CompensationFromOtherSrcsInd": "false",
+          "CntrctRcvdGreaterThan100KCnt": "0",
+          "TotalContributionsAmt": "0",
           "ProgramServiceRevenueGrp": {
             "Desc": "Premium collections",
             "TotalRevenueColumnAmt": "42869786",
             "RelatedOrExemptFuncIncomeAmt": "42869786"
           },
+          "TotalProgramServiceRevenueAmt": "42869786",
           "InvestmentIncomeGrp": {
             "TotalRevenueColumnAmt": "8526",
             "RelatedOrExemptFuncIncomeAmt": "8526"
@@ -5188,6 +5354,7 @@
           "NetIncomeOrLossGrp": {
             "TotalRevenueColumnAmt": "0"
           },
+          "OtherRevenueTotalAmt": "0",
           "TotalRevenueGrp": {
             "TotalRevenueColumnAmt": "42878312",
             "RelatedOrExemptFuncIncomeAmt": "42878312"
@@ -5356,6 +5523,8 @@
             "BOYAmt": "1333",
             "EOYAmt": "0"
           },
+          "LandBldgEquipCostOrOtherBssAmt": "16693",
+          "LandBldgEquipAccumDeprecAmt": "13153",
           "LandBldgEquipBasisNetGrp": {
             "BOYAmt": "1201",
             "EOYAmt": "3540"
@@ -5387,6 +5556,7 @@
             "BOYAmt": "6869017",
             "EOYAmt": "6833635"
           },
+          "OrganizationFollowsSFAS117Ind": "X",
           "UnrestrictedNetAssetsGrp": {
             "BOYAmt": "-4152465",
             "EOYAmt": "-2463464"
@@ -5399,185 +5569,26 @@
             "BOYAmt": "2716552",
             "EOYAmt": "4370171"
           },
-          "FSAuditedBasisGrp": {
-            "SeparateBasisFinclStmtInd": "X"
-          },
-          "GrossReceiptsAmt": "42878312",
-          "GroupReturnForAffiliatesInd": "false",
-          "AllAffiliatesIncludedInd": "false",
-          "Organization501cInd@organization501cTypeTxt": "9",
-          "Organization501cInd": "X",
-          "WebsiteAddressTxt": "www.leofftrust.com",
-          "TypeOfOrganizationTrustInd": "X",
-          "FormationYr": "1986",
-          "LegalDomicileStateCd": "WA",
-          "ActivityOrMissionDesc": "Provide medical services.",
-          "VotingMembersGoverningBodyCnt": "8",
-          "VotingMembersIndependentCnt": "8",
-          "TotalEmployeeCnt": "2",
-          "TotalGrossUBIAmt": "0",
-          "CYContributionsGrantsAmt": "0",
-          "PYProgramServiceRevenueAmt": "29928282",
-          "CYProgramServiceRevenueAmt": "42869786",
-          "PYInvestmentIncomeAmt": "2557",
-          "CYInvestmentIncomeAmt": "8526",
-          "CYOtherRevenueAmt": "0",
-          "PYTotalRevenueAmt": "29930839",
-          "CYTotalRevenueAmt": "42878312",
-          "CYGrantsAndSimilarPaidAmt": "0",
-          "PYBenefitsPaidToMembersAmt": "32217921",
-          "CYBenefitsPaidToMembersAmt": "38668189",
-          "PYSalariesCompEmpBnftPaidAmt": "122208",
-          "CYSalariesCompEmpBnftPaidAmt": "137746",
-          "CYTotalProfFndrsngExpnsAmt": "0",
-          "CYTotalFundraisingExpenseAmt": "0",
-          "PYOtherExpensesAmt": "1899717",
-          "CYOtherExpensesAmt": "2383376",
-          "PYTotalExpensesAmt": "34239846",
-          "CYTotalExpensesAmt": "41189311",
-          "PYRevenuesLessExpensesAmt": "-4309007",
-          "CYRevenuesLessExpensesAmt": "1689001",
-          "TotalAssetsBOYAmt": "2716552",
-          "TotalAssetsEOYAmt": "4370171",
-          "TotalLiabilitiesBOYAmt": "6869017",
-          "TotalLiabilitiesEOYAmt": "6833635",
-          "NetAssetsOrFundBalancesBOYAmt": "-4152465",
-          "NetAssetsOrFundBalancesEOYAmt": "-2463464",
-          "MissionDesc": "Provide medical services.",
-          "SignificantNewProgramSrvcInd": "false",
-          "SignificantChangeInd": "false",
-          "ExpenseAmt": "38553753",
-          "Desc": "Health and welfare trust providing health insurance, hospital, medical, surgical benefits and prescriptions drug, dental and vision services.",
-          "TotalProgramServiceExpensesAmt": "38553753",
-          "DescribedInSection501c3Ind": "false",
-          "ScheduleBRequiredInd": "false",
-          "PoliticalCampaignActyInd": "false",
-          "SubjectToProxyTaxInd": "false",
-          "DonorAdvisedFundInd@referenceDocumentId": "IRS990ScheduleD",
-          "DonorAdvisedFundInd": "false",
-          "ConservationEasementsInd@referenceDocumentId": "IRS990ScheduleD",
-          "ConservationEasementsInd": "false",
-          "CollectionsOfArtInd@referenceDocumentId": "IRS990ScheduleD",
-          "CollectionsOfArtInd": "false",
-          "CreditCounselingInd@referenceDocumentId": "IRS990ScheduleD",
-          "CreditCounselingInd": "false",
-          "TempOrPermanentEndowmentsInd@referenceDocumentId": "IRS990ScheduleD",
-          "TempOrPermanentEndowmentsInd": "false",
-          "ReportLandBuildingEquipmentInd@referenceDocumentId": "IRS990ScheduleD",
-          "ReportLandBuildingEquipmentInd": "true",
-          "ReportInvestmentsOtherSecInd@referenceDocumentId": "IRS990ScheduleD",
-          "ReportInvestmentsOtherSecInd": "false",
-          "ReportProgramRelatedInvstInd@referenceDocumentId": "IRS990ScheduleD",
-          "ReportProgramRelatedInvstInd": "false",
-          "ReportOtherAssetsInd@referenceDocumentId": "IRS990ScheduleD",
-          "ReportOtherAssetsInd": "false",
-          "ReportOtherLiabilitiesInd@referenceDocumentId": "IRS990ScheduleD",
-          "ReportOtherLiabilitiesInd": "true",
-          "IncludeFIN48FootnoteInd@referenceDocumentId": "IRS990ScheduleD",
-          "IncludeFIN48FootnoteInd": "false",
-          "IndependentAuditFinclStmtInd@referenceDocumentId": "IRS990ScheduleD",
-          "IndependentAuditFinclStmtInd": "false",
-          "ConsolidatedAuditFinclStmtInd@referenceDocumentId": "IRS990ScheduleD",
-          "ConsolidatedAuditFinclStmtInd": "false",
-          "SchoolOperatingInd": "false",
-          "ForeignOfficeInd": "false",
-          "ForeignActivitiesInd": "false",
-          "MoreThan5000KToOrgInd": "false",
-          "MoreThan5000KToIndividualsInd": "false",
-          "ProfessionalFundraisingInd": "false",
-          "FundraisingActivitiesInd": "false",
-          "GamingActivitiesInd": "false",
-          "OperateHospitalInd": "false",
-          "GrantsToOrganizationsInd": "false",
-          "GrantsToIndividualsInd": "false",
-          "ScheduleJRequiredInd": "false",
-          "TaxExemptBondsInd": "false",
-          "InvestTaxExemptBondsInd": "false",
-          "EscrowAccountInd": "false",
-          "OnBehalfOfIssuerInd": "false",
-          "LoanOutstandingInd": "false",
-          "GrantToRelatedPersonInd": "false",
-          "BusinessRlnWithOrgMemInd": "false",
-          "BusinessRlnWithFamMemInd": "false",
-          "BusinessRlnWithOfficerEntInd": "false",
-          "DeductibleNonCashContriInd": "false",
-          "DeductibleArtContributionInd": "false",
-          "TerminateOperationsInd": "false",
-          "PartialLiquidationInd": "false",
-          "DisregardedEntityInd": "false",
-          "RelatedEntityInd": "false",
-          "RelatedOrganizationCtrlEntInd": "false",
-          "ActivitiesConductedPrtshpInd": "false",
-          "ScheduleORequiredInd": "true",
-          "IRPDocumentCnt": "2",
-          "IRPDocumentW2GCnt": "0",
-          "BackupWthldComplianceInd": "true",
-          "EmployeeCnt": "2",
-          "EmploymentTaxReturnsFiledInd": "true",
-          "UnrelatedBusIncmOverLimitInd": "false",
-          "Form990TFiledInd": "false",
-          "ForeignFinancialAccountInd": "false",
-          "ProhibitedTaxShelterTransInd": "false",
-          "TaxablePartyNotificationInd": "false",
-          "NondeductibleContributionsInd": "false",
-          "DAFExcessBusinessHoldingsInd": "false",
-          "TaxableDistributionsInd": "false",
-          "DistributionToDonorInd": "false",
-          "OrgFiledInLieuOfForm1041Ind": "false",
-          "LicensedMoreThanOneStateInd": "false",
-          "IndoorTanningServicesInd": "false",
-          "SubjToTaxRmnrtnExPrchtPymtInd": "false",
-          "SubjectToExcsTaxNetInvstIncInd": "false",
-          "InfoInScheduleOPartVIInd": "X",
-          "GoverningBodyVotingMembersCnt": "8",
-          "IndependentVotingMemberCnt": "8",
-          "FamilyOrBusinessRlnInd": "false",
-          "DelegationOfMgmtDutiesInd": "false",
-          "ChangeToOrgDocumentsInd": "false",
-          "MaterialDiversionOrMisuseInd": "false",
-          "MembersOrStockholdersInd": "false",
-          "ElectionOfBoardMembersInd": "false",
-          "DecisionsSubjectToApprovaInd": "false",
-          "MinutesOfGoverningBodyInd": "true",
-          "MinutesOfCommitteesInd": "false",
-          "OfficerMailingAddressInd": "false",
-          "LocalChaptersInd": "false",
-          "Form990ProvidedToGvrnBodyInd": "false",
-          "ConflictOfInterestPolicyInd": "false",
-          "AnnualDisclosureCoveredPrsnInd": "false",
-          "RegularMonitoringEnfrcInd": "false",
-          "WhistleblowerPolicyInd": "false",
-          "DocumentRetentionPolicyInd": "false",
-          "CompensationProcessCEOInd": "false",
-          "CompensationProcessOtherInd": "false",
-          "InvestmentInJointVentureInd": "false",
-          "OwnWebsiteInd": "X",
-          "UponRequestInd": "X",
-          "TotalReportableCompFromOrgAmt": "86787",
-          "IndivRcvdGreaterThan100KCnt": "0",
-          "FormerOfcrEmployeesListedInd": "false",
-          "TotalCompGreaterThan150KInd": "false",
-          "CompensationFromOtherSrcsInd": "false",
-          "CntrctRcvdGreaterThan100KCnt": "0",
-          "TotalContributionsAmt": "0",
-          "TotalProgramServiceRevenueAmt": "42869786",
-          "OtherRevenueTotalAmt": "0",
-          "LandBldgEquipCostOrOtherBssAmt": "16693",
-          "LandBldgEquipAccumDeprecAmt": "13153",
-          "OrganizationFollowsSFAS117Ind": "X",
           "ReconcilationRevenueExpnssAmt": "1689001",
           "MethodOfAccountingAccrualInd": "X",
           "AccountantCompileOrReviewInd": "false",
           "FSAuditedInd": "true",
+          "FSAuditedBasisGrp": {
+            "SeparateBasisFinclStmtInd": "X"
+          },
           "AuditCommitteeInd": "false",
           "FederalGrantAuditRequiredInd": "false"
         },
+        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
+        "IRS990ScheduleD@softwareId": "18007218",
+        "IRS990ScheduleD@softwareVersionNum": "2018v3.1",
         "IRS990ScheduleD": {
           "OtherLandBuildingsGrp": {
             "OtherCostOrOtherBasisAmt": "16693",
             "DepreciationAmt": "13153",
             "BookValueAmt": "3540"
           },
+          "TotalBookValueLandBuildingsAmt": "3540",
           "OtherLiabilitiesOrgGrp": [
             {
               "Desc": "Claims payable",
@@ -5596,9 +5607,11 @@
               "Amt": "-1"
             }
           ],
-          "TotalBookValueLandBuildingsAmt": "3540",
           "TotalLiabilityAmt": "6833635"
         },
+        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
+        "IRS990ScheduleO@softwareId": "18007218",
+        "IRS990ScheduleO@softwareVersionNum": "2018v3.1",
         "IRS990ScheduleO": {
           "SupplementalInformationDetail": [
             {
@@ -5610,21 +5623,8 @@
               "ExplanationTxt": "Financial statements and the Summary Annual Reports are available to all members upon request."
             }
           ]
-        },
-        "IRS990@documentId": "IRS990",
-        "IRS990@referenceDocumentId": "IRS990ScheduleO 990BinaryAttachments.1",
-        "IRS990@softwareId": "18007218",
-        "IRS990@softwareVersionNum": "2018v3.1",
-        "IRS990ScheduleD@documentId": "IRS990ScheduleD",
-        "IRS990ScheduleD@softwareId": "18007218",
-        "IRS990ScheduleD@softwareVersionNum": "2018v3.1",
-        "IRS990ScheduleO@documentId": "IRS990ScheduleO",
-        "IRS990ScheduleO@softwareId": "18007218",
-        "IRS990ScheduleO@softwareVersionNum": "2018v3.1"
-      },
-      "ReturnHeader@binaryAttachmentCnt": "0",
-      "ReturnData@documentCnt": "3"
-    },
-    "Return@returnVersion": "2018v3.1"
+        }
+      }
+    }
   }
 }
