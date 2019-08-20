@@ -91,7 +91,7 @@ class RetrieveEfiles:
 
 def _download_xml_on_process(targets: List[Tuple[str, str]]):
     bucket = RetrieveEfiles.get_bucket()
-    run_on_thread_pool(_download_xml_on_thread, targets, bucket, workers_count=os.cpu_count()*10)
+    run_on_thread_pool(_download_xml_on_thread, targets, bucket, workers_count=os.cpu_count()*5)
 
 
 def _download_xml_on_thread(targets: List[Tuple[str, str]], bucket: Optional[Bucket]):

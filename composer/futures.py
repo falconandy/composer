@@ -4,6 +4,8 @@ from concurrent.futures import as_completed, Executor, ThreadPoolExecutor
 from concurrent.futures.process import ProcessPoolExecutor
 from typing import Optional, Callable, List, Any, Iterable
 
+MAX_PROCESS_POOL_CHUNK_SIZE = 10000
+
 
 def run_on_process_pool(func: Callable, items: List[Any], *args: Any, chunk_size: Optional[int] = None, workers_count: Optional[int] = None):
     if len(items) == 0:
@@ -14,6 +16,8 @@ def run_on_process_pool(func: Callable, items: List[Any], *args: Any, chunk_size
 
     if chunk_size is None:
         chunk_size = math.ceil(len(items) / workers_count)
+        if chunk_size > MAX_PROCESS_POOL_CHUNK_SIZE:
+            chunk_size = MAX_PROCESS_POOL_CHUNK_SIZE
 
     executor = ProcessPoolExecutor(max_workers=workers_count)
     run_on_pool(executor, func, items, *args, chunk_size=chunk_size)
